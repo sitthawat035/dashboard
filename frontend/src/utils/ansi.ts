@@ -74,22 +74,40 @@ export function ansiToHtml(text: string): string {
 }
 
 // ── Log Syntax Highlighter ──
-// Highlights plain-text gateway logs with colors
+// Preserves ANSI colors from gateway FIRST, then adds syntax highlighting only if no ANSI present
 export function highlightLog(line: string): string {
   if (!line) return '';
 
-  // Escape HTML first
+  // 1. Process ANSI color codes FIRST to preserve original gateway colors
+  const hasAnsi = line.includes('\x1b[');
+  if (hasAnsi) {
+    // ANSI-first: convert ANSI to HTML inline styles, preserve original colors
+    let html = esc(line);
+    if (html.includes('\x1b[')) {
+      html = ansiToHtml(html);
+    }
+    // Only add minimal highlighting for timestamps and components (non-invasive)
+    html = html.replace(
+      /(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2})/g,
+      '<span class="hl-timestamp">$1</span>'
+    );
+    html = html.replace(
+      /(\[\d{2}:\d{2}:\d{2}\])/g,
+      '<span class="hl-timestamp">$1</span>'
+    );
+    return html;
+  }
+
+  // 2. No ANSI codes - apply full syntax highlighting
   let html = esc(line);
 
-  // 0. Quoted strings (Run FIRST to avoid corrupting subsequent inject regexes)
+  // Quoted strings
   html = html.replace(
     /(&quot;[^&]*&quot;|"[^"]*"|'[^']*')/g,
     '<span class="hl-string">$1</span>'
   );
 
-  // Remove early return for ANSI so regex runs first
-
-  // 1. Timestamp: 2026-03-23T15:43:26.256+07:00 or [HH:MM:SS]
+  // Timestamps
   html = html.replace(
     /(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2})/g,
     '<span class="hl-timestamp">$1</span>'
@@ -99,58 +117,53 @@ export function highlightLog(line: string): string {
     '<span class="hl-timestamp">$1</span>'
   );
 
-  // 2. Component tags: [gateway], [heartbeat], [whatsapp], etc.
+  // Component tags
   html = html.replace(
     /\[([a-zA-Z][\w\-:]*)\]/g,
     '<span class="hl-component">[$1]</span>'
   );
 
-  // 3. Error / Fatal / Failed
+  // Error / Fatal / Failed
   html = html.replace(
     /\b(error|fatal|failed|fail|crash|exception|reject|denied|timeout|refused)\b/gi,
     '<span class="hl-error">$1</span>'
   );
 
-  // 4. Warning / Deprecated
+  // Warning
   html = html.replace(
     /\b(warn|warning|deprecated|stale|ignored)\b/gi,
     '<span class="hl-warn">$1</span>'
   );
 
-  // 5. Success / OK / Connected / Started / Listening
+  // Success
   html = html.replace(
     /\b(ok|success|connected|started|listening|running|ready|active|online|mounted)\b/gi,
     '<span class="hl-success">$1</span>'
   );
 
-  // 6. URLs
+  // URLs
   html = html.replace(
     /(https?:\/\/[^\s<]+)/g,
     '<span class="hl-url">$1</span>'
   );
 
-  // 7. IP:Port
+  // IP:Port
   html = html.replace(
     /\b(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d{1,5})\b/g,
     '<span class="hl-ipport">$1</span>'
   );
 
-  // 8. Port numbers (standalone)
+  // Port numbers
   html = html.replace(
     /\b(port|Port)\s*[=:]\s*(\d+)/g,
     '$1=<span class="hl-number">$2</span>'
   );
 
-  // 10. Arrow symbols and status indicators
+  // Status icons
   html = html.replace(
     /(⚠️|✅|❌|🚀|🔗|⚡|➡️|→)/g,
     '<span class="hl-icon">$1</span>'
   );
-
-  // 11. Process ANSI color codes last
-  if (html.includes('\x1b[')) {
-    html = ansiToHtml(html);
-  }
 
   return html;
 }
