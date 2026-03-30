@@ -1,30 +1,43 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { Agent } from '../types';
-import { GW_KEYS, GW_INFO } from '../constants';
+import { io } from 'socket.io-client';
 
 interface MissionControlProps {
-  agents: Record<string, Agent>;
+  gatewayStatus?: any;
 }
 
+// ── API data types ──────────────────────────────────────────────
 interface AgentNode {
   id: string;
   name: string;
   emoji: string;
-  status: 'online' | 'offline' | 'busy';
-  platform: 'openclaw' | 'whatsapp';
+  status: 'online' | 'offline' | 'busy' | 'idle';
   currentTask?: string;
-  x: number;
-  y: number;
+  taskProgress?: number;
   connections: string[];
-  stats: { tasksCompleted: number; messagesHandled: number; uptimeMinutes: number };
+  stats: {
+    tasksCompleted: number;
+    errorsToday: number;
+    uptimeSeconds: number;
+  };
 }
 
 interface Task {
   id: string;
   agentId: string;
   title: string;
-  status: 'running' | 'complete' | 'error';
+  status: 'running' | 'waiting' | 'complete' | 'error';
   progress: number;
+  startedAt: string;
+  error?: string;
+}
+
+interface Alert {
+  id: string;
+  type: 'error' | 'warning' | 'success' | 'info';
+  message: string;
+  timestamp: string;
+  agentId?: string;
+  dismissed: boolean;
 }
 
 interface Achievement {
@@ -37,18 +50,83 @@ interface Achievement {
   target?: number;
 }
 
-const MissionControl = ({ agents }: MissionControlProps) => {
-  const [selectedAgent, setSelectedAgent] = useState<string | null>(null);
-  const [subagentData, setSubagentData] = useState<any[]>([]);
+// ── Layout constants ────────────────────────────────────────────
+// Fixed node positions for the agent map (radial + center hub)
+const NODE_POSITIONS: Record<string, { x: number; y: number }> = {
+  pudding: { x: 200, y: 180 }, // center hub
+};
 
+function getPositions(ids: string[]): Record<string, { x: number; y: number }> {
+  const positions: Record<string, { x: number; y: number }> = { ...NODE_POSITIONS };
+  const rimIds = ids.filter((id) => id !== 'pudding');
+  rimIds.forEach((id, i, arr) => {
+    const angle = (i / arr.length) * Math.PI * 2 - Math.PI / 2;
+    positions[id] = {
+      x: 200 + Math.cos(angle) * 140,
+      y: 180 + Math.sin(angle) * 140,
+    };
+  });
+  return positions;
+}
+
+// ── Helpers ─────────────────────────────────────────────────────
+async function fetchJSON<T>(url: string): Promise<T> {
+  const res = await fetch(url, { credentials: 'include' });
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+  return res.json();
+}
+
+function statusColor(status: string): string {
+  switch (status) {
+    case 'online': return '#00ff88';
+    case 'busy': return '#ffaa00';
+    case 'idle': return '#00bbff';
+    case 'offline':
+    default: return '#ff4444';
+  }
+}
+
+function alertIcon(type: Alert['type']): string {
+  switch (type) {
+    case 'error': return '🔴';
+    case 'warning': return '🟡';
+    case 'success': return '🟢';
+    case 'info':
+    default: return '🔵';
+  }
+}
+
+// ── Component ───────────────────────────────────────────────────
+const MissionControl = ({ gatewayStatus }: MissionControlProps) => {
+  const [selectedAgent, setSelectedAgent] = useState<string | null>(null);
+
+  const [agents, setAgents] = useState<AgentNode[]>([]);
+  const [tasks, setTasks] = useState<Task[]>([]);
+  const [alerts, setAlerts] = useState<Alert[]>([]);
+  const [achievements, setAchievements] = useState<Achievement[]>([]);
+
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // ── Fetch all endpoints ──────────────────────────────────────
   const fetchData = useCallback(async () => {
     try {
-      const r = await fetch('/api/subagents/stream');
-      if (r.ok) {
-        const d = await r.json();
-        setSubagentData(d.subagents || []);
-      }
-    } catch {}
+      const [agentsData, tasksData, alertsData, achievementsData] = await Promise.all([
+        fetchJSON<AgentNode[]>('/api/mission-control/agents'),
+        fetchJSON<Task[]>('/api/mission-control/tasks'),
+        fetchJSON<Alert[]>('/api/mission-control/alerts'),
+        fetchJSON<Achievement[]>('/api/mission-control/achievements'),
+      ]);
+      setAgents(agentsData);
+      setTasks(tasksData);
+      setAlerts(alertsData);
+      setAchievements(achievementsData);
+      setError(null);
+    } catch (err: any) {
+      setError(err.message || 'Failed to fetch mission control data');
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
   useEffect(() => {
@@ -57,81 +135,81 @@ const MissionControl = ({ agents }: MissionControlProps) => {
     return () => clearInterval(interval);
   }, [fetchData]);
 
-  const agentNodes: AgentNode[] = GW_KEYS.map((gw, i) => {
-    const info = GW_INFO[gw];
-    const agent = agents[gw];
-    const online = agent?.online || false;
-    const tasks = subagentData.filter((t) => t.agent === gw);
-    const hasRunning = tasks.some((t) => t.status === 'running');
-    const angle = (i / GW_KEYS.length) * Math.PI * 2 - Math.PI / 2;
-    return {
-      id: gw,
-      name: info.name,
-      emoji: info.emoji,
-      status: online ? (hasRunning ? 'busy' : 'online') : 'offline',
-      platform: 'openclaw',
-      currentTask: tasks.find((t) => t.status === 'running')?.task?.substring(0, 40),
-      x: 200 + Math.cos(angle) * 140,
-      y: 180 + Math.sin(angle) * 140,
-      connections: (agent?.subagents || []).map((s) => s.id).filter((c) => GW_KEYS.includes(c)),
-      stats: {
-        tasksCompleted: tasks.filter((t) => t.status === 'complete').length,
-        messagesHandled: tasks.length * 10,
-        uptimeMinutes: online ? Math.floor(Math.random() * 300) : 0,
-      },
-    };
-  });
-
-  const j1Node: AgentNode = {
-    id: 'j1',
-    name: 'J1',
-    emoji: '📱',
-    status: 'online',
-    platform: 'whatsapp',
-    currentTask: 'WhatsApp community...',
-    x: 200,
-    y: 180,
-    connections: ['pudding', 'alpha'],
-    stats: { tasksCompleted: subagentData.length * 5, messagesHandled: subagentData.length * 50, uptimeMinutes: 120 },
-  };
-
-  const allNodes = [...agentNodes, j1Node];
-  const tasks: Task[] = subagentData.slice(0, 6).map((t, i) => ({
-    id: t.id || `task-${i}`,
-    agentId: t.agent || 'unknown',
-    title: t.task ? t.task.substring(0, 45) : 'Processing...',
-    status: t.status === 'complete' ? 'complete' : t.status === 'error' ? 'error' : 'running',
-    progress: t.status === 'complete' ? 100 : t.status === 'running' ? 50 : 0,
-  }));
-
-  const onlineCount = allNodes.filter((n) => n.status !== 'offline').length;
-  const busyCount = allNodes.filter((n) => n.status === 'busy').length;
-  const completedCount = tasks.filter((t) => t.status === 'complete').length;
-
-  const [achievements, setAchievements] = useState<Achievement[]>([
-    { id: '1', name: 'First Contact', emoji: '🥇', description: 'Connect to first agent', unlocked: true },
-    { id: '2', name: 'Squad Goals', emoji: '🥈', description: 'Have 3 agents online', unlocked: false, progress: 0, target: 3 },
-    { id: '3', name: 'WhatsApp Warrior', emoji: '🥉', description: 'J1 handles 100 messages', unlocked: false, progress: 0, target: 100 },
-    { id: '4', name: 'Full House', emoji: '🏅', description: 'All agents online', unlocked: false },
-    { id: '5', name: 'Zero Hour', emoji: '💎', description: 'No errors', unlocked: false },
-  ]);
-
+  // ── Socket.IO real-time updates ─────────────────────────────
   useEffect(() => {
-    setAchievements((prev) =>
-      prev.map((a) => {
-        if (a.id === '2') return { ...a, progress: onlineCount, unlocked: onlineCount >= 3 };
-        if (a.id === '3') return { ...a, progress: j1Node.stats.messagesHandled, unlocked: j1Node.stats.messagesHandled >= 100 };
-        if (a.id === '4') return { ...a, unlocked: onlineCount >= GW_KEYS.length };
-        if (a.id === '5') return { ...a, unlocked: !tasks.some((t) => t.status === 'error') };
-        return a;
-      })
-    );
-  }, [onlineCount, tasks]);
+    const socket = io();
 
-  const selectedNode = selectedAgent ? allNodes.find((n) => n.id === selectedAgent) : null;
+    socket.on('agent:status', (data) => {
+      setAgents(prev => prev.map(a =>
+        a.id === data.agentId ? { ...a, status: data.status } : a
+      ));
+    });
+
+    socket.on('task:progress', (data) => {
+      setTasks(prev => prev.map(t =>
+        t.id === data.taskId ? { ...t, progress: data.progress } : t
+      ));
+    });
+
+    socket.on('task:complete', (data) => {
+      setTasks(prev => prev.map(t =>
+        t.id === data.taskId ? { ...t, status: 'complete', progress: 100 } : t
+      ));
+    });
+
+    socket.on('alert:new', (data) => {
+      setAlerts(prev => [data, ...prev].slice(0, 50));
+    });
+
+    socket.on('achievement:unlock', (data) => {
+      setAchievements(prev => prev.map(a =>
+        a.id === data.id ? { ...a, unlocked: true } : a
+      ));
+    });
+
+    return () => socket.disconnect();
+  }, []);
+
+  // ── Derived data ─────────────────────────────────────────────
+  const agentIds = agents.map((a) => a.id);
+  const positions = getPositions(agentIds);
+
+  const onlineCount = agents.filter((n) => n.status !== 'offline').length;
+  const busyCount = agents.filter((n) => n.status === 'busy').length;
+  const completedCount = tasks.filter((t) => t.status === 'complete').length;
+  const unlockedAchievements = achievements.filter((a) => a.unlocked).length;
+
+  const selectedNode = selectedAgent ? agents.find((n) => n.id === selectedAgent) : null;
+  const activeAlerts = alerts.filter((a) => !a.dismissed);
+
+  // ── Loading state ────────────────────────────────────────────
+  if (loading && agents.length === 0) {
+    return (
+      <div className="mission-control">
+        <div className="mc-loading">
+          <span className="mc-loading-icon">⏳</span>
+          <span>Loading Mission Control…</span>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Error state ──────────────────────────────────────────────
+  if (error && agents.length === 0) {
+    return (
+      <div className="mission-control">
+        <div className="mc-error">
+          <span className="mc-error-icon">⚠️</span>
+          <span>Connection error: {error}</span>
+          <button className="mc-retry-btn" onClick={fetchData}>Retry</button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="mission-control">
+      {/* ── Stats bar ─────────────────────────────────────────── */}
       <div className="mc-stats-bar">
         <div className="mc-stat glass">
           <span className="mc-stat-icon">🤖</span>
@@ -157,13 +235,25 @@ const MissionControl = ({ agents }: MissionControlProps) => {
         <div className="mc-stat glass">
           <span className="mc-stat-icon">🏆</span>
           <div>
-            <div className="mc-stat-value">{achievements.filter((a) => a.unlocked).length}/{achievements.length}</div>
+            <div className="mc-stat-value">{unlockedAchievements}/{achievements.length || '–'}</div>
             <div className="mc-stat-label">Achievements</div>
           </div>
         </div>
+        {/* Error flash indicator */}
+        {error && (
+          <div className="mc-stat glass mc-stat-warning">
+            <span className="mc-stat-icon">⚠️</span>
+            <div>
+              <div className="mc-stat-value" style={{ fontSize: '0.75rem' }}>Stale data</div>
+              <div className="mc-stat-label">{error}</div>
+            </div>
+          </div>
+        )}
       </div>
 
+      {/* ── Main grid ─────────────────────────────────────────── */}
       <div className="mc-main-grid">
+        {/* Agent map */}
         <div className="mc-map-panel glass">
           <div className="mc-panel-hdr">
             <span>🗺️ AGENT MAP</span>
@@ -171,26 +261,46 @@ const MissionControl = ({ agents }: MissionControlProps) => {
           </div>
           <div className="mc-map">
             <svg className="mc-connections" viewBox="0 0 400 360">
-              {allNodes.flatMap((node) =>
+              {agents.flatMap((node) =>
                 node.connections.map((targetId) => {
-                  const target = allNodes.find((n) => n.id === targetId);
-                  return target ? <line key={node.id + targetId} x1={node.x} y1={node.y} x2={target.x} y2={target.y} className="mc-connection-line" /> : null;
+                  const from = positions[node.id];
+                  const to = positions[targetId];
+                  if (!from || !to) return null;
+                  return (
+                    <line
+                      key={`${node.id}-${targetId}`}
+                      x1={from.x}
+                      y1={from.y}
+                      x2={to.x}
+                      y2={to.y}
+                      className="mc-connection-line"
+                    />
+                  );
                 })
               )}
             </svg>
-            {allNodes.map((node) => (
-              <div
-                key={node.id}
-                className={`mc-node mc-node-${node.status} ${node.platform === 'whatsapp' ? 'mc-node-whatsapp' : ''} ${selectedAgent === node.id ? 'selected' : ''}`}
-                style={{ left: node.x - 24, top: node.y - 24 }}
-                onClick={() => setSelectedAgent(selectedAgent === node.id ? null : node.id)}
-              >
-                <span className="mc-node-emoji">{node.emoji}</span>
-                <span className="mc-node-name">{node.name}</span>
-                {node.status === 'online' && <span className="mc-pulse" />}
-                {node.platform === 'whatsapp' && <span className="mc-whatsapp-badge">WA</span>}
-              </div>
-            ))}
+
+            {agents.map((node) => {
+              const pos = positions[node.id];
+              if (!pos) return null;
+              return (
+                <div
+                  key={node.id}
+                  className={`mc-node mc-node-${node.status} ${selectedAgent === node.id ? 'selected' : ''}`}
+                  style={{ left: pos.x - 24, top: pos.y - 24 }}
+                  onClick={() => setSelectedAgent(selectedAgent === node.id ? null : node.id)}
+                >
+                  <span className="mc-node-emoji">{node.emoji}</span>
+                  <span className="mc-node-name">{node.name}</span>
+                  {node.status === 'online' && <span className="mc-pulse" />}
+                  <span
+                    className="mc-node-indicator"
+                    style={{ backgroundColor: statusColor(node.status) }}
+                  />
+                </div>
+              );
+            })}
+
             <div className="mc-map-center">
               <span className="mc-center-icon">🦀</span>
               <span className="mc-center-label">HUB</span>
@@ -198,27 +308,33 @@ const MissionControl = ({ agents }: MissionControlProps) => {
           </div>
         </div>
 
+        {/* Side panels */}
         <div className="mc-side-panels">
+          {/* Task queue */}
           <div className="mc-task-panel glass">
             <div className="mc-panel-hdr">📋 TASKS</div>
             <div className="mc-task-list">
-              {tasks.map((task) => {
-                const agent = allNodes.find((n) => n.id === task.agentId);
+              {tasks.slice(0, 6).map((task) => {
+                const agent = agents.find((n) => n.id === task.agentId);
                 return (
                   <div key={task.id} className={`mc-task mc-task-${task.status}`}>
                     <div className="mc-task-header">
-                      <span>{agent?.emoji} {agent?.name}</span>
+                      <span>{agent?.emoji ?? '🤖'} {agent?.name ?? task.agentId}</span>
                       <span className={`mc-task-status mc-status-${task.status}`}>
-                        {task.status === 'running' ? '⚡' : task.status === 'complete' ? '✅' : '❌'} {task.status.toUpperCase()}
+                        {task.status === 'running' && '⚡ RUNNING'}
+                        {task.status === 'waiting' && '⏳ WAITING'}
+                        {task.status === 'complete' && '✅ COMPLETE'}
+                        {task.status === 'error' && '❌ ERROR'}
                       </span>
                     </div>
                     <div className="mc-task-title">{task.title}</div>
                     {task.status === 'running' && (
                       <div className="mc-progress-bar">
-                        <div className="mc-progress-fill" style={{ width: '50%' }} />
-                        <span className="mc-progress-text">50%</span>
+                        <div className="mc-progress-fill" style={{ width: `${task.progress}%` }} />
+                        <span className="mc-progress-text">{task.progress}%</span>
                       </div>
                     )}
+                    {task.error && <div className="mc-task-error">{task.error}</div>}
                   </div>
                 );
               })}
@@ -226,6 +342,7 @@ const MissionControl = ({ agents }: MissionControlProps) => {
             </div>
           </div>
 
+          {/* Achievements */}
           <div className="mc-achievement-panel glass">
             <div className="mc-panel-hdr">🏆 ACHIEVEMENTS</div>
             <div className="mc-achievement-list">
@@ -235,22 +352,46 @@ const MissionControl = ({ agents }: MissionControlProps) => {
                   <div className="mc-ach-info">
                     <div className="mc-ach-name">{ach.name}</div>
                     <div className="mc-ach-desc">{ach.description}</div>
+                    {!ach.unlocked && ach.progress !== undefined && ach.target !== undefined && (
+                      <div className="mc-progress-bar" style={{ marginTop: 4 }}>
+                        <div className="mc-progress-fill" style={{ width: `${(ach.progress / ach.target) * 100}%` }} />
+                        <span className="mc-progress-text">{ach.progress}/{ach.target}</span>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
+              {achievements.length === 0 && <div className="mc-empty">No achievements loaded</div>}
             </div>
           </div>
+
+          {/* Alerts (new panel) */}
+          {activeAlerts.length > 0 && (
+            <div className="mc-alert-panel glass">
+              <div className="mc-panel-hdr">🔔 ALERTS</div>
+              <div className="mc-alert-list">
+                {activeAlerts.slice(0, 5).map((alert) => (
+                  <div key={alert.id} className={`mc-alert mc-alert-${alert.type}`}>
+                    <span>{alertIcon(alert.type)}</span>
+                    <span className="mc-alert-msg">{alert.message}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
+      {/* ── Agent detail popup ─────────────────────────────────── */}
       {selectedNode && (
         <div className="mc-agent-detail glass">
           <div className="mc-detail-hdr">
             <span className="mc-detail-emoji">{selectedNode.emoji}</span>
             <div className="mc-detail-info">
               <h3>{selectedNode.name}</h3>
-              <span className={`mc-detail-status mc-status-${selectedNode.status}`}>{selectedNode.status.toUpperCase()}</span>
-              <span className="mc-detail-platform">{selectedNode.platform === 'whatsapp' ? '📱 WhatsApp' : '🦀 OpenClaw'}</span>
+              <span className={`mc-detail-status mc-status-${selectedNode.status}`}>
+                {selectedNode.status.toUpperCase()}
+              </span>
             </div>
             <button className="mc-close-btn" onClick={() => setSelectedAgent(null)}>✕</button>
           </div>
@@ -260,11 +401,11 @@ const MissionControl = ({ agents }: MissionControlProps) => {
               <span className="mc-detail-stat-label">Tasks</span>
             </div>
             <div className="mc-detail-stat">
-              <span className="mc-detail-stat-val">{selectedNode.stats.messagesHandled}</span>
-              <span className="mc-detail-stat-label">Msgs</span>
+              <span className="mc-detail-stat-val">{selectedNode.stats.errorsToday}</span>
+              <span className="mc-detail-stat-label">Errors</span>
             </div>
             <div className="mc-detail-stat">
-              <span className="mc-detail-stat-val">{selectedNode.stats.uptimeMinutes}m</span>
+              <span className="mc-detail-stat-val">{Math.floor(selectedNode.stats.uptimeSeconds / 60)}m</span>
               <span className="mc-detail-stat-label">Uptime</span>
             </div>
             <div className="mc-detail-stat">
@@ -276,6 +417,12 @@ const MissionControl = ({ agents }: MissionControlProps) => {
             <div className="mc-detail-task">
               <span className="mc-detail-task-label">Task:</span>
               <span className="mc-detail-task-value">{selectedNode.currentTask}</span>
+              {selectedNode.taskProgress !== undefined && (
+                <div className="mc-progress-bar" style={{ marginTop: 6 }}>
+                  <div className="mc-progress-fill" style={{ width: `${selectedNode.taskProgress}%` }} />
+                  <span className="mc-progress-text">{selectedNode.taskProgress}%</span>
+                </div>
+              )}
             </div>
           )}
         </div>
