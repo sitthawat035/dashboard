@@ -1,5 +1,5 @@
 import React from 'react';
-import { Rocket, LayoutDashboard, Bot, Terminal, Cpu, Shield, LogOut, Zap, Menu, X } from 'lucide-react';
+import { Rocket, LayoutDashboard, Bot, Terminal, Cpu, Shield, LogOut, Zap, Menu, X, Gamepad2 } from 'lucide-react';
 import type { TabId } from '../types';
 
 interface SidebarProps {
@@ -21,6 +21,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const menuItems = [
     { id: 'dashboard' as TabId, label: 'Dashboard', icon: LayoutDashboard },
+    { id: 'mission' as TabId, label: 'Mission Control', icon: Gamepad2 },
     { id: 'agents' as TabId, label: 'Agents', icon: Bot },
     { id: 'terminal' as TabId, label: 'PowerShell', icon: Terminal },
     { id: 'multi' as TabId, label: 'MultiContent', icon: Cpu },

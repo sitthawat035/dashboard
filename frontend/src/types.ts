@@ -44,4 +44,4 @@ export interface SubagentLog {
 
 export type LogTab = 'log' | 'err' | 'chat';
 export type StdoutSubTab = 'gateway_logs' | 'shell';
-export type TabId = 'dashboard' | 'agents' | 'terminal' | 'memory' | 'logs' | 'multi' | 'settings';
+export type TabId = 'dashboard' | 'mission' | 'agents' | 'terminal' | 'memory' | 'logs' | 'multi' | 'settings';

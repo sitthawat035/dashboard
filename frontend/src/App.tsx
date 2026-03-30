@@ -14,6 +14,7 @@ import AgentCard from './components/AgentCard';
 import TerminalModule from './components/TerminalModule';
 import LoginScreen from './components/LoginScreen';
 import CLIProviders from './components/CLIProviders';
+import MissionControl from './components/MissionControl';
 import { Maximize, Minimize } from 'lucide-react';
 
 const MAX_HISTORY = 100;
@@ -308,7 +309,9 @@ export default function App() {
       <main className="main-content glass">
         <header className="main-header">
             <h2>{(({ 
-                dashboard: 'Dashboard Overview', agents: 'Agent Manager', 
+                dashboard: 'Dashboard Overview', 
+                mission: '🎮 Mission Control',
+                agents: 'Agent Manager', 
                 terminal: 'PowerShell Console', settings: 'CLI OAuth Providers',
                 memory: 'Knowledge Base', logs: 'System Logs', multicontent: 'MultiContent Hub'
             } as any)[activeTab]) || 'JOEPV Master'}</h2>
@@ -321,6 +324,9 @@ export default function App() {
         <section className="view-port">
             {activeTab === 'dashboard' && (
                 <Dashboard agents={agents} activeCount={activeCount} onControl={control} onSetSelectedAgent={setSelectedAgent} onSetActiveTab={setActiveTab} onStartAll={startAll} onRestartAll={restartAll} onLoadStatus={loadStatus} onLoadAllLogs={loadAllLogs} />
+            )}
+            {activeTab === 'mission' && (
+                <MissionControl agents={agents} />
             )}
             {activeTab === 'agents' && (
                 selectedAgent ? (
