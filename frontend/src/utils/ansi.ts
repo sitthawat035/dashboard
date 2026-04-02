@@ -2,10 +2,10 @@
 
 // ── ANSI Code Handler ──
 const FG_COLOR: Record<number, string> = {
-  30:'#666666', 31:'#ff5f56', 32:'#a8e436', 33:'#ffff00',
-  34:'#5eead4', 35:'#e879f9', 36:'#00d4aa', 37:'#ffffff',
-  90:'#888888', 91:'#ff7b72', 92:'#56d364', 93:'#ffd700',
-  94:'#67e8f9', 95:'#bc8cff', 96:'#22d3ee', 97:'#ffffff',
+  30:'#888888', 31:'#cc6666', 32:'#b5bd68', 33:'#f0c674',
+  34:'#81a2be', 35:'#b294bb', 36:'#8abeb7', 37:'#c5c8c6',
+  90:'#969896', 91:'#cc6666', 92:'#b5bd68', 93:'#f0c674',
+  94:'#81a2be', 95:'#b294bb', 96:'#8abeb7', 97:'#ffffff',
 };
 
 const BG_COLOR: Record<number, string> = {
