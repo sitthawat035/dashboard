@@ -186,7 +186,9 @@ class PsSession:
             if stdin is None:
                 self.alive = False
                 return False
-            stdin.write(cmd + "\n")
+            # Strip \r to prevent line ending issues on Termux/SSH
+            clean_cmd = cmd.replace('\r', '') + '\n'
+            stdin.write(clean_cmd)
             stdin.flush()
             return True
         except Exception:
@@ -1391,7 +1393,9 @@ def handle_terminal_input(data):
     if sid in terminal_processes and input_data:
         p = terminal_processes[sid]
         try:
-            p.stdin.write(input_data)
+            # Strip \r to prevent line ending issues on Termux/SSH
+            clean_data = input_data.replace('\r', '')
+            p.stdin.write(clean_data)
             p.stdin.flush()
         except:
             pass
