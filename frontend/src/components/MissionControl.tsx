@@ -3,6 +3,7 @@ import { io } from 'socket.io-client';
 
 interface MissionControlProps {
   gatewayStatus?: any;
+  agents?: any;
 }
 
 // ── API data types ──────────────────────────────────────────────
@@ -97,7 +98,7 @@ function alertIcon(type: Alert['type']): string {
 }
 
 // ── Component ───────────────────────────────────────────────────
-const MissionControl = ({ gatewayStatus }: MissionControlProps) => {
+const MissionControl = ({ gatewayStatus: _gatewayStatus }: MissionControlProps) => {
   const [selectedAgent, setSelectedAgent] = useState<string | null>(null);
 
   const [agents, setAgents] = useState<AgentNode[]>([]);
@@ -167,7 +168,7 @@ const MissionControl = ({ gatewayStatus }: MissionControlProps) => {
       ));
     });
 
-    return () => socket.disconnect();
+    return () => { socket.disconnect(); };
   }, []);
 
   // ── Derived data ─────────────────────────────────────────────
