@@ -168,6 +168,62 @@ export function highlightLog(line: string): string {
   return html;
 }
 
+// ── ANSI Converter for Plain Logs (to be used with xterm.js) ──
+export function logToAnsi(line: string): string {
+  if (!line) return '';
+  
+  // Robust ANSI escape sequence detection
+  // This regex matches standard SGR (Select Graphic Rendition) and other CSI sequences
+  const ANSI_REGEX = /[\u001b\u009b]\[[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g;
+  
+  // If it already has ANY ANSI escape codes, return as-is to preserve 1:1 terminal fidelity
+  if (ANSI_REGEX.test(line)) return line;
+
+  let out = line;
+
+  // Timestamps: Gray
+  out = out.replace(
+    /(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2})/g,
+    '\x1b[90m$1\x1b[0m'
+  );
+  out = out.replace(
+    /(\[\d{2}:\d{2}:\d{2}\])/g,
+    '\x1b[90m$1\x1b[0m'
+  );
+
+  // Component tags: Cyan [gateway], [hooks], etc.
+  out = out.replace(
+    /\[([a-zA-Z][\w\-:]*)\]/g,
+    '\x1b[1;36m[$1]\x1b[0m'
+  );
+
+  // Status: Error (Red)
+  out = out.replace(
+    /\b(error|fatal|failed|fail|crash|exception|reject|denied|timeout|refused|failure)\b/gi,
+    '\x1b[1;31m$1\x1b[0m'
+  );
+
+  // Status: Warning (Yellow)
+  out = out.replace(
+    /\b(warn|warning|deprecated|stale|ignored|waiting|retrying)\b/gi,
+    '\x1b[1;33m$1\x1b[0m'
+  );
+
+  // Status: Success (Green)
+  out = out.replace(
+    /\b(ok|success|connected|started|listening|running|ready|active|online|mounted|ready|resolved|confirmed)\b/gi,
+    '\x1b[1;32m$1\x1b[0m'
+  );
+
+  // URLs: Blue / Underline
+  out = out.replace(
+    /(https?:\/\/[^\s<]+)/g,
+    '\x1b[4;34m$1\x1b[0m'
+  );
+
+  return out;
+}
+
 export function esc(s: string) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }

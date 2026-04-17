@@ -1,0 +1,4 @@
+src/components/AgentCard/index.tsx(3,72): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/components/AgentCard/index.tsx(4,34): error TS2307: Cannot find module '../constants' or its corresponding type declarations.
+src/components/AgentCard/index.tsx(290,26): error TS7006: Parameter 'key' implicitly has an 'any' type.
+src/components/AgentCard/index.tsx(315,34): error TS7006: Parameter 'm' implicitly has an 'any' type.

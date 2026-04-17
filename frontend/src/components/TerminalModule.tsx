@@ -4,6 +4,7 @@ import { Terminal } from 'xterm';
 import { FitAddon } from 'xterm-addon-fit';
 import 'xterm/css/xterm.css';
 import type { TermSession } from '../types';
+import { terminalApi } from '../utils/api';
 
 interface TerminalModuleProps {
   termSessions: Record<string, TermSession>;
@@ -84,11 +85,7 @@ const TerminalModule: React.FC<TerminalModuleProps> = ({
     term?.write('\r\n');
     // Send to backend
     try {
-      await fetch(`/api/terminal/${activeTermSid}/send`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ cmd: cmd.trim() }),
-      });
+      await terminalApi.send(activeTermSid, cmd.trim());
     } catch {}
     // Push to history
     onPushHistory?.(cmd.trim());

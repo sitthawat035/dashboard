@@ -30,7 +30,7 @@ echo       (Logs can be found in /logs directory)
 start /b python server.py > logs\dashboard.log 2>&1
 
 :: Launch MultiContentApp Server
-pushd "C:\DriveD_MultiContentApp"
+pushd ..
 start /b python dashboard/server.py > "%~dp0logs\multicontent.log" 2>&1
 popd
 

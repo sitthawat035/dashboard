@@ -1,0 +1,144 @@
+{
+  "run_id": "lo_20260222_114706",
+  "project_id": "lookforward",
+  "topic": "Sarvam AI: จาก Startup สู่ผู้ทรงอิทธิพล AI",
+  "status": "completed",
+  "current_step": "ready_to_post",
+  "created_at": "2026-02-22T11:47:06.434303",
+  "updated_at": "2026-02-22T11:47:37.531287",
+  "options": {
+    "mode": "full",
+    "gen_images": true,
+    "dry_run": false
+  },
+  "step_results": {
+    "strategy": {
+      "step_name": "strategy",
+      "status": "completed",
+      "started_at": "2026-02-22T11:47:06.447504",
+      "completed_at": "2026-02-22T11:47:19.787560",
+      "duration_seconds": 13,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114719\\01_strategy.md",
+      "output_data": {
+        "strategy": "## วิเคราะห์หัวข้อ: Sarvam AI: จาก Startup สู่ผู้ทรงอิทธิพล AI สำหรับโพสต์ lookforward\n\n**หัวข้อ:** Sarvam AI: จาก Startup สู่ผู้ทรงอิทธิพล AI\n\n**DNA ของ lookforward ที่ต้องมี:**\n\n1.  **Cognitive Dissonance:** \"Sarvam AI ไม่ได้แค่สร้าง AI แต่มันกำลังสร้าง 'AI ที่เข้าใจคนอินเดีย' ซึ่งอาจเป็นภัยคุกคามต่อบริษัท AI ระดับโลกที่มองข้ามตลาดนี้\"\n2.  **ข้อมูลที่ \"ทำให้ดูฉลาด\":** เจาะลึกว่าทำไมการเข้าใจภาษาและวัฒนธรรมท้องถิ่นถึงสำคัญกว่าแค่การสร้างโมเดลภาษาขนาดใหญ่ และ Sarvam AI มีแต้มต่ออะไร\n3.  **Prediction ที่กล้า:** \"ภายในปี 2025, Sarvam AI จะกลายเป็น Unicorn ที่มีอิทธิพลต่อการกำหนดนโยบาย AI ในอินเดีย และเป็นกรณีศึกษาที่บริษัท Tech ทั่วโลกต้องเรียนรู้\"\n\n**Framework วิเคราะห์ Strategy:**\n\n1.  **The Surprise Hook:**\n    *   Startup AI เล็กๆ ในอินเดีย กล้าท้าชนบริษัทยักษ์ใหญ่ระดับโลกได้อย่างไร?\n    *   ทำไมบริษัทที่เน้นภาษาท้องถิ่นถึงมีโอกาสเติบโตในยุค AI ครองโลก?\n2.  **The Real Story:**\n    *   Sarvam AI ไม่ได้แค่สร้าง AI แต่กำลังสร้าง \"AI ที่เข้าใจบริบททางวัฒนธรรมอินเดีย\" ซึ่งเป็นสิ่งที่ AI ทั่วไปทำไม่ได้\n    *   ตลาดอินเดียมีขนาดใหญ่และซับซ้อน การเข้าใจภาษาท้องถิ่น วัฒนธรรม และความต้องการของผู้ใช้งานเป็นสิ่งสำคัญ\n    *   การที่ Sarvam AI เข้าใจตลาดอินเดียอย่างลึกซึ้ง ทำให้พวกเขาสามารถสร้างผลิตภัณฑ์และบริการที่ตอบโจทย์ความต้องการของผู้ใช้งานได้อย่างแท้จริง\n    *   บริษัท AI ระดับโลกหลายแห่งมองข้ามตลาดอินเดีย หรือพยายามใช้โมเดล AI ที่สร้างขึ้นสำหรับตลาดอื่น ซึ่งอาจไม่เหมาะสมกับบริบทของอินเดีย\n3.  **The Mechanism:**\n    *   Sarvam AI สร้างโมเดลภาษาที่ได้รับการฝึกฝนด้วยข้อมูลภาษาอินเดียโดยเฉพาะ ทำให้ AI เข้าใจความแตกต่างของภาษา วัฒนธรรม และสำนวนท้องถิ่น\n    *   เปรียบเทียบกับ Google Translate ที่อาจแปลได้แค่ความหมาย แต่ไม่เข้าใจบริบททางวัฒนธรรม\n    *   ยกตัวอย่าง: การใช้ AI ในการให้คำแนะนำทางการแพทย์ในพื้นที่ชนบทของอินเดีย ต้องเข้าใจภาษาท้องถิ่น วัฒนธรรม และความเชื่อของผู้ป่วย\n4.  **Winners vs Losers:**\n    *   **Winners:** Sarvam AI, นักลงทุนที่มองเห็นโอกาสในตลาด AI เฉพาะกลุ่ม, ผู้ใช้งานชาวอินเดียที่ได้ใช้ AI ที่เข้าใจภาษาและวัฒนธรรมของตนเอง\n    *   **Losers:** บริษัท AI ระดับโลกที่มองข้ามตลาดอินเดีย, บริษัทที่พยายามใช้โมเดล AI ทั่วไปในตลาดอินเดียโดยไม่ปรับให้เข้ากับบริบทท้องถิ่น\n5.  **The Bold Prediction:**\n    *   ภายในปี 2025, Sarvam AI จะกลายเป็น Unicorn ที่มีอิทธิพลต่อการกำหนดนโยบาย AI ในอินเดีย และเป็นกรณีศึกษาที่บริษัท Tech ทั่วโลกต้องเรียนรู้\n    *   บริษัท AI อื่นๆ จะเริ่มหันมาให้ความสำคัญกับการสร้าง AI ที่เข้าใจภาษาและวัฒนธรรมท้องถิ่นมากขึ้น\n    *   เกิดการแข่งขันในการสร้าง AI ที่ \"เฉพาะเจาะจง\" มากขึ้น เช่น AI สำหรับการเกษตรในประเทศไทย หรือ AI สำหรับการท่องเที่ยวในญี่ปุ่น\n6.  **The Conversation Starter:**\n    *   คุณคิดว่าการสร้าง AI ที่เข้าใจภาษาและวัฒนธรรมท้องถิ่นสำคัญแค่ไหน?\n    *   ถ้าคุณเป็นผู้บริหารของ Google คุณจะรับมือกับการเติบโตของ Sarvam AI อย่างไร?\n7.  **Caption Strategy:**\n    *   \"AI เข้าใจภาษาไทย VS AI ที่แค่ 'แปล' ภาษาไทย...ต่างกันยังไง? Sarvam AI กำลังพิสูจน์แล้วว่า 'ความเข้าใจ' สำคัญกว่า\"\n    *   \"Startup อินเดียรายนี้กำลังจะ Disrupt วงการ AI โลก เพราะพวกเขามองเห็นสิ่งที่ Google มองข้ามไป...\"\n\n**ตัวอย่างโพสต์ (ฉบับร่าง):**\n\n**[ภาพ: โลโก้ Sarvam AI พร้อมภาพประกอบที่สื่อถึงความหลากหลายทางวัฒนธรรมของอินเดีย]**\n\n\"AI เข้าใจภาษาไทย VS AI ที่แค่ 'แปล' ภาษาไทย...ต่างกันยังไง? Sarvam AI กำลังพิสูจน์แล้วว่า 'ความเข้าใจ' สำคัญกว่า\"\n\nหลายคนอาจมองว่า AI ก็คือ AI ไม่ว่าใครสร้างก็เหมือนกัน แต่ความจริงคือ AI ที่ \"เข้าใจ\" บริบททางวัฒนธรรมและภาษาท้องถิ่นนั้นทรงพลังกว่าที่คุณคิด\n\nSarvam AI สตาร์ทอัพจากอินเดีย กำลังสร้าง AI ที่เข้าใจภาษาและวัฒนธรรมอินเดียอย่างลึกซึ้ง ไม่ใช่แค่แปลภาษาได้ แต่เข้าใจสำนวน เข้าใจความเชื่อ และเข้าใจความต้องการของผู้ใช้งานอย่างแท้จริง\n\nทำไมเรื่องนี้ถึงสำคัญ? เพราะตลาดอินเดียมีขนาดใหญ่และซับซ้อน การใช้ AI ที่สร้างขึ้นสำหรับตลาดอื่นอาจไม่ตอบโจทย์ความต้องการของผู้ใช้งาน\n\nลองนึกภาพ AI ที่สามารถให้คำแนะนำทางการแพทย์ในภาษาท้องถิ่น เข้าใจความเชื่อของผู้ป่วย และให้คำแนะนำที่เหมาะสมกับบริบททางวัฒนธรรม นี่คือสิ่งที่ Sarvam AI กำลังสร้าง\n\nบริษัท AI ระดับโลกหลายแห่งมองข้ามตลาดอินเดีย แต่ Sarvam AI มองเห็นโอกาสนี้ และกำลังสร้างความแตกต่างด้วยการสร้าง AI ที่ \"เข้าใจ\"\n\n**Prediction:** ภายในปี 2025, Sarvam AI จะกลายเป็น Unicorn ที่มีอิทธิพลต่อการกำหนดนโยบาย AI ในอินเดีย และเป็นกรณีศึกษาที่บริษัท Tech ทั่วโลกต้องเรียนรู้\n\nคุณคิดว่าการสร้าง AI ที่เข้าใจภาษาและวัฒนธรรมท้องถิ่นสำคัญแค่ไหน? ถ้าคุณเป็นผู้บริหารของ Google คุณจะรับมือกับการเติบโตของ Sarvam AI อย่างไร? มาแชร์ความคิดเห็นกันครับ! #AI #India #SarvamAI #Tech #lookforward\n",
+        "topic": "Sarvam AI: จาก Startup สู่ผู้ทรงอิทธิพล AI",
+        "word_count": 325
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "content": {
+      "step_name": "content",
+      "status": "completed",
+      "started_at": "2026-02-22T11:47:19.849267",
+      "completed_at": "2026-02-22T11:47:30.611331",
+      "duration_seconds": 10,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114730\\02_content.json",
+      "output_data": {
+        "content": {
+          "text": "🇮🇳 AI เข้าใจ 'ภารตะ' VS AI แค่ 'ทรานสเลต' 🤖 ...ต่างกันตรงไหน? Sarvam AI กำลังทำให้โลกเห็น: 'ความเข้าใจ' ชนะทุกอย่าง\n\nหลายคนคิดว่า AI ก็เหมือนกันหมด ใครทำก็ copy ได้ 🤷 แต่จริงๆ AI ที่ 'เข้าใจ' ภาษาแม่, วัฒนธรรมท้องถิ่น คือขุมทรัพย์ที่บริษัทยักษ์ยังมองข้าม\n\n🇮🇳 Sarvam AI สตาร์ทอัพอินเดีย สร้าง AI ที่ 'อิน' กับคนอินเดียสุดๆ ไม่ใช่แค่แปลภาษา แต่เข้าใจมุกตลก, บริบทสังคม, และความต้องการที่ซ่อนอยู่\n\nทำไมสำคัญ? 🤔 ตลาดอินเดียใหญ่และซับซ้อน AI ทั่วไปอาจ 'get' แค่ 50% แต่ Sarvam AI เก็บครบทุกเม็ด\n\nนึกภาพ: AI หมอให้คำแนะนำคนไข้ชนบทด้วยภาษาถิ่น เข้าใจความเชื่อพื้นบ้าน แนะนำยาที่หาได้ในหมู่บ้าน...นี่คือพลังของความ 'local'\n\n🏆 ใครได้ใครเสีย?\n✅ Sarvam AI: ชนะใสๆ เข้าใจตลาดก่อนใคร\n✅ นักลงทุนสายตาคม: มองเห็นโอกาสในตลาดเฉพาะทาง\n✅ คนอินเดีย: ได้ใช้ AI ที่ 'รู้ใจ' จริงๆ\n❌ บริษัท AI โลก: ที่ยังใช้โมเดลเดิมๆ แบบไม่ปรับตัว\n\n🔮 ทำนายอนาคต: ภายในปี 2025 Sarvam AI จะเป็น Unicorn กำหนดทิศทาง AI อินเดีย กลายเป็น Case Study ให้บริษัท Tech ทั่วโลกต้องศึกษา\n\n🤔 คุณว่า AI ที่เข้าใจภาษาท้องถิ่นสำคัญแค่ไหน? ถ้าคุณเป็น Sundar Pichai จะ move ยังไง? 👇 มาคุยกัน!",
+          "insight_score": 5,
+          "char_count": 1035
+        },
+        "caption_short": "AI เข้าใจภาษาไทย VS AI ที่แค่ 'แปล' ภาษาไทย...ต่างกันยังไง? Sarvam AI กำลังพิสูจน์แล้วว่า 'ความเข้าใจ' สำคัญกว่า",
+        "caption_long": "AI เข้าใจภาษาไทย VS AI ที่แค่ 'แปล' ภาษาไทย...ต่างกันยังไง? Sarvam AI กำลังพิสูจน์แล้วว่า 'ความเข้าใจ' สำคัญกว่า\n\nSarvam AI สตาร์ทอัพจากอินเดีย กำลังสร้าง AI ที่เข้าใจภาษาและวัฒนธรรมอินเดียอย่างลึกซึ้ง ไม่ใช่แค่แปลภาษาได้ แต่เข้าใจสำนวน เข้าใจความเชื่อ และเข้าใจความต้องการของผู้ใช้งานอย่างแท้จริง\n\nคุณคิดว่าการสร้าง AI ที่เข้าใจภาษาและวัฒนธรรมท้องถิ่นสำคัญแค่ไหน? ถ้าคุณเป็นผู้บริหารของ Google คุณจะรับมือกับการเติบโตของ Sarvam AI อย่างไร? มาแชร์ความคิดเห็นกันครับ!",
+        "hashtags": [
+          "#lookforward",
+          "#เทคไทย",
+          "#AI",
+          "#India"
+        ],
+        "image_prompts": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "format": "landscape",
+            "style": "cinematic / photorealistic / dark tech aesthetic",
+            "mood": "inspiring / thought-provoking / slightly dramatic",
+            "prompt": "Cinematic, ultra-realistic, 16:9 landscape. A futuristic AI brain interwoven with traditional Indian patterns and vibrant colors. Dark moody background with subtle neon accents. No text, no watermarks, no logos. Depth of field, professional lighting. Shot on Sony A7 III. 8K quality."
+          },
+          {
+            "title": "Quote Card (Story 9:16)",
+            "format": "portrait",
+            "style": "minimal dark gradient / typographic",
+            "mood": "bold / authoritative",
+            "prompt": "Minimal dark gradient background (deep navy to near-black). Abstract geometric or data-visualization elements in the background (blurred). NO text, no readable words. 9:16 portrait format. Professional, premium feel. Space for text overlay."
+          }
+        ],
+        "shareable_insight": "AI ที่ 'เข้าใจ' ภาษาแม่, วัฒนธรรมท้องถิ่น คือขุมทรัพย์ที่บริษัทยักษ์ยังมองข้าม"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "images": {
+      "step_name": "images",
+      "status": "completed",
+      "started_at": "2026-02-22T11:47:30.631176",
+      "completed_at": "2026-02-22T11:47:37.450368",
+      "duration_seconds": 6,
+      "output_file": null,
+      "output_data": {
+        "images": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "path": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114730\\media\\01_hero_visual__facebook_16_9_.jpg",
+            "format": "landscape",
+            "size_kb": 79.9,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          },
+          {
+            "title": "Quote Card (Story 9:16)",
+            "path": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114730\\media\\02_quote_card__story_9_16_.jpg",
+            "format": "portrait",
+            "size_kb": 18.6,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          }
+        ],
+        "prompts_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114730\\media\\prompts_guide.txt",
+        "total_generated": 2,
+        "total_requested": 2,
+        "media_dir": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114730\\media"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-02-22T11:47:37.494921",
+      "completed_at": "2026-02-22T11:47:37.517039",
+      "duration_seconds": 0,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114737",
+      "output_data": {
+        "package_path": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114737",
+        "post_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114737\\post.txt",
+        "caption_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114737\\caption.txt",
+        "hashtags_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่ผู้ทรงอิทธิพล_AI_114737\\hashtags.txt",
+        "metadata": {
+          "topic": "Sarvam AI: จาก Startup สู่ผู้ทรงอิทธิพล AI",
+          "generated": "2026-02-22 11:47:37",
+          "insight_score": 5,
+          "char_count": 1035,
+          "has_images": true,
+          "run_id": "lo_20260222_114706"
+        }
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 4,
+    "completed_steps": 4,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": [
+      "strategy",
+      "content",
+      "images",
+      "ready_to_post"
+    ]
+  }
+}

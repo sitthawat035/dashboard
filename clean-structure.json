@@ -1,0 +1,2078 @@
+[
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\API_CONTRACT.md",
+    "Length": 3950
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\cf_ace_new.log",
+    "Length": 7854
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\cf_alpha_new.log",
+    "Length": 166
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\cf_ameri.log",
+    "Length": 3848
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\cf_ameri_new.log",
+    "Length": 3797
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\cf_fah_new.log",
+    "Length": 156
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\cf_pudding_new.log",
+    "Length": 6489
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\check_errors.ps1",
+    "Length": 836
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\check_openclaw_tasks.ps1",
+    "Length": 877
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\check_tasks.ps1",
+    "Length": 806
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\clean-structure.json",
+    "Length": 0
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\config.yml",
+    "Length": 3
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\cookies.txt",
+    "Length": 273
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.env",
+    "Length": 2127
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\find_killer2.ps1",
+    "Length": 550
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\find_killer.ps1",
+    "Length": 754
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\fix_gateways_underscore.py",
+    "Length": 869
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\modify.py",
+    "Length": 1742
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\nul",
+    "Length": 0
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\requirements.txt",
+    "Length": 119
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\server.py",
+    "Length": 5417
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\start.bat",
+    "Length": 1527
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\start.bat - Shortcut.lnk",
+    "Length": 1429
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\structure.json",
+    "Length": 152422
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\structure.zip",
+    "Length": 15024
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\system_prompt.md",
+    "Length": 2325
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.agents\\workflows\\fullstack-workflow.md",
+    "Length": 4698
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\CACHEDIR.TAG",
+    "Length": 43
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.10\\12600318758975552529",
+    "Length": 97
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.10\\15397593021975470120",
+    "Length": 104
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.10\\3770571340276320319",
+    "Length": 109
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.10\\7798281789073465845",
+    "Length": 115
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.7\\16715207794885330915",
+    "Length": 61
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.9\\1125730817215809018",
+    "Length": 99
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\.vscode\\settings.json",
+    "Length": 169
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\auth.py",
+    "Length": 1972
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\config.py",
+    "Length": 5051
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\cron_manager.py",
+    "Length": 10808
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines_api.py",
+    "Length": 14793
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\gateway.py",
+    "Length": 13724
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\helpers.py",
+    "Length": 7090
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__init__.py",
+    "Length": 44
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\logs.py",
+    "Length": 1685
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\message.py",
+    "Length": 1660
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\mission_control.py",
+    "Length": 10100
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\schedule_api.py",
+    "Length": 2218
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\socket_events.py",
+    "Length": 13512
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\status.py",
+    "Length": 6874
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\subagents.py",
+    "Length": 8921
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\system.py",
+    "Length": 4833
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\terminal.py",
+    "Length": 7094
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\trend_history.json",
+    "Length": 43473
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\ai_client.py",
+    "Length": 25203
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\browser.py",
+    "Length": 16760
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\config.py",
+    "Length": 9651
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\error_handler.py",
+    "Length": 21336
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\facebook_api.py",
+    "Length": 3071
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__init__.py",
+    "Length": 1600
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\launch_chrome_debug.py",
+    "Length": 2336
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\my_search_tools.py",
+    "Length": 6490
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\pipeline_base.py",
+    "Length": 18466
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\search_client.py",
+    "Length": 2983
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\social_poster.py",
+    "Length": 16551
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\state_manager.py",
+    "Length": 17820
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\stealth_config.py",
+    "Length": 21782
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\trend_selector.py",
+    "Length": 12435
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\utils.py",
+    "Length": 4698
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\ai_client.cpython-312.pyc",
+    "Length": 25249
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\ai_client.cpython-314.pyc",
+    "Length": 25008
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\browser.cpython-312.pyc",
+    "Length": 22741
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\browser.cpython-314.pyc",
+    "Length": 25730
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\config.cpython-312.pyc",
+    "Length": 9104
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\config.cpython-314.pyc",
+    "Length": 11587
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\error_handler.cpython-312.pyc",
+    "Length": 23783
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\error_handler.cpython-314.pyc",
+    "Length": 28342
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\facebook_api.cpython-312.pyc",
+    "Length": 3260
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\__init__.cpython-312.pyc",
+    "Length": 1309
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\__init__.cpython-314.pyc",
+    "Length": 1237
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\launch_chrome_debug.cpython-312.pyc",
+    "Length": 2590
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\launch_chrome_debug.cpython-314.pyc",
+    "Length": 2785
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\my_search_tools.cpython-312.pyc",
+    "Length": 7405
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\pipeline_base.cpython-312.pyc",
+    "Length": 19987
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\pipeline_base.cpython-314.pyc",
+    "Length": 23998
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\search_client.cpython-312.pyc",
+    "Length": 4069
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\search_client.cpython-314.pyc",
+    "Length": 4785
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\social_poster.cpython-312.pyc",
+    "Length": 17589
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\social_poster.cpython-314.pyc",
+    "Length": 20842
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\state_manager.cpython-312.pyc",
+    "Length": 23066
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\state_manager.cpython-314.pyc",
+    "Length": 26236
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\stealth_config.cpython-312.pyc",
+    "Length": 21248
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\stealth_config.cpython-314.pyc",
+    "Length": 25642
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\trend_selector.cpython-312.pyc",
+    "Length": 14599
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\trend_selector.cpython-314.pyc",
+    "Length": 17234
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\utils.cpython-312.pyc",
+    "Length": 7922
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common\\__pycache__\\utils.cpython-314.pyc",
+    "Length": 9871
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142701\\01_strategy.md",
+    "Length": 22235
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\02_content.json",
+    "Length": 12421
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\02_content.md",
+    "Length": 11374
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\media\\prompts_guide.txt",
+    "Length": 3416
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\caption.txt",
+    "Length": 1039
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\hashtags.txt",
+    "Length": 123
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\_metadata.json",
+    "Length": 490
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\post.txt",
+    "Length": 9338
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\media\\prompts_guide.txt",
+    "Length": 934
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\image_gen\\gen_from_prompt.py",
+    "Length": 8726
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\brand_guidelines.md",
+    "Length": 3423
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\quick_generate.py",
+    "Length": 3833
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\README.md",
+    "Length": 8545
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\requirements.txt",
+    "Length": 1131
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\run_afternoon.py",
+    "Length": 8327
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\system_prompt.md",
+    "Length": 3203
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\error_logs\\errors.jsonl",
+    "Length": 355
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\error_logs\\pipeline.log",
+    "Length": 367
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260219_035430.json",
+    "Length": 8702
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260220_071035.json",
+    "Length": 19529
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260222_070246.json",
+    "Length": 14225
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260222_070351.json",
+    "Length": 16052
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260222_071141.json",
+    "Length": 16582
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260222_114706.json",
+    "Length": 21373
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260222_115001.json",
+    "Length": 19034
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260228_221414.json",
+    "Length": 15323
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260301_195206.json",
+    "Length": 19044
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260301_200607.json",
+    "Length": 14454
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260302_060024.json",
+    "Length": 19531
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260302_232849.json",
+    "Length": 19054
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260303_064924.json",
+    "Length": 20102
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260304_003343.json",
+    "Length": 17337
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260304_133258.json",
+    "Length": 21258
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260305_073600.json",
+    "Length": 17779
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260306_074927.json",
+    "Length": 19434
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260310_231438.json",
+    "Length": 18580
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260313_060208.json",
+    "Length": 17073
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260314_153114.json",
+    "Length": 14757
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260319_203558.json",
+    "Length": 16661
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260320_130426.json",
+    "Length": 18139
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260320_172849.json",
+    "Length": 21222
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260325_150512.json",
+    "Length": 17812
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260325_150751.json",
+    "Length": 18710
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history\\lo_20260416_142554.json",
+    "Length": 39842
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\OPENCLAW_GUIDE.md",
+    "Length": 4840
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentReviewer\\README.md",
+    "Length": 8965
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentReviewer\\reviewer.py",
+    "Length": 11741
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentReviewer\\SKILL.md",
+    "Length": 2958
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentStrategist\\README.md",
+    "Length": 6397
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentStrategist\\SKILL.md",
+    "Length": 3793
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentStrategist\\strategist.py",
+    "Length": 9232
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentWriter\\README.md",
+    "Length": 7213
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentWriter\\SKILL.md",
+    "Length": 3654
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentWriter\\writer.py",
+    "Length": 8963
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\FacebookPoster\\get_latest_post_url.py",
+    "Length": 734
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\FacebookPoster\\poster.py",
+    "Length": 10683
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\FacebookPoster\\SKILL.md",
+    "Length": 1466
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\LookforwardPipeline\\SKILL.md",
+    "Length": 3130
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\MediaSourcing\\media_downloader.py",
+    "Length": 3707
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\MediaSourcing\\README.md",
+    "Length": 8931
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\MediaSourcing\\SKILL.md",
+    "Length": 3258
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\PerformanceAnalyzer\\analyzer.py",
+    "Length": 13039
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\PerformanceAnalyzer\\README.md",
+    "Length": 10770
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\PerformanceAnalyzer\\SKILL.md",
+    "Length": 10891
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\TrendResearcher\\README.md",
+    "Length": 5597
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\TrendResearcher\\SKILL.md",
+    "Length": 3080
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\TrendResearcher\\trend_scanner.py",
+    "Length": 4048
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\workflows\\authority-content-pipeline.md",
+    "Length": 10514
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\workflows\\content-scheduler.md",
+    "Length": 9220
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\workflows\\daily-trend-scan.md",
+    "Length": 4119
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\workflows\\performance-review.md",
+    "Length": 12111
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\state\\lookforward\\pipeline.log",
+    "Length": 0
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\gen_hf_images.py",
+    "Length": 1622
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\gen_images_tool.py",
+    "Length": 2165
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\pipeline_controller.py",
+    "Length": 6871
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\run_pipeline_gemini.py",
+    "Length": 21525
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\base_step.py",
+    "Length": 3449
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__init__.py",
+    "Length": 497
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\step_content.py",
+    "Length": 12381
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\step_images.py",
+    "Length": 16739
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\step_publish_fb.py",
+    "Length": 3777
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\step_ready_to_post.py",
+    "Length": 5856
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\step_strategy.py",
+    "Length": 6183
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\base_step.cpython-312.pyc",
+    "Length": 4798
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\base_step.cpython-314.pyc",
+    "Length": 5483
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\__init__.cpython-312.pyc",
+    "Length": 651
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\__init__.cpython-314.pyc",
+    "Length": 563
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_content.cpython-312.pyc",
+    "Length": 13345
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_content.cpython-314.pyc",
+    "Length": 14646
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_images.cpython-312.pyc",
+    "Length": 19741
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_images.cpython-314.pyc",
+    "Length": 21791
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_publish_fb.cpython-312.pyc",
+    "Length": 4325
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_ready_to_post.cpython-312.pyc",
+    "Length": 7298
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_ready_to_post.cpython-314.pyc",
+    "Length": 7952
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_strategy.cpython-312.pyc",
+    "Length": 7148
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps\\__pycache__\\step_strategy.cpython-314.pyc",
+    "Length": 7696
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\__pycache__\\pipeline_controller.cpython-312.pyc",
+    "Length": 7981
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\__pycache__\\pipeline_controller.cpython-314.pyc",
+    "Length": 8251
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\__pycache__\\run_pipeline_gemini.cpython-312.pyc",
+    "Length": 17199
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\studio\\app.js",
+    "Length": 10007
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\studio\\index.html",
+    "Length": 11650
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\studio\\server.py",
+    "Length": 5441
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\studio\\styles.css",
+    "Length": 13023
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\tools\\diag.py",
+    "Length": 1089
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\tools\\get_latest_post.py",
+    "Length": 4431
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\tools\\run_strategist_gemini.py",
+    "Length": 10711
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\ANALYSIS_PRIORITY.md",
+    "Length": 6818
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\ANTI_BOT_ANALYSIS.md",
+    "Length": 10665
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\CAPTCHA_REQUIRED.json",
+    "Length": 160
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\daily_content_plan.md",
+    "Length": 3790
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\LINK_CONVERSION.md",
+    "Length": 5708
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\output.txt",
+    "Length": 961
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\product_input_template.md",
+    "Length": 1268
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\QUICKSTART.md",
+    "Length": 2736
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\README.md",
+    "Length": 8999
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\shopee.bat",
+    "Length": 102
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\system_prompt.md",
+    "Length": 1768
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\test_conversion.py",
+    "Length": 5902
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\test_stealth.py",
+    "Length": 1358
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\VERIFICATION_REPORT.md",
+    "Length": 6630
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\WORKFLOW.md",
+    "Length": 4570
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\pipeline_state.json",
+    "Length": 70022
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\error_logs\\pipeline.log",
+    "Length": 0
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\requirements.txt",
+    "Length": 238
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\SKILL.md",
+    "Length": 6700
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\examples\\browse_website.py",
+    "Length": 1229
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\examples\\console_logging.py",
+    "Length": 3839
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\examples\\element_discovery.py",
+    "Length": 6143
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\examples\\fill_form.py",
+    "Length": 3005
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\examples\\scrape_data.py",
+    "Length": 5022
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\examples\\take_screenshot.py",
+    "Length": 2919
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\scripts\\browse.py",
+    "Length": 5698
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\scripts\\form_fill.py",
+    "Length": 7823
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\scripts\\scrape.py",
+    "Length": 10536
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\scripts\\screenshot.py",
+    "Length": 7103
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\scripts\\with_server.py",
+    "Length": 6481
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\CaptionFullWriter\\SKILL.md",
+    "Length": 1833
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\CaptionFullWriter\\writer.py",
+    "Length": 6397
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\DailyContentPlanner\\SKILL.md",
+    "Length": 1915
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\FacebookPagePoster\\SKILL.md",
+    "Length": 2593
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\Goodstuff\\SKILL.md",
+    "Length": 917
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\openclaw-browser\\keyboard-shortcuts.md",
+    "Length": 1889
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\openclaw-browser\\SKILL.md",
+    "Length": 9009
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\openclaw-browser\\ui-patterns.md",
+    "Length": 3613
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\debug_check.png",
+    "Length": 6664
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\latest_scrape_error.png",
+    "Length": 45845
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22\\โคมไฟกลางค_น_LED_แสงน__มนวล__ข_f55804f5.jpg",
+    "Length": 10466
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22\\ดอกไม__ดอกก_หลาบ_วาเลนไทน__พร__0cd77184.jpg",
+    "Length": 19334
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22\\capybara_ช_อดอกไม__ต__กตาช_อดอ_214ecddf.jpg",
+    "Length": 53812
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22\\Sanrio_ช_อดอกไม__ซานร_โอ__น_าร_605e6db9.jpg",
+    "Length": 35186
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22\\Ulanzi_Capgrip_Phone__CG01_ท___8e5beefc.jpg",
+    "Length": 10670
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-01\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-01\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-01\\TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+    "Length": 15478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-01\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 18042
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-02\\ท__ต__งกล_องม_อถ_อ_ปร_บหม_นได__0c3e6d5b.jpg",
+    "Length": 12500
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-02\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-02\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-02\\TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+    "Length": 15478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-02\\Ulanzi_Capgrip_Phone__CG01_ท___8e5beefc.jpg",
+    "Length": 10218
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-02\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-03\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-03\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-03\\Ulanzi_Capgrip_Phone__CG01_ท___8e5beefc.jpg",
+    "Length": 10218
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-03\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-04\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-04\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-04\\TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+    "Length": 15478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-04\\Ulanzi_Capgrip_Phone__CG01_ท___8e5beefc.jpg",
+    "Length": 10670
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-04\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-05\\11_น__ว_ไฟสต_ด_โอ_และขาต__ง_2__80ecf55a.jpg",
+    "Length": 12466
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-05\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-05\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-05\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-06\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-06\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-06\\TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+    "Length": 15478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-06\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-10\\11_น__ว_ไฟสต_ด_โอ_และขาต__ง_2__80ecf55a.jpg",
+    "Length": 12466
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-10\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-10\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-10\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-13\\11_น__ว_ไฟสต_ด_โอ_และขาต__ง_2__80ecf55a.jpg",
+    "Length": 12466
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-13\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-13\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-13\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-14\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-14\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+    "Length": 15994
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-14\\TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+    "Length": 15478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-14\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_1\\hashtags.txt",
+    "Length": 108
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_1\\image.webp",
+    "Length": 40336
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_1\\post.txt",
+    "Length": 971
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_2\\hashtags.txt",
+    "Length": 107
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_2\\image.webp",
+    "Length": 8098
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_2\\post.txt",
+    "Length": 1022
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_3\\hashtags.txt",
+    "Length": 124
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_3\\image.webp",
+    "Length": 18158
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_3\\post.txt",
+    "Length": 1228
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_4\\hashtags.txt",
+    "Length": 116
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_4\\image.webp",
+    "Length": 14428
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_4\\post.txt",
+    "Length": 1030
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_1\\image.webp",
+    "Length": 11904
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_1\\post.txt",
+    "Length": 1073
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_2\\image.webp",
+    "Length": 10670
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_2\\post.txt",
+    "Length": 970
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_3\\image.webp",
+    "Length": 23164
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_3\\post.txt",
+    "Length": 1355
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_4\\image.webp",
+    "Length": 23312
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_4\\post.txt",
+    "Length": 1823
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_1\\image.webp",
+    "Length": 11440
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_1\\post.txt",
+    "Length": 1274
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_2\\image.webp",
+    "Length": 17478
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_2\\post.txt",
+    "Length": 1542
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\Wireless_Microphone_ลดเส_ยงรบก_3\\image.webp",
+    "Length": 19322
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\Wireless_Microphone_ลดเส_ยงรบก_3\\post.txt",
+    "Length": 1385
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\_1\\post.txt",
+    "Length": 587
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\ท__ต__งกล_องม_อถ_อ_ปร_บหม_นได__4\\image.webp",
+    "Length": 12500
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\ท__ต__งกล_องม_อถ_อ_ปร_บหม_นได__4\\post.txt",
+    "Length": 1222
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\logs\\pipeline_run.log",
+    "Length": 2039
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\logs\\pipeline_run_v2.log",
+    "Length": 11054
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\add_product_from_url.py",
+    "Length": 3870
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\pipeline_controller.py",
+    "Length": 14815
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\run_affiliate_pipeline.py",
+    "Length": 16152
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\base_step.py",
+    "Length": 7348
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__init__.py",
+    "Length": 727
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\step_convert_links.py",
+    "Length": 6480
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\step_download_images.py",
+    "Length": 4979
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\step_generate_content.py",
+    "Length": 7266
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\step_load_products.py",
+    "Length": 3307
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\step_publish_fb.py",
+    "Length": 4453
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\step_ready_to_post.py",
+    "Length": 7356
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\step_select_products.py",
+    "Length": 6163
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\base_step.cpython-312.pyc",
+    "Length": 9389
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\base_step.cpython-314.pyc",
+    "Length": 11142
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\__init__.cpython-312.pyc",
+    "Length": 761
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\__init__.cpython-314.pyc",
+    "Length": 758
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_convert_links.cpython-312.pyc",
+    "Length": 6441
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_convert_links.cpython-314.pyc",
+    "Length": 7031
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_download_images.cpython-312.pyc",
+    "Length": 6318
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_download_images.cpython-314.pyc",
+    "Length": 6858
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_generate_content.cpython-312.pyc",
+    "Length": 8374
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_generate_content.cpython-314.pyc",
+    "Length": 9256
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_load_products.cpython-312.pyc",
+    "Length": 4239
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_load_products.cpython-314.pyc",
+    "Length": 4637
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_ready_to_post.cpython-312.pyc",
+    "Length": 8249
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_ready_to_post.cpython-314.pyc",
+    "Length": 9013
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_select_products.cpython-312.pyc",
+    "Length": 6660
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps\\__pycache__\\step_select_products.cpython-314.pyc",
+    "Length": 7189
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\__pycache__\\convert_affiliate_links.cpython-312.pyc",
+    "Length": 34781
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\__pycache__\\convert_affiliate_links.cpython-314.pyc",
+    "Length": 37974
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\__pycache__\\pipeline_controller.cpython-312.pyc",
+    "Length": 15369
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\__pycache__\\pipeline_controller.cpython-314.pyc",
+    "Length": 17111
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\__pycache__\\run_affiliate_pipeline.cpython-312.pyc",
+    "Length": 18884
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\shopee_affiliate\\data\\session_state.json",
+    "Length": 59588
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\shopee_affiliate\\data\\09_ReadyToPost\\2026-02-20\\_converted_affiliate_links.txt",
+    "Length": 73
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\automate_shopee_links.py",
+    "Length": 6310
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\convert_affiliate_links.py",
+    "Length": 31269
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\daily_content_generator.py",
+    "Length": 16815
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\extract_links_from_captions.py",
+    "Length": 3754
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\fb_poster.py",
+    "Length": 4338
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\image_downloader_jpg.py",
+    "Length": 1738
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\image_downloader.py",
+    "Length": 1329
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\link_conversion_workflow.py",
+    "Length": 4810
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\manage_links.py",
+    "Length": 5015
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\parse_scraped.py",
+    "Length": 2451
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\run_all_in_one.py",
+    "Length": 4233
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\run_extract_and_chrome.bat",
+    "Length": 1375
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\run_extract_and_chrome.ps1",
+    "Length": 2499
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\run_shopee.bat",
+    "Length": 1666
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\shopee.py",
+    "Length": 3111
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\shopee_search_scraper.py",
+    "Length": 13911
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\update_captions_with_converted_links.py",
+    "Length": 4421
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\__pycache__\\convert_affiliate_links.cpython-312.pyc",
+    "Length": 37783
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\__pycache__\\convert_affiliate_links.cpython-314.pyc",
+    "Length": 41138
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\__pycache__\\daily_content_generator.cpython-312.pyc",
+    "Length": 19384
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools\\__pycache__\\shopee_search_scraper.cpython-314.pyc",
+    "Length": 15980
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\__pycache__\\test_conversion.cpython-314-pytest-9.0.2.pyc",
+    "Length": 6501
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\__pycache__\\test_stealth.cpython-314-pytest-9.0.2.pyc",
+    "Length": 2141
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\social\\facebook_poster.py",
+    "Length": 7124
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\trend_scan\\daily_trend_scan.py",
+    "Length": 21645
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\trend_scan\\latest_trends.json",
+    "Length": 8393
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\veo_gen\\config.json",
+    "Length": 464
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\veo_gen\\manual_veo.py",
+    "Length": 9747
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\veo_gen\\README.md",
+    "Length": 4079
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\veo_gen\\SystemPrompt_New.txt",
+    "Length": 4179
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\veo_gen\\__pycache__\\manual_veo.cpython-312.pyc",
+    "Length": 12414
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\auth.cpython-312.pyc",
+    "Length": 2118
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\auth.cpython-314.pyc",
+    "Length": 2141
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\config.cpython-312.pyc",
+    "Length": 4826
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\config.cpython-314.pyc",
+    "Length": 4948
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\cron_manager.cpython-312.pyc",
+    "Length": 12969
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\engines_api.cpython-312.pyc",
+    "Length": 18218
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\engines_api.cpython-314.pyc",
+    "Length": 8874
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\gateway.cpython-312.pyc",
+    "Length": 15721
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\gateway.cpython-314.pyc",
+    "Length": 17035
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\helpers.cpython-312.pyc",
+    "Length": 9086
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\helpers.cpython-314.pyc",
+    "Length": 10301
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\__init__.cpython-312.pyc",
+    "Length": 142
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\__init__.cpython-314.pyc",
+    "Length": 144
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\logs.cpython-312.pyc",
+    "Length": 1730
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\logs.cpython-314.pyc",
+    "Length": 1797
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\message.cpython-312.pyc",
+    "Length": 2275
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\mission_control.cpython-312.pyc",
+    "Length": 11621
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\schedule_api.cpython-312.pyc",
+    "Length": 3226
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\socket_events.cpython-312.pyc",
+    "Length": 16917
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\socket_events.cpython-314.pyc",
+    "Length": 18620
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\status.cpython-312.pyc",
+    "Length": 8619
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\status.cpython-314.pyc",
+    "Length": 9040
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\subagents.cpython-312.pyc",
+    "Length": 9817
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\subagents.cpython-314.pyc",
+    "Length": 11083
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\system.cpython-312.pyc",
+    "Length": 6827
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\terminal.cpython-312.pyc",
+    "Length": 10093
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\api\\__pycache__\\terminal.cpython-314.pyc",
+    "Length": 11462
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\common\\facebook_api.py",
+    "Length": 2582
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward\\2026-04-15\\AI_Agent_Memory_Systems___เทคโ_070937\\caption.txt",
+    "Length": 196
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward\\2026-04-15\\AI_Agent_Memory_Systems___เทคโ_070937\\hashtags.txt",
+    "Length": 43
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward\\2026-04-15\\AI_Agent_Memory_Systems___เทคโ_070937\\metadata.json",
+    "Length": 263
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward\\2026-04-15\\AI_Agent_Memory_Systems___เทคโ_070937\\post.txt",
+    "Length": 2284
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward\\logs\\pipeline.log",
+    "Length": 0
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward\\20260416_080633.log",
+    "Length": 573
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward\\20260416_121719.log",
+    "Length": 573
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward\\20260416_122508.log",
+    "Length": 506
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward\\20260416_123241.log",
+    "Length": 589
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward\\20260416_123329.log",
+    "Length": 589
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward\\20260416_124907.log",
+    "Length": 886
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward\\20260416_142552.log",
+    "Length": 2995
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward\\20260417_012319.log",
+    "Length": 887
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\trend-scan\\20260416_080222.log",
+    "Length": 4207
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\trend-scan\\20260416_122406.log",
+    "Length": 4262
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\trend-scan\\20260417_012042.log",
+    "Length": 4104
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\veo-gen\\20260416_080115.log",
+    "Length": 532
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\veo-gen\\20260416_121504.log",
+    "Length": 554
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\veo-gen\\20260416_122622.log",
+    "Length": 915
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\veo-gen\\20260416_123447.log",
+    "Length": 915
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\veo-gen\\20260416_124953.log",
+    "Length": 915
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\uploads\\20260416_080109_1000239302.avif",
+    "Length": 35639
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\uploads\\20260416_121449_sg-11134275-822za-mia7e8dkh14y74.avif",
+    "Length": 35639
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\uploads\\20260416_122609_sg-11134275-822za-mia7e8dkh14y74.avif",
+    "Length": 35639
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\uploads\\20260416_123443_sg-11134275-822za-mia7e8dkh14y74.avif",
+    "Length": 35639
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\data\\uploads\\20260416_124949_sg-11134275-822za-mia7e8dkh14y74.avif",
+    "Length": 35639
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\index.html",
+    "Length": 725
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\package.json",
+    "Length": 714
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\package-lock.json",
+    "Length": 58251
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\tsc_errors2.txt",
+    "Length": 466
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\tsconfig.json",
+    "Length": 661
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\vite.config.ts",
+    "Length": 435
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\public\\favicon.svg",
+    "Length": 9522
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\public\\icon.png",
+    "Length": 42610
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\public\\icons.svg",
+    "Length": 5031
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\public\\manifest.json",
+    "Length": 550
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\public\\sw.js",
+    "Length": 371
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\App.css",
+    "Length": 7920
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\App.tsx",
+    "Length": 11439
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\constants.ts",
+    "Length": 253
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\counter.ts",
+    "Length": 274
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\main.tsx",
+    "Length": 215
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\types.ts",
+    "Length": 1067
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\assets\\hero.png",
+    "Length": 44919
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\assets\\typescript.svg",
+    "Length": 1303
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\assets\\vite.svg",
+    "Length": 8709
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\ANALYSIS_REPORT.md",
+    "Length": 28163
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\CLIProviders.tsx",
+    "Length": 3095
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\LoginScreen.tsx",
+    "Length": 1309
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\LogViewerTerminal.tsx",
+    "Length": 8259
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\LogViewerTerminal.tsx.bak.25690405-011514",
+    "Length": 4849
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\Sidebar.tsx",
+    "Length": 3104
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\TerminalModule.tsx",
+    "Length": 14519
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\AgentHeader.tsx",
+    "Length": 3797
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\ChatPanel.tsx",
+    "Length": 1357
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\ConversationLog.tsx",
+    "Length": 2592
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\FileExplorerTree.tsx",
+    "Length": 5941
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\FileManager.tsx",
+    "Length": 6326
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\GatewayConsole.tsx",
+    "Length": 2868
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\index.tsx",
+    "Length": 10475
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\ShellAccess.tsx",
+    "Length": 1914
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\SimpleFileList.tsx",
+    "Length": 4583
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard\\SubagentMonitor.tsx",
+    "Length": 7143
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\hooks\\useAgentShell.ts",
+    "Length": 3306
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\hooks\\useAuth.ts",
+    "Length": 1472
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\hooks\\useGateway.ts",
+    "Length": 1548
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\hooks\\useLogStream.ts",
+    "Length": 1867
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\hooks\\useSubagents.ts",
+    "Length": 529
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\hooks\\useTerminal.ts",
+    "Length": 3747
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\pages\\AgentPage.tsx",
+    "Length": 4642
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\pages\\DashboardPage.tsx",
+    "Length": 3076
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\pages\\EngineHubPage.tsx",
+    "Length": 47417
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\pages\\MissionControlPage.tsx",
+    "Length": 17641
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\stores\\useAppStore.ts",
+    "Length": 5166
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\styles\\agent.css",
+    "Length": 27212
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\styles\\base.css",
+    "Length": 16421
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\styles\\components.css",
+    "Length": 16217
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\styles\\engine-hub.css",
+    "Length": 12827
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\styles\\mission-control.css",
+    "Length": 9863
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\utils\\ansi.ts",
+    "Length": 7932
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\utils\\api.ts",
+    "Length": 5407
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\utils\\socket.ts",
+    "Length": 4543
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\logs\\dashboard_err.log",
+    "Length": 0
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\logs\\dashboard.log",
+    "Length": 959
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\logs\\dashboard_out.log",
+    "Length": 118
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\logs\\multicontent.log",
+    "Length": 1034
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\screenshots\\agent_card_timeout.png",
+    "Length": 95308
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\screenshots\\test_failure_final.png",
+    "Length": 49299
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\screenshots\\test_failure.png",
+    "Length": 95312
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\favicon.svg",
+    "Length": 9522
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\icon.png",
+    "Length": 42610
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\icons.svg",
+    "Length": 5031
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\index.html",
+    "Length": 828
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\manifest.json",
+    "Length": 550
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\sw.js",
+    "Length": 371
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-BkBaXkbu.js",
+    "Length": 583603
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-BN4Q_pjW.css",
+    "Length": 52402
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-BOjCczuM.js",
+    "Length": 582563
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-BwCAQMjE.js",
+    "Length": 583276
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-CCSZe7rp.css",
+    "Length": 51850
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-CQA5w4Wr.js",
+    "Length": 583207
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-DrAZDTJz.css",
+    "Length": 51902
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-QLyf7ptJ.js",
+    "Length": 583278
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\static\\assets\\index-RUHv3SKi.js",
+    "Length": 582542
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\__pycache__\\server.cpython-312.pyc",
+    "Length": 3240
+  },
+  {
+    "FullName": "C:\\Users\\User\\openclaw\\dashboard\\__pycache__\\test_dashboard.cpython-312.pyc",
+    "Length": 18645
+  }
+]

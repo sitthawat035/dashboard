@@ -1,0 +1,119 @@
+{
+  "run_id": "lo_20260320_130426",
+  "project_id": "lookforward",
+  "topic": "Space Compute และดาวเทียม K2",
+  "status": "completed",
+  "current_step": "ready_to_post",
+  "created_at": "2026-03-20T13:04:26.319902",
+  "updated_at": "2026-03-20T13:04:44.496785",
+  "options": {
+    "mode": "full",
+    "gen_images": false,
+    "dry_run": false
+  },
+  "step_results": {
+    "strategy": {
+      "step_name": "strategy",
+      "status": "completed",
+      "started_at": "2026-03-20T13:04:26.337990",
+      "completed_at": "2026-03-20T13:04:37.257691",
+      "duration_seconds": 10,
+      "output_file": "C:\\DriveD_MultiContentApp\\data\\output\\lookforward\\drafts\\2026-03-20\\Space_Compute_และดาวเทียม_K2_130437\\01_strategy.md",
+      "output_data": {
+        "strategy": "## วิเคราะห์หัวข้อ Space Compute และดาวเทียม K2 สำหรับโพสต์ Tech Authority (lookforward)\n\n**หัวข้อ:** Space Compute และดาวเทียม K2\n\n**DNA ของ lookforward:**\n\n*   **Cognitive Dissonance:** \"คุณคิดว่าเราส่งดาวเทียมไปแค่ถ่ายรูปโลก? ผิด! ดาวเทียมยุคใหม่ฉลาดกว่าที่คุณคิดเยอะ\"\n*   **ข้อมูลที่ \"ทำให้ดูฉลาด\":** \"K2 ไม่ใช่แค่ดาวเทียมธรรมดา แต่เป็น 'Data Center บนอวกาศ' ที่อาจเปลี่ยนสมรภูมิ AI\"\n*   **Prediction ที่กล้า:** \"ถ้า Space Compute เป็นจริง ในปี 2028 เราอาจเห็นบริษัท AI ยักษ์ใหญ่ 'เช่า' ดาวเทียมประมวลผลข้อมูลเฉพาะกิจ เพื่อหนีข้อจำกัดด้านพลังงานบนโลก\"\n\n**Framework วิเคราะห์ Strategy:**\n\n1.  **The Surprise Hook:**\n    *   \"รู้หรือไม่? การส่งข้อมูลจากดาวเทียมกลับโลก 'แพง' กว่าการประมวลผลมันซะอีก!\"\n    *   \"ดาวเทียม K2 ไม่ได้มีไว้สำรวจอวกาศอย่างเดียว มันกำลัง 'ขุดทอง' จากข้อมูลบนโลก\"\n2.  **The Real Story:**\n    *   เบื้องหลัง K2 คือการแข่งขันด้าน AI ที่ดุเดือด บริษัทต่างๆ ต้องการข้อมูลเรียลไทม์ที่แม่นยำ และเร็วกว่าใคร\n    *   ข้อจำกัดด้านพลังงานและความร้อนบนโลก กำลังผลักดันให้การประมวลผลข้อมูล 'หนี' ขึ้นไปบนอวกาศ\n    *   K2 เป็นแค่จุดเริ่มต้น Space Compute จะปลดล็อกศักยภาพของข้อมูลที่ 'ถูกทิ้ง' เพราะประมวลผลไม่ทัน\n3.  **The Mechanism:**\n    *   **Analogies:**\n        *   \"คิดซะว่า K2 คือ 'โรงงานอัจฉริยะ' ที่ลอยอยู่เหนือโลก คอยกลั่นกรองข้อมูลดิบให้กลายเป็น 'ทองคำ'\"\n        *   \"Space Compute เหมือนกับการย้าย Server ไปไว้บน 'ภูเขาน้ำแข็ง' เพื่อแก้ปัญหาความร้อน\"\n    *   **Explanation:**\n        *   K2 ใช้ AI ในการประมวลผลข้อมูลภาพถ่ายจากดาวเทียมโดยตรง ลดปริมาณข้อมูลที่ต้องส่งกลับโลก\n        *   การประมวลผลบนอวกาศช่วยลด Latency ทำให้การตัดสินใจแบบเรียลไทม์แม่นยำขึ้น เช่น การเทรดหุ้น หรือการจัดการภัยพิบัติ\n        *   พลังงานแสงอาทิตย์ และความเย็นของอวกาศ ช่วยให้ Space Compute ประหยัดพลังงานกว่า Data Center บนโลก\n4.  **Winners vs Losers:**\n    *   **Winners:** บริษัท AI ที่ต้องการข้อมูลเรียลไทม์, ผู้ผลิตชิ้นส่วนอิเล็กทรอนิกส์ทนทานต่อสภาพอวกาศ, บริษัทปล่อยดาวเทียม\n    *   **Losers:** Data Center บนโลกที่ปรับตัวไม่ทัน, บริษัทที่ยังยึดติดกับการประมวลผลข้อมูลแบบเดิมๆ, ประเทศที่ไม่มีโครงสร้างพื้นฐานด้านอวกาศ\n5.  **The Bold Prediction:**\n    *   \"ภายในปี 2028 เราจะเห็น 'Space-as-a-Service' เกิดขึ้น บริษัท AI จะสามารถ 'เช่า' ดาวเทียมประมวลผลข้อมูลเฉพาะกิจได้ตามต้องการ\"\n    *   \"รัฐบาลชาติต่างๆ จะเริ่ม 'แย่ง' พื้นที่วงโคจร เพื่อสร้าง 'ฐานทัพข้อมูล' ของตัวเองในอวกาศ\"\n    *   \"K2 จะกลายเป็น 'ต้นแบบ' ของดาวเทียม AI นับร้อยดวง ที่โคจรรอบโลก เพื่อสร้าง 'เครือข่ายประสาท' ขนาดใหญ่\"\n6.  **The Conversation Starter:**\n    *   \"คุณคิดว่า Space Compute จะเปลี่ยนชีวิตประจำวันของเราไปมากแค่ไหน?\"\n    *   \"ถ้าคุณเป็น Elon Musk คุณจะลงทุนใน Space Compute ด้านไหน?\"\n    *   \"Space Compute จะทำให้เกิดปัญหาด้านความปลอดภัยของข้อมูลหรือไม่? เราควรมีกฎหมายควบคุมเรื่องนี้อย่างไร?\"\n7.  **Caption Strategy:**\n    *   \"AI บนอวกาศ: K2 ไม่ใช่แค่ดาวเทียม แต่มันคือ 'สมองกล' ที่กำลังเปลี่ยนโลก (และอาจจะจักรวาล)\"\n    *   \"ลืม Data Center บนโลกไปได้เลย! ยุคของ Space Compute มาถึงแล้ว เตรียมพบกับ 'โรงงานอัจฉริยะ' เหนือฟ้า\"\n\n**ตัวอย่างโพสต์ (ร่าง):**\n\n**[รูป: ภาพ Render ดาวเทียม K2 พร้อม Data Center ลอยอยู่เหนือโลก]**\n\n\"คุณคิดว่าเราส่งดาวเทียมไปแค่ถ่ายรูปโลก? ผิด! ดาวเทียมยุคใหม่ฉลาดกว่าที่คุณคิดเยอะ\n\nดาวเทียม K2 ไม่ใช่แค่ดาวเทียมธรรมดา แต่มันคือ 'Data Center บนอวกาศ' ที่อาจเปลี่ยนสมรภูมิ AI ไปตลอดกาล\n\nเบื้องหลัง K2 คือการแข่งขันด้าน AI ที่ดุเดือด บริษัทต่างๆ ต้องการข้อมูลเรียลไทม์ที่แม่นยำ และเร็วกว่าใคร แต่ข้อจำกัดด้านพลังงานและความร้อนบนโลกกำลังเป็นอุปสรรคสำคัญ\n\nคิดซะว่า K2 คือ 'โรงงานอัจฉริยะ' ที่ลอยอยู่เหนือโลก คอยกลั่นกรองข้อมูลดิบให้กลายเป็น 'ทองคำ' ด้วย AI ที่ทรงพลัง การประมวลผลบนอวกาศช่วยลด Latency ทำให้การตัดสินใจแบบเรียลไทม์แม่นยำขึ้น เช่น การเทรดหุ้น หรือการจัดการภัยพิบัติ\n\nใครได้ประโยชน์? บริษัท AI ที่ต้องการข้อมูลเรียลไทม์, ผู้ผลิตชิ้นส่วนอิเล็กทรอนิกส์ทนทานต่อสภาพอวกาศ, บริษัทปล่อยดาวเทียม ส่วนใครที่ปรับตัวไม่ทัน Data Center บนโลกอาจต้องคิดหนัก\n\n**[Prediction]** ภายในปี 2028 เราจะเห็น 'Space-as-a-Service' เกิดขึ้น บริษัท AI จะสามารถ 'เช่า' ดาวเทียมประมวลผลข้อมูลเฉพาะกิจได้ตามต้องการ\n\nคุณคิดว่า Space Compute จะเปลี่ยนชีวิตประจำวันของเราไปมากแค่ไหน? ถ้าคุณเป็น Elon Musk คุณจะลงทุนใน Space Compute ด้านไหน? มาคุยกันใน Comment ครับ!\"\n",
+        "topic": "Space Compute และดาวเทียม K2",
+        "word_count": 323
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "content": {
+      "step_name": "content",
+      "status": "completed",
+      "started_at": "2026-03-20T13:04:37.274280",
+      "completed_at": "2026-03-20T13:04:44.399244",
+      "duration_seconds": 7,
+      "output_file": "C:\\DriveD_MultiContentApp\\data\\output\\lookforward\\drafts\\2026-03-20\\Space_Compute_และดาวเทียม_K2_130444\\02_content.json",
+      "output_data": {
+        "content": {
+          "text": "คุณคิดว่าเราส่งดาวเทียมไปแค่ถ่ายรูปโลก? 🛰️ ผิด! ดาวเทียมยุคใหม่ฉลาดกว่าที่คุณคิดเยอะ 🤔\n\nดาวเทียม K2 ไม่ใช่แค่ดาวเทียมธรรมดา แต่มันคือ 'Data Center บนอวกาศ' 🤯 ที่อาจเปลี่ยนสมรภูมิ AI ไปตลอดกาล\n\nเบื้องหลัง K2 คือการแข่งขันด้าน AI ที่ดุเดือด 💥 บริษัทต่างๆ ต้องการข้อมูลเรียลไทม์ที่แม่นยำ และเร็วกว่าใคร แต่ข้อจำกัดด้านพลังงานและความร้อนบนโลกกำลังเป็นอุปสรรคสำคัญ 🥵\n\nคิดซะว่า K2 คือ 'โรงงานอัจฉริยะ' ที่ลอยอยู่เหนือโลก 🏭 คอยกลั่นกรองข้อมูลดิบให้กลายเป็น 'ทองคำ' 💰 ด้วย AI ที่ทรงพลัง 💪 การประมวลผลบนอวกาศช่วยลด Latency ทำให้การตัดสินใจแบบเรียลไทม์แม่นยำขึ้น เช่น การเทรดหุ้น 📈 หรือการจัดการภัยพิบัติ 🚨\n\nใครได้ประโยชน์? ✅ บริษัท AI ที่ต้องการข้อมูลเรียลไทม์, ผู้ผลิตชิ้นส่วนอิเล็กทรอนิกส์ทนทานต่อสภาพอวกาศ, บริษัทปล่อยดาวเทียม 🚀 ส่วนใครที่ปรับตัวไม่ทัน ❌ Data Center บนโลกอาจต้องคิดหนัก 🏢\n\n🔮 **[Prediction]** ภายในปี 2028 เราจะเห็น 'Space-as-a-Service' เกิดขึ้น บริษัท AI จะสามารถ 'เช่า' ดาวเทียมประมวลผลข้อมูลเฉพาะกิจได้ตามต้องการ 🛰️💸\n\nคุณคิดว่า Space Compute จะเปลี่ยนชีวิตประจำวันของเราไปมากแค่ไหน? 🤔 ถ้าคุณเป็น Elon Musk คุณจะลงทุนใน Space Compute ด้านไหน? 💬 มาคุยกันใน Comment ครับ!",
+          "insight_score": 5,
+          "char_count": 1081
+        },
+        "caption_short": "AI บนอวกาศ: K2 ไม่ใช่แค่ดาวเทียม แต่มันคือ 'สมองกล' ที่กำลังเปลี่ยนโลก (และอาจจะจักรวาล) 🤯",
+        "caption_long": "AI บนอวกาศ: K2 ไม่ใช่แค่ดาวเทียม แต่มันคือ 'สมองกล' ที่กำลังเปลี่ยนโลก (และอาจจะจักรวาล) 🤯 เบื้องหลังคือการเเข่งขัน AI ที่ดุเดือด K2 คือ 'Data Center บนอวกาศ' ที่เเก้ปัญหาพลังงานเเละความร้อนของโลก! 🚀 คุณคิดว่า Space Compute จะเปลี่ยนชีวิตประจำวันเราเเค่ไหน? มาคุยกัน!",
+        "hashtags": [
+          "#lookforward",
+          "#เทคไทย",
+          "#SpaceCompute",
+          "#K2ดาวเทียม"
+        ],
+        "image_prompts": [
+          {
+            "title": "Hero Visual",
+            "prompt": "Photorealistic / cinematic style of K2 satellite with data center module orbiting Earth. Dark and futuristic."
+          },
+          {
+            "title": "Infographic",
+            "prompt": "Clean minimal infographic style illustrating the benefits of space compute. Focus on latency reduction and energy efficiency."
+          }
+        ],
+        "shareable_insight": "ดาวเทียม K2 ไม่ใช่แค่ดาวเทียม แต่มันคือ 'Data Center บนอวกาศ' ที่อาจเปลี่ยนสมรภูมิ AI ไปตลอดกาล"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "images": {
+      "step_name": "images",
+      "status": "completed",
+      "started_at": "2026-03-20T13:04:44.423467",
+      "completed_at": "2026-03-20T13:04:44.441532",
+      "duration_seconds": 0,
+      "output_file": null,
+      "output_data": {
+        "images": [],
+        "skipped": true,
+        "prompts_file": "C:\\DriveD_MultiContentApp\\data\\output\\lookforward\\drafts\\2026-03-20\\Space_Compute_และดาวเทียม_K2_130444\\media\\prompts_guide.txt"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-03-20T13:04:44.459143",
+      "completed_at": "2026-03-20T13:04:44.482253",
+      "duration_seconds": 0,
+      "output_file": "C:\\DriveD_MultiContentApp\\data\\output\\lookforward\\ready_to_post\\2026-03-20\\Space_Compute_และดาวเทียม_K2_130444",
+      "output_data": {
+        "package_path": "C:\\DriveD_MultiContentApp\\data\\output\\lookforward\\ready_to_post\\2026-03-20\\Space_Compute_และดาวเทียม_K2_130444",
+        "post_file": "C:\\DriveD_MultiContentApp\\data\\output\\lookforward\\ready_to_post\\2026-03-20\\Space_Compute_และดาวเทียม_K2_130444\\post.txt",
+        "caption_file": "C:\\DriveD_MultiContentApp\\data\\output\\lookforward\\ready_to_post\\2026-03-20\\Space_Compute_และดาวเทียม_K2_130444\\caption.txt",
+        "hashtags_file": "C:\\DriveD_MultiContentApp\\data\\output\\lookforward\\ready_to_post\\2026-03-20\\Space_Compute_และดาวเทียม_K2_130444\\hashtags.txt",
+        "metadata": {
+          "topic": "Space Compute และดาวเทียม K2",
+          "generated": "2026-03-20 13:04:44",
+          "insight_score": 5,
+          "char_count": 1081,
+          "has_images": false,
+          "run_id": "lo_20260320_130426"
+        }
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 4,
+    "completed_steps": 4,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": [
+      "strategy",
+      "content",
+      "images",
+      "ready_to_post"
+    ]
+  }
+}

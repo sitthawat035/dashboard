@@ -1,6 +1,7 @@
 // src/types.ts
 
 export interface Agent {
+  id: string;
   name: string;
   emoji: string;
   port: number;
@@ -20,7 +21,7 @@ export interface Agent {
 export interface TermSession {
   id: string;
   lineCount: number;
-  pollRef?: any;
+  pollRef?: ReturnType<typeof setInterval> | null;
 }
 
 export interface LogData {
@@ -40,6 +41,8 @@ export interface SubagentLog {
   snippet?: string;
   mode?: string;
   model?: string;
+  workspace?: string;
+  error?: string;
 }
 
 export type LogTab = 'log' | 'err' | 'chat';

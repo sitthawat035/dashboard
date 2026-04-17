@@ -1,0 +1,574 @@
+/* styles/engine-hub.css — Engine Operations Center Premium UI */
+
+.eh-tabs-container {
+  display: flex;
+  height: calc(100vh - 140px);
+  gap: 16px;
+  padding: 0 4px;
+}
+
+.eh-tabs-container.eh-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: var(--bg-primary);
+  padding: 20px;
+  height: 100vh;
+}
+
+/* ══════════════════════════════════════════
+   Main Content Layout (Replaces old sidebar)
+   ══════════════════════════════════════════ */
+.eh-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 24px;
+}
+
+/* Hide scrollbars */
+.eh-main::-webkit-scrollbar,
+.eh-output-body::-webkit-scrollbar {
+  display: none;
+}
+.eh-main, .eh-output-body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* ══════════════════════════════════════════
+   Engine Card Grid Selector
+   ══════════════════════════════════════════ */
+.eh-engine-grid {
+  display: flex;
+  gap: 10px;
+  padding: 4px 2px 16px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.eh-engine-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  padding: 14px 18px 12px;
+  min-width: 100px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.02);
+  cursor: pointer;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  color: var(--text-muted);
+  outline: none;
+}
+
+.eh-engine-card:hover {
+  border-color: rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  transform: translateY(-3px);
+  color: var(--text-secondary);
+}
+
+.eh-engine-card.active {
+  border-color: var(--card-color, var(--primary));
+  background: rgba(0,0,0,0.25);
+  color: #fff;
+  box-shadow:
+    0 0 0 1px var(--card-color, var(--primary)),
+    0 4px 24px color-mix(in srgb, var(--card-color, var(--primary)) 25%, transparent),
+    inset 0 0 30px color-mix(in srgb, var(--card-color, var(--primary)) 5%, transparent);
+  transform: translateY(-2px);
+}
+
+.eh-card-icon {
+  font-size: 1.7rem;
+  line-height: 1;
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.1));
+  transition: filter 0.2s;
+}
+
+.eh-engine-card.active .eh-card-icon {
+  filter: drop-shadow(0 0 8px var(--card-color, var(--primary)));
+}
+
+.eh-card-name {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* Status dot — top-right corner */
+.eh-card-status-dot {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.4);
+}
+
+.eh-card-status-dot.idle    { background: rgba(255,255,255,0.15); }
+.eh-card-status-dot.running { background: var(--primary); animation: pulse 1.2s ease-in-out infinite; }
+.eh-card-status-dot.success { background: var(--success); box-shadow: 0 0 6px var(--success); }
+.eh-card-status-dot.error   { background: var(--danger);  box-shadow: 0 0 6px var(--danger); }
+
+/* Running ripple effect on the card */
+.eh-card-pulse {
+  position: absolute;
+  inset: -1px;
+  border-radius: 14px;
+  animation: card-ripple 2s ease-in-out infinite;
+  pointer-events: none;
+  border: 1px solid var(--primary);
+}
+
+@keyframes card-ripple {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50%       { opacity: 0;   transform: scale(1.04); }
+}
+
+/* Page title + running badge */
+.eh-page-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.eh-running-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: rgba(0,242,255,0.1);
+  border: 1px solid rgba(0,242,255,0.25);
+  color: var(--primary);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.eh-main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: var(--bg-panel);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 12px;
+}
+
+.eh-main-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* (Removed static h2 since it's now a select dropdown) */
+
+.eh-main-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.eh-main-status--idle {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+}
+
+.eh-main-status--running {
+  background: rgba(0, 242, 255, 0.1);
+  color: var(--primary);
+}
+
+.eh-main-status--success {
+  background: rgba(0, 255, 136, 0.1);
+  color: var(--success);
+}
+
+.eh-main-status--error {
+  background: rgba(255, 68, 68, 0.1);
+  color: var(--danger);
+}
+
+.eh-main-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.eh-main-dot.running {
+  background: var(--primary);
+  animation: pulse 1.5s infinite;
+}
+
+.eh-main-dot.success { background: var(--success); }
+.eh-main-dot.error { background: var(--danger); }
+.eh-main-dot.idle { background: var(--text-muted); }
+
+.eh-main-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.eh-main-timer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--primary);
+  padding: 6px 12px;
+  background: rgba(0, 242, 255, 0.08);
+  border-radius: 8px;
+}
+
+.eh-main-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.eh-main-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: rgba(0, 242, 255, 0.05);
+}
+
+.eh-main-desc {
+  padding: 12px 16px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+/* ══════════════════════════════════════════
+   Output Panel
+   ══════════════════════════════════════════ */
+.eh-output-panel {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-panel);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+  min-height: 450px;
+}
+
+.eh-output-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.eh-output-header svg {
+  color: var(--primary);
+}
+
+.eh-output-scroll-btn {
+  margin-left: auto;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
+  font-size: 0.65rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.eh-output-scroll-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.eh-output-scroll-btn.active {
+  background: rgba(0, 242, 255, 0.1);
+  border-color: rgba(0, 242, 255, 0.3);
+  color: var(--primary);
+}
+
+.eh-output-live {
+  margin-left: auto;
+  background: rgba(0, 242, 255, 0.2);
+  color: var(--primary);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  animation: pulse 2s infinite;
+}
+
+.eh-output-body {
+  flex: 1;
+  padding: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.eh-output-line {
+  color: rgba(255, 255, 255, 0.6);
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.eh-output-line.error {
+  color: var(--danger);
+}
+
+.eh-output-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+}
+
+.eh-output-cursor {
+  color: var(--primary);
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* ══════════════════════════════════════════
+   Controls
+   ══════════════════════════════════════════ */
+.eh-main-controls {
+  margin-top: 12px;
+  padding: 8px 0 4px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  gap: 12px;
+}
+
+.eh-run-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 40px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid rgba(0, 242, 255, 0.3);
+  background: rgba(0, 242, 255, 0.1);
+  color: var(--primary);
+}
+
+.eh-run-btn:hover:not(:disabled) {
+  background: var(--primary);
+  color: #000;
+  box-shadow: 0 0 30px rgba(0, 242, 255, 0.4);
+}
+
+.eh-run-btn:disabled {
+  cursor: not-allowed;
+}
+
+.eh-run-btn.running {
+  background: rgba(0, 242, 255, 0.05);
+  border-color: rgba(0, 242, 255, 0.2);
+  color: var(--text-muted);
+}
+
+.eh-run-btn.success {
+  border-color: rgba(0, 255, 136, 0.3);
+  background: rgba(0, 255, 136, 0.1);
+  color: var(--success);
+}
+
+.eh-run-btn.error {
+  border-color: rgba(255, 68, 68, 0.3);
+  background: rgba(255, 68, 68, 0.1);
+  color: var(--danger);
+}
+
+.eh-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* ══════════════════════════════════════════
+   Options Panel
+   ══════════════════════════════════════════ */
+.eh-options-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-secondary);
+}
+
+.eh-options-btn:hover, .eh-options-btn.active {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: rgba(0, 242, 255, 0.05);
+}
+
+.eh-options-panel {
+  background: var(--bg-panel);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 12px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.eh-options-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.eh-options-body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.eh-option-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.eh-option-group label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.eh-option-group input[type="text"],
+.eh-option-group select {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 0.85rem;
+  transition: var(--transition);
+}
+
+.eh-option-group input[type="text"]:focus,
+.eh-option-group select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(0, 242, 255, 0.1);
+}
+
+.eh-option-group input[type="text"]::placeholder {
+  color: var(--text-muted);
+}
+
+.eh-option-row {
+  display: flex;
+  gap: 16px;
+}
+
+.eh-option-row .eh-option-group {
+  flex: 1;
+}
+
+.eh-option-checkbox {
+  flex-direction: row !important;
+  align-items: center;
+  padding-top: 28px;
+}
+
+.eh-option-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  text-transform: none;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.eh-option-checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .eh-tabs-container {
+    flex-direction: column;
+    padding: 0;
+  }
+}

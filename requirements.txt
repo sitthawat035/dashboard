@@ -1,0 +1,9 @@
+playwright==1.40.0
+pytest==7.4.0
+pytest-asyncio==0.21.1
+flask
+flask-cors
+flask-socketio
+requests
+python-dotenv
+eventlet

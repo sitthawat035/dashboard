@@ -1,0 +1,479 @@
+﻿[
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.agents"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.vscode"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\common"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\logs"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\screenshots"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\static"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\videos"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.agents\\workflows"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\frontend"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\screenshots"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\static"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\frontend\\public"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\frontend\\src"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\frontend\\src\\assets"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\frontend\\src\\components"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\frontend\\src\\utils"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.kilo\\worktrees\\boulder-impala\\static\\assets"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.10"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.7"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\.ruff_cache\\0.15.9"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\common"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\image_gen"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\social"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\trend_scan"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\veo_gen"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\state"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\published"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts\\2026-04-16"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142701"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\drafts\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\media"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post\\2026-04-16"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\output\\lookforward\\ready_to_post\\2026-04-16\\เมื่อ_Big_Pharma_เร่งเดิมพัน_AI_พร้อมกัน_อ่านเกมจา_142746\\media"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\data\\state\\lookforward"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\studio"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\tools"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\error_logs"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\pipeline_history"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\workflows"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentReviewer"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentStrategist"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\ContentWriter"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\FacebookPoster"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\LookforwardPipeline"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\MediaSourcing"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\PerformanceAnalyzer"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\.agent\\skills\\TrendResearcher"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\01_Research"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\02_Strategy"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\03_Media"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\04_Drafts"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\05_Published"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\06_Review"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\07_Analytics"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\08_Calendar"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\09_ReadyToPost"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\state"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\data\\state\\lookforward"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\lookforward\\scripts\\steps"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\achive"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\logs"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\shopee_affiliate"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\tools"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\error_logs"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\pipeline_history"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\state"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\CaptionFullWriter"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\DailyContentPlanner"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\FacebookPagePoster"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\Goodstuff"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\openclaw-browser"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\examples"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\.agent\\skills\\browser-automation\\scripts"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\00_ScrapedData"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\03_Posted"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\05_ReadyToPost"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\09_ReadyToPost"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-02-22"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-01"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-02"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-03"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-04"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-05"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-06"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-10"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-13"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\images\\2026-03-14"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_1"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_2"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_3"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-20\\_4"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_1"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_2"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_3"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-02-21\\_4"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_1"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_2"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\Wireless_Microphone_ลดเส_ยงรบก_3"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\_1"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\data\\ready_to_post\\2026-04-04\\ท__ต__งกล_องม_อถ_อ_ปร_บหม_นได__4"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\scripts\\steps"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\shopee_affiliate\\data"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\shopee_affiliate\\data\\09_ReadyToPost"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\api\\engines\\shopee\\shopee_affiliate\\data\\09_ReadyToPost\\2026-02-20"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\content"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\logs"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\schedule"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\uploads"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward\\2026-04-15"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward\\logs"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\content\\lookforward\\2026-04-15\\AI_Agent_Memory_Systems___เทคโ_070937"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\lookforward"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\trend-scan"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\data\\logs\\history\\veo-gen"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\dist"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\public"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\dist\\assets"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\assets"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\hooks"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\pages"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\stores"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\styles"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\utils"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\frontend\\src\\components\\AgentCard"
+    },
+    {
+        "Folder":  "C:\\Users\\User\\openclaw\\dashboard\\static\\assets"
+    }
+]

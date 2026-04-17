@@ -1,0 +1,36 @@
+{
+  "content": {
+    "text": "ข่าวสำคัญไม่ใช่ “Big Pharma เริ่มใช้ AI” — แต่คือพวกเขาเริ่มวิ่งพร้อมกันในเวลาเดียวกัน\n\nถ้าบริษัทยารายใหญ่หลายเจ้าขยับเรื่องเดียวกันแทบพร้อมกัน มันมักไม่ได้แปลว่า “เทรนด์มา” อย่างเดียว\nแต่มันแปลว่า “กติกาการแข่งขัน” กำลังเปลี่ยน\n\nคนส่วนใหญ่ยังมอง AI ในวงการยาเป็นของทดลองในแล็บ เป็นโปรเจกต์ innovation สวยๆ หรือ partnership ไว้เล่าในงานนักลงทุน\nแต่สิ่งที่กำลังเกิดขึ้นจริง คือ AI กำลังถูกยกระดับจากของเสริม → ไปเป็นโครงสร้างพื้นฐานของการตัดสินใจ\n\nพูดอีกแบบ: Big Pharma ไม่ได้รีบเพราะเชื่อว่า AI จะเสกยามหัศจรรย์พรุ่งนี้\nพวกเขารีบเพราะต้นทุนของการ “ช้าเกินไป” เริ่มแพงกว่าต้นทุนของการ “เริ่มตอนนี้” แล้ว\n\nอุตสาหกรรมยาถูกบีบพร้อมกัน 3 ทาง:\n1) ต้นทุน R&D สูงขึ้นเรื่อยๆ\n2) ยาทำเงินหลายตัวกำลังเจอ patent cliff\n3) ตลาดเริ่มเชื่อแล้วว่า AI ช่วยเร่งการตัดสินใจได้จริง แม้จะไม่ได้ค้นพบยาปฏิวัติโลกทันที\n\nและในโลกของยา “เร็วขึ้น 10-20%” ไม่ใช่เรื่องเล็ก\nมันอาจหมายถึงลดการเผาเงินกับ candidate ที่ควรทิ้งตั้งแต่แรก\nหรือเอายาตัวใหม่เข้าท่อได้ทันก่อนรายได้เดิมจะโดน generic กัดกิน\n\nถ้าจะเปรียบง่ายๆ เดิม Big Pharma เหมือนวิ่งมาราธอนในสนามที่หมอกหนามาก\nปัญหาไม่ใช่ไม่มีคนวิ่งเก่ง\nแต่คือไม่รู้ว่าควรวิ่งทางไหน และเส้นไหนเป็นทางตัน\nAI จึงไม่ได้มาแทนนักวิทยาศาสตร์\nแต่มาเป็นทั้งเรดาร์, GPS และระบบเตือนว่า “ทางนี้อย่าเสียเวลา”\n\n🔬 มันเปลี่ยนเกมยังไงบ้าง — ฉบับเข้าใจง่าย\n\n🧪 Discovery\nAI ช่วยคัดว่า target ไหนน่าสนใจ โมเลกุลไหนมีโอกาสดี และอะไรควรถูกทิ้งเร็วขึ้น\nคุณค่าจริงไม่ใช่ “หาคำตอบได้เลย” แต่คือ “ตัด dead end ได้เร็วขึ้น”\n\n👩‍⚕️ Clinical trial\nAI ช่วยหา patient cohort ที่เหมาะกว่า ออกแบบเกณฑ์รับคนไข้ได้ดีขึ้น และคาดการณ์ความเสี่ยงที่ trial จะสะดุด\nในเกมนี้ การ recruit เร็วขึ้นไม่กี่เดือนมีมูลค่ามหาศาล\n\n📄 Regulatory & documentation\nวงการยามีงานเอกสารมหาศาลที่ไม่ได้สร้าง discovery โดยตรง แต่กินคนและเวลากับทุกทีม\nGenerative AI จึงเริ่มมีประโยชน์มากในงานสรุป ร่าง เชื่อม evidence และลดงาน routine\n\n📊 Commercial + Medical affairs\nหลังยาออกสู่ตลาด AI ยังเข้าไปช่วย forecast, segmentation, pharmacovigilance และการทำงานของทีม field\nแปลว่า AI ไม่ได้อยู่แค่ในแล็บ แต่มันกำลังกินยาวไปทั้ง value chain\n\n⚡ ใครได้? ใครเจ็บ?\n\nผู้ชนะ:\n• Big Pharma ที่มี proprietary data หนา ทั้ง clinical, molecular, biological, real-world data\n• AI biotech ที่ไม่ขายแค่ demo แต่ฝังเข้ากับ workflow จริง\n• คนขายพลั่วในยุคนี้: cloud, compute, secure infra, compliance stack\n• CROs หรือผู้เล่น clinical ops ที่ integrate AI ได้เร็ว\n\nผู้เจ็บ:\n• Pharma ที่ทำ AI แบบ innovation theater มี PoC เยอะ แต่ใช้งานจริงไม่ได้\n• AI startup ที่โชว์โมเดลสวย แต่ไม่มี data access และไม่มี validation ในโลกจริง\n• องค์กรที่ข้อมูลแตกเป็นไซโล แผนกละระบบ กฎหมายบล็อกทุกอย่าง\n• งาน routine ที่เน้นสรุปข้อมูล ประสาน workflow และทำเอกสารซ้ำๆ\n\nประเด็นที่คนชอบเข้าใจผิดคือ เกมนี้ไม่ใช่ model vs model\nแต่มันคือ operating system vs operating system\n\nใน pharma คนชนะอาจไม่ใช่คนที่ค้นพบ molecule ก่อน\nแต่อาจเป็นคนที่รู้ก่อนว่า molecule ไหน “ไม่ควรเสียเวลา”\nและในธุรกิจที่ candidate ส่วนใหญ่ไปไม่ถึงตลาด การพลาดน้อยลงเร็วขึ้น มีค่ามหาศาล\n\n🔮 สัญญาณต่อจากนี้ที่น่าจับตา\n\nภายใน 12 เดือนข้างหน้า เราจะเห็น Big Pharma เลิกพูดแค่ว่า “เรามี AI strategy”\nแล้วเริ่มถูกถามหนักขึ้นว่า:\n• ลดเวลา target-to-candidate ได้กี่เดือน?\n• ลด trial recruitment time ได้กี่ %?\n• ลด regulatory workload ได้เท่าไร?\n\nภายใน 18 เดือน เกม AI-for-drug-discovery จะเริ่มคัดผู้เล่นรอบใหญ่\nสตาร์ทอัพที่มีแต่ narrative แต่ไม่มี validation จริง จะเริ่มถูกมองเป็น feature ไม่ใช่ company\n\nและถ้าแนวโน้มนี้ถูก ภายในปี 2027 บริษัทเภสัชที่ยังไม่มี AI-native operating layer ใน R&D และ clinical development จะเริ่มเสียเปรียบเชิงโครงสร้าง\nไม่ใช่เพราะทำยาไม่ได้\nแต่เพราะตัดสินใจช้ากว่า fail แพงกว่า และจัดสรรทรัพยากรได้แย่กว่า\n\nประโยคที่ควรจำมีแค่นี้:\nAI ที่มีค่าที่สุดในวงการยา ไม่ใช่ AI ที่ตอบเก่งที่สุด\nแต่คือ AI ที่ช่วยให้องค์กร “ตัดสินใจผิดน้อยลง” ในระบบที่ความผิดพลาดแพงมาก\n\nถ้าคุณเป็นผู้บริหารบริษัทยา คุณจะลงเงิน AI ตรงไหนก่อนระหว่าง discovery, clinical trial หรือ regulatory — และคุณคิดว่าท้ายที่สุด คนได้ประโยชน์ก่อนจะเป็น “คนไข้” หรือ “margin ของบริษัท”?",
+    "insight_score": 5,
+    "char_count": 3857
+  },
+  "caption_short": "Big Pharma ไม่ได้กลัวว่า AI จะยังไม่เก่งพอ — พวกเขากลัว “ช้าเกินไป” มากกว่า",
+  "caption_long": "ข่าวสำคัญไม่ใช่บริษัทยาเริ่มใช้ AI แต่คือพวกเขาเริ่มวิ่งพร้อมกันในเวลาเดียวกัน\n\nนี่มักไม่ใช่ hype แต่มันคือสัญญาณว่ากติกาการแข่งขันกำลังเปลี่ยน จากเดิมที่ AI เป็นของทดลอง กลายเป็นอาวุธเชิงโครงสร้างของ R&D, clinical trial และ regulatory\n\nคำถามใหม่ของ Big Pharma จะไม่ใช่ “มี AI strategy หรือยัง” แต่เป็น “AI ลดเวลา ลด fail และลดต้นทุนได้จริงแค่ไหน”\n\nถ้าคุณเป็น CEO บริษัทยา คุณจะลงเงิน AI ที่ discovery, clinical trial หรือ regulatory ก่อน?",
+  "hashtags": [
+    "#lookforward",
+    "#เทคไทย",
+    "#AI",
+    "#BigPharma",
+    "#DrugDiscovery",
+    "#HealthTech",
+    "#Pharma",
+    "#ปัญญาประดิษฐ์"
+  ],
+  "shareable_insight": "ใน pharma, AI ที่มีค่าที่สุดไม่ใช่ AI ที่ตอบเก่งที่สุด แต่คือ AI ที่ช่วยให้องค์กรตัดสินใจผิดน้อยลง",
+  "image_prompts": [
+    {
+      "title": "Hero Visual (Facebook 16:9)",
+      "format": "landscape",
+      "style": "cinematic / photorealistic / dark tech aesthetic",
+      "mood": "inspiring / thought-provoking / slightly dramatic",
+      "prompt": "Cinematic, ultra-realistic, 16:9 landscape. A futuristic pharmaceutical research lab merging with AI infrastructure: scientists in white lab coats analyzing glowing molecular structures, holographic protein models, clinical data streams, and neural-network-like visual layers surrounding them. Convey urgency and strategic competition among major pharma companies. Dark moody background with subtle blue and teal neon accents. No text, no watermarks, no logos. Depth of field, professional lighting. Shot on Sony A7 III. 8K quality."
+    },
+    {
+      "title": "Quote Card (Story 9:16)",
+      "format": "portrait",
+      "style": "minimal dark gradient / typographic",
+      "mood": "bold / authoritative",
+      "prompt": "Minimal dark gradient background (deep navy to near-black). Abstract biotech and AI-inspired elements: blurred molecular patterns, subtle data grid, neural connections, and soft glowing particles. Premium editorial feel, modern and authoritative. NO text, no readable words. 9:16 portrait format. Professional, premium feel. Space for text overlay."
+    }
+  ]
+}

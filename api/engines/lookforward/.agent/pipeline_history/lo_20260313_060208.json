@@ -1,0 +1,145 @@
+{
+  "run_id": "lo_20260313_060208",
+  "project_id": "lookforward",
+  "topic": "Humanoid Robots: The Rise of Household Automation",
+  "status": "completed",
+  "current_step": "ready_to_post",
+  "created_at": "2026-03-13T06:02:08.381417",
+  "updated_at": "2026-03-13T06:02:36.047291",
+  "options": {
+    "mode": "full",
+    "gen_images": true,
+    "dry_run": false
+  },
+  "step_results": {
+    "strategy": {
+      "step_name": "strategy",
+      "status": "completed",
+      "started_at": "2026-03-13T06:02:08.389037",
+      "completed_at": "2026-03-13T06:02:19.429348",
+      "duration_seconds": 11,
+      "output_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060219\\01_strategy.md",
+      "output_data": {
+        "strategy": "## วิเคราะห์หัวข้อ: Humanoid Robots: The Rise of Household Automation สำหรับ lookforward\n\n**หัวข้อ:** Humanoid Robots: The Rise of Household Automation\n\n**1. The Surprise Hook:**\n\n* **หัวใจหลัก:** หุ่นยนต์ฮิวแมนนอยด์ไม่ได้มาแทนแม่บ้าน แต่มันกำลังเปลี่ยนนิยามของ \"บ้าน\" ไปตลอดกาล\n* **ขยายความ:** คนส่วนใหญ่มองว่าหุ่นยนต์ฮิวแมนนอยด์คือตัวช่วยทำงานบ้าน แต่จริงๆ แล้วมันคือแพลตฟอร์มใหม่ที่ Developer จะเข้ามาสร้าง Ecosystem ของบริการในบ้าน ทำให้บ้านกลายเป็น Smart Service Hub อย่างแท้จริง\n\n**2. The Real Story:**\n\n* **หัวใจหลัก:** การแข่งขันไม่ได้อยู่ที่ใครสร้างหุ่นยนต์ได้ \"เหมือนคน\" ที่สุด แต่อยู่ที่ใครสร้าง Ecosystem ที่แข็งแกร่งที่สุดบนแพลตฟอร์มฮิวแมนนอยด์\n* **ขยายความ:** บริษัทที่ชนะไม่ใช่ผู้ผลิตหุ่นยนต์ แต่เป็นบริษัทที่สร้าง App Store สำหรับหุ่นยนต์ ทำให้ใครๆ ก็สามารถพัฒนา Service มา Run บนหุ่นยนต์ได้\n\n**3. The Mechanism:**\n\n* **หัวใจหลัก:** เปรียบเทียบหุ่นยนต์ฮิวแมนนอยด์เหมือน \"iPhone ที่เดินได้\"\n* **ขยายความ:** \n    * **Hardware:** หุ่นยนต์คือ Hardware Platform ที่มี Sensor, Actuator, AI Chip\n    * **Software:** Developer พัฒนา Application (เช่น ทำอาหาร, ดูแลผู้สูงอายุ, ซ่อมของ)\n    * **Ecosystem:** ผู้บริโภคจ่าย Subscription เพื่อใช้บริการต่างๆ บนหุ่นยนต์\n    * **ทำไมต้อง Humanoid?** เพราะบ้านถูกออกแบบมาเพื่อ \"คน\" หุ่นยนต์ที่คล้ายคนที่สุดจึงทำงานได้ง่ายที่สุด\n\n**4. Winners vs Losers:**\n\n* **Winners:**\n    * **Developer:** สามารถเข้าถึงตลาดใหม่ สร้างรายได้จาก Subscription Model\n    * **ผู้สูงอายุ/ผู้ป่วย:** ได้รับการดูแลอย่างใกล้ชิด ลดภาระของคนในครอบครัว\n    * **บริษัท AI/Sensor:** ได้ข้อมูลจำนวนมหาศาลเพื่อพัฒนา AI และ Hardware ให้ฉลาดขึ้น\n* **Losers:**\n    * **ผู้ผลิตเครื่องใช้ไฟฟ้าแบบเดิม:** ต้องปรับตัวเข้าสู่ Platform Ecosystem หรือถูก Disrupt\n    * **แรงงานไร้ฝีมือ:** งานที่ทำซ้ำๆ จะถูกแทนที่ด้วยหุ่นยนต์\n    * **คนที่ปรับตัวไม่ทัน:** จะรู้สึกว่าบ้านตัวเอง \"ล้าสมัย\" และถูกทิ้งไว้ข้างหลัง\n\n**5. The Bold Prediction:**\n\n* **ภายในปี 2026:** เราจะเห็น Startup ที่ระดมทุน Series A ด้วยไอเดีย \"App สำหรับหุ่นยนต์\" ที่แก้ Pain Point ในบ้านแบบเฉพาะเจาะจง (เช่น App สอนภาษาให้ลูก, App ช่วยจัดยาให้ผู้สูงอายุ)\n* **ภายในปี 2027:** หมู่บ้านจัดสรรจะเริ่มเสนอ \"Humanoid-Ready Home\" เป็น Option เพิ่มเติม โดยมี Infrastructure รองรับการทำงานของหุ่นยนต์ (เช่น Charging Station, Sensor Network)\n\n**6. The Conversation Starter:**\n\n* คุณคิดว่า \"App หุ่นยนต์\" อะไรที่จะแก้ปัญหาในบ้านของคุณได้มากที่สุด?\n* ถ้าคุณเป็น Developer คุณจะกระโดดเข้าสู่ตลาด Humanoid Robotics เลยไหม? เพราะอะไร?\n\n**7. Caption Strategy:**\n\n* **Option 1 (เน้น Cognitive Dissonance):** \"AI ไม่ได้จะมาเป็นแม่บ้านให้คุณ แต่มันกำลังจะเปลี่ยนบ้านคุณให้กลายเป็น 'App Store ที่เดินได้' ใครปรับตัวก่อน รวยก่อน\"\n* **Option 2 (เน้นข้อมูลที่ทำให้ดูฉลาด):** \"อย่ามองแค่หุ่นยนต์ทำงานบ้าน! มองให้ลึกถึง Platform War ที่กำลังจะเกิดขึ้น ใครสร้าง 'iOS' สำหรับหุ่นยนต์ได้ คนนั้นชนะ\"\n* **Option 3 (เน้น Prediction ที่กล้า):** \"ปี 2027 เตรียมตัวเจอ 'บ้านอัจฉริยะ' ที่มีหุ่นยนต์เป็นศูนย์กลาง! ใครไม่ปรับตัว บ้านจะกลายเป็น 'บ้านโบราณ' ทันที\"\n",
+        "topic": "Humanoid Robots: The Rise of Household Automation",
+        "word_count": 254
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "content": {
+      "step_name": "content",
+      "status": "completed",
+      "started_at": "2026-03-13T06:02:19.442424",
+      "completed_at": "2026-03-13T06:02:27.428305",
+      "duration_seconds": 7,
+      "output_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060227\\02_content.json",
+      "output_data": {
+        "content": {
+          "text": "🤖 AI ไม่ได้จะมาเป็นแม่บ้านให้คุณ แต่มันกำลังจะเปลี่ยนบ้านคุณให้กลายเป็น 'App Store ที่เดินได้' ใครปรับตัวก่อน รวยก่อน!\n\nหลายคนคิดว่า #HumanoidRobots จะมาช่วยกวาดบ้าน ถูบ้าน... แต่จริงๆ แล้วมันคือ 'แพลตฟอร์ม' ที่ใหญ่กว่านั้นเยอะมากๆ\n\n📖 The Real Story: การแข่งขันไม่ได้อยู่ที่ใครสร้างหุ่นยนต์ได้ 'เหมือนคน' ที่สุด แต่อยู่ที่ใครสร้าง Ecosystem ที่แข็งแกร่งที่สุดบนแพลตฟอร์มฮิวแมนนอยด์\n\n🔬 The Mechanism: คิดซะว่ามันคือ 'iPhone ที่เดินได้'\n\n*   🤖 Hardware: หุ่นยนต์มี Sensor, Actuator, AI Chip\n*   📱 Software: Developer พัฒนา Application (ทำอาหาร, ดูแลผู้สูงอายุ, ซ่อมของ)\n*   💸 Ecosystem: ผู้บริโภคจ่าย Subscription\n*   🏡 ทำไมต้อง Humanoid? เพราะบ้านถูกออกแบบมาเพื่อ 'คน'\n\n⚡ The Impact: ใครได้? ใครเจ็บ?\n\n*   ✅ Developer: เข้าถึงตลาดใหม่ สร้างรายได้ Subscription\n*   ✅ ผู้สูงอายุ/ผู้ป่วย: ได้รับการดูแลใกล้ชิด\n*   ✅ บริษัท AI/Sensor: ได้ข้อมูลมหาศาล\n*   ❌ ผู้ผลิตเครื่องใช้ไฟฟ้าแบบเดิม: ต้องปรับตัว!\n*   ❌ แรงงานไร้ฝีมือ: งานซ้ำๆ โดนแทนที่\n*   ❌ คนที่ปรับตัวไม่ทัน: บ้านจะ 'ล้าสมัย'\n\n🔮 The Signal:\n\n*   ปี 2026: Startup ระดมทุน Series A ด้วยไอเดีย 'App สำหรับหุ่นยนต์'\n*   ปี 2027: หมู่บ้านจัดสรรเสนอ 'Humanoid-Ready Home'\n\n💬 Conversation Starter:\n\nคุณคิดว่า 'App หุ่นยนต์' อะไรที่จะแก้ปัญหาในบ้านของคุณได้มากที่สุด? ถ้าคุณเป็น Developer คุณจะกระโดดเข้าสู่ตลาด Humanoid Robotics เลยไหม? เพราะอะไร?",
+          "insight_score": 5,
+          "char_count": 1293
+        },
+        "caption_short": "AI ไม่ได้จะมาเป็นแม่บ้านให้คุณ แต่มันกำลังจะเปลี่ยนบ้านคุณให้กลายเป็น 'App Store ที่เดินได้' ใครปรับตัวก่อน รวยก่อน!",
+        "caption_long": "AI ไม่ได้จะมาเป็นแม่บ้านให้คุณ แต่มันกำลังจะเปลี่ยนบ้านคุณให้กลายเป็น 'App Store ที่เดินได้' ใครปรับตัวก่อน รวยก่อน! หลายคนคิดว่า #HumanoidRobots จะมาช่วยกวาดบ้าน ถูบ้าน... แต่จริงๆ แล้วมันคือ 'แพลตฟอร์ม' ที่ใหญ่กว่านั้นเยอะมากๆ การแข่งขันไม่ได้อยู่ที่ใครสร้างหุ่นยนต์ได้ 'เหมือนคน' ที่สุด แต่อยู่ที่ใครสร้าง Ecosystem ที่แข็งแกร่งที่สุดบนแพลตฟอร์มฮิวแมนนอยด์ คุณคิดว่า 'App หุ่นยนต์' อะไรที่จะแก้ปัญหาในบ้านของคุณได้มากที่สุด?",
+        "hashtags": [
+          "#lookforward",
+          "#เทคไทย",
+          "#HumanoidRobots",
+          "#AI",
+          "#Automation"
+        ],
+        "image_prompts": [
+          {
+            "title": "Hero Visual",
+            "format": "landscape",
+            "style": "cinematic / photorealistic / dark tech aesthetic",
+            "mood": "inspiring / thought-provoking / slightly dramatic",
+            "prompt": "Cinematic, ultra-realistic, 16:9 landscape. A humanoid robot standing in a modern, minimalist living room. The robot is holding a tablet, and the room is filled with smart home devices. Dark moody background with subtle neon accents. No text, no watermarks, no logos. Depth of field, professional lighting. Shot on Sony A7 III. 8K quality."
+          },
+          {
+            "title": "Infographic",
+            "format": "portrait",
+            "style": "minimal dark gradient / typographic",
+            "mood": "bold / authoritative",
+            "prompt": "Minimal dark gradient background (deep navy to near-black). Abstract geometric or data-visualization elements in the background (blurred). NO text, no readable words. 9:16 portrait format. Professional, premium feel. Space for text overlay."
+          }
+        ],
+        "shareable_insight": "AI ไม่ได้จะมาเป็นแม่บ้านให้คุณ แต่มันกำลังจะเปลี่ยนบ้านคุณให้กลายเป็น 'App Store ที่เดินได้'"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "images": {
+      "step_name": "images",
+      "status": "completed",
+      "started_at": "2026-03-13T06:02:27.442337",
+      "completed_at": "2026-03-13T06:02:35.993015",
+      "duration_seconds": 8,
+      "output_file": null,
+      "output_data": {
+        "images": [
+          {
+            "title": "Hero Visual",
+            "path": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060227\\media\\01_hero_visual.jpg",
+            "format": "landscape",
+            "size_kb": 82.2,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          },
+          {
+            "title": "Infographic",
+            "path": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060227\\media\\02_infographic.jpg",
+            "format": "portrait",
+            "size_kb": 27.8,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          }
+        ],
+        "prompts_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060227\\media\\prompts_guide.txt",
+        "total_generated": 2,
+        "total_requested": 2,
+        "media_dir": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060227\\media"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-03-13T06:02:36.000824",
+      "completed_at": "2026-03-13T06:02:36.030831",
+      "duration_seconds": 0,
+      "output_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060236",
+      "output_data": {
+        "package_path": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060236",
+        "post_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060236\\post.txt",
+        "caption_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060236\\caption.txt",
+        "hashtags_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-13\\Humanoid_Robots_The_Rise_of_Household_Automation_060236\\hashtags.txt",
+        "metadata": {
+          "topic": "Humanoid Robots: The Rise of Household Automation",
+          "generated": "2026-03-13 06:02:36",
+          "insight_score": 5,
+          "char_count": 1293,
+          "has_images": true,
+          "run_id": "lo_20260313_060208"
+        }
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 4,
+    "completed_steps": 4,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": [
+      "strategy",
+      "content",
+      "images",
+      "ready_to_post"
+    ]
+  }
+}

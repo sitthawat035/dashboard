@@ -1,0 +1,550 @@
+{
+  "run_id": "sh_20260314_153156",
+  "project_id": "shopee_affiliate",
+  "topic": "20260314_153156",
+  "status": "completed",
+  "current_step": "ready_to_post",
+  "created_at": "2026-03-14T15:31:56.668743",
+  "updated_at": "2026-03-14T15:32:49.747850",
+  "options": "shopee_affiliate",
+  "step_results": {
+    "mode": {
+      "step_name": "mode",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "output_file": null,
+      "output_data": null,
+      "errors": [],
+      "warnings": []
+    },
+    "options": {
+      "step_name": "options",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "duration_seconds": null,
+      "output_file": null,
+      "output_data": null,
+      "errors": [],
+      "warnings": []
+    },
+    "load_products": {
+      "step_name": "load_products",
+      "status": "completed",
+      "started_at": "2026-03-14T15:31:56.686502",
+      "completed_at": "2026-03-14T15:31:56.738788",
+      "duration_seconds": 0,
+      "output_file": null,
+      "output_data": {
+        "products": [
+          {
+            "name": "ที่ตั้งกล้องมือถือ ปรับหมุนได้ 360องศา ทนทาน",
+            "price": 56,
+            "original_price": "56",
+            "url": "https://shopee.co.th/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AB%E0%B8%A1%E0%B8%B8%E0%B8%99%E0%B9%84%E0%B8%94%E0%B9%89-360%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2-%E0%B8%97%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%99-i.1627320200.28043908937?extraParams=%7B%22display_model_id%22%3A435373769158%2C%22model_selection_logic%22%3A3%7D&rModelId=435373769158&sp_atk=88db2280-2562-4dab-84b2-1e10f82aed25&vItemId=51654807826&vModelId=360445140650&vShopId=1449018616&xptdk=88db2280-2562-4dab-84b2-1e10f82aed25",
+            "image_url": "https://down-th.img.susercontent.com/file/sg-11134201-8226d-mhixrql0o4ch4e_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "JQVITEK ไม้เซลฟี่ ยืดได้ถึง 170ซม.  เชื่อมต่อผ่านบลูทูธ ถ่ายภาพได้คมชัด TR14",
+            "price": 149,
+            "original_price": "149",
+            "url": "https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81",
+            "image_url": "https://down-th.img.susercontent.com/file/sg-11134253-822xh-mi13ldgq3bph15_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "Ulanzi Capgrip Phone  CG01 ที่จับโทรศัพท์ ที่จับมือถือ พร้อมรีโมท .",
+            "price": 369,
+            "original_price": "369",
+            "url": "https://shopee.co.th/Ulanzi-Capgrip-Phone-CG01-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%A8%E0%B8%B1%E0%B8%9E%E0%B8%97%E0%B9%8C-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%A3%E0%B8%B5%E0%B9%82%E0%B8%A1%E0%B8%97-.-i.93077051.7044401087?extraParams=%7B%22display_model_id%22%3A301129397715%2C%22model_selection_logic%22%3A3%7D&sp_atk=5b128eac-78d1-473e-b838-de1d73a2048b&xptdk=5b128eac-78d1-473e-b838-de1d73a2048b",
+            "image_url": "https://down-th.img.susercontent.com/file/sg-11134201-825b2-mg0spr8i6j2h23_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "ใหม่ L16 ขาตั้งกล้องไม้เซลฟี่ไร้สาย 1.55m. พับได้มาพร้อมรีโมทบลูทูธ พิเศษสามารถใช้กล้องแอคชั่น Gopro สมาร์ทโฟนได้",
+            "price": 325,
+            "original_price": "325",
+            "url": "https://shopee.co.th/%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-L16-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B8%AA%E0%B8%B2%E0%B8%A2-1.55m.-%E0%B8%9E%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%A1%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%A3%E0%B8%B5%E0%B9%82%E0%B8%A1%E0%B8%97%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%96%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-Gopro-%E0%B8%AA%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%97%E0%B9%82%E0%B8%9F%E0%B8%99%E0%B9%84%E0%B8%94%E0%B9%89-i.392063418.19370547816?extraParams=%7B%22display_model_id%22%3A165446745027%2C%22model_selection_logic%22%3A3%7D&sp_atk=cf4131e8-e03e-4c36-8f8e-6650abe23326&xptdk=cf4131e8-e03e-4c36-8f8e-6650abe23326",
+            "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lylxyj2y54tl9c_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "TNW 10นิ้ว LED ไฟวงแหวน ชุดไฟไลฟ์สด+พร้อมขาตั้ง2.1m ปรับได้3สี ปรับได้360°ทิศทา ไฟสตูดิโอ ขาตั้งกล้องมือถือ",
+            "price": 234,
+            "original_price": "234",
+            "url": "https://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1",
+            "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r992-lzc470y2ldihea_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "11 นิ้ว ไฟสตูดิโอ และขาตั้ง 2.1m LED พร้อมรีโมท",
+            "price": 165,
+            "original_price": "165",
+            "url": "https://shopee.co.th/11-%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-2.1m-LED-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%A3%E0%B8%B5%E0%B9%82%E0%B8%A1%E0%B8%97-i.1077966996.25427759549?extraParams=%7B%22display_model_id%22%3A157286649796%2C%22model_selection_logic%22%3A3%7D&rModelId=157286649796&sp_atk=624af0de-4c67-41b9-a507-8aa8a57429ea&vItemId=50900335501&vModelId=330031004177&vShopId=1449018616&xptdk=624af0de-4c67-41b9-a507-8aa8a57429ea",
+            "image_url": "https://down-th.img.susercontent.com/file/sg-11134253-822x4-mibuqdos9gjrb5_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "TNW D25 ไฟวิดีโอ LED แบบชาร์จไฟ หรี่แสงได้ 3000K-9900K",
+            "price": 429,
+            "original_price": "429",
+            "url": "https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389",
+            "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7rasg-m972buja9rzif6_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "Wireless Microphone ลดเสียงรบกวน รุ่น3.5 สําหรับบันทึกเสียง วิดีโอ บล็อก ไลฟ์สด",
+            "price": 89,
+            "original_price": "89",
+            "url": "https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9",
+            "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lyxhpz26ernl10_tn.webp",
+            "source": "csv"
+          }
+        ],
+        "total_count": 8,
+        "max_price": 500
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "select_products": {
+      "step_name": "select_products",
+      "status": "completed",
+      "started_at": "2026-03-14T15:31:56.761772",
+      "completed_at": "2026-03-14T15:31:59.554190",
+      "duration_seconds": 2,
+      "output_file": null,
+      "output_data": {
+        "selected_products": [
+          {
+            "name": "JQVITEK ไม้เซลฟี่ ยืดได้ถึง 170ซม.  เชื่อมต่อผ่านบลูทูธ ถ่ายภาพได้คมชัด TR14",
+            "price": 149,
+            "original_price": "149",
+            "url": "https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81",
+            "image_url": "https://down-th.img.susercontent.com/file/sg-11134253-822xh-mi13ldgq3bph15_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "TNW 10นิ้ว LED ไฟวงแหวน ชุดไฟไลฟ์สด+พร้อมขาตั้ง2.1m ปรับได้3สี ปรับได้360°ทิศทา ไฟสตูดิโอ ขาตั้งกล้องมือถือ",
+            "price": 234,
+            "original_price": "234",
+            "url": "https://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1",
+            "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r992-lzc470y2ldihea_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "TNW D25 ไฟวิดีโอ LED แบบชาร์จไฟ หรี่แสงได้ 3000K-9900K",
+            "price": 429,
+            "original_price": "429",
+            "url": "https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389",
+            "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7rasg-m972buja9rzif6_tn.webp",
+            "source": "csv"
+          },
+          {
+            "name": "Wireless Microphone ลดเสียงรบกวน รุ่น3.5 สําหรับบันทึกเสียง วิดีโอ บล็อก ไลฟ์สด",
+            "price": 89,
+            "original_price": "89",
+            "url": "https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9",
+            "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lyxhpz26ernl10_tn.webp",
+            "source": "csv"
+          }
+        ],
+        "selection_method": "ai",
+        "ai_reason": "คัดเลือกจากสินค้าที่ช่วยให้การไลฟ์สด/ถ่ายวิดีโอสะดวกและมีคุณภาพมากขึ้น ในราคาที่คุ้มค่า เหมาะสำหรับผู้เริ่มต้น"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "generate_content": {
+      "step_name": "generate_content",
+      "status": "completed",
+      "started_at": "2026-03-14T15:31:59.572650",
+      "completed_at": "2026-03-14T15:32:12.373175",
+      "duration_seconds": 12,
+      "output_file": null,
+      "output_data": {
+        "generated_content": [
+          {
+            "product": {
+              "name": "JQVITEK ไม้เซลฟี่ ยืดได้ถึง 170ซม.  เชื่อมต่อผ่านบลูทูธ ถ่ายภาพได้คมชัด TR14",
+              "price": 149,
+              "original_price": "149",
+              "url": "https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81",
+              "image_url": "https://down-th.img.susercontent.com/file/sg-11134253-822xh-mi13ldgq3bph15_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไม้เซลฟี่ 149 บาท! บ้าไปแล้วแม่!😱 ยืดได้ 170 ซม. ถ่ายมุมไหนก็รอด! ✨ เชื่อมบลูทูธง่ายมาก กดถ่ายรัวๆ ไปเลย! 💸 รีบจับจองก่อนราคาขึ้นนะซิส! [LINK]",
+            "hashtags": [
+              "ไม้เซลฟี่",
+              "ShopeeTH",
+              "ป้ายยา",
+              "ของมันต้องมี",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไม้เซลฟี่ 149 บาท! บ้าไปแล้วแม่!😱 ยืดได้ 170 ซม. ถ่ายมุมไหนก็รอด! ✨ เชื่อมบลูทูธง่ายมาก กดถ่ายรัวๆ ไปเลย! 💸 รีบจับจองก่อนราคาขึ้นนะซิส! [LINK]\", \"hashtags\": [\"ไม้เซลฟี่\", \"ShopeeTH\", \"ป้ายยา\", \"ของมันต้องมี\", \"ถูกและดี\"]}\n```"
+          },
+          {
+            "product": {
+              "name": "TNW 10นิ้ว LED ไฟวงแหวน ชุดไฟไลฟ์สด+พร้อมขาตั้ง2.1m ปรับได้3สี ปรับได้360°ทิศทา ไฟสตูดิโอ ขาตั้งกล้องมือถือ",
+              "price": 234,
+              "original_price": "234",
+              "url": "https://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r992-lzc470y2ldihea_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไฟไลฟ์สดราคาหลักร้อยต้นๆ มีอยู่จริง!😱\nหน้าปังขึ้นกล้อง✨ ปรับแสงได้ 3 สี😍 ขาตั้งแข็งแรง!\nไม่ต้องคิดเยอะ ตำด่วนๆ ก่อนของหมด!\n[LINK]",
+            "hashtags": [
+              "ไฟไลฟ์สด",
+              "shopeefashionth",
+              "ของดีบอกต่อ",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\n  \"caption\": \"ไฟไลฟ์สดราคาหลักร้อยต้นๆ มีอยู่จริง!😱\\nหน้าปังขึ้นกล้อง✨ ปรับแสงได้ 3 สี😍 ขาตั้งแข็งแรง!\\nไม่ต้องคิดเยอะ ตำด่วนๆ ก่อนของหมด!\\n[LINK]\",\n  \"hashtags\": [\"ไฟไลฟ์สด\", \"shopeefashionth\", \"ของดีบอกต่อ\", \"ถูกและดี\"]\n}\n```"
+          },
+          {
+            "product": {
+              "name": "TNW D25 ไฟวิดีโอ LED แบบชาร์จไฟ หรี่แสงได้ 3000K-9900K",
+              "price": 429,
+              "original_price": "429",
+              "url": "https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7rasg-m972buja9rzif6_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไฟสวยฉ่ำ ราคาแค่เนี้ย! 😱 TNW D25 ไฟ LED ที่สาย Content Creator ต้องมี! ปรับแสงได้ตามใจ 🔥 พกพาสะดวก ✨ รีบสอยก่อนหมดนะ! [LINK]",
+            "hashtags": [
+              "ไฟLED",
+              "ไฟวิดีโอ",
+              "TNWD25",
+              "Shopeeป้ายยา",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไฟสวยฉ่ำ ราคาแค่เนี้ย! 😱 TNW D25 ไฟ LED ที่สาย Content Creator ต้องมี! ปรับแสงได้ตามใจ 🔥 พกพาสะดวก ✨ รีบสอยก่อนหมดนะ! [LINK]\", \"hashtags\": [\"ไฟLED\", \"ไฟวิดีโอ\", \"TNWD25\", \"Shopeeป้ายยา\", \"ถูกและดี\"]}\n```"
+          },
+          {
+            "product": {
+              "name": "Wireless Microphone ลดเสียงรบกวน รุ่น3.5 สําหรับบันทึกเสียง วิดีโอ บล็อก ไลฟ์สด",
+              "price": 89,
+              "original_price": "89",
+              "url": "https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lyxhpz26ernl10_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไมค์ไร้สาย 89 บาท! บ้าไปแล้ว!😱 เสียงชัดแจ๋ว ลดเสียงรบกวนขั้นเทพ ✨ ไลฟ์สด/ทำคลิปเสียงดีขึ้น 300% 😍 ใครอยากเสียงโปร จิ้มด่วนๆ ก่อนของหมด! [LINK]",
+            "hashtags": [
+              "ไมค์ไร้สาย",
+              "Shopeeป้ายยา",
+              "ของมันต้องมี",
+              "ไลฟ์สด",
+              "ไมโครโฟน"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไมค์ไร้สาย 89 บาท! บ้าไปแล้ว!😱 เสียงชัดแจ๋ว ลดเสียงรบกวนขั้นเทพ ✨ ไลฟ์สด/ทำคลิปเสียงดีขึ้น 300% 😍 ใครอยากเสียงโปร จิ้มด่วนๆ ก่อนของหมด! [LINK]\", \"hashtags\": [\"ไมค์ไร้สาย\", \"Shopeeป้ายยา\", \"ของมันต้องมี\", \"ไลฟ์สด\", \"ไมโครโฟน\"]}\n```"
+          }
+        ],
+        "total_count": 4
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "download_images": {
+      "step_name": "download_images",
+      "status": "completed",
+      "started_at": "2026-03-14T15:32:12.400176",
+      "completed_at": "2026-03-14T15:32:13.513897",
+      "duration_seconds": 1,
+      "output_file": null,
+      "output_data": {
+        "downloaded_content": [
+          {
+            "product": {
+              "name": "JQVITEK ไม้เซลฟี่ ยืดได้ถึง 170ซม.  เชื่อมต่อผ่านบลูทูธ ถ่ายภาพได้คมชัด TR14",
+              "price": 149,
+              "original_price": "149",
+              "url": "https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81",
+              "image_url": "https://down-th.img.susercontent.com/file/sg-11134253-822xh-mi13ldgq3bph15_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไม้เซลฟี่ 149 บาท! บ้าไปแล้วแม่!😱 ยืดได้ 170 ซม. ถ่ายมุมไหนก็รอด! ✨ เชื่อมบลูทูธง่ายมาก กดถ่ายรัวๆ ไปเลย! 💸 รีบจับจองก่อนราคาขึ้นนะซิส! [LINK]",
+            "hashtags": [
+              "ไม้เซลฟี่",
+              "ShopeeTH",
+              "ป้ายยา",
+              "ของมันต้องมี",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไม้เซลฟี่ 149 บาท! บ้าไปแล้วแม่!😱 ยืดได้ 170 ซม. ถ่ายมุมไหนก็รอด! ✨ เชื่อมบลูทูธง่ายมาก กดถ่ายรัวๆ ไปเลย! 💸 รีบจับจองก่อนราคาขึ้นนะซิส! [LINK]\", \"hashtags\": [\"ไม้เซลฟี่\", \"ShopeeTH\", \"ป้ายยา\", \"ของมันต้องมี\", \"ถูกและดี\"]}\n```",
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+            "image_filename": "JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg"
+          },
+          {
+            "product": {
+              "name": "TNW 10นิ้ว LED ไฟวงแหวน ชุดไฟไลฟ์สด+พร้อมขาตั้ง2.1m ปรับได้3สี ปรับได้360°ทิศทา ไฟสตูดิโอ ขาตั้งกล้องมือถือ",
+              "price": 234,
+              "original_price": "234",
+              "url": "https://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r992-lzc470y2ldihea_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไฟไลฟ์สดราคาหลักร้อยต้นๆ มีอยู่จริง!😱\nหน้าปังขึ้นกล้อง✨ ปรับแสงได้ 3 สี😍 ขาตั้งแข็งแรง!\nไม่ต้องคิดเยอะ ตำด่วนๆ ก่อนของหมด!\n[LINK]",
+            "hashtags": [
+              "ไฟไลฟ์สด",
+              "shopeefashionth",
+              "ของดีบอกต่อ",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\n  \"caption\": \"ไฟไลฟ์สดราคาหลักร้อยต้นๆ มีอยู่จริง!😱\\nหน้าปังขึ้นกล้อง✨ ปรับแสงได้ 3 สี😍 ขาตั้งแข็งแรง!\\nไม่ต้องคิดเยอะ ตำด่วนๆ ก่อนของหมด!\\n[LINK]\",\n  \"hashtags\": [\"ไฟไลฟ์สด\", \"shopeefashionth\", \"ของดีบอกต่อ\", \"ถูกและดี\"]\n}\n```",
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+            "image_filename": "TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg"
+          },
+          {
+            "product": {
+              "name": "TNW D25 ไฟวิดีโอ LED แบบชาร์จไฟ หรี่แสงได้ 3000K-9900K",
+              "price": 429,
+              "original_price": "429",
+              "url": "https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7rasg-m972buja9rzif6_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไฟสวยฉ่ำ ราคาแค่เนี้ย! 😱 TNW D25 ไฟ LED ที่สาย Content Creator ต้องมี! ปรับแสงได้ตามใจ 🔥 พกพาสะดวก ✨ รีบสอยก่อนหมดนะ! [LINK]",
+            "hashtags": [
+              "ไฟLED",
+              "ไฟวิดีโอ",
+              "TNWD25",
+              "Shopeeป้ายยา",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไฟสวยฉ่ำ ราคาแค่เนี้ย! 😱 TNW D25 ไฟ LED ที่สาย Content Creator ต้องมี! ปรับแสงได้ตามใจ 🔥 พกพาสะดวก ✨ รีบสอยก่อนหมดนะ! [LINK]\", \"hashtags\": [\"ไฟLED\", \"ไฟวิดีโอ\", \"TNWD25\", \"Shopeeป้ายยา\", \"ถูกและดี\"]}\n```",
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+            "image_filename": "TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg"
+          },
+          {
+            "product": {
+              "name": "Wireless Microphone ลดเสียงรบกวน รุ่น3.5 สําหรับบันทึกเสียง วิดีโอ บล็อก ไลฟ์สด",
+              "price": 89,
+              "original_price": "89",
+              "url": "https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lyxhpz26ernl10_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไมค์ไร้สาย 89 บาท! บ้าไปแล้ว!😱 เสียงชัดแจ๋ว ลดเสียงรบกวนขั้นเทพ ✨ ไลฟ์สด/ทำคลิปเสียงดีขึ้น 300% 😍 ใครอยากเสียงโปร จิ้มด่วนๆ ก่อนของหมด! [LINK]",
+            "hashtags": [
+              "ไมค์ไร้สาย",
+              "Shopeeป้ายยา",
+              "ของมันต้องมี",
+              "ไลฟ์สด",
+              "ไมโครโฟน"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไมค์ไร้สาย 89 บาท! บ้าไปแล้ว!😱 เสียงชัดแจ๋ว ลดเสียงรบกวนขั้นเทพ ✨ ไลฟ์สด/ทำคลิปเสียงดีขึ้น 300% 😍 ใครอยากเสียงโปร จิ้มด่วนๆ ก่อนของหมด! [LINK]\", \"hashtags\": [\"ไมค์ไร้สาย\", \"Shopeeป้ายยา\", \"ของมันต้องมี\", \"ไลฟ์สด\", \"ไมโครโฟน\"]}\n```",
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+            "image_filename": "Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg"
+          }
+        ],
+        "total_downloaded": 4,
+        "output_dir": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "convert_links": {
+      "step_name": "convert_links",
+      "status": "completed",
+      "started_at": "2026-03-14T15:32:13.533301",
+      "completed_at": "2026-03-14T15:32:49.589801",
+      "duration_seconds": 36,
+      "output_file": null,
+      "output_data": {
+        "converted_content": [
+          {
+            "product": {
+              "name": "JQVITEK ไม้เซลฟี่ ยืดได้ถึง 170ซม.  เชื่อมต่อผ่านบลูทูธ ถ่ายภาพได้คมชัด TR14",
+              "price": 149,
+              "original_price": "149",
+              "url": "https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81",
+              "image_url": "https://down-th.img.susercontent.com/file/sg-11134253-822xh-mi13ldgq3bph15_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไม้เซลฟี่ 149 บาท! บ้าไปแล้วแม่!😱 ยืดได้ 170 ซม. ถ่ายมุมไหนก็รอด! ✨ เชื่อมบลูทูธง่ายมาก กดถ่ายรัวๆ ไปเลย! 💸 รีบจับจองก่อนราคาขึ้นนะซิส! [LINK]",
+            "hashtags": [
+              "ไม้เซลฟี่",
+              "ShopeeTH",
+              "ป้ายยา",
+              "ของมันต้องมี",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไม้เซลฟี่ 149 บาท! บ้าไปแล้วแม่!😱 ยืดได้ 170 ซม. ถ่ายมุมไหนก็รอด! ✨ เชื่อมบลูทูธง่ายมาก กดถ่ายรัวๆ ไปเลย! 💸 รีบจับจองก่อนราคาขึ้นนะซิส! [LINK]\", \"hashtags\": [\"ไม้เซลฟี่\", \"ShopeeTH\", \"ป้ายยา\", \"ของมันต้องมี\", \"ถูกและดี\"]}\n```",
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+            "image_filename": "JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+            "affiliate_url": "https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&af_id=15333860373",
+            "original_url": "https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81"
+          },
+          {
+            "product": {
+              "name": "TNW 10นิ้ว LED ไฟวงแหวน ชุดไฟไลฟ์สด+พร้อมขาตั้ง2.1m ปรับได้3สี ปรับได้360°ทิศทา ไฟสตูดิโอ ขาตั้งกล้องมือถือ",
+              "price": 234,
+              "original_price": "234",
+              "url": "https://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r992-lzc470y2ldihea_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไฟไลฟ์สดราคาหลักร้อยต้นๆ มีอยู่จริง!😱\nหน้าปังขึ้นกล้อง✨ ปรับแสงได้ 3 สี😍 ขาตั้งแข็งแรง!\nไม่ต้องคิดเยอะ ตำด่วนๆ ก่อนของหมด!\n[LINK]",
+            "hashtags": [
+              "ไฟไลฟ์สด",
+              "shopeefashionth",
+              "ของดีบอกต่อ",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\n  \"caption\": \"ไฟไลฟ์สดราคาหลักร้อยต้นๆ มีอยู่จริง!😱\\nหน้าปังขึ้นกล้อง✨ ปรับแสงได้ 3 สี😍 ขาตั้งแข็งแรง!\\nไม่ต้องคิดเยอะ ตำด่วนๆ ก่อนของหมด!\\n[LINK]\",\n  \"hashtags\": [\"ไฟไลฟ์สด\", \"shopeefashionth\", \"ของดีบอกต่อ\", \"ถูกและดี\"]\n}\n```",
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+            "image_filename": "TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+            "affiliate_url": "https://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1&af_id=15333860373",
+            "original_url": "https://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1"
+          },
+          {
+            "product": {
+              "name": "TNW D25 ไฟวิดีโอ LED แบบชาร์จไฟ หรี่แสงได้ 3000K-9900K",
+              "price": 429,
+              "original_price": "429",
+              "url": "https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7rasg-m972buja9rzif6_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไฟสวยฉ่ำ ราคาแค่เนี้ย! 😱 TNW D25 ไฟ LED ที่สาย Content Creator ต้องมี! ปรับแสงได้ตามใจ 🔥 พกพาสะดวก ✨ รีบสอยก่อนหมดนะ! [LINK]",
+            "hashtags": [
+              "ไฟLED",
+              "ไฟวิดีโอ",
+              "TNWD25",
+              "Shopeeป้ายยา",
+              "ถูกและดี"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไฟสวยฉ่ำ ราคาแค่เนี้ย! 😱 TNW D25 ไฟ LED ที่สาย Content Creator ต้องมี! ปรับแสงได้ตามใจ 🔥 พกพาสะดวก ✨ รีบสอยก่อนหมดนะ! [LINK]\", \"hashtags\": [\"ไฟLED\", \"ไฟวิดีโอ\", \"TNWD25\", \"Shopeeป้ายยา\", \"ถูกและดี\"]}\n```",
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+            "image_filename": "TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+            "affiliate_url": "https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389&af_id=15333860373",
+            "original_url": "https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389"
+          },
+          {
+            "product": {
+              "name": "Wireless Microphone ลดเสียงรบกวน รุ่น3.5 สําหรับบันทึกเสียง วิดีโอ บล็อก ไลฟ์สด",
+              "price": 89,
+              "original_price": "89",
+              "url": "https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9",
+              "image_url": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lyxhpz26ernl10_tn.webp",
+              "source": "csv"
+            },
+            "caption": "ไมค์ไร้สาย 89 บาท! บ้าไปแล้ว!😱 เสียงชัดแจ๋ว ลดเสียงรบกวนขั้นเทพ ✨ ไลฟ์สด/ทำคลิปเสียงดีขึ้น 300% 😍 ใครอยากเสียงโปร จิ้มด่วนๆ ก่อนของหมด! [LINK]",
+            "hashtags": [
+              "ไมค์ไร้สาย",
+              "Shopeeป้ายยา",
+              "ของมันต้องมี",
+              "ไลฟ์สด",
+              "ไมโครโฟน"
+            ],
+            "raw_response": "```json\n{\"caption\": \"ไมค์ไร้สาย 89 บาท! บ้าไปแล้ว!😱 เสียงชัดแจ๋ว ลดเสียงรบกวนขั้นเทพ ✨ ไลฟ์สด/ทำคลิปเสียงดีขึ้น 300% 😍 ใครอยากเสียงโปร จิ้มด่วนๆ ก่อนของหมด! [LINK]\", \"hashtags\": [\"ไมค์ไร้สาย\", \"Shopeeป้ายยา\", \"ของมันต้องมี\", \"ไลฟ์สด\", \"ไมโครโฟน\"]}\n```",
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+            "image_filename": "Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+            "affiliate_url": "https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9&af_id=15333860373",
+            "original_url": "https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9"
+          }
+        ],
+        "total_converted": 4,
+        "affiliate_id": "15333860373"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-03-14T15:32:49.621871",
+      "completed_at": "2026-03-14T15:32:49.703727",
+      "duration_seconds": 0,
+      "output_file": null,
+      "output_data": {
+        "packaged_posts": [
+          {
+            "post_dir": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14\\JQVITEK_ไมเซลฟ_ยดไดถง_170ซม__เช_153249_1",
+            "post_file": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14\\JQVITEK_ไมเซลฟ_ยดไดถง_170ซม__เช_153249_1\\post.txt",
+            "caption": "ไม้เซลฟี่ 149 บาท! บ้าไปแล้วแม่!😱 ยืดได้ 170 ซม. ถ่ายมุมไหนก็รอด! ✨ เชื่อมบลูทูธง่ายมาก กดถ่ายรัวๆ ไปเลย! 💸 รีบจับจองก่อนราคาขึ้นนะซิส! https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&af_id=15333860373",
+            "hashtags": [
+              "ไม้เซลฟี่",
+              "ShopeeTH",
+              "ป้ายยา",
+              "ของมันต้องมี",
+              "ถูกและดี"
+            ],
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\JQVITEK_ไม_เซลฟ___ย_ดได_ถ_ง_17_22d94ff9.jpg",
+            "affiliate_url": "https://shopee.co.th/JQVITEK-%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%96%E0%B8%B6%E0%B8%87-170%E0%B8%8B%E0%B8%A1.-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%98-%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%84%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%94-TR14-i.1551466215.26038623944?extraParams=%7B%22display_model_id%22%3A290689379756%2C%22model_selection_logic%22%3A3%7D&rModelId=290689379756&sp_atk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&vItemId=53851253773&vModelId=445114379591&vShopId=1449018616&xptdk=cc9102cd-bfac-409c-b5f5-04b23cf25e81&af_id=15333860373",
+            "product_name": "JQVITEK ไม้เซลฟี่ ยืดได้ถึง 170ซม.  เชื่อมต่อผ่านบลูทูธ ถ่ายภาพได้คมชัด TR14"
+          },
+          {
+            "post_dir": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14\\TNW_10นว_LED_ไฟวงแหวน_ชดไฟไลฟสดพรอ_153249_2",
+            "post_file": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14\\TNW_10นว_LED_ไฟวงแหวน_ชดไฟไลฟสดพรอ_153249_2\\post.txt",
+            "caption": "ไฟไลฟ์สดราคาหลักร้อยต้นๆ มีอยู่จริง!😱\nหน้าปังขึ้นกล้อง✨ ปรับแสงได้ 3 สี😍 ขาตั้งแข็งแรง!\nไม่ต้องคิดเยอะ ตำด่วนๆ ก่อนของหมด!\nhttps://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1&af_id=15333860373",
+            "hashtags": [
+              "ไฟไลฟ์สด",
+              "shopeefashionth",
+              "ของดีบอกต่อ",
+              "ถูกและดี"
+            ],
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\TNW_10น__ว_LED_ไฟวงแหวน_ช_ดไฟไ_9234db40.jpg",
+            "affiliate_url": "https://shopee.co.th/TNW-10%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-LED-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872.1m-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%AA%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%89360%C2%B0%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2-%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD-%E0%B8%82%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-i.1119617408.24385232083?extraParams=%7B%22display_model_id%22%3A256456150430%2C%22model_selection_logic%22%3A3%7D&sp_atk=ba13f6c5-def7-4c02-85b7-353d8907aed1&xptdk=ba13f6c5-def7-4c02-85b7-353d8907aed1&af_id=15333860373",
+            "product_name": "TNW 10นิ้ว LED ไฟวงแหวน ชุดไฟไลฟ์สด+พร้อมขาตั้ง2.1m ปรับได้3สี ปรับได้360°ทิศทา ไฟสตูดิโอ ขาตั้งกล้องมือถือ"
+          },
+          {
+            "post_dir": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14\\TNW_D25_ไฟวดโอ_LED_แบบชารจไฟ_หรแสงไ_153249_3",
+            "post_file": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14\\TNW_D25_ไฟวดโอ_LED_แบบชารจไฟ_หรแสงไ_153249_3\\post.txt",
+            "caption": "ไฟสวยฉ่ำ ราคาแค่เนี้ย! 😱 TNW D25 ไฟ LED ที่สาย Content Creator ต้องมี! ปรับแสงได้ตามใจ 🔥 พกพาสะดวก ✨ รีบสอยก่อนหมดนะ! https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389&af_id=15333860373",
+            "hashtags": [
+              "ไฟLED",
+              "ไฟวิดีโอ",
+              "TNWD25",
+              "Shopeeป้ายยา",
+              "ถูกและดี"
+            ],
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\TNW_D25_ไฟว_ด_โอ_LED_แบบชาร_จไ_ea2e9608.jpg",
+            "affiliate_url": "https://shopee.co.th/TNW-D25-%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-LED-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-3000K-9900K-i.1119617408.29376144437?extraParams=%7B%22display_model_id%22%3A208212801561%2C%22model_selection_logic%22%3A3%7D&rModelId=208212801561&sp_atk=67720e83-694c-4411-9ff4-f3822cd9c389&vItemId=56150280940&vModelId=400025645439&vShopId=1449018616&xptdk=67720e83-694c-4411-9ff4-f3822cd9c389&af_id=15333860373",
+            "product_name": "TNW D25 ไฟวิดีโอ LED แบบชาร์จไฟ หรี่แสงได้ 3000K-9900K"
+          },
+          {
+            "post_dir": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14\\Wireless_Microphone_ลดเสยงรบกวน_รน35_153249_4",
+            "post_file": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14\\Wireless_Microphone_ลดเสยงรบกวน_รน35_153249_4\\post.txt",
+            "caption": "ไมค์ไร้สาย 89 บาท! บ้าไปแล้ว!😱 เสียงชัดแจ๋ว ลดเสียงรบกวนขั้นเทพ ✨ ไลฟ์สด/ทำคลิปเสียงดีขึ้น 300% 😍 ใครอยากเสียงโปร จิ้มด่วนๆ ก่อนของหมด! https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9&af_id=15333860373",
+            "hashtags": [
+              "ไมค์ไร้สาย",
+              "Shopeeป้ายยา",
+              "ของมันต้องมี",
+              "ไลฟ์สด",
+              "ไมโครโฟน"
+            ],
+            "image_path": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\images\\2026-03-14\\Wireless_Microphone_ลดเส_ยงรบก_8444544d.jpg",
+            "affiliate_url": "https://shopee.co.th/Wireless-Microphone-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%993.5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94-i.138908521.28607885139?extraParams=%7B%22display_model_id%22%3A197722550637%2C%22model_selection_logic%22%3A3%7D&rModelId=197722550637&sp_atk=305b35ec-2346-46b8-96ca-aa6e2594dee9&vItemId=49152050865&vModelId=405197773570&vShopId=1449018616&xptdk=305b35ec-2346-46b8-96ca-aa6e2594dee9&af_id=15333860373",
+            "product_name": "Wireless Microphone ลดเสียงรบกวน รุ่น3.5 สําหรับบันทึกเสียง วิดีโอ บล็อก ไลฟ์สด"
+          }
+        ],
+        "total_posts": 4,
+        "output_dir": "C:\\DriveD_MultiContentApp\\shopee_affiliate\\data\\05_ReadyToPost\\2026-03-14"
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 2,
+    "completed_steps": 6,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": {
+      "mode": "full",
+      "options": {
+        "topic": null,
+        "count": 4,
+        "max_price": 500,
+        "csv_file": null,
+        "affiliate_id": ""
+      }
+    }
+  }
+}
