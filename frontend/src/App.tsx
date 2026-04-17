@@ -10,6 +10,7 @@ import { useAuth } from './hooks/useAuth';
 import { useLogStream } from './hooks/useLogStream';
 import { useSubagents } from './hooks/useSubagents';
 import { useTerminal } from './hooks/useTerminal';
+import { useSocketEvents } from './hooks/useSocketEvents';
 
 // Zustand store
 import { useAppStore } from './stores/useAppStore';
@@ -29,11 +30,8 @@ export default function App() {
   // ── Store selectors ──
   const activeTab = useAppStore(s => s.activeTab);
   const agents = useAppStore(s => s.agents);
-  const updateAgent = useAppStore(s => s.updateAgent);
   const socketConnected = useAppStore(s => s.socketConnected);
-  const setSocketConnected = useAppStore(s => s.setSocketConnected);
   const socketReconnecting = useAppStore(s => s.socketReconnecting);
-  const setSocketReconnecting = useAppStore(s => s.setSocketReconnecting);
   const loadStatus = useAppStore(s => s.loadStatus);
 
   // ── Local state (UI-only, not shared) ──
@@ -55,6 +53,12 @@ export default function App() {
     cmdHistory, newSession, killTerm, termSend,
     pushHistory, historyUp, historyDown,
   } = useTerminal(socketConnected);
+
+  // ── Socket Events (centralized) ──
+  useSocketEvents({
+    onGatewayLogInit: handleGatewayLogInit,
+    onGatewayLogLine: handleGatewayLogLine,
+  });
 
   // ── Utility ──
   const toggleFullscreen = () => {
@@ -80,76 +84,6 @@ export default function App() {
       navigator.serviceWorker.register('/sw.js').catch(console.error);
     }
   }, []);
-
-  // Socket.IO setup
-  useEffect(() => {
-    if (!isLoggedIn && isLoading) return;
-
-    socketManager.connect();
-
-    const handleConnect = () => {
-      setSocketConnected(true);
-      setSocketReconnecting(false);
-    };
-
-    const handleDisconnect = (reason: string) => {
-      setSocketConnected(false);
-      setSocketReconnecting(reason === 'io server disconnect' || reason === 'io client disconnect');
-    };
-
-    const handleConnectError = () => setSocketConnected(false);
-    const handleReconnect = () => { setSocketConnected(true); setSocketReconnecting(false); };
-    const handleReconnectError = () => setSocketReconnecting(true);
-    const handleReconnectFailed = () => { setSocketConnected(false); setSocketReconnecting(false); };
-
-    const handleAgentStatus = (data: { agentId: string; status: string }) => {
-      updateAgent(data.agentId, { online: data.status === 'online' });
-    };
-
-    const handleTerminalOutput = (_sid: string, output: string) => {
-      const writeFn = (window as any).__termWriteOutput;
-      if (typeof writeFn === 'function') writeFn(output);
-    };
-
-    socketManager.on('connect', handleConnect);
-    socketManager.on('disconnect', handleDisconnect);
-    socketManager.on('connect_error', handleConnectError);
-    socketManager.on('reconnect', handleReconnect);
-    socketManager.on('reconnect_error', handleReconnectError);
-    socketManager.on('reconnect_failed', handleReconnectFailed);
-    socketManager.on('agent:status', handleAgentStatus);
-    socketManager.on('gateway_log_init', handleGatewayLogInit);
-    socketManager.on('gateway_log_line', handleGatewayLogLine);
-
-    if (socketManager.isConnected()) handleConnect();
-
-    const terminalListeners: { [key: string]: Function } = {};
-    const setupTerminalListener = (sid: string) => {
-      if (terminalListeners[sid]) return;
-      terminalListeners[sid] = (output: string) => handleTerminalOutput(sid, output);
-      socketManager.on(`terminal_output_${sid}`, terminalListeners[sid]);
-    };
-
-    socketManager.on('terminal_created', (data: { session_id: string }) => {
-      setupTerminalListener(data.session_id);
-    });
-
-    return () => {
-      socketManager.off('connect', handleConnect);
-      socketManager.off('disconnect', handleDisconnect);
-      socketManager.off('connect_error', handleConnectError);
-      socketManager.off('reconnect', handleReconnect);
-      socketManager.off('reconnect_error', handleReconnectError);
-      socketManager.off('reconnect_failed', handleReconnectFailed);
-      socketManager.off('agent:status', handleAgentStatus);
-      socketManager.off('gateway_log_init', handleGatewayLogInit);
-      socketManager.off('gateway_log_line', handleGatewayLogLine);
-      socketManager.off('terminal_created');
-      Object.keys(terminalListeners).forEach(sid => {
-        socketManager.off(`terminal_output_${sid}`, terminalListeners[sid]);
-      });
-    };
-  }, [isLoggedIn, isLoading, handleGatewayLogInit, handleGatewayLogLine, setSocketConnected, setSocketReconnecting, updateAgent]);
 
   // Dynamic log subscriptions
   useEffect(() => {

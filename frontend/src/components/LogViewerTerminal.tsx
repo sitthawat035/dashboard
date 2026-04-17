@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
+// components/LogViewerTerminal.tsx — Log viewer using centralized socket events
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { Terminal } from 'xterm';
 import { FitAddon } from 'xterm-addon-fit';
 import socketManager from '../utils/socket';
@@ -8,29 +9,20 @@ interface LogViewerTerminalProps {
   agentId: string;
 }
 
-/**
- * Unescape JSON-escaped ANSI sequences (e.g. \u001b → actual ESC byte).
- * xterm.js needs real escape codes, not JSON-stringified versions.
- */
 function unescapeAnsi(str: string): string {
-  // Handle double-escaped JSON sequences
   return str
-    .replace(/\\\\u001b/g, '\u001b')  // \\u001b → ESC
-    .replace(/\\u001b/g, '\u001b')    // \u001b → ESC
-    .replace(/\\\\x1b/g, '\x1b')      // \\x1b → ESC
-    .replace(/\\x1b/g, '\x1b');       // \x1b → ESC
+    .replace(/\\\\u001b/g, '\u001b')
+    .replace(/\\u001b/g, '\u001b')
+    .replace(/\\\\x1b/g, '\x1b')
+    .replace(/\\x1b/g, '\x1b');
 }
 
 const LogViewerTerminal: React.FC<LogViewerTerminalProps> = ({ agentId }) => {
   const xtermRef = useRef<HTMLDivElement>(null);
   const termRef = useRef<Terminal | null>(null);
-
-  // ── Use REFs for flags that must not trigger re-render ──────────────
-  // If these were useState, any change would re-run useEffect → dispose terminal → wipe logs
   const isScrollLockedRef = useRef(false);
   const hasInitializedRef = useRef(false);
 
-  // Only UI-visible state (safe to be useState — not in useEffect deps)
   const [isScrollLocked, setIsScrollLocked] = useState(false);
   const [socketConnected, setSocketConnected] = useState(socketManager.isConnected());
   const [isStreaming, setIsStreaming] = useState(false);
@@ -41,23 +33,20 @@ const LogViewerTerminal: React.FC<LogViewerTerminalProps> = ({ agentId }) => {
     setIsScrollLocked(next);
   };
 
-  const forceSync = () => {
+  const forceSync = useCallback(() => {
     if (termRef.current) {
       termRef.current.clear();
       termRef.current.writeln('\x1b[1;33m🔄 Syncing logs from server...\x1b[0m');
     }
-    // Reset ref (NOT setState) — avoids triggering useEffect re-run
     hasInitializedRef.current = false;
     setIsStreaming(false);
     socketManager.emit('leave_log_stream', { agent_id: agentId });
     setTimeout(() => {
       socketManager.emit('join_log_stream', { agent_id: agentId });
     }, 150);
-  };
+  }, [agentId]);
 
-  // ── Terminal lifecycle — ONLY depends on agentId ────────────────────
-  // Removing isScrollLocked / hasInitialized from deps was the critical fix.
-  // Previously those state changes caused: dispose terminal → re-create → wipe all logs.
+  // Terminal lifecycle
   useEffect(() => {
     if (!xtermRef.current) return;
 
@@ -75,15 +64,15 @@ const LogViewerTerminal: React.FC<LogViewerTerminalProps> = ({ agentId }) => {
         foreground: '#ffffff',
         black: '#1f2937',
         red: '#ff4a4a',
-        green: '#00ff41', // Matrix/Vibrant Green
+        green: '#00ff41',
         yellow: '#ffcc00',
         blue: '#3b82f6',
         magenta: '#ff00ff',
-        cyan: '#00fbff', // Neon Cyan
+        cyan: '#00fbff',
         white: '#f8fafc',
         brightBlack: '#4b5563',
         brightRed: '#ff6b6b',
-        brightGreen: '#39ff14', // Neon Green
+        brightGreen: '#39ff14',
         brightYellow: '#ffff00',
         brightBlue: '#60a5fa',
         brightMagenta: '#ff79c6',
@@ -109,32 +98,22 @@ const LogViewerTerminal: React.FC<LogViewerTerminalProps> = ({ agentId }) => {
 
     termRef.current = term;
 
-    // ── Socket event handlers ─────────────────────────────────────────
+    // Socket event handlers
     const handleLogInit = (data: { agent_id: string; lines: string[] }) => {
       if (data.agent_id !== agentId || !termRef.current) return;
-      // If live stream is already flowing, skip — don't wipe active content
       if (hasInitializedRef.current) return;
-
-      console.log('[LogViewer] handleLogInit received:', {
-        agent_id: data.agent_id,
-        lineCount: data.lines?.length || 0,
-        firstLine: data.lines?.[0]?.substring(0, 200),
-      });
 
       termRef.current.clear();
       if (data.lines && data.lines.length > 0) {
         data.lines.forEach((line) => {
           const cleaned = unescapeAnsi(line);
-          console.log('[LogViewer] Raw line:', line.substring(0, 100));
-          console.log('[LogViewer] Cleaned line:', cleaned.substring(0, 100));
           termRef.current!.writeln(cleaned);
         });
       } else {
         termRef.current.writeln('\x1b[2mWaiting for gateway output...\x1b[0m');
       }
-      console.log('[LogViewer] Streaming started for', agentId);
       hasInitializedRef.current = true;
-      setIsStreaming(true); // Mark streaming as active
+      setIsStreaming(true);
       setTimeout(() => { try { termRef.current?.scrollToBottom(); } catch { /* ignore */ } }, 50);
     };
 
@@ -163,6 +142,7 @@ const LogViewerTerminal: React.FC<LogViewerTerminalProps> = ({ agentId }) => {
     };
     const handleDisconnect = () => setSocketConnected(false);
 
+    // Register event handlers
     socketManager.on('gateway_log_init', handleLogInit);
     socketManager.on('gateway_log_line', handleLogLine);
     socketManager.on('gateway_log_lines', handleLogLines);
@@ -182,7 +162,7 @@ const LogViewerTerminal: React.FC<LogViewerTerminalProps> = ({ agentId }) => {
       socketManager.emit('leave_log_stream', { agent_id: agentId });
       term.dispose();
     };
-  }, [agentId]); // ← CRITICAL: only agentId, never scroll/init state
+  }, [agentId]);
 
   return (
     <div className="gw-terminal-outer">
