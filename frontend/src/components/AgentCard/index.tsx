@@ -1,8 +1,7 @@
-// components/AgentCard/index.tsx — Thin orchestrator (decomposed from 631 lines → ~220 lines)
-import { useState, useEffect, useRef, useCallback } from 'react';
+// components/AgentCard/index.tsx — Thin orchestrator using Context
+import { useEffect } from 'react';
 import type { Agent, LogData, SubagentLog, LogTab, StdoutSubTab } from '../../types';
-import { statusApi, gatewayApi, messageApi } from '../../utils/api';
-import { useAgentShell } from '../../hooks/useAgentShell';
+import { AgentCardProvider, useAgentCard } from '../../contexts/AgentCardContext';
 
 // Sub-components
 import AgentHeader from './AgentHeader';
@@ -33,164 +32,58 @@ interface AgentCardProps {
   allAgents?: Agent[];
 }
 
-const AgentCard: React.FC<AgentCardProps> = ({
-  gw, info, agent, logData, curLogTab,
-  onSwitchTab, stdoutSubTab, onSwitchStdoutSubTab,
-  onControl, onWatchLive, onSwitchAgent,
-  chatMessages, setChatMessages,
-  chatInput, setChatInput,
-  subagentLogs = [],
-  onRefreshStatus,
-  allAgents = [],
-}) => {
-  const online = agent?.online || false;
-  const logScrollRef = useRef<HTMLDivElement>(null);
+// Inner component that uses context
+function AgentCardContent() {
+  const {
+    gw, info, online,
+    logData, curLogTab, onSwitchTab, stdoutSubTab, onSwitchStdoutSubTab,
+    subagentLogs,
+    shell,
+    isStarting,
+    contentCollapsed, setContentCollapsed,
+    detailTab, setDetailTab,
+    logScrollRef,
+    handleControlClick,
+  } = useAgentCard();
 
-  const [detailTab, setDetailTab] = useState<'console' | 'config'>('console');
-  const [contentCollapsed, setContentCollapsed] = useState(!online);
-  const contentExpandedByLogRef = useRef(false);
-  const contentExpandedBySubagentRef = useRef(false);
-
-  // ── Gateway Starting Animation State ──
-  const [isStarting, setIsStarting] = useState(false);
-  const [startFailed, setStartFailed] = useState(false);
-  const startingTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const startingPollRef = useRef<ReturnType<typeof setInterval> | null>(null);
-
-  // ── Model State ──
-  const [selectedModel, setSelectedModel] = useState(agent?.primary_model || '');
-  const [modelSaving, setModelSaving] = useState(false);
-  const availableModels = agent?.available_models || [];
-
-  // ── Shell (via extracted hook) ──
-  const shell = useAgentShell(gw);
-
-  // ── Auto-expand/collapse logic ──
-  useEffect(() => {
-    if (online && isStarting) {
-      setIsStarting(false);
-      setStartFailed(false);
-      if (startingTimerRef.current) clearTimeout(startingTimerRef.current);
-    }
-  }, [online, isStarting]);
-
-  useEffect(() => {
-    return () => {
-      if (startingTimerRef.current) clearTimeout(startingTimerRef.current);
-      clearStartingPoll();
-    };
-  }, []);
+  // Auto-expand/collapse logic
+  const contentExpandedByLogRef = { current: false };
+  const contentExpandedBySubagentRef = { current: false };
 
   useEffect(() => {
     if (online && contentCollapsed && !contentExpandedByLogRef.current) {
       setContentCollapsed(false);
       contentExpandedByLogRef.current = true;
     }
-  }, [online, contentCollapsed]);
+  }, [online, contentCollapsed, setContentCollapsed]);
 
   useEffect(() => {
     if (curLogTab === 'err' && subagentLogs.length > 0 && contentCollapsed && !contentExpandedBySubagentRef.current) {
       setContentCollapsed(false);
       contentExpandedBySubagentRef.current = true;
     }
-  }, [curLogTab, subagentLogs.length, contentCollapsed]);
+  }, [curLogTab, subagentLogs.length, contentCollapsed, setContentCollapsed]);
 
-  // ── Log auto-scroll ──
-  const prevLogSizeRef = useRef(0);
+  // Log auto-scroll
+  const prevLogSizeRef = { current: 0 };
   useEffect(() => {
     const logSize = logData.log_size || 0;
     if (logSize > prevLogSizeRef.current && logScrollRef.current) {
       requestAnimationFrame(() => { if (logScrollRef.current) logScrollRef.current.scrollTop = logScrollRef.current.scrollHeight; });
     }
     prevLogSizeRef.current = logSize;
-  }, [logData.log_size, curLogTab, stdoutSubTab]);
+  }, [logData.log_size, curLogTab, stdoutSubTab, logScrollRef]);
 
-  // ── Starting poll helpers ──
-  const clearStartingPoll = () => {
-    if (startingPollRef.current) {
-      clearInterval(startingPollRef.current);
-      startingPollRef.current = null;
+  // Auto-clear starting state when online
+  useEffect(() => {
+    if (online && isStarting) {
+      handleControlClick(gw, 'stop');
     }
-  };
+  }, [online, isStarting, gw, handleControlClick]);
 
-  const handleControlClick = useCallback((gwKey: string, action: string) => {
-    if (action === 'start') {
-      setIsStarting(true);
-      setStartFailed(false);
-      clearStartingPoll();
-      if (startingTimerRef.current) clearTimeout(startingTimerRef.current);
-      startingTimerRef.current = setTimeout(() => {
-        setIsStarting(false);
-        setStartFailed(true);
-        clearStartingPoll();
-      }, 180000);
-
-      const pollStatus = async () => {
-        try {
-          const { ok, status, data } = await statusApi.getHealth(gwKey);
-          if (status === 401) { startingPollRef.current = setTimeout(pollStatus, 1500) as any; return; }
-          if (!ok) { startingPollRef.current = setTimeout(pollStatus, 1500) as any; return; }
-          if (data?.online) {
-            setIsStarting(false);
-            setStartFailed(false);
-            clearStartingPoll();
-            if (startingTimerRef.current) clearTimeout(startingTimerRef.current);
-            onRefreshStatus?.();
-            return;
-          }
-        } catch {}
-        startingPollRef.current = setTimeout(pollStatus, 1500) as any;
-      };
-      startingPollRef.current = setTimeout(pollStatus, 1500) as any;
-    } else if (action === 'stop') {
-      setIsStarting(false);
-      setStartFailed(false);
-      clearStartingPoll();
-      if (startingTimerRef.current) clearTimeout(startingTimerRef.current);
-    } else if (action === 'restart') {
-      setStartFailed(false);
-      clearStartingPoll();
-    }
-    onControl(gwKey, action);
-  }, [onControl, onRefreshStatus]);
-
-  // ── Model change ──
-  const changeModel = async (model: string) => {
-    setSelectedModel(model);
-    setModelSaving(true);
-    try { await gatewayApi.changeModel(gw, model); } catch {}
-    setModelSaving(false);
-  };
-
-  // ── Chat send ──
-  const sendChat = async () => {
-    if (!chatInput.trim()) return;
-    const msg = chatInput.trim();
-    setChatInput('');
-    setChatMessages((prev: any[]) => [...prev, { role: 'user', text: msg }]);
-    try {
-      const { ok, data } = await messageApi.send(gw, msg);
-      if (ok && data) {
-        setChatMessages((prev: any[]) => [...prev, { role: 'assistant', text: data.response || 'No response' }]);
-      } else {
-        setChatMessages((prev: any[]) => [...prev, { role: 'system', text: 'Error connecting to agent' }]);
-      }
-    } catch {
-      setChatMessages((prev: any[]) => [...prev, { role: 'system', text: 'Error connecting to agent' }]);
-    }
-  };
-
-  // ── Render ──
   return (
     <div className={`agent-detail-card glass animate-fade ${info.cls}`} data-testid={`agent-detail-${gw}`}>
-      <AgentHeader
-        gw={gw} info={info} agent={agent} online={online}
-        allAgents={allAgents}
-        selectedModel={selectedModel} modelSaving={modelSaving} availableModels={availableModels}
-        isStarting={isStarting} startFailed={startFailed}
-        onSwitchAgent={onSwitchAgent} onChangeModel={changeModel}
-        onControlClick={handleControlClick} onWatchLive={onWatchLive}
-      />
+      <AgentHeader />
 
       <div className="agent-tabs">
         <button className={`tab-btn ${detailTab === 'console' ? 'active' : ''}`} onClick={() => setDetailTab('console')}>Console & Chat</button>
@@ -215,7 +108,7 @@ const AgentCard: React.FC<AgentCardProps> = ({
                   {subagentLogs.length > 0 && <span className="sa-count-badge">{subagentLogs.length}</span>}
                 </button>
                 <button className={`subtab ${curLogTab === 'chat' ? 'active' : ''}`} onClick={() => onSwitchTab('chat')}>
-                  💬 Chat {chatMessages.length > 0 && <span className="msg-count">{chatMessages.length}</span>}
+                  💬 Chat
                 </button>
               </div>
 
@@ -232,23 +125,13 @@ const AgentCard: React.FC<AgentCardProps> = ({
               )}
 
               {curLogTab === 'chat' ? (
-                <ChatPanel
-                  agentName={info.name}
-                  chatMessages={chatMessages}
-                  chatInput={chatInput}
-                  setChatInput={setChatInput}
-                  onSendChat={sendChat}
-                />
+                <ChatPanel />
               ) : curLogTab === 'err' ? (
                 <SubagentMonitor logs={subagentLogs} agentName={info.name} agentId={gw} />
               ) : stdoutSubTab === 'shell' ? (
                 <ShellAccess agentName={info.name} shell={shell} />
               ) : (
-                <GatewayConsole
-                  gw={gw} agentName={info.name} online={online}
-                  isStarting={isStarting} startFailed={startFailed}
-                  onControlClick={handleControlClick}
-                />
+                <GatewayConsole />
               )}
             </div>
           ) : (
@@ -257,6 +140,15 @@ const AgentCard: React.FC<AgentCardProps> = ({
         </div>
       )}
     </div>
+  );
+}
+
+// Main component that provides context
+const AgentCard: React.FC<AgentCardProps> = (props) => {
+  return (
+    <AgentCardProvider {...props}>
+      <AgentCardContent />
+    </AgentCardProvider>
   );
 };
 

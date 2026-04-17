@@ -1,18 +1,13 @@
 // components/AgentCard/GatewayConsole.tsx — Gateway log viewer with offline/starting/failed overlays
 import LogViewerTerminal from '../LogViewerTerminal';
+import { useAgentCard } from '../../contexts/AgentCardContext';
 
-interface GatewayConsoleProps {
-  gw: string;
-  agentName: string;
-  online: boolean;
-  isStarting: boolean;
-  startFailed: boolean;
-  onControlClick: (gw: string, action: string) => void;
-}
+const GatewayConsole: React.FC = () => {
+  const {
+    gw, info, online, isStarting, startFailed,
+    handleControlClick,
+  } = useAgentCard();
 
-const GatewayConsole: React.FC<GatewayConsoleProps> = ({
-  gw, agentName, online, isStarting, startFailed, onControlClick,
-}) => {
   return (
     <div className="gw-terminal-container">
       {/* Always render terminal for live logs */}
@@ -22,9 +17,9 @@ const GatewayConsole: React.FC<GatewayConsoleProps> = ({
         <div className="gateway-offline-overlay animate-fade">
           <div className="offline-icon">🔌</div>
           <h4>Gateway Offline</h4>
-          <p>Start the {agentName} gateway to see live logs.</p>
+          <p>Start the {info.name} gateway to see live logs.</p>
           <div className="failed-actions">
-            <button className="btn-mini btn-start" style={{ marginTop: '15px' }} onClick={() => onControlClick(gw, 'start')}>
+            <button className="btn-mini btn-start" style={{ marginTop: '15px' }} onClick={() => handleControlClick(gw, 'start')}>
               ▶ START NOW
             </button>
             <button className="btn-mini gw-overlay-sync" style={{ marginTop: '15px' }}
@@ -44,7 +39,7 @@ const GatewayConsole: React.FC<GatewayConsoleProps> = ({
         <div className="gateway-starting-overlay animate-fade">
           <div className="gw-ring-spinner" />
           <h4>Gateway Starting...</h4>
-          <p>Launching {agentName} in background. Logs will appear shortly.</p>
+          <p>Launching {info.name} in background. Logs will appear shortly.</p>
           <span className="gw-starting-hint">This may take up to 3 minutes</span>
         </div>
       )}
@@ -55,10 +50,10 @@ const GatewayConsole: React.FC<GatewayConsoleProps> = ({
           <h4>Failed to Start</h4>
           <p>Gateway didn't come online. It may already be running, or a config error occurred.</p>
           <div className="failed-actions">
-            <button className="btn-mini btn-start" onClick={() => onControlClick(gw, 'start')}>
+            <button className="btn-mini btn-start" onClick={() => handleControlClick(gw, 'start')}>
               ▶ Try Again
             </button>
-            <button className="btn-mini btn-restart-ml" onClick={() => onControlClick(gw, 'restart')}>
+            <button className="btn-mini btn-restart-ml" onClick={() => handleControlClick(gw, 'restart')}>
               🔄 Restart
             </button>
           </div>
