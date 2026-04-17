@@ -1,50 +1,10 @@
-// src/types.ts
+// src/types.ts — Legacy types file (deprecated)
+// Import from types/index.ts instead
 
-export interface Agent {
-  id: string;
-  name: string;
-  emoji: string;
-  port: number;
-  online: boolean;
-  color: string;
-  subagents?: { id: string; name: string }[];
-  primary_model?: string;
-  available_models?: string[];
-  token?: string;
-  identity?: string;
-  soul?: string;
-  user_md?: string;
-  memory_md?: string;
-  heartbeat?: string;
-}
+// Re-export all types from new structure
+export * from './types/index';
 
-export interface TermSession {
-  id: string;
-  lineCount: number;
-  pollRef?: ReturnType<typeof setInterval> | null;
-}
-
-export interface LogData {
-  log: string[];
-  err: string[];
-  log_size?: number;
-  err_size?: number;
-}
-
-export interface SubagentLog {
-  id: string;
-  agent: string;
-  session_key: string;
-  task: string;
-  status: 'running' | 'complete' | 'error';
-  timestamp: string;
-  snippet?: string;
-  mode?: string;
-  model?: string;
-  workspace?: string;
-  error?: string;
-}
-
-export type LogTab = 'log' | 'err' | 'chat';
-export type StdoutSubTab = 'gateway_logs' | 'shell';
-export type TabId = 'dashboard' | 'mission' | 'agents' | 'terminal' | 'memory' | 'logs' | 'multi' | 'settings';
+// Legacy types for backward compatibility
+export type { Agent, AgentInfo, AgentStatus, SubagentLog } from './types/agent';
+export type { LogData, ApiResponse } from './types/api';
+export type { LogTab, StdoutSubTab, TabId, TermSession, ChatMessage } from './types/ui';

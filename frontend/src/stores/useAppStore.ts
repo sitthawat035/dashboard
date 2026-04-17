@@ -4,49 +4,49 @@ import type { Agent, TabId, LogTab, StdoutSubTab, LogData, SubagentLog } from '.
 import { statusApi, systemApi, gatewayApi } from '../utils/api';
 
 interface AppState {
-  // ── Navigation ──
+  // Navigation
   activeTab: TabId;
   setActiveTab: (tab: TabId) => void;
   sidebarOpen: boolean;
   setSidebarOpen: (open: boolean) => void;
 
-  // ── Agents ──
+  // Agents
   agents: Record<string, Agent>;
   setAgents: (agents: Record<string, Agent>) => void;
   updateAgent: (id: string, patch: Partial<Agent>) => void;
   selectedAgent: string | null;
   setSelectedAgent: (gw: string | null) => void;
 
-  // ── Per-agent UI state ──
+  // Per-agent UI state
   logTab: Record<string, LogTab>;
   setLogTabForAgent: (gw: string, tab: LogTab) => void;
   stdoutSubTab: Record<string, StdoutSubTab>;
   setStdoutSubTabForAgent: (gw: string, tab: StdoutSubTab) => void;
-  chatSessions: Record<string, any[]>;
-  setChatMessagesForAgent: (gw: string, updater: any[] | ((prev: any[]) => any[])) => void;
+  chatSessions: Record<string, ChatMessage[]>;
+  setChatMessagesForAgent: (gw: string, updater: ChatMessage[] | ((prev: ChatMessage[]) => ChatMessage[])) => void;
   chatInputs: Record<string, string>;
   setChatInputForAgent: (gw: string, val: string) => void;
 
-  // ── Log Data ──
+  // Log Data
   logData: Record<string, LogData>;
   setLogData: (data: Record<string, LogData>) => void;
   updateLogData: (gw: string, data: Partial<LogData>) => void;
 
-  // ── Subagents ──
+  // Subagents
   subagentLogs: SubagentLog[];
   setSubagentLogs: (logs: SubagentLog[]) => void;
 
-  // ── Socket ──
+  // Socket
   socketConnected: boolean;
   setSocketConnected: (val: boolean) => void;
   socketReconnecting: boolean;
   setSocketReconnecting: (val: boolean) => void;
 
-  // ── Auth ──
+  // Auth
   isLoggedIn: boolean;
   setIsLoggedIn: (val: boolean) => void;
 
-  // ── Actions ──
+  // Actions
   loadStatus: () => Promise<void>;
   control: (gw: string, action: string) => Promise<void>;
   startAll: () => Promise<void>;
@@ -54,14 +54,17 @@ interface AppState {
   killAll: () => Promise<void>;
 }
 
+// Import ChatMessage type
+import type { ChatMessage } from '../types';
+
 export const useAppStore = create<AppState>((set, get) => ({
-  // ── Navigation ──
+  // Navigation
   activeTab: 'dashboard',
   setActiveTab: (tab) => set({ activeTab: tab }),
-  sidebarOpen: window.innerWidth > 768,
+  sidebarOpen: typeof window !== 'undefined' ? window.innerWidth > 768 : true,
   setSidebarOpen: (open) => set({ sidebarOpen: open }),
 
-  // ── Agents ──
+  // Agents
   agents: {},
   setAgents: (agents) => set({ agents }),
   updateAgent: (id, patch) => set(state => ({
@@ -70,7 +73,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   selectedAgent: null,
   setSelectedAgent: (gw) => set({ selectedAgent: gw }),
 
-  // ── Per-agent UI ──
+  // Per-agent UI
   logTab: {},
   setLogTabForAgent: (gw, tab) => set(state => ({ logTab: { ...state.logTab, [gw]: tab } })),
   stdoutSubTab: {},
@@ -84,28 +87,28 @@ export const useAppStore = create<AppState>((set, get) => ({
   chatInputs: {},
   setChatInputForAgent: (gw, val) => set(state => ({ chatInputs: { ...state.chatInputs, [gw]: val } })),
 
-  // ── Log Data ──
+  // Log Data
   logData: {},
   setLogData: (data) => set({ logData: data }),
   updateLogData: (gw, data) => set(state => ({
     logData: { ...state.logData, [gw]: { ...state.logData[gw], ...data } as LogData }
   })),
 
-  // ── Subagents ──
+  // Subagents
   subagentLogs: [],
   setSubagentLogs: (logs) => set({ subagentLogs: logs }),
 
-  // ── Socket ──
+  // Socket
   socketConnected: false,
   setSocketConnected: (val) => set({ socketConnected: val }),
   socketReconnecting: false,
   setSocketReconnecting: (val) => set({ socketReconnecting: val }),
 
-  // ── Auth ──
+  // Auth
   isLoggedIn: false,
   setIsLoggedIn: (val) => set({ isLoggedIn: val }),
 
-  // ── Actions ──
+  // Actions
   loadStatus: async () => {
     const { ok, status, data } = await statusApi.getAll();
     if (status === 401) { set({ isLoggedIn: false }); return; }
