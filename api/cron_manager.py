@@ -126,7 +126,7 @@ class CronManager:
         with self._lock:
             self._jobs[job_id] = job
             self._save_jobs()
-        print(f"[CronManager] ➕ Added job {job_id}: {engine_id} @ {run_time} ({repeat})")
+        print(f"[CronManager] [+] Added job {job_id}: {engine_id} @ {run_time} ({repeat})")
         return job_id
 
     def remove_job(self, job_id: str) -> bool:
@@ -135,7 +135,7 @@ class CronManager:
             if job_id in self._jobs:
                 del self._jobs[job_id]
                 self._save_jobs()
-                print(f"[CronManager] 🗑️ Removed job {job_id}")
+                print(f"[CronManager] [-] Removed job {job_id}")
                 return True
         return False
 
@@ -155,7 +155,7 @@ class CronManager:
         self.thread  = threading.Thread(target=self._run_loop, daemon=True)
         self.thread.start()
         active = sum(1 for j in self._jobs.values() if j.get("active"))
-        print(f"[CronManager] ✅ Scheduler started. Active jobs: {active}")
+        print(f"[CronManager] [OK] Scheduler started. Active jobs: {active}")
 
     def stop(self):
         self.running = False
@@ -188,7 +188,7 @@ class CronManager:
                     continue
 
                 # Fire!
-                print(f"[CronManager] ⏰ Triggering job {job_id}: {job['engine_id']} @ {current_hhmm}")
+                print(f"[CronManager] [!] Triggering job {job_id}: {job['engine_id']} @ {current_hhmm}")
                 self._last_ran[job_id] = current_ts
                 self._fire_job(job)
 
@@ -213,7 +213,7 @@ class CronManager:
         """Spawn the engine subprocess in a daemon thread (non-blocking)."""
         cmd = _build_cmd(job["engine_id"], job.get("options", {}))
         if not cmd:
-            print(f"[CronManager] ❌ Cannot build command for engine: {job['engine_id']}")
+            print(f"[CronManager] [ERR] Cannot build command for engine: {job['engine_id']}")
             return
 
         def _spawn():
@@ -239,9 +239,9 @@ class CronManager:
                         lf.write(line)
                         lf.flush()
                 proc.wait(timeout=900)
-                print(f"[CronManager] ✅ Job {job['id']} finished (exit {proc.returncode})")
+                print(f"[CronManager] [OK] Job {job['id']} finished (exit {proc.returncode})")
             except Exception as e:
-                print(f"[CronManager] ❌ Job {job['id']} error: {e}")
+                print(f"[CronManager] [ERR] Job {job['id']} error: {e}")
 
         threading.Thread(target=_spawn, daemon=True).start()
 
