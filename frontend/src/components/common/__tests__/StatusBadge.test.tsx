@@ -31,28 +31,33 @@ describe('StatusBadge', () => {
 
   it('should render with dot by default', () => {
     const { container } = render(<StatusBadge status="online" />);
-    const dot = container.querySelector('span:first-child');
-    expect(dot).toHaveClass('rounded-full');
+    // Find the dot span (w-2 h-2 rounded-full)
+    const dot = container.querySelector('.w-2.h-2.rounded-full');
+    expect(dot).toBeInTheDocument();
   });
 
   it('should render without dot when showDot is false', () => {
     const { container } = render(<StatusBadge status="online" showDot={false} />);
-    const dot = container.querySelector('span:first-child');
-    expect(dot).not.toHaveClass('rounded-full');
+    // Should not find the dot span
+    const dot = container.querySelector('.w-2.h-2.rounded-full');
+    expect(dot).not.toBeInTheDocument();
   });
 
   it('should apply small size', () => {
     const { container } = render(<StatusBadge status="online" size="sm" />);
-    expect(container.querySelector('span')).toHaveClass('text-xs');
+    const badge = container.querySelector('span');
+    expect(badge).toHaveClass('text-xs');
   });
 
   it('should apply medium size', () => {
     const { container } = render(<StatusBadge status="online" size="md" />);
-    expect(container.querySelector('span')).toHaveClass('text-sm');
+    const badge = container.querySelector('span');
+    expect(badge).toHaveClass('text-sm');
   });
 
   it('should apply large size', () => {
     const { container } = render(<StatusBadge status="online" size="lg" />);
-    expect(container.querySelector('span')).toHaveClass('text-base');
+    const badge = container.querySelector('span');
+    expect(badge).toHaveClass('text-base');
   });
 });
