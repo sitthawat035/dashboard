@@ -57,7 +57,15 @@ export default function App() {
     setCliScanState('done');
   };
 
+  const loadStatus = useAppStore(s => s.loadStatus);
+
   // ── Effects ──
+  useEffect(() => {
+    if (isLoggedIn) {
+      loadStatus();
+    }
+  }, [isLoggedIn, loadStatus]);
+
   useEffect(() => {
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js').catch(console.error);

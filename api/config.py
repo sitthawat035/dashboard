@@ -97,7 +97,9 @@ AGENTS = discover_agents()
 
 def reload_agents():
     global AGENTS
-    AGENTS = discover_agents()
+    new_agents = discover_agents()
+    AGENTS.clear()
+    AGENTS.update(new_agents)
     return AGENTS
 
 # Print summary to console for debugging
