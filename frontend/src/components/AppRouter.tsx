@@ -6,6 +6,7 @@ import AgentPage from '../pages/AgentPage';
 import TerminalModule from './TerminalModule';
 import CLIProviders from './CLIProviders';
 import EngineHub from '../pages/EngineHubPage';
+import HermesPage from '../pages/HermesPage';
 
 interface AppRouterProps {
   // Terminal props
@@ -65,6 +66,7 @@ export default function AppRouter({
       )}
 
       {activeTab === 'multi' && <EngineHub />}
+      {activeTab === 'hermes' && <HermesPage />}
     </section>
   );
 }

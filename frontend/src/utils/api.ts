@@ -136,3 +136,48 @@ export const systemApi = {
   killAll: () => api.post('/api/system/kill-all'),
   scanCli: () => api.get('/api/settings/scan-cli'),
 };
+
+// ─── Hermes Agent Bridge ──────────────────────────────────────────────────────
+
+export interface HermesStatus {
+  connected: boolean;
+  status?: string;
+  platform?: string;
+  gateway_state?: string;
+  platforms?: Record<string, boolean>;
+  active_agents?: number;
+  pid?: number;
+  error?: string;
+}
+
+export interface HermesRun {
+  run_id: string;
+  status: "started" | "running" | "completed" | "failed" | "stopped" | "ended";
+  mode?: "runs_api" | "chat_completions";
+}
+
+export interface HermesRunInfo {
+  status: string;
+  started_at?: number;
+  ended_at?: number;
+}
+
+export const hermesApi = {
+  getStatus: (): Promise<HermesStatus> =>
+    api.get('/api/hermes/status').then((r) => r.data),
+
+  startRun: (message: string, model?: string): Promise<HermesRun> =>
+    api.post('/api/hermes/run', { message, model }).then((r) => r.data),
+
+  listRuns: (): Promise<Record<string, HermesRunInfo>> =>
+    api.get('/api/hermes/runs').then((r) => r.data),
+
+  stopRun: (runId: string): Promise<{ stopped: boolean }> =>
+    api.post(`/api/hermes/runs/${runId}/stop`).then((r) => r.data),
+
+  getCronJobs: (): Promise<any> =>
+    api.get('/api/hermes/cron').then((r) => r.data),
+
+  triggerCronJob: (jobId: string): Promise<any> =>
+    api.post(`/api/hermes/cron/${jobId}/run`).then((r) => r.data),
+};
