@@ -206,6 +206,40 @@ class StealthAffiliateConverter:
             await asyncio.sleep(get_random_delay(100, 300))
         except:
             pass
+
+    async def _bezier_move(self, target_elem) -> None:
+        """Simulate human-like mouse movement using Bezier curve approximation."""
+        try:
+            box = await target_elem.bounding_box()
+            if not box: return
+            
+            # Start coordinates (random current mouse position)
+            start_x = random.randint(100, 800)
+            start_y = random.randint(100, 600)
+            
+            # Target with slight jitter
+            import random
+            target_x = box['x'] + (box['width'] / 2) + random.uniform(-box['width']*0.2, box['width']*0.2)
+            target_y = box['y'] + (box['height'] / 2) + random.uniform(-box['height']*0.2, box['height']*0.2)
+            
+            steps = random.randint(10, 20)
+            for i in range(steps):
+                t = i / steps
+                # ease out quad for realistic slow down near target
+                ease_t = t * (2 - t)
+                
+                current_x = start_x + (target_x - start_x) * ease_t + random.uniform(-5, 5)
+                current_y = start_y + (target_y - start_y) * ease_t + random.uniform(-5, 5)
+                
+                await self.page.mouse.move(current_x, current_y)
+                import asyncio
+                await asyncio.sleep(random.uniform(0.01, 0.04))
+                
+            # final precision move
+            await self.page.mouse.move(target_x, target_y)
+            await asyncio.sleep(get_random_delay(200, 500))
+        except Exception as e:
+            print(f"   ⚠️ Bezier move error: {e}")
     
     async def check_login_status(self) -> bool:
         """
@@ -402,10 +436,25 @@ class StealthAffiliateConverter:
         print(f"   ⌨️ Typing {len(links)} links...")
         batch_input = "\n".join(links)
         
-        # Fill is much faster than typing for long URLs
-        await textarea.fill(batch_input)
+        # Human-like insertion: Focus, simulate paste using insert_text or clipboard
+        await textarea.focus()
+        await asyncio.sleep(get_random_delay(100, 300))
         
-        await asyncio.sleep(get_random_delay(400, 800))
+        # Simulate Paste instead of fast fill which triggers Anti-bot
+        try:
+            # We try executing a clipboard write first
+            escaped_input = batch_input.replace('\n', '\\n')
+            await self.page.evaluate(f"navigator.clipboard.writeText(`{escaped_input}`)")
+            await textarea.press("Control+v")
+        except Exception:
+            # Fallback to insert_text if clipboard permissions fail
+            await self.page.keyboard.insert_text(batch_input)
+            
+        # Trigger input events manually just in case React needs it
+        await textarea.press("Space")
+        await textarea.press("Backspace")
+        
+        await asyncio.sleep(get_random_delay(400, 1000))
         
         # Find and click convert button
         convert_button = None
@@ -426,7 +475,13 @@ class StealthAffiliateConverter:
                 continue
         
         if convert_button:
-            await convert_button.click()
+            # Simulate human hesitating/hovering before clicking
+            await self._bezier_move(convert_button)
+            await convert_button.hover()
+            import random
+            await asyncio.sleep(random.uniform(0.3, 0.8))
+            
+            await convert_button.click(delay=int(get_random_delay(50, 150)))
             print(f"   ✅ Clicked convert button")
         else:
             print(f"   ⚠️ Convert button not found")

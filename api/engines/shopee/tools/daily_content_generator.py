@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Shopee Affiliate Daily Content Generator (Simplified AI Edition)
@@ -10,6 +10,12 @@ import os
 import csv
 import json
 import requests
+import io
+# Force UTF-8 on Windows console
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+if sys.stderr.encoding != 'utf-8':
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 from pathlib import Path
 from datetime import datetime
 
@@ -46,7 +52,7 @@ def call_ai_api(prompt, temperature=0.7):
             if result == 0:
                 # OpenClaw is available
                 try:
-                    from common_shared.ai_client import create_ai_client
+                    from common.ai_client import create_ai_client
                     ai_client = create_ai_client()
                     response = ai_client.generate(
                         prompt=prompt,
@@ -123,6 +129,38 @@ def load_products_from_csv(csv_path):
         print(f"❌ Error loading CSV: {e}")
         return []
     
+    return products
+
+
+def load_products_from_md_fallback(md_path):
+    """Load products from markdown template as fallback"""
+    products = []
+    try:
+        with open(md_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+            for line in lines:
+                if '|' in line and 'ชื่อสินค้า' not in line and '---' not in line:
+                    parts = [p.strip() for p in line.split('|')]
+                    if len(parts) >= 4:
+                        name = parts[1]
+                        price = parts[2].replace('฿', '').replace(',', '').strip()
+                        link = parts[3]
+                        image = "https://cf.shopee.co.th/file/th-11134207-7r98o-lsth67p9s..." # placeholder
+                        
+                        if name and link and price:
+                            try:
+                                price_num = int(float(price))
+                                if price_num <= 500:
+                                    products.append({
+                                        'name': name[:80],
+                                        'price': str(price_num),
+                                        'link': link,
+                                        'image': image
+                                    })
+                            except ValueError:
+                                continue
+    except Exception as e:
+        print(f"❌ Error loading MD fallback: {e}")
     return products
 
 
@@ -336,11 +374,26 @@ def main():
     csv_path = Path("shopee_affiliate/data/00_ScrapedData/items.csv")
     if not csv_path.exists():
         csv_path = Path("data/00_ScrapedData/items.csv")
+        
+    products = []
     if not csv_path.exists():
-        print(f"❌ CSV file not found at: shopee_affiliate/data/00_ScrapedData/items.csv or data/00_ScrapedData/items.csv")
-        return
-    
-    products = load_products_from_csv(csv_path)
+        print(f"⚠️ CSV file not found at: {csv_path}")
+        print("💡 Trying to use fallback: product_input_template.md")
+        
+        md_path = Path("shopee_affiliate/product_input_template.md")
+        if not md_path.exists():
+            md_path = Path("product_input_template.md")
+        
+        if md_path.exists():
+            products = load_products_from_md_fallback(md_path)
+            if products:
+                print(f"✅ Successfully loaded {len(products)} products from template!")
+        
+        if not products:
+            print("❌ Cannot find any products to process (no CSV and no template data).")
+            return
+    else:
+        products = load_products_from_csv(csv_path)
     print(f"✅ Loaded {len(products)} products (< 500 THB)")
     
     if len(products) < 4:

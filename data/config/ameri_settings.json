@@ -8,7 +8,11 @@
   "content_strategy": {
     "niche": "Technology, AI, Engineering",
     "target_audience": "คนไทยที่สนใจเทคโนโลยี",
-    "max_posts_per_day": 3
+    "max_posts_per_day": 3,
+    "content_length": "300-500",
+    "writing_style": "กระชับ น่าสนใจ ใช้ bullet points",
+    "include_hashtags": true,
+    "max_hashtags": 5
   },
   "automation_rules": {
     "daily_trend_scan_time": "09:00",

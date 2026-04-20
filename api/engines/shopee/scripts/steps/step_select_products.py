@@ -1,4 +1,4 @@
-"""
+﻿"""
 Select Products Step for Shopee Affiliate Pipeline
 AI-powered product selection
 """
@@ -16,7 +16,7 @@ root_dir = project_root.parent
 sys.path.insert(0, str(root_dir))
 
 from .base_step import BaseAffiliateStep, StepResult
-from common_shared.utils import print_header, print_success, print_error, print_warning
+from common.utils import print_header, print_success, print_error, print_warning
 
 
 class StepSelectProducts(BaseAffiliateStep):
@@ -160,5 +160,5 @@ class StepSelectProducts(BaseAffiliateStep):
             )
     
     def _create_validation_error(self, message: str):
-        from common_shared.error_handler import ValidationError
+        from common.error_handler import ValidationError
         return ValidationError(message, step_name="select_products")

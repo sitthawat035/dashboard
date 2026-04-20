@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Shopee Affiliate Pipeline Runner
 Main entry point with backward-compatible CLI
@@ -42,12 +42,12 @@ sys.path.insert(0, str(root_dir))
 
 # Import common utilities
 try:
-    from common_shared.utils import (
+    from common.utils import (
         setup_logger, get_date_str, ensure_dir,
         print_header, print_success, print_error, print_info, print_warning
     )
-    from common_shared.ai_client import create_ai_client
-    from common_shared.config import Config
+    from common.ai_client import create_ai_client
+    from common.config import Config
     HAS_COMMON = True
 except ImportError:
     HAS_COMMON = False
@@ -314,7 +314,7 @@ def run_legacy_mode(max_price=500, count=4):
 
 def run_new_pipeline(args):
     """Run using new pipeline controller"""
-    from common_shared.state_manager import StateManager
+    from common.state_manager import StateManager
     
     # Use project root for unified state management (standard v2.0)
     state_manager = StateManager(project_root, "shopee_affiliate")

@@ -1,10 +1,10 @@
-import asyncio
+﻿import asyncio
 import os
 import sys
 from pathlib import Path
 from datetime import datetime
-from common_shared.browser import create_browser_manager
-from common_shared.utils import print_success, print_error
+from common.browser import create_browser_manager
+from common.utils import print_success, print_error
 
 async def schedule_post(slot_time, caption_file, image_file, schedule_date="2026-02-09"):
     async with await create_browser_manager() as browser:

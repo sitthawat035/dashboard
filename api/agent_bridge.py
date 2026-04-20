@@ -90,12 +90,23 @@ def run_engine(engine_id, extra_args=None):
             errors="replace"
         )
         
-        if result.stdout: print(result.stdout)
-        if result.stderr: print(f"STDERR: {result.stderr}")
+        if result.stdout:
+            try:
+                print(result.stdout)
+            except UnicodeEncodeError:
+                print(result.stdout.encode('utf-8', errors='replace').decode('utf-8'))
+        if result.stderr:
+            try:
+                print(f"STDERR: {result.stderr}")
+            except UnicodeEncodeError:
+                print(f"STDERR: {result.stderr.encode('utf-8', errors='replace').decode('utf-8')}")
             
         return result.returncode == 0
     except Exception as e:
-        print(f"💥 Bridge Error: {e}")
+        try:
+            print(f"💥 Bridge Error: {e}")
+        except UnicodeEncodeError:
+            print(f"Bridge Error: {e}")
         return False
 
 if __name__ == "__main__":

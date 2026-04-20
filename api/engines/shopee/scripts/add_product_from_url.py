@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Simple Product URL to Affiliate Content
 Usage: python add_product_from_url.py <shopee_url>
@@ -16,9 +16,9 @@ script_dir = Path(__file__).resolve().parent
 project_root = script_dir.parent
 sys.path.insert(0, str(project_root))
 
-from common_shared.browser import create_browser_manager
-from common_shared.utils import setup_logger, print_success, print_error, print_info
-from common_shared.state_manager import StateManager
+from common.browser import create_browser_manager
+from common.utils import setup_logger, print_success, print_error, print_info
+from common.state_manager import StateManager
 import os
 
 logger = setup_logger("AddProductFromURL")

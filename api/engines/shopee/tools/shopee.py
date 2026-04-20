@@ -9,6 +9,13 @@ That's it. No parameters, no thinking.
 """
 
 import sys
+import os
+import io
+# Force UTF-8 on Windows console
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+if sys.stderr.encoding != 'utf-8':
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 import subprocess
 from pathlib import Path
 from datetime import datetime

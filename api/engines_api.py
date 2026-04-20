@@ -37,8 +37,8 @@ ENGINES = {
     },
     "shopee-scraper": {
         "name": "Shopee Search Scraper",
-        "path": "api/engines/shopee/tools/shopee_search_scraper.py",
-        "description": "Scrapes product data from Shopee stealthily.",
+        "path": "api/engines/shopee/tools/shopee_api_engine.py",
+        "description": "Searches Shopee products via API (no browser needed, anti-bot proof).",
     },
     "fb-poster": {
         "name": "Facebook Auto-Poster",
@@ -389,4 +389,57 @@ def get_engine_preview(engine_id):
     return jsonify({"success": False, "error": "Preview not supported for this engine."}), 400
 
 
+# ===== Shopee Manual Scraper Import =====
+
+@engines_bp.route("/shopee/import", methods=["POST"])
+def shopee_import():
+    """
+    Receive scraped product data from the Console JS snippet.
+    Saves as CSV for the pipeline to consume.
+    """
+    import csv as csv_mod
+    from datetime import datetime
+
+    data = request.get_json()
+    if not data:
+        return jsonify({"success": False, "error": "No JSON body"}), 400
+
+    products = data.get("products", [])
+    keyword = data.get("keyword", "unknown")
+
+    if not products:
+        return jsonify({"success": False, "error": "No products in payload"}), 400
+
+    # Save to pipeline input directory
+    output_dir = DASHBOARD_DIR / "data" / "content" / "shopee" / "scraped"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    fieldnames = ["name", "price", "url", "image_url"]
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # Save keyword CSV
+    import re
+    safe_kw = re.sub(r'[^\w\u0E00-\u0E7F]', '_', keyword).strip('_') or "scraped"
+    kw_csv = output_dir / f"{safe_kw}.csv"
+    with open(kw_csv, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv_mod.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+        w.writeheader()
+        w.writerows(products)
+
+    # Save as items.csv (pipeline compatibility)
+    items_csv = output_dir / "items.csv"
+    try:
+        with open(items_csv, "w", encoding="utf-8-sig", newline="") as f:
+            w = csv_mod.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            w.writeheader()
+            w.writerows(products)
+    except PermissionError:
+        pass
+
+    return jsonify({
+        "success": True,
+        "message": f"Imported {len(products)} products for '{keyword}'",
+        "csv_path": str(kw_csv),
+        "count": len(products),
+    })
 

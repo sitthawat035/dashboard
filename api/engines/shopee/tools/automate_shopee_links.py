@@ -1,4 +1,4 @@
-
+﻿
 import asyncio
 import sys
 import json
@@ -14,9 +14,9 @@ project_root = script_dir.parent
 workspace_root = project_root.parent
 sys.path.insert(0, str(workspace_root))
 
-from common_shared.browser import create_browser_manager
-from common_shared.utils import setup_logger, print_success, print_error, print_info, print_warning
-from common_shared.config import get_config
+from common.browser import create_browser_manager
+from common.utils import setup_logger, print_success, print_error, print_info, print_warning
+from common.config import get_config
 
 # Config
 LOGGER = setup_logger("ShopeeAutoLink", workspace_root / ".agent" / "logs" / "shopee_auto.log")
@@ -27,7 +27,7 @@ async def automate_links():
     Automate the conversion of Shopee links using the existing Chrome instance.
     """
     # 1. Find the latest run folder
-    from common_shared.utils import get_date_str
+    from common.utils import get_date_str
     date_str = get_date_str()
     
     # Path specific to Shopee project (vs shared config)

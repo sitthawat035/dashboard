@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Test stealth configuration"""
 import sys
 import io
@@ -10,7 +10,7 @@ print('Testing stealth_config.py...')
 print('='*60)
 
 try:
-    from common_shared.stealth_config import (
+    from common.stealth_config import (
         StealthStrategy,
         BrowserFingerprint,
         get_random_delay,

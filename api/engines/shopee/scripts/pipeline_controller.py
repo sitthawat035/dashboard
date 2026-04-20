@@ -1,4 +1,4 @@
-"""
+﻿"""
 Shopee Affiliate Pipeline Controller
 Main pipeline orchestration with CLI support
 """
@@ -17,10 +17,10 @@ root_dir = project_root.parent
 
 sys.path.insert(0, str(root_dir))
 
-from common_shared.pipeline_base import BasePipeline, PipelineMode, StepResult
-from common_shared.utils import setup_logger, print_header, print_success, print_error, print_info
-from common_shared.state_manager import StateManager
-from common_shared.error_handler import ErrorHandler, ErrorSeverity
+from common.pipeline_base import BasePipeline, PipelineMode, StepResult
+from common.utils import setup_logger, print_header, print_success, print_error, print_info
+from common.state_manager import StateManager
+from common.error_handler import ErrorHandler, ErrorSeverity
 
 from steps import (
     StepLoadProducts,
@@ -253,7 +253,7 @@ class AffiliatePipeline(BasePipeline):
             final_result["output_dir"] = ready_data.get("output_dir", str(self.output_dir))
         
         if self.state:
-            from common_shared.state_manager import PipelineStatus
+            from common.state_manager import PipelineStatus
             status = PipelineStatus.COMPLETED if final_result["success"] else PipelineStatus.FAILED
             self.state.update_status(status)
         

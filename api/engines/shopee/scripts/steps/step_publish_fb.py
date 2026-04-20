@@ -1,4 +1,4 @@
-"""
+﻿"""
 Step: Publish to Facebook (Shopee Affiliate)
 Automatically posts the generated product review content and images to a Facebook Page.
 """
@@ -8,8 +8,8 @@ from typing import Dict, Any
 from pathlib import Path
 from dotenv import load_dotenv
 
-from common_shared.pipeline_base import StepResult
-from common_shared.utils import print_header, print_info, print_success, print_error
+from common.pipeline_base import StepResult
+from common.utils import print_header, print_info, print_success, print_error
 
 # Use the centralized facebook API we created earlier
 import sys

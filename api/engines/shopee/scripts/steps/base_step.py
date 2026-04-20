@@ -1,4 +1,4 @@
-"""
+﻿"""
 Base Step for Shopee Affiliate Pipeline
 Provides common functionality for all affiliate steps
 """
@@ -17,10 +17,10 @@ root_dir = project_root.parent  # MultiContentApp root
 
 sys.path.insert(0, str(root_dir))
 
-from common_shared.pipeline_base import BaseStep, StepResult
-from common_shared.error_handler import PipelineError, AIError, ErrorSeverity
-from common_shared.utils import setup_logger
-from common_shared.ai_client import create_ai_client
+from common.pipeline_base import BaseStep, StepResult
+from common.error_handler import PipelineError, AIError, ErrorSeverity
+from common.utils import setup_logger
+from common.ai_client import create_ai_client
 
 
 class BaseAffiliateStep(BaseStep):
@@ -171,7 +171,7 @@ class BaseAffiliateStep(BaseStep):
     
     def get_output_dir(self, context: Dict[str, Any]) -> Path:
         """Get output directory for current run."""
-        from common_shared.utils import get_date_str, sanitize_filename
+        from common.utils import get_date_str, sanitize_filename
         from datetime import datetime
         
         date_str = get_date_str()

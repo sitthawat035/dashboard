@@ -27,7 +27,11 @@ echo [3/3] Starting Dashboard ^& MultiContentApp in Background...
 echo       (Logs can be found in /logs directory)
 
 :: Launch Dashboard Server
-start /b python server.py > logs\dashboard.log 2>&1
+if exist ".venv\Scripts\python.exe" (
+    start /b "" ".venv\Scripts\python.exe" server.py > logs\dashboard.log 2>&1
+) else (
+    start /b python server.py > logs\dashboard.log 2>&1
+)
 
 :: Launch MultiContentApp Server
 pushd ..
