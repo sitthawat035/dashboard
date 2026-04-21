@@ -7,7 +7,9 @@ import './App.css';
 // Hooks
 import { useAuth } from './hooks/useAuth';
 import { useTerminal } from './hooks/useTerminal';
-import { useSocketEvents } from './hooks/useSocketEvents';
+import MissionControlPage from "./pages/MissionControlPage";
+import HermesPage from "./pages/HermesPage";
+import { useSocketEvents } from "./hooks/useSocketEvents";
 
 // Zustand store
 import { useAppStore } from './stores/useAppStore';

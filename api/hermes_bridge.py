@@ -344,12 +344,12 @@ def _chat_completions_bridge_thread(run_id, messages, model=None):
                 except json.JSONDecodeError:
                     pass
 
-        # Hermes custom events
-        elif line.startswith("event:"):
-            event_name = line[6:].strip()
-            if event_name == "hermes.tool.progress":
-                # Next line should be data:
-                pass
+            # Hermes custom events
+            elif line.startswith("event:"):
+                event_name = line[6:].strip()
+                if event_name == "hermes.tool.progress":
+                    # Next line should be data:
+                    pass
 
     except Exception as e:
         emit_event("hermes:run:failed", {
