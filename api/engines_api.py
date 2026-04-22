@@ -50,6 +50,11 @@ ENGINES = {
         "path": "api/engines/veo_gen/manual_veo.py",
         "description": "Analyzes products and generates locked prompts for Google Flow.",
     },
+    "veo-auto": {
+        "name": "VEO Full Automation",
+        "path": "api/engines/veo_gen/veo_automator.py",
+        "description": "Automated video generation via Google Flow Labs (Playwright CDP).",
+    },
     "social-poster": {
         "name": "Social Media Poster",
         "path": "api/engines/social/facebook_poster.py",
@@ -150,6 +155,18 @@ def run_engine(engine_id):
             cmd.extend(["--style", options["style"]])
         if options.get("image_path"):
             cmd.extend(["--image", options["image_path"]])
+
+    elif engine_id == "veo-auto":
+        if options.get("image_path"):
+            cmd.extend(["--image", options["image_path"]])
+        if options.get("prompts_json"):
+            cmd.extend(["--prompts-json", options["prompts_json"]])
+        if options.get("skip_keyframe"):
+            cmd.append("--skip-keyframe")
+        if options.get("discover"):
+            cmd.append("--discover")
+        if options.get("cdp_port"):
+            cmd.extend(["--cdp-port", str(options["cdp_port"])])
 
     elif engine_id == "image-gen":
         if options.get("package_path"):

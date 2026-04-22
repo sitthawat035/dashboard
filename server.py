@@ -41,6 +41,7 @@ from api.socket_events import init_socketio, cleanup_zombie_threads
 from api.cron_manager import start_scheduler
 from api.schedule_api import schedule_bp
 from api.hermes_bridge import hermes_bp, init_hermes_bridge
+from api.reports_api import reports_bp
 
 # ─── App Setup ────────────────────────────────────────────────────────────────
 app = Flask(__name__, static_folder="frontend/dist", static_url_path="")
@@ -69,6 +70,7 @@ app.register_blueprint(system_bp)
 app.register_blueprint(mission_control_bp)
 app.register_blueprint(schedule_bp)
 app.register_blueprint(hermes_bp)
+app.register_blueprint(reports_bp)
 
 # ─── Init Socket.IO Events ───────────────────────────────────────────────────
 init_socketio(socketio)

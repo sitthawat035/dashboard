@@ -2,7 +2,7 @@
 
 export type LogTab = 'log' | 'err' | 'chat';
 export type StdoutSubTab = 'gateway_logs' | 'shell';
-export type TabId = 'dashboard' | 'mission' | 'agents' | 'terminal' | 'memory' | 'logs' | 'multi' | 'settings' | 'hermes';
+export type TabId = 'dashboard' | 'mission' | 'agents' | 'terminal' | 'memory' | 'logs' | 'multi' | 'settings' | 'hermes' | 'reports';
 export type DetailTab = 'console' | 'config';
 export type ScanState = 'idle' | 'scanning' | 'done';
 

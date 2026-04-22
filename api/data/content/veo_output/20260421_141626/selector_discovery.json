@@ -1,0 +1,54 @@
+{
+  "new_project_button": [
+    {
+      "selector": "button:has-text('โปรเจ็กต์ใหม่')",
+      "count": 1,
+      "tag": "BUTTON",
+      "text": "add_2โปรเจ็กต์ใหม่"
+    },
+    {
+      "selector": "button:has-text('add_2โปรเจ็กต์ใหม่')",
+      "count": 1,
+      "tag": "BUTTON",
+      "text": "add_2โปรเจ็กต์ใหม่"
+    }
+  ],
+  "back_button": [],
+  "prompt_input": [
+    {
+      "selector": "textarea",
+      "count": 1,
+      "tag": "TEXTAREA",
+      "text": ""
+    }
+  ],
+  "send_button": [],
+  "upload_button": [],
+  "upload_input": [],
+  "model_selector": [],
+  "model_option_nano": [],
+  "model_option_veo": [],
+  "loading_indicator": [],
+  "result_image": [
+    {
+      "selector": "img[src*='googleusercontent']",
+      "count": 1,
+      "tag": "IMG",
+      "text": ""
+    }
+  ],
+  "result_video": [
+    {
+      "selector": "video",
+      "count": 1,
+      "tag": "VIDEO",
+      "text": ""
+    }
+  ],
+  "start_video_button": [],
+  "download_button": [],
+  "settings_button": [],
+  "more_options_button": [],
+  "aspect_ratio_916": [],
+  "aspect_ratio_169": []
+}

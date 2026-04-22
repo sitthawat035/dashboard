@@ -1,0 +1,459 @@
+[
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-9e05d99c-10 cKeggE",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "help_outlinedศูนย์ช่วยเหลือของ Flowศูนย์ช่วยเหลือของ Flow",
+    "href": null,
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 1651.7071533203125,
+      "y": 28.0030460357666,
+      "w": 23.993900299072266,
+      "h": 23.993900299072266
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-9e05d99c-7 fnZZdR",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "PRO",
+    "href": null,
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 1751.69189453125,
+      "y": 16.00609588623047,
+      "w": 98.46035766601562,
+      "h": 47.98780059814453
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-531cc04c-10 losGwp",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "close",
+    "href": null,
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 1802.3779296875,
+      "y": 87.98779296875,
+      "w": 39.9847526550293,
+      "h": 46.79877471923828
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-f9321097-0 lkZgGg sc-6f1ffe7a-7 cCgYDC",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "editแก้ไขโปรเจ็กต์",
+    "href": null,
+    "dataAttrs": [
+      "state"
+    ],
+    "visible": true,
+    "rect": {
+      "x": 167.66766357421875,
+      "y": 820.396240234375,
+      "w": 39.999996185302734,
+      "h": 39.999996185302734
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-f9321097-0 lkZgGg sc-6f1ffe7a-6 eMeNfn",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "deleteลบโปรเจ็กต์",
+    "href": null,
+    "dataAttrs": [
+      "state"
+    ],
+    "visible": true,
+    "rect": {
+      "x": 578.1249389648438,
+      "y": 820.396240234375,
+      "w": 39.999996185302734,
+      "h": 39.999996185302734
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-f9321097-0 lkZgGg sc-6f1ffe7a-7 cCgYDC",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "editแก้ไขโปรเจ็กต์",
+    "href": null,
+    "dataAttrs": [
+      "state"
+    ],
+    "visible": true,
+    "rect": {
+      "x": 783.5822143554688,
+      "y": 820.396240234375,
+      "w": 39.999996185302734,
+      "h": 39.999996185302734
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-f9321097-0 lkZgGg sc-6f1ffe7a-6 eMeNfn",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "deleteลบโปรเจ็กต์",
+    "href": null,
+    "dataAttrs": [
+      "state"
+    ],
+    "visible": true,
+    "rect": {
+      "x": 1192.24072265625,
+      "y": 820.396240234375,
+      "w": 39.999996185302734,
+      "h": 39.999996185302734
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-f9321097-0 lkZgGg sc-6f1ffe7a-7 cCgYDC",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "editแก้ไขโปรเจ็กต์",
+    "href": null,
+    "dataAttrs": [
+      "state"
+    ],
+    "visible": true,
+    "rect": {
+      "x": 1396.26513671875,
+      "y": 820.396240234375,
+      "w": 39.999996185302734,
+      "h": 39.999996185302734
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-f9321097-0 lkZgGg sc-6f1ffe7a-6 eMeNfn",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "deleteลบโปรเจ็กต์",
+    "href": null,
+    "dataAttrs": [
+      "state"
+    ],
+    "visible": true,
+    "rect": {
+      "x": 1806.3565673828125,
+      "y": 820.396240234375,
+      "w": 39.999996185302734,
+      "h": 39.999996185302734
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-16c4830a-1 jsIRVP sc-a38764c7-0 fXsrxE",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "add_2โปรเจ็กต์ใหม่",
+    "href": null,
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 841.0745849609375,
+      "y": 630.6553955078125,
+      "w": 191.99693298339844,
+      "h": 127.98779296875
+    },
+    "selector": "button"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "classes": "sc-afabda59-8 jPegrD",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "Flow",
+    "href": "/fx/th/tools/flow",
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 23.993900299072266,
+      "y": 28.0030460357666,
+      "w": 34.60365676879883,
+      "h": 23.993900299072266
+    },
+    "selector": "a"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "classes": "sc-91b74dd7-0 hwNurC sc-9e05d99c-5 bWhTDQ",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "tvFlow TV",
+    "href": "https://labs.google/flow/tv",
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 1360.36572265625,
+      "y": 19.024389266967773,
+      "w": 129.39022827148438,
+      "h": 41.95121383666992
+    },
+    "selector": "a"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "classes": "sc-9e05d99c-11 bjjenj",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "",
+    "href": "https://discord.com/invite/googlelabs",
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 1513.7498779296875,
+      "y": 28.0030460357666,
+      "w": 23.993900299072266,
+      "h": 23.993900299072266
+    },
+    "selector": "a"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "classes": "sc-9e05d99c-11 bjjenj",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "",
+    "href": "https://www.instagram.com/flowbygoogle",
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 1561.7376708984375,
+      "y": 28.0030460357666,
+      "w": 23.993900299072266,
+      "h": 23.993900299072266
+    },
+    "selector": "a"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "classes": "sc-9e05d99c-11 bjjenj",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "",
+    "href": "https://x.com/FlowbyGoogle",
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 1609.7254638671875,
+      "y": 31.006093978881836,
+      "w": 17.987802505493164,
+      "h": 17.987802505493164
+    },
+    "selector": "a"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "classes": null,
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "",
+    "href": "/fx/th/tools/flow/project/d030661b-fcce-4122-8d8a-11bd3600c620",
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 23.993900299072266,
+      "y": 479.9694519042969,
+      "w": 598.1249389648438,
+      "h": 336.4328918457031
+    },
+    "selector": "a"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "classes": null,
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "",
+    "href": "/fx/th/tools/flow/project/a53000a2-52c3-419f-961a-65170e82a781",
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 638.1096801757812,
+      "y": 479.9694519042969,
+      "w": 598.1249389648438,
+      "h": 336.4328918457031
+    },
+    "selector": "a"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "classes": null,
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "",
+    "href": "/fx/th/tools/flow/project/efd242dd-94ea-4edf-8037-47f05fc2c52c",
+    "dataAttrs": [],
+    "visible": true,
+    "rect": {
+      "x": 1252.2254638671875,
+      "y": 479.9694519042969,
+      "w": 598.1249389648438,
+      "h": 336.4328918457031
+    },
+    "selector": "a"
+  },
+  {
+    "tag": "TEXTAREA",
+    "id": "g-recaptcha-response-100000",
+    "classes": "g-recaptcha-response",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "",
+    "href": null,
+    "dataAttrs": [],
+    "visible": false,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "selector": "textarea"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "classes": "sc-f5232288-1 glLSzG",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "Nano Banana 2 is Here!We've updated the original Nano Banana model, with significant improvements in",
+    "href": null,
+    "dataAttrs": [
+      "testid",
+      "virtuosoScroller"
+    ],
+    "visible": true,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1874.1461181640625,
+      "h": 814.6340942382812
+    },
+    "selector": "[data-testid]"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "classes": null,
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "placeholder": null,
+    "text": "Apr 21, 01:42 PMeditแก้ไขโปรเจ็กต์deleteลบโปรเจ็กต์Apr 16, 02:33 PMeditแก้ไขโปรเจ็กต์deleteลบโปรเจ็ก",
+    "href": null,
+    "dataAttrs": [
+      "testid"
+    ],
+    "visible": true,
+    "rect": {
+      "x": 0,
+      "y": 479.9694519042969,
+      "w": 1866.34130859375,
+      "h": 2800.411376953125
+    },
+    "selector": "[data-testid]"
+  },
+  {
+    "tag": "SECTION",
+    "id": null,
+    "classes": null,
+    "role": null,
+    "ariaLabel": "Notifications alt+T",
+    "type": null,
+    "placeholder": null,
+    "text": "",
+    "href": null,
+    "dataAttrs": [],
+    "visible": false,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1874.1461181640625,
+      "h": 0
+    },
+    "selector": "[aria-label]"
+  }
+]

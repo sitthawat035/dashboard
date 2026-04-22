@@ -1,0 +1,42 @@
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║  OpenClaw Dashboard - Docker Compose                          ║
+# ║  Flask + Socket.IO + React                                    ║
+# ╚══════════════════════════════════════════════════════════════════╝
+
+services:
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ENV_FILE=.env.docker
+    container_name: openclaw-dashboard
+    ports:
+      - "5050:5050"           # Dashboard UI
+      - "9222:9222"           # Chrome CDP (for playwright debugging)
+    env_file:
+      - .env.docker
+    environment:
+      - ROOT_DIR=/app/openclaw
+      - DASHBOARD_ROOT=/app/openclaw/dashboard
+      - OPENCLAW_ROOT=/app/openclaw
+      - CHROME_CDP_PORT=9222
+      - FLASK_ENV=production
+    volumes:
+      # Mount openclaw root for agent data persistence
+      - ${OPENCLAW_ROOT:-/mnt/c/Users/User/openclaw}:/app/openclaw
+      # Mount Chrome User Data for Shopee scraper
+      - /mnt/c/Users/User/AppData/Local/Google/Chrome/User Data:/chrome_user_data:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5050/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - openclaw-net
+
+networks:
+  openclaw-net:
+    driver: bridge

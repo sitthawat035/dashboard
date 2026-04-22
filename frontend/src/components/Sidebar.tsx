@@ -1,6 +1,6 @@
 // components/Sidebar.tsx — Now uses Zustand store (zero props needed from parent)
 import React from 'react';
-import { Rocket, LayoutDashboard, Bot, Terminal, Cpu, Shield, LogOut, Zap, Menu, X, Gamepad2, Sparkles } from 'lucide-react';
+import { Rocket, LayoutDashboard, Bot, Terminal, Cpu, Shield, LogOut, Zap, Menu, X, Gamepad2, Sparkles, BarChart3 } from 'lucide-react';
 import type { TabId } from '../types';
 import { useAppStore } from '../stores/useAppStore';
 
@@ -14,6 +14,7 @@ const Sidebar: React.FC = () => {
 
   const menuItems = [
     { id: 'dashboard' as TabId, label: 'Dashboard', icon: LayoutDashboard },
+    { id: 'reports' as TabId, label: 'Reports', icon: BarChart3 },
     { id: 'mission' as TabId, label: 'Mission Control', icon: Gamepad2 },
     { id: 'agents' as TabId, label: 'Agents', icon: Bot },
     { id: 'terminal' as TabId, label: 'PowerShell', icon: Terminal },
