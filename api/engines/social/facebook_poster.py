@@ -1,12 +1,14 @@
 """
-Facebook Page Auto-Poster
-Uses Playwright to post content to Facebook Page
-Login once, then it can post automatically
+Facebook Page Auto-Poster (Graph API Version)
+Uses Facebook Graph API to post content and images instantly.
+Zero browser overhead, 100% Mobile/Termux compatible!
 """
 
-import asyncio
-import json
+import os
 import sys
+import json
+import requests
+import asyncio
 from pathlib import Path
 from datetime import datetime
 
@@ -16,190 +18,174 @@ engines_dir = Path(__file__).resolve().parent.parent.parent # Engines root
 sys.path.insert(0, str(engines_dir))
 sys.path.insert(0, str(root_dir)) # For .env access if needed
 
-import os
 from dotenv import load_dotenv
 load_dotenv(root_dir / ".env")
 
-from playwright.async_api import async_playwright
-
-
-async def post_to_facebook(page_id: str, message: str, image_paths: list = None):
-    """
-    Post to Facebook Page using browser automation
-    
-    Args:
-        page_id: The Facebook Page ID (or username)
-        message: Post caption/text
-        image_paths: List of local image paths to upload
-    """
-    print(f"🚀 Starting Facebook post...")
-    print(f"   Message: {message[:50]}...")
+def post_to_facebook_graph(page_id: str, access_token: str, message: str, image_paths: list = None):
+    print(f"🚀 Starting Facebook Graph API post...")
+    print(f"   Page ID: {page_id}")
+    print(f"   Message length: {len(message)}")
     print(f"   Images: {len(image_paths) if image_paths else 0}")
     
-    async with async_playwright() as p:
-        # Launch browser (use existing Chrome if available)
-        try:
-            browser = await p.chromium.launch(
-                headless=False,  # Show browser for login
-                channel="chrome"
-            )
-        except:
-            browser = await p.chromium.launch(headless=False)
+    if not access_token:
+        print("❌ Error: FACEBOOK_PAGE_TOKEN is missing from .env!")
+        return {"status": "error", "message": "Missing token"}
         
-        context = await browser.new_context()
-        page = await context.new_page()
-        
-        # Navigate to Facebook
-        print("   📱 Opening Facebook...")
-        await page.goto("https://www.facebook.com")
-        
-        # Check if logged in
-        await page.wait_for_load_state("networkidle")
-        
-        # Check for login form (if not logged in)
-        login_container = page.locator('form[action="/login"]')
-        if await login_container.count() > 0:
-            print("   ⚠️  Please log in to Facebook in the browser!")
-            print("   ⏳ Waiting for login...")
+    base_url = f"https://graph.facebook.com/v19.0"
+    
+    try:
+        if not image_paths or len(image_paths) == 0:
+            # Text only post
+            url = f"{base_url}/{page_id}/feed"
+            payload = {
+                "message": message,
+                "access_token": access_token
+            }
+            print("   📤 Posting text only...")
+            response = requests.post(url, data=payload)
+            response.raise_for_status()
+            res_data = response.json()
+            print(f"   ✅ Post successful! ID: {res_data.get('id')}")
+            return {"status": "success", "id": res_data.get('id')}
             
-            # Wait for user to log in
-            await page.wait_for_url("**/feed/**", timeout=120000)  # 2 min timeout
-            print("   ✅ Logged in!")
-        
-        # Navigate to Page
-        print(f"   📄 Navigating to Page...")
-        await page.goto(f"https://www.facebook.com/{page_id}")
-        await page.wait_for_load_state("networkidle")
-        
-        # Find "Create Post" button
-        print("   ✍️ Creating post...")
-        
-        # Try different selectors for "Create Post" button
-        create_post_selectors = [
-            'span:text("Create Post")',
-            'div[role="button"]:has-text("Create Post")',
-            'a[href*="/publish"]',
-            'span:text("Share")'
-        ]
-        
-        post_box = None
-        for selector in create_post_selectors:
-            try:
-                post_box = page.locator(selector).first
-                if await post_box.count() > 0:
-                    await post_box.click()
-                    await asyncio.sleep(1)
-                    break
-            except:
-                continue
-        
-        if not post_box or await post_box.count() == 0:
-            # Try clicking on the main compose area
-            await page.click('div[contenteditable="true"][role="presentation"]')
-            await asyncio.sleep(1)
-        
-        # Type the message
-        print("   ⌨️ Typing message...")
-        await page.fill('div[contenteditable="true"][role="presentation"]', message)
-        await asyncio.sleep(0.5)
-        
-        # Upload images if provided
-        if image_paths and len(image_paths) > 0:
-            print(f"   🖼️ Uploading {len(image_paths)} image(s)...")
+        elif len(image_paths) == 1:
+            # Single image post
+            url = f"{base_url}/{page_id}/photos"
+            payload = {
+                "message": message,
+                "access_token": access_token
+            }
+            files = {
+                "source": open(image_paths[0], "rb")
+            }
+            print(f"   🖼️ Uploading and posting 1 image...")
+            response = requests.post(url, data=payload, files=files)
+            files["source"].close()
+            response.raise_for_status()
+            res_data = response.json()
+            print(f"   ✅ Post successful! ID: {res_data.get('post_id', res_data.get('id'))}")
+            return {"status": "success", "id": res_data.get('post_id', res_data.get('id'))}
             
-            # Find file input
-            file_input = page.locator('input[type="file"]').first
-            if await file_input.count() > 0:
-                # Convert paths to strings
-                valid_paths = [str(p) for p in image_paths if Path(p).exists()]
-                if valid_paths:
-                    await file_input.set_input_files(valid_paths)
-                    await asyncio.sleep(2)  # Wait for upload
-        
-        # Click Post button
-        print("   📤 Posting...")
-        post_button_selectors = [
-            'div[role="button"]:has-text("Post")',
-            'span:text("Post")',
-            'button[type="submit"]'
-        ]
-        
-        for selector in post_button_selectors:
-            try:
-                post_btn = page.locator(selector).first
-                if await post_btn.count() > 0:
-                    await post_btn.click()
-                    break
-            except:
-                continue
-        
-        await asyncio.sleep(3)  # Wait for post to complete
-        
-        print("   ✅ Post published successfully!")
-        
-        # Keep browser open briefly to verify
-        await asyncio.sleep(2)
-        
-        await browser.close()
-        
-        return {"status": "success", "message": "Posted to Facebook"}
+        else:
+            # Multiple images post
+            print(f"   🖼️ Uploading {len(image_paths)} images...")
+            attached_media = []
+            
+            for img_path in image_paths:
+                url = f"{base_url}/{page_id}/photos"
+                payload = {
+                    "published": "false",
+                    "access_token": access_token
+                }
+                files = {
+                    "source": open(img_path, "rb")
+                }
+                print(f"      Upload -> {Path(img_path).name}...")
+                response = requests.post(url, data=payload, files=files)
+                files["source"].close()
+                response.raise_for_status()
+                photo_id = response.json().get('id')
+                attached_media.append({"media_fbid": photo_id})
+                
+            # Create the actual post with attached media
+            print("   📤 Publishing post with attached images...")
+            post_url = f"{base_url}/{page_id}/feed"
+            post_payload = {
+                "message": message,
+                "attached_media": json.dumps(attached_media),
+                "access_token": access_token
+            }
+            response = requests.post(post_url, data=post_payload)
+            response.raise_for_status()
+            res_data = response.json()
+            print(f"   ✅ Post successful! ID: {res_data.get('id')}")
+            return {"status": "success", "id": res_data.get('id')}
+            
+    except requests.exceptions.RequestException as e:
+        print(f"❌ API Error: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"   Details: {e.response.text}")
+        return {"status": "error", "message": str(e)}
 
+async def post_to_facebook(page_id: str, message: str, image_paths: list = None):
+    """Wrapper to maintain compatibility with existing async calls"""
+    token = os.getenv("FACEBOOK_PAGE_TOKEN")
+    return post_to_facebook_graph(page_id, token, message, image_paths)
 
 async def post_from_pending():
-    """Read pending_fb_post.json and post to Facebook"""
+    """Read latest ready_to_post and post it to Facebook via Graph API"""
     workspace_root = Path(__file__).resolve().parent.parent.parent.parent.parent
-    pending_file = workspace_root / "data" / "content" / "social" / "pending_fb_post.json"
+    ready_dir = workspace_root / "data" / "content" / "lookforward" / "ready_to_post"
     
-    if not pending_file.exists():
-        print(f"❌ No pending posts found at {pending_file}!")
+    # Auto detect latest package
+    if not ready_dir.exists():
+        print(f"❌ No ready_to_post directory found at {ready_dir}!")
         return
-    
-    with open(pending_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    
-    posts = data.get("posts", [])
-    if not posts:
-        print("❌ No posts in queue!")
+        
+    date_folders = sorted([d for d in ready_dir.iterdir() if d.is_dir() and d.name.startswith("20")], reverse=True)
+    if not date_folders:
+        print("❌ No ready_to_post date folders found!")
         return
+        
+    latest_date = date_folders[0]
+    packages = sorted([d for d in latest_date.iterdir() if d.is_dir()], key=lambda p: p.stat().st_mtime, reverse=True)
+    if not packages:
+        print("❌ No packages found in date folder!")
+        return
+        
+    latest_package = packages[0]
+    print(f"\n📋 Posting latest package: {latest_package.name}")
     
-    # Get the first post
-    post = posts[0]
-    
-    print(f"\n📋 Posting: {post['folder_name']}")
-    print(f"   Caption: {post['caption'][:80]}...")
-    
+    post_file = latest_package / "post.txt"
+    if not post_file.exists():
+        print(f"❌ Missing post.txt in {latest_package.name}")
+        return
+        
+    with open(post_file, "r", encoding="utf-8") as f:
+        message = f.read()
+        
     # Get images
-    images = post.get("images", [])
-    valid_images = [img for img in images if Path(img).exists()]
+    media_dir = latest_package / "media"
+    valid_images = []
+    if media_dir.exists():
+        valid_images = sorted([str(p) for p in media_dir.iterdir() if p.suffix.lower() in [".png", ".jpg", ".jpeg"]])
+        
+    print(f"   Images found: {len(valid_images)}")
     
-    print(f"   Images: {len(valid_images)} valid")
-    
-    # Post to Facebook (Pull from ENV or default)
     PAGE_ID = os.getenv("FACEBOOK_PAGE_ID", "your-page-id")
+    TOKEN = os.getenv("FACEBOOK_PAGE_TOKEN", "")
     
-    result = await post_to_facebook(PAGE_ID, post["caption"], valid_images)
-    
+    result = post_to_facebook_graph(PAGE_ID, TOKEN, message, valid_images)
     print(f"\n🎉 Result: {result}")
     
-    return result
-
+    # Mark as posted
+    meta_path = latest_package / "_metadata.json"
+    if meta_path.exists():
+        try:
+            with open(meta_path, "r", encoding="utf-8") as f:
+                meta = json.load(f)
+            meta["posted"] = True
+            meta["posted_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            meta["fb_post_id"] = result.get("id", "")
+            with open(meta_path, "w", encoding="utf-8") as f:
+                json.dump(meta, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            print(f"⚠️ Could not update metadata: {e}")
 
 if __name__ == "__main__":
     import argparse
     
-    parser = argparse.ArgumentParser(description="Facebook Auto-Poster")
+    parser = argparse.ArgumentParser(description="Facebook Auto-Poster (Graph API)")
     parser.add_argument("--message", "-m", help="Post message")
     parser.add_argument("--image", "-i", nargs="+", help="Image paths")
     parser.add_argument("--page", "-p", default=os.getenv("FACEBOOK_PAGE_ID", "your-page-id"), help="Facebook Page ID")
-    parser.add_argument("--pending", action="store_true", help="Post from pending_fb_post.json")
+    parser.add_argument("--pending", action="store_true", help="Post the latest ready_to_post package")
     
     args = parser.parse_args()
     
-    if args.pending:
-        asyncio.run(post_from_pending())
-    elif args.message:
-        asyncio.run(post_to_facebook(args.page, args.message, args.image))
+    if args.message:
+        token = os.getenv("FACEBOOK_PAGE_TOKEN", "")
+        post_to_facebook_graph(args.page, token, args.message, args.image)
     else:
-        print("Usage:")
-        print("  python facebook_poster.py --pending          # Post from pending_fb_post.json")
-        print("  python facebook_poster.py -m 'Hello' -i img.jpg -p mypage")
+        # Default behavior: post the latest generated package
+        asyncio.run(post_from_pending())

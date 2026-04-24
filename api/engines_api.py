@@ -25,6 +25,11 @@ engine_processes = {}  # {engine_id: Popen} â€” live process refs
 engine_status_lock = threading.Lock()
 
 ENGINES = {
+    "full-pipeline": {
+        "name": "Full Automated Pipeline",
+        "path": "api/engines/pipeline_engine.py",
+        "description": "Runs Trend Scan > Lookforward > Image Gen > Facebook Auto Post automatically.",
+    },
     "trend-scan": {
         "name": "Daily Trend Scan",
         "path": "api/engines/trend_scan/daily_trend_scan.py",
@@ -176,19 +181,19 @@ def run_engine(engine_id):
         if options.get("num_images"):
             cmd.extend(["--num-images", str(options["num_images"])])
 
-    elif engine_id == "fb-poster":
+    elif engine_id in ("fb-poster", "full-pipeline"):
         # Schedule mode — hand off to cron manager instead of running now
         if options.get("mode") == "scheduled" and options.get("schedule_time"):
             from api.cron_manager import scheduler
             repeat = options.get("repeat", "daily")
             job_id = scheduler.add_job(
-                engine_id="fb-poster",
+                engine_id=engine_id,
                 run_time=options["schedule_time"],
                 repeat=repeat,
                 options={k: v for k, v in options.items() if k not in ("mode", "schedule_time", "repeat")},
             )
             return jsonify({"success": True, "scheduled": True, "job_id": job_id,
-                            "message": f"FB Auto-Post scheduled at {options['schedule_time']} ({repeat})"})
+                            "message": f"{ENGINES[engine_id]['name']} scheduled at {options['schedule_time']} ({repeat})"})
 
     elif engine_id == "trend-scan":
         if options.get("custom_niche"):
@@ -346,27 +351,51 @@ def get_engine_preview(engine_id):
     content_dir = DASHBOARD_DIR / "data" / "content"
     preview_data = {}
     
+    # Optional: get specific date/timestamp from query params to find specific project
+    req_date = request.args.get("date")
+    req_timestamp = request.args.get("timestamp")
+    
     if engine_id == "lookforward":
-        # Find latest directory in lookforward
         lf_base = content_dir / "lookforward"
-        # Since it uses dates like 2026-04-15, we find the newest folder
         if not lf_base.exists():
             return jsonify({"success": False, "error": "No lookforward output found."}), 404
-            
-        folders = [d for d in lf_base.iterdir() if d.is_dir() and d.name.startswith("20")]
-        if not folders:
-            return jsonify({"success": False, "error": "No recent runs found."}), 404
-            
-        folders.sort(reverse=True, key=lambda p: p.name)
-        latest_date_folder = folders[0]
         
-        # Inside date folder, find newest project folder
-        projects = [d for d in latest_date_folder.iterdir() if d.is_dir()]
-        if not projects:
-            return jsonify({"success": False, "error": "No projects in latest folder."}), 404
+        # If specific date/timestamp provided, find matching project folder
+        if req_date and req_timestamp:
+            target_date_folder = lf_base / req_date
+            if not target_date_folder.exists():
+                return jsonify({"success": False, "error": f"Date folder not found: {req_date}"}), 404
             
-        projects.sort(reverse=True, key=lambda p: p.stat().st_mtime)
-        latest_project = projects[0]
+            # Find project folder that ends with _timestamp
+            matching_projects = [
+                d for d in target_date_folder.iterdir() 
+                if d.is_dir() and d.name.endswith(f"_{req_timestamp}")
+            ]
+            if not matching_projects:
+                return jsonify({"success": False, "error": f"No project found with timestamp {req_timestamp} in {req_date}"}), 404
+            
+            latest_project = matching_projects[0]
+        else:
+            # Find latest directory in lookforward
+            folders = [d for d in lf_base.iterdir() if d.is_dir() and d.name.startswith("20")]
+            if not folders:
+                return jsonify({"success": False, "error": "No recent runs found."}), 404
+                
+            folders.sort(reverse=True, key=lambda p: p.name)
+            latest_date_folder = folders[0]
+            
+            # Inside date folder, find newest project folder
+            projects = [d for d in latest_date_folder.iterdir() if d.is_dir()]
+            if not projects:
+                return jsonify({"success": False, "error": "No projects in latest folder."}), 404
+                
+            # Sort by timestamp at end of folder name (e.g., _072032) instead of st_mtime
+            def get_timestamp_from_folder(p):
+                parts = p.name.split('_')
+                return parts[-1] if parts[-1].isdigit() and len(parts[-1]) == 6 else "000000"
+            
+            projects.sort(reverse=True, key=get_timestamp_from_folder)
+            latest_project = projects[0]
         
         preview_data = {"project": latest_project.name}
         

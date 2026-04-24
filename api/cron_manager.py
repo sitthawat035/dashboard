@@ -29,6 +29,7 @@ ENGINE_SCRIPTS: Dict[str, str] = {
     "veo-gen":       "api/engines/veo_gen/manual_veo.py",
     "social-poster": "api/engines/social/facebook_poster.py",
     "image-gen":     "api/engines/image_gen/gen_from_prompt.py",
+    "full-pipeline": "api/engines/pipeline_engine.py",
 }
 
 
