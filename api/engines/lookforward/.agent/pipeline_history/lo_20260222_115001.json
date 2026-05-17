@@ -1,0 +1,144 @@
+{
+  "run_id": "lo_20260222_115001",
+  "project_id": "lookforward",
+  "topic": "Sarvam AI: จาก Startup สู่ AI Power ระดับประเทศ",
+  "status": "completed",
+  "current_step": "ready_to_post",
+  "created_at": "2026-02-22T11:50:01.000264",
+  "updated_at": "2026-02-22T11:50:27.361066",
+  "options": {
+    "mode": "full",
+    "gen_images": true,
+    "dry_run": false
+  },
+  "step_results": {
+    "strategy": {
+      "step_name": "strategy",
+      "status": "completed",
+      "started_at": "2026-02-22T11:50:01.013128",
+      "completed_at": "2026-02-22T11:50:12.163315",
+      "duration_seconds": 11,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115012\\01_strategy.md",
+      "output_data": {
+        "strategy": "## วิเคราะห์หัวข้อ Sarvam AI: จาก Startup สู่ AI Power ระดับประเทศ สำหรับโพสต์ Tech Authority (lookforward)\n\n**หัวข้อ:** Sarvam AI: จาก Startup สู่ AI Power ระดับประเทศ\n\n**1. The Surprise Hook:**\n\n*   **เดิมพันสูง:** \"Startup AI ในอินเดียไม่ได้แข่งแค่ในประเทศ แต่กำลังสร้าง 'AI อธิปไตย' ชนกับ Big Tech โลก\"\n*   **สวนกระแส:** \"ใครว่า AI ต้องใช้เงินทุนมหาศาล? Sarvam AI กำลังพิสูจน์ว่า 'Data คุณภาพ' สำคัญกว่า 'Data ปริมาณ'\"\n\n**2. The Real Story:**\n\n*   **มากกว่าแค่ภาษา:** Sarvam AI ไม่ได้แค่สร้าง AI ภาษาท้องถิ่น แต่กำลังสร้าง Ecosystem ที่ขับเคลื่อนเศรษฐกิจดิจิทัลของอินเดีย\n*   **เบื้องหลังการระดมทุน:** ทำไมนักลงทุนถึงกล้าทุ่มเงินให้ Sarvam AI ทั้งที่ตลาด AI ก็มีการแข่งขันสูง? มีดีลลับอะไรที่คนนอกไม่รู้?\n*   **Geopolitics:** การเกิดขึ้นของ Sarvam AI มีนัยยะสำคัญต่อการแข่งขันทางเทคโนโลยีระหว่างประเทศอย่างไร? อินเดียกำลังใช้ AI เป็นเครื่องมือต่อรองอะไร?\n\n**3. The Mechanism:**\n\n*   **Data-Centric Approach:** เจาะลึกวิธีการที่ Sarvam AI ใช้ประโยชน์จาก Data คุณภาพสูง (ที่อาจไม่ได้มีขนาดใหญ่) เพื่อสร้าง AI ที่แม่นยำและเข้าใจบริบทของอินเดียอย่างแท้จริง เปรียบเทียบกับวิธีการของ Big Tech ที่เน้น Data ปริมาณมหาศาล\n*   **Modular Architecture:** อธิบายโครงสร้าง AI แบบ Modular ของ Sarvam AI ที่ทำให้สามารถปรับแต่งและพัฒนา AI ได้อย่างรวดเร็ว เหมาะสมกับความต้องการที่หลากหลายของตลาดอินเดีย (เปรียบเทียบกับ Lego)\n*   **Talent Pipeline:** Sarvam AI สร้างระบบดึงดูดและพัฒนาบุคลากร AI ที่มีความสามารถได้อย่างไร? มีความร่วมมือกับมหาวิทยาลัยหรือสถาบันวิจัยใดบ้าง?\n\n**4. Winners vs Losers:**\n\n*   **Winners:**\n    *   **SMEs อินเดีย:** ได้เครื่องมือ AI ที่เข้าใจภาษาและวัฒนธรรมท้องถิ่น ช่วยเพิ่มประสิทธิภาพและขยายตลาด\n    *   **นักพัฒนา AI อินเดีย:** ได้ Platform และ Resources ในการสร้างสรรค์ Innovation ที่ตอบโจทย์ความต้องการของประเทศ\n    *   **รัฐบาลอินเดีย:** เสริมสร้างความแข็งแกร่งทางเทคโนโลยีและเศรษฐกิจดิจิทัลของประเทศ\n*   **Losers (ที่อาจยังไม่รู้ตัว):**\n    *   **Big Tech ที่มองข้ามตลาดอินเดีย:** อาจเสียส่วนแบ่งการตลาดให้กับ AI ที่เข้าใจบริบทท้องถิ่นมากกว่า\n    *   **ธุรกิจที่ยังไม่ปรับตัว:** อาจถูก Disrupt จาก SMEs ที่ใช้ AI ในการสร้างความได้เปรียบทางการแข่งขัน\n    *   **ประเทศที่พึ่งพา AI จากต่างชาติ:** อาจสูญเสียอำนาจอธิปไตยทางเทคโนโลยี\n\n**5. The Bold Prediction:**\n\n*   **ภายใน 12 เดือน:** Sarvam AI จะขยายบริการไปยังภาษาท้องถิ่นอื่นๆ ในเอเชียใต้ และกลายเป็น Regional AI Power\n*   **ภายใน 18 เดือน:** รัฐบาลอินเดียจะออกนโยบายสนับสนุน Sarvam AI อย่างเป็นรูปธรรม เพื่อผลักดันให้เป็น National AI Champion\n*   **ภายใน 2 ปี:** จะเกิด Startup AI ที่ใช้ Model ของ Sarvam AI ในการสร้าง Application เฉพาะทางจำนวนมาก (คล้ายกับ Ecosystem ของ Android)\n\n**6. The Conversation Starter:**\n\n*   คุณคิดว่าโมเดลการพัฒนา AI ของ Sarvam AI สามารถนำมาปรับใช้กับประเทศไทยได้หรือไม่?\n*   ถ้าคุณเป็นผู้บริหารของ Sarvam AI คุณจะวางกลยุทธ์ในการแข่งขันกับ Big Tech อย่างไร?\n\n**7. Caption Strategy (ตัวอย่าง):**\n\n*   \"Startup อินเดียท้าชน Big Tech! Sarvam AI สร้าง 'AI อธิปไตย' ที่เข้าใจคนอินเดียมากกว่าใคร 🇮🇳 #AI #India #Tech\"\n*   \"ลืม Data มหาศาลไปก่อน! Sarvam AI โชว์ให้เห็นว่า 'Data คุณภาพ' คือเคล็ดลับสร้าง AI ที่ฉลาดจริง 🧠 #SarvamAI #DataScience #Innovation\"\n\n**ตัวอย่างโพสต์ (ร่าง):**\n\n**[รูปภาพ: ภาพประกอบที่มี Sarvam AI Logo เด่นๆ และภาพกราฟิกที่สื่อถึง AI และอินเดีย]**\n\n**Startup อินเดียท้าชน Big Tech! Sarvam AI สร้าง 'AI อธิปไตย' ที่เข้าใจคนอินเดียมากกว่าใคร 🇮🇳**\n\nใครว่า AI ต้องใช้เงินทุนมหาศาล? Sarvam AI กำลังพิสูจน์ว่า 'Data คุณภาพ' สำคัญกว่า 'Data ปริมาณ' และกำลังสร้างปรากฏการณ์ที่น่าจับตาในวงการ AI โลก\n\n(เนื้อหาโพสต์: ขยายความตาม Framework ที่วิเคราะห์ไว้ โดยเน้น The Real Story, The Mechanism, Winners vs Losers และ The Bold Prediction)\n\nคุณคิดว่าโมเดลการพัฒนา AI ของ Sarvam AI สามารถนำมาปรับใช้กับประเทศไทยได้หรือไม่? 🤔 คอมเมนต์มาคุยกัน!\n\n#AI #India #Tech #SarvamAI #Innovation #DataScience #lookforward\n\n**หมายเหตุ:**\n\n*   ปรับเนื้อหาให้เข้ากับสไตล์การเขียนของ lookforward\n*   ใช้ภาษาที่เข้าใจง่าย แต่ยังคงความน่าเชื่อถือและความลึกซึ้ง\n*   กระตุ้นให้เกิดการ Comment และ Share เพื่อเพิ่ม Engagement\n*   ติดตามข่าวสารและความเคลื่อนไหวของ Sarvam AI อย่างใกล้ชิด เพื่ออัปเดตข้อมูลให้ทันสมัย\n",
+        "topic": "Sarvam AI: จาก Startup สู่ AI Power ระดับประเทศ",
+        "word_count": 371
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "content": {
+      "step_name": "content",
+      "status": "completed",
+      "started_at": "2026-02-22T11:50:12.177120",
+      "completed_at": "2026-02-22T11:50:23.080359",
+      "duration_seconds": 10,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115023\\02_content.json",
+      "output_data": {
+        "content": {
+          "text": "🇮🇳 Startup อินเดียกำลังสร้าง 'AI อธิปไตย' ท้าชน Big Tech โลก! สิ่งที่ Sarvam AI ทำ ไม่ใช่แค่ AI ภาษาท้องถิ่น แต่มันคือ 'AI เข้าใจคนอินเดีย' จริงๆ\n\nหลายคนอาจจะยังไม่รู้ว่า... Sarvam AI กำลังพิสูจน์ว่า Data คุณภาพ สำคัญกว่า Data ปริมาณมหาศาล! แล้วเค้าทำได้ยังไง?\n\n🔬 กลไกเบื้องหลังความสำเร็จ (ฉบับเข้าใจง่าย):\n\n*   **Data-Centric:** เน้น Data คุณภาพสูง + บริบทอินเดีย = AI แม่นยำ\n*   **Modular:** โครงสร้างแบบ Lego ปรับแต่งง่าย ตอบโจทย์ทุกธุรกิจ\n*   **Talent Pipeline:** ดึงดูดคนเก่ง สร้าง Ecosystem AI ของตัวเอง\n\n⚡️ ใครได้ประโยชน์? ใครเสียเปรียบ?\n\n*   **SMEs อินเดีย:** มีเครื่องมือ AI ที่เข้าใจภาษาและวัฒนธรรมท้องถิ่น\n*   **นักพัฒนา AI อินเดีย:** มี Platform สร้าง Innovation\n*   **Big Tech:** อาจเสีย Market Share ให้ AI ที่ Local กว่า\n\n🔮 ทำนายอนาคต (แบบกล้าๆ):\n\n*   **ภายใน 12 เดือน:** ขยายไปภาษาอื่นๆ ในเอเชียใต้\n*   **ภายใน 18 เดือน:** รัฐบาลอินเดียหนุนเต็มสูบ\n*   **ภายใน 2 ปี:** Startup ใช้ Model Sarvam AI เพียบ (เหมือน Android Ecosystem)\n\nคุณคิดว่าโมเดลนี้ เอามาปรับใช้กับประเทศไทยได้ไหม? 🤔 ถ้าคุณเป็น Sarvam AI จะสู้กับ Big Tech ยังไง? มาคุยกัน!",
+          "insight_score": 5,
+          "char_count": 1053
+        },
+        "caption_short": "Startup อินเดียท้าชน Big Tech! สร้าง 'AI อธิปไตย' ที่เข้าใจคนอินเดียมากกว่าใคร 🇮🇳 #AI #India #Tech",
+        "caption_long": "🇮🇳 Startup อินเดียกำลังสร้าง 'AI อธิปไตย' ท้าชน Big Tech โลก! สิ่งที่ Sarvam AI ทำ ไม่ใช่แค่ AI ภาษาท้องถิ่น แต่มันคือ 'AI เข้าใจคนอินเดีย' จริงๆ\n\nหลายคนอาจจะยังไม่รู้ว่า... Sarvam AI กำลังพิสูจน์ว่า Data คุณภาพ สำคัญกว่า Data ปริมาณมหาศาล! แล้วเค้าทำได้ยังไง?\n\nคุณคิดว่าโมเดลนี้ เอามาปรับใช้กับประเทศไทยได้ไหม? 🤔 ถ้าคุณเป็น Sarvam AI จะสู้กับ Big Tech ยังไง? มาคุยกัน!",
+        "hashtags": [
+          "#lookforward",
+          "#เทคไทย",
+          "#SarvamAI",
+          "#AIIndia"
+        ],
+        "image_prompts": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "format": "landscape",
+            "style": "cinematic / photorealistic / dark tech aesthetic",
+            "mood": "inspiring / thought-provoking / slightly dramatic",
+            "prompt": "Cinematic, ultra-realistic, 16:9 landscape. A determined Indian engineer/scientist in a modern AI lab, working on a complex AI model interface. Dark moody background with subtle neon accents. No text, no watermarks, no logos. Depth of field, professional lighting. Shot on Sony A7 III. 8K quality."
+          },
+          {
+            "title": "Quote Card (Story 9:16)",
+            "format": "portrait",
+            "style": "minimal dark gradient / typographic",
+            "mood": "bold / authoritative",
+            "prompt": "Minimal dark gradient background (deep navy to near-black). Abstract geometric or data-visualization elements in the background (blurred). NO text, no readable words. 9:16 portrait format. Professional, premium feel. Space for text overlay."
+          }
+        ],
+        "shareable_insight": "Sarvam AI กำลังพิสูจน์ว่า Data คุณภาพ สำคัญกว่า Data ปริมาณมหาศาล ในการสร้าง AI ที่เข้าใจ Local Context จริงๆ"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "images": {
+      "step_name": "images",
+      "status": "completed",
+      "started_at": "2026-02-22T11:50:23.103934",
+      "completed_at": "2026-02-22T11:50:27.316033",
+      "duration_seconds": 4,
+      "output_file": null,
+      "output_data": {
+        "images": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "path": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115023\\media\\01_hero_visual__facebook_16_9_.jpg",
+            "format": "landscape",
+            "size_kb": 87.9,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          },
+          {
+            "title": "Quote Card (Story 9:16)",
+            "path": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115023\\media\\02_quote_card__story_9_16_.jpg",
+            "format": "portrait",
+            "size_kb": 18.6,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          }
+        ],
+        "prompts_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115023\\media\\prompts_guide.txt",
+        "total_generated": 2,
+        "total_requested": 2,
+        "media_dir": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115023\\media"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-02-22T11:50:27.330517",
+      "completed_at": "2026-02-22T11:50:27.349156",
+      "duration_seconds": 0,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115027",
+      "output_data": {
+        "package_path": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115027",
+        "post_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115027\\post.txt",
+        "caption_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115027\\caption.txt",
+        "hashtags_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-02-22\\Sarvam_AI_จาก_Startup_สู่_AI_Power_ระดับประเทศ_115027\\hashtags.txt",
+        "metadata": {
+          "topic": "Sarvam AI: จาก Startup สู่ AI Power ระดับประเทศ",
+          "generated": "2026-02-22 11:50:27",
+          "insight_score": 5,
+          "char_count": 1053,
+          "has_images": true,
+          "run_id": "lo_20260222_115001"
+        }
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 4,
+    "completed_steps": 4,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": [
+      "strategy",
+      "content",
+      "images",
+      "ready_to_post"
+    ]
+  }
+}

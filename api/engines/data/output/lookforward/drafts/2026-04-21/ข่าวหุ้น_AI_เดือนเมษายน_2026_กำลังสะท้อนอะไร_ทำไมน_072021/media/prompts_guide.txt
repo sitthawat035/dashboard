@@ -1,0 +1,29 @@
+# 🎨 Image Prompts Guide — ข่าวหุ้น AI เดือนเมษายน 2026 กำลังสะท้อนอะไร: ทำไมนักลงทุนเริ่มกลับมาหาหุ้นธีมปัญญาประดิษฐ์ในจังหวะที่ตลาดคัดเลือกมากขึ้น
+Generated: 2026-04-21 07:20
+
+วิธีใช้งาน:
+  A) ระบบจะสร้างรูปอัตโนมัติผ่าน Pollinations.ai (Flux) — ฟรี ไม่ต้อง key
+  B) Copy Enhanced Prompt ไปวางใน Google AI Studio / Midjourney / Ideogram
+============================================================
+
+## [1] Hero Visual (Facebook 16:9)
+Format: LANDSCAPE (1280x720) | Style: modern tech editorial
+
+### ✅ Enhanced Prompt (ready to use):
+A clean, modern conceptual photography representing the AI investment cycle shifting from hype to infrastructure and monetization. Visual metaphor of a gold rush where some players hold maps while others own the toll road and mining tools. Premium editorial tech aesthetic, dramatic but minimal composition, sophisticated lighting, metallic textures, data center and semiconductor cues subtly integrated. NO text, NO watermarks, NO logos, high-end commercial photography, ultra-realistic, 16:9 widescreen, clean modern aesthetic, soft studio lighting, professional depth of field, premium editorial tech look, 8K resolution, no text, no watermarks, no logos
+
+### 📝 Original Concept (from AI):
+A clean, modern conceptual photography representing the AI investment cycle shifting from hype to infrastructure and monetization. Visual metaphor of a gold rush where some players hold maps while others own the toll road and mining tools. Premium editorial tech aesthetic, dramatic but minimal composition, sophisticated lighting, metallic textures, data center and semiconductor cues subtly integrated. NO text, NO watermarks, NO logos.
+
+----------------------------------------
+
+## [2] Abstract Visual (Story 9:16)
+Format: PORTRAIT (720x1280) | Style: abstract 3D minimalism
+
+### ✅ Enhanced Prompt (ready to use):
+Abstract 3D minimalist rendering representing AI as an investable infrastructure layer rather than hype. Flowing layers of chips, cloud networks, data pipelines, and capital streams converging into a clear value chain. Soft gradients, premium lighting, elegant composition, strong sense of selection and hierarchy, negative space. NO text, NO readable words, 9:16 portrait format, premium 3D abstract visualization, clean minimalism, soft gradients, 9:16 portrait format, high-end editorial tech background, no readable text, no watermarks, no logos, ample space for text overlay
+
+### 📝 Original Concept (from AI):
+Abstract 3D minimalist rendering representing AI as an investable infrastructure layer rather than hype. Flowing layers of chips, cloud networks, data pipelines, and capital streams converging into a clear value chain. Soft gradients, premium lighting, elegant composition, strong sense of selection and hierarchy, negative space. NO text, NO readable words, 9:16 portrait format.
+
+----------------------------------------

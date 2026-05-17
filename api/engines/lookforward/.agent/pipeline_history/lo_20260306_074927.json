@@ -1,0 +1,144 @@
+{
+  "run_id": "lo_20260306_074927",
+  "project_id": "lookforward",
+  "topic": "Starlink Mobile: Revolutionizing Global Connectivity",
+  "status": "completed",
+  "current_step": "ready_to_post",
+  "created_at": "2026-03-06T07:49:27.007724",
+  "updated_at": "2026-03-06T07:50:01.459064",
+  "options": {
+    "mode": "full",
+    "gen_images": true,
+    "dry_run": false
+  },
+  "step_results": {
+    "strategy": {
+      "step_name": "strategy",
+      "status": "completed",
+      "started_at": "2026-03-06T07:49:27.033453",
+      "completed_at": "2026-03-06T07:49:42.004916",
+      "duration_seconds": 14,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_074941\\01_strategy.md",
+      "output_data": {
+        "strategy": "## วิเคราะห์หัวข้อ Starlink Mobile: Revolutionizing Global Connectivity สำหรับโพสต์ lookforward\n\n**หัวข้อ:** Starlink Mobile: Revolutionizing Global Connectivity\n\n**1. The Surprise Hook:** \"Starlink Mobile ไม่ได้ทำให้เน็ตมือถือ 'เร็วขึ้น' แต่มันกำลังฆ่า 'ข้อจำกัด' ที่ทำให้คุณต้องจ่ายแพงกว่าที่ควรจะเป็น\"\n\n**2. The Real Story:**\n\n*   **เบื้องหลังการเชื่อมต่อ:** คนส่วนใหญ่มองว่า Starlink คือ \"เน็ตดาวเทียม\" แต่จริงๆ แล้วมันคือการสร้าง \"โครงสร้างพื้นฐาน\" ที่ bypass ผู้ให้บริการเครือข่ายมือถือ (MNOs) แบบเดิมๆ\n*   **อำนาจต่อรอง:** MNOs ผูกขาดคลื่นความถี่ ทำให้ควบคุมราคาและคุณภาพได้ Starlink เข้ามาทำให้ \"คลื่นความถี่\" กลายเป็น Commodity มากขึ้น\n*   **มากกว่าแค่เน็ต:** Starlink Mobile คือประตูสู่การเข้าถึงบริการต่างๆ ตั้งแต่ telemedicine ในพื้นที่ห่างไกล ไปจนถึงการทำธุรกรรมทางการเงินในประเทศที่โครงสร้างพื้นฐานไม่ดี\n\n**3. The Mechanism:**\n\n*   **LEO Constellation:** อธิบายว่าดาวเทียมวงโคจรต่ำ (Low Earth Orbit) ของ Starlink ทำให้ Latency ต่ำกว่าดาวเทียมแบบเดิมอย่างไร (เปรียบเทียบกับการส่งสัญญาณจากกรุงเทพฯ ไปเชียงใหม่ vs. ส่งไปดวงจันทร์แล้วกลับมา)\n*   **Direct-to-Cell:** อธิบายเทคโนโลยีที่ทำให้มือถือทั่วไป (ไม่ต้องมีอุปกรณ์พิเศษ) สามารถเชื่อมต่อกับ Starlink ได้ (เปรียบเทียบกับการใช้ Wi-Fi ที่บ้าน vs. การใช้ SIM card)\n*   **Global Roaming:** อธิบายว่า Starlink Mobile จะทำให้การ Roaming กลายเป็นเรื่อง \"ไร้รอยต่อ\" ได้อย่างไร (เปรียบเทียบกับการขึ้นเครื่องบินแล้วเน็ตเปลี่ยนให้เองโดยไม่ต้องทำอะไร)\n\n**4. Winners vs Losers:**\n\n*   **Winners:**\n    *   **ผู้บริโภค:** โดยเฉพาะคนที่อยู่ในพื้นที่ห่างไกล หรือเดินทางบ่อยๆ จะได้ประโยชน์จากเน็ตที่ถูกลงและครอบคลุมมากขึ้น\n    *   **ธุรกิจ:** ที่ต้องการการเชื่อมต่อที่เสถียรและครอบคลุม เช่น โลจิสติกส์, การเกษตร, การสำรวจ\n    *   **Starlink (SpaceX):** สร้างรายได้จาก Subscription และขยาย Ecosystem\n*   **Losers:**\n    *   **MNOs (บางราย):** ที่ไม่ปรับตัว อาจเสียส่วนแบ่งการตลาดให้กับ Starlink\n    *   **ผู้ให้บริการ Roaming แบบเดิม:** ที่อาจถูก Disrupt จาก Roaming ที่ \"ไร้รอยต่อ\" ของ Starlink\n\n**5. The Bold Prediction:**\n\n*   **ภายในปี 2025:** เราจะได้เห็น \"แพ็กเกจมือถือ\" ที่รวม Starlink Mobile เข้าไปด้วย ทำให้การใช้งานอินเทอร์เน็ตในต่างประเทศ \"ถูก\" กว่าการซื้อ SIM card ท้องถิ่น\n*   **ภายในปี 2027:** \"สงครามราคา\" จะเกิดขึ้นระหว่าง MNOs และ Starlink ทำให้ผู้บริโภคได้ประโยชน์จากราคาที่ถูกลง แต่ MNOs บางรายอาจต้องควบรวมกิจการหรือออกจากตลาด\n\n**6. The Conversation Starter:**\n\n*   \"คุณคิดว่า Starlink Mobile จะเปลี่ยนพฤติกรรมการใช้งานมือถือของคุณไปมากแค่ไหน?\"\n*   \"ถ้าคุณเป็น CEO ของ AIS, True หรือ DTAC คุณจะปรับตัวยังไงเพื่อรับมือกับ Starlink Mobile?\"\n\n**7. Caption Strategy:**\n\n*   \"Starlink Mobile มาแน่! เตรียมบอกลาค่า Roaming แพงหูฉี่ แล้วเจอกันที่ 'เน็ตทั่วโลก ราคาเดียว' 🌍💸\"\n*   \"อย่าเพิ่งคิดว่า Starlink Mobile แค่ทำให้เน็ตเร็วขึ้น... มันกำลังจะ 'ปลดล็อก' อำนาจที่ MNOs เคยผูกขาดไว้ทั้งหมด #Starlink #TechDisruption\"\n\n**ตัวอย่างโพสต์ (ร่าง):**\n\n> Starlink Mobile ไม่ได้ทำให้เน็ตมือถือ 'เร็วขึ้น' แต่มันกำลังฆ่า 'ข้อจำกัด' ที่ทำให้คุณต้องจ่ายแพงกว่าที่ควรจะเป็น 🤯\n>\n> หลายคนมองว่า Starlink คือ \"เน็ตดาวเทียม\" แต่จริงๆ แล้วมันคือการสร้าง \"โครงสร้างพื้นฐาน\" ที่ bypass ผู้ให้บริการเครือข่ายมือถือ (MNOs) แบบเดิมๆ ทำให้ \"คลื่นความถี่\" กลายเป็น Commodity ใครๆ ก็เข้าถึงได้ง่ายขึ้น\n>\n> ลองนึกภาพว่า...\n> *   ดาวเทียม LEO ของ Starlink เหมือนการส่งสัญญาณจากกรุงเทพฯ ไปเชียงใหม่ (ไม่ใช่ส่งไปดวงจันทร์แล้วกลับมา) ทำให้ Latency ต่ำ!\n> *   Direct-to-Cell เหมือนการใช้ Wi-Fi ที่บ้าน ไม่ต้องมีอุปกรณ์พิเศษ แค่มีมือถือก็ connect ได้เลย!\n> *   Global Roaming จะ \"ไร้รอยต่อ\" เหมือนขึ้นเครื่องบินแล้วเน็ตเปลี่ยนให้เอง!\n>\n> ใครได้ประโยชน์? ผู้บริโภคที่อยู่ในพื้นที่ห่างไกล หรือเดินทางบ่อยๆ ธุรกิจที่ต้องการการเชื่อมต่อที่เสถียร และแน่นอน... Starlink!\n>\n> ใครเจ็บตัว? MNOs ที่ไม่ปรับตัว และผู้ให้บริการ Roaming แบบเดิมๆ\n>\n> **Prediction:** ภายในปี 2025 เราจะได้เห็น \"แพ็กเกจมือถือ\" ที่รวม Starlink Mobile เข้าไปด้วย และภายในปี 2027 จะเกิด \"สงครามราคา\" ระหว่าง MNOs และ Starlink!\n>\n> คุณคิดว่า Starlink Mobile จะเปลี่ยนพฤติกรรมการใช้งานมือถือของคุณไปมากแค่ไหน? 🤔 แชร์ความคิดเห็นกันหน่อย! 👇\n>\n> #Starlink #MobileConnectivity #TechDisruption #lookforward\n",
+        "topic": "Starlink Mobile: Revolutionizing Global Connectivity",
+        "word_count": 344
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "content": {
+      "step_name": "content",
+      "status": "completed",
+      "started_at": "2026-03-06T07:49:42.029362",
+      "completed_at": "2026-03-06T07:49:51.187479",
+      "duration_seconds": 9,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_074951\\02_content.json",
+      "output_data": {
+        "content": {
+          "text": "Starlink Mobile ไม่ได้ทำให้เน็ตมือถือ 'เร็วขึ้น' แต่มันกำลังฆ่า 'ข้อจำกัด' ที่ทำให้คุณต้องจ่ายแพงกว่าที่ควรจะเป็น 🤯\n\nหลายคนมองว่า Starlink คือ \"เน็ตดาวเทียม\" แต่จริงๆ แล้วมันคือการสร้าง \"โครงสร้างพื้นฐาน\" ที่ bypass ผู้ให้บริการเครือข่ายมือถือ (MNOs) แบบเดิมๆ ทำให้ \"คลื่นความถี่\" กลายเป็น Commodity ใครๆ ก็เข้าถึงได้ง่ายขึ้น\n\nลองนึกภาพว่า...\n* ดาวเทียม LEO ของ Starlink เหมือนการส่งสัญญาณจากกรุงเทพฯ ไปเชียงใหม่ (ไม่ใช่ส่งไปดวงจันทร์แล้วกลับมา) ทำให้ Latency ต่ำ!\n* Direct-to-Cell เหมือนการใช้ Wi-Fi ที่บ้าน ไม่ต้องมีอุปกรณ์พิเศษ แค่มีมือถือก็ connect ได้เลย!\n* Global Roaming จะ \"ไร้รอยต่อ\" เหมือนขึ้นเครื่องบินแล้วเน็ตเปลี่ยนให้เอง!\n\nใครได้ประโยชน์? ผู้บริโภคที่อยู่ในพื้นที่ห่างไกล หรือเดินทางบ่อยๆ ✈️ ธุรกิจที่ต้องการการเชื่อมต่อที่เสถียร 🧑‍🌾 และแน่นอน... Starlink! 🚀\n\nใครเจ็บตัว? MNOs ที่ไม่ปรับตัว และผู้ให้บริการ Roaming แบบเดิมๆ 🤕\n\n🔮 Prediction: ภายในปี 2025 เราจะได้เห็น \"แพ็กเกจมือถือ\" ที่รวม Starlink Mobile เข้าไปด้วย และภายในปี 2027 จะเกิด \"สงครามราคา\" ระหว่าง MNOs และ Starlink!\n\nคุณคิดว่า Starlink Mobile จะเปลี่ยนพฤติกรรมการใช้งานมือถือของคุณไปมากแค่ไหน? 🤔 แชร์ความคิดเห็นกันหน่อย! 👇\n\n#Starlink #MobileConnectivity #TechDisruption #lookforward",
+          "insight_score": 5,
+          "char_count": 1160
+        },
+        "caption_short": "Starlink Mobile มาแน่! เตรียมบอกลาค่า Roaming แพงหูฉี่ แล้วเจอกันที่ 'เน็ตทั่วโลก ราคาเดียว' 🌍💸",
+        "caption_long": "Starlink Mobile ไม่ได้ทำให้เน็ตมือถือ 'เร็วขึ้น' แต่มันกำลังฆ่า 'ข้อจำกัด' ที่ทำให้คุณต้องจ่ายแพงกว่าที่ควรจะเป็น 🤯 Starlink กำลังจะ 'ปลดล็อก' อำนาจที่ MNOs เคยผูกขาดไว้ทั้งหมด คุณคิดว่า Starlink Mobile จะเปลี่ยนพฤติกรรมการใช้งานมือถือของคุณไปมากแค่ไหน? 🤔 #Starlink #TechDisruption",
+        "hashtags": [
+          "#lookforward",
+          "#เทคไทย",
+          "#Starlink",
+          "#MobileConnectivity"
+        ],
+        "image_prompts": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "format": "landscape",
+            "style": "cinematic / photorealistic / dark tech aesthetic",
+            "mood": "inspiring / thought-provoking / slightly dramatic",
+            "prompt": "Cinematic, ultra-realistic, 16:9 landscape. A smartphone held in a hand, glowing faintly, with a dramatic view of the Earth from space in the background. Starlink satellites are subtly visible as streaks of light. Dark moody background with subtle neon accents. No text, no watermarks, no logos. Depth of field, professional lighting. Shot on Sony A7 III. 8K quality."
+          },
+          {
+            "title": "Quote Card (Story 9:16)",
+            "format": "portrait",
+            "style": "minimal dark gradient / typographic",
+            "mood": "bold / authoritative",
+            "prompt": "Minimal dark gradient background (deep navy to near-black). Abstract geometric or data-visualization elements in the background (blurred). The quote 'Starlink Mobile ไม่ได้ทำให้เน็ตมือถือ 'เร็วขึ้น' แต่มันกำลังฆ่า 'ข้อจำกัด' ที่ทำให้คุณต้องจ่ายแพงกว่าที่ควรจะเป็น' is displayed in a clean, modern sans-serif font. NO text except the quote, no readable words. 9:16 portrait format. Professional, premium feel."
+          }
+        ],
+        "shareable_insight": "Starlink Mobile ไม่ได้ทำให้เน็ตมือถือ 'เร็วขึ้น' แต่มันกำลังฆ่า 'ข้อจำกัด' ที่ทำให้คุณต้องจ่ายแพงกว่าที่ควรจะเป็น"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "images": {
+      "step_name": "images",
+      "status": "completed",
+      "started_at": "2026-03-06T07:49:51.207038",
+      "completed_at": "2026-03-06T07:50:01.384047",
+      "duration_seconds": 10,
+      "output_file": null,
+      "output_data": {
+        "images": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "path": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_074951\\media\\01_hero_visual__facebook_16_9_.jpg",
+            "format": "landscape",
+            "size_kb": 40.9,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          },
+          {
+            "title": "Quote Card (Story 9:16)",
+            "path": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_074951\\media\\02_quote_card__story_9_16_.jpg",
+            "format": "portrait",
+            "size_kb": 31.4,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          }
+        ],
+        "prompts_file": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_074951\\media\\prompts_guide.txt",
+        "total_generated": 2,
+        "total_requested": 2,
+        "media_dir": "D:\\MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_074951\\media"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-03-06T07:50:01.404632",
+      "completed_at": "2026-03-06T07:50:01.437382",
+      "duration_seconds": 0,
+      "output_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_075001",
+      "output_data": {
+        "package_path": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_075001",
+        "post_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_075001\\post.txt",
+        "caption_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_075001\\caption.txt",
+        "hashtags_file": "D:\\MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-06\\Starlink_Mobile_Revolutionizing_Global_Connectivit_075001\\hashtags.txt",
+        "metadata": {
+          "topic": "Starlink Mobile: Revolutionizing Global Connectivity",
+          "generated": "2026-03-06 07:50:01",
+          "insight_score": 5,
+          "char_count": 1160,
+          "has_images": true,
+          "run_id": "lo_20260306_074927"
+        }
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 4,
+    "completed_steps": 4,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": [
+      "strategy",
+      "content",
+      "images",
+      "ready_to_post"
+    ]
+  }
+}

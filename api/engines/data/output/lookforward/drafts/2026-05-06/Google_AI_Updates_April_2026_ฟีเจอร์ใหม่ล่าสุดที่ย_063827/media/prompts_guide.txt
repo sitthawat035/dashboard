@@ -1,0 +1,29 @@
+# 🎨 Image Prompts Guide — Google AI Updates April 2026: ฟีเจอร์ใหม่ล่าสุดที่ยกระดับ AI ของ Google
+Generated: 2026-05-06 06:38
+
+วิธีใช้งาน:
+  A) ระบบจะสร้างรูปอัตโนมัติผ่าน Pollinations.ai (Flux) — ฟรี ไม่ต้อง key
+  B) Copy Enhanced Prompt ไปวางใน Google AI Studio / Midjourney / Ideogram
+============================================================
+
+## [1] Hero Visual (Facebook 16:9)
+Format: LANDSCAPE (1280x720) | Style: modern tech editorial
+
+### ✅ Enhanced Prompt (ready to use):
+A conceptual photography of a single powerful hand holding a glowing chess piece on a futuristic chessboard, representing Google's strategic AI positioning. Deep blue and purple color palette, dramatic lighting, premium editorial tech magazine style. Elegant, minimal composition with subtle particle effects. NO text, NO watermarks, NO logos, high-end commercial photography, ultra-realistic, 16:9 widescreen, clean modern aesthetic, soft studio lighting, professional depth of field, premium editorial tech look, 8K resolution, no text, no watermarks, no logos
+
+### 📝 Original Concept (from AI):
+A conceptual photography of a single powerful hand holding a glowing chess piece on a futuristic chessboard, representing Google's strategic AI positioning. Deep blue and purple color palette, dramatic lighting, premium editorial tech magazine style. Elegant, minimal composition with subtle particle effects. NO text, NO watermarks, NO logos.
+
+----------------------------------------
+
+## [2] Abstract Visual (Story 9:16)
+Format: PORTRAIT (720x1280) | Style: abstract 3D minimalism
+
+### ✅ Enhanced Prompt (ready to use):
+Abstract 3D minimalist rendering of interconnected AI neural networks forming a shield or protective barrier, symbolizing Google's enterprise AI dominance. Soft gradients from deep blue to purple, premium lighting, elegant negative space composition. Clean sophisticated mood, 9:16 portrait format. NO text, NO readable words, premium 3D abstract visualization, clean minimalism, soft gradients, 9:16 portrait format, high-end editorial tech background, no readable text, no watermarks, no logos, ample space for text overlay
+
+### 📝 Original Concept (from AI):
+Abstract 3D minimalist rendering of interconnected AI neural networks forming a shield or protective barrier, symbolizing Google's enterprise AI dominance. Soft gradients from deep blue to purple, premium lighting, elegant negative space composition. Clean sophisticated mood, 9:16 portrait format. NO text, NO readable words.
+
+----------------------------------------

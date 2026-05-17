@@ -1,0 +1,155 @@
+import React, { useEffect, useRef } from 'react';
+import { Terminal } from 'xterm';
+import { FitAddon } from 'xterm-addon-fit';
+import socketManager from '../utils/socket';
+import { logToAnsi } from '../utils/ansi';
+import 'xterm/css/xterm.css';
+
+interface LogViewerTerminalProps {
+  agentId: string;
+}
+
+const LogViewerTerminal: React.FC<LogViewerTerminalProps> = ({ agentId }) => {
+  const xtermRef = useRef<HTMLDivElement>(null);
+  const termRef = useRef<Terminal | null>(null);
+  const fitRef = useRef<FitAddon | null>(null);
+
+  const forceSync = () => {
+    if (termRef.current) {
+        termRef.current.clear();
+        termRef.current.writeln('\x1b[1;33m🔄 Syncing logs from server...\x1b[0m');
+    }
+    // Re-join stream to trigger gateway_log_init from backend
+    socketManager.emit('leave_log_stream', { agent_id: agentId });
+    setTimeout(() => {
+        socketManager.emit('join_log_stream', { agent_id: agentId });
+    }, 100);
+  };
+
+  useEffect(() => {
+    if (!xtermRef.current) return;
+
+    // Initialize XTerm with professional theme matching the user's dashboard
+    const term = new Terminal({
+      cursorBlink: false,
+      disableStdin: true,
+      fontSize: 12,
+      lineHeight: 1.2,
+      fontFamily: "'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Consolas', monospace",
+      theme: {
+        background: '#0a0a0a',
+        foreground: '#e6edf3',
+        black: '#4d4d4d',
+        red: '#ff6b6b',
+        green: '#4ade80',
+        yellow: '#fbbf24',
+        blue: '#60a5fa',
+        magenta: '#f472b6',
+        cyan: '#22d3ee',
+        white: '#f8fafc',
+        brightBlack: '#71717a',
+        brightRed: '#f87171',
+        brightGreen: '#22c55e',
+        brightYellow: '#fbbf24',
+        brightBlue: '#3b82f6',
+        brightMagenta: '#d946ef',
+        brightCyan: '#06b6d4',
+        brightWhite: '#ffffff',
+      },
+      scrollback: 10000,
+      allowTransparency: true,
+      convertEol: true,
+    });
+
+    const fitAddon = new FitAddon();
+    term.loadAddon(fitAddon);
+    term.open(xtermRef.current);
+    
+    // Initial resize
+    setTimeout(() => { try { fitAddon.fit(); } catch {} }, 100);
+
+    const resizeObs = new ResizeObserver(() => { 
+        try { fitAddon.fit(); } catch {} 
+    });
+    resizeObs.observe(xtermRef.current);
+
+    termRef.current = term;
+    fitRef.current = fitAddon;
+
+    // Listen for log events
+    const handleLogInit = (data: { agent_id: string; lines: string[] }) => {
+      if (data.agent_id !== agentId) return;
+      term.clear();
+      if (data.lines && data.lines.length > 0) {
+        data.lines.forEach((line) => {
+          const processed = line.replace(/\\n/g, '\n');
+          term.writeln(logToAnsi(processed));
+        });
+      } else {
+        term.writeln('\x1b[3mWaiting for gateway output...\x1b[0m');
+      }
+    };
+
+    const handleLogLine = (data: { agent_id: string; line: string }) => {
+      if (data.agent_id === agentId) {
+          const processed = data.line.replace(/\\n/g, '\n');
+          term.writeln(logToAnsi(processed));
+      }
+    };
+
+    // Register listeners on the shared socket manager
+    socketManager.on('gateway_log_init', handleLogInit);
+    socketManager.on('gateway_log_line', handleLogLine);
+
+    // Initial join
+    socketManager.emit('join_log_stream', { agent_id: agentId });
+
+    return () => {
+      resizeObs.disconnect();
+      socketManager.off('gateway_log_init', handleLogInit);
+      socketManager.off('gateway_log_line', handleLogLine);
+      socketManager.emit('leave_log_stream', { agent_id: agentId });
+      term.dispose();
+    };
+  }, [agentId]);
+
+  return (
+    <div className="gateway-terminal-wrapper" style={{ 
+        width: '100%', 
+        height: '100%', 
+        position: 'relative',
+        overflow: 'hidden', 
+        padding: '12px', 
+        background: '#0a0a0a', 
+        border: '1px solid rgba(255,255,255,0.1)',
+        borderRadius: '8px',
+        boxShadow: 'inset 0 0 20px rgba(0,0,0,0.5)'
+    }}>
+      <button 
+        onClick={forceSync}
+        title="Sync Logs"
+        style={{
+            position: 'absolute',
+            top: '8px',
+            right: '25px',
+            zIndex: 10,
+            background: 'rgba(255,255,255,0.1)',
+            border: 'none',
+            borderRadius: '4px',
+            color: '#888',
+            padding: '4px 8px',
+            fontSize: '11px',
+            cursor: 'pointer',
+            transition: 'all 0.2s'
+        }}
+        onMouseOver={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.2)', e.currentTarget.style.color = '#fff')}
+        onMouseOut={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.1)', e.currentTarget.style.color = '#888')}
+      >
+        🔄 SYNC
+      </button>
+      <div ref={xtermRef} style={{ width: '100%', height: '100%' }} />
+    </div>
+  );
+};
+
+export default LogViewerTerminal;

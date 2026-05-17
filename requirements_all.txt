@@ -1,0 +1,69 @@
+
+# Browser Automation (Free)
+# Data Analysis (Free, Open Source)
+# Download: https://ollama.com/download
+# Engagement Project Dependencies - ZERO COST VERSION 🆓
+# Environment Variables (Free)
+# Free Alternative for AI Generation
+# HTTP Requests & Web Scraping (Free)
+# Image Processing (Free)
+# Models: ollama pull llama3.2 or ollama pull typhoon-thai
+# Option 1: Use Ollama (external tool, free)
+# Option 2: Groq API (Free Tier - 30 req/min)
+# Optional: Local Image Generation (Free, requires GPU)
+# Thai Language Processing (Free, Open Source)
+# Utilities (Free)
+# diffusers==0.25.0
+# torch==2.1.2
+# transformers==4.36.0
+# ✅ 100% FREE STACK!
+# ❌ anthropic (removed - costs money)
+# ❌ openai  (removed - costs money)
+# Browser Automation (Free)
+# Data Analysis (Free, Open Source)
+# Download: https://ollama.com/download
+# Engagement Project Dependencies - ZERO COST VERSION 🆓
+# Environment Variables (Free)
+# Free Alternative for AI Generation
+# HTTP Requests & Web Scraping (Free)
+# Image Processing (Free)
+# Models: ollama pull llama3.2 or ollama pull typhoon-thai
+# Option 1: Use Ollama (external tool, free)
+# Option 2: Groq API (Free Tier - 30 req/min)
+# Optional: Local Image Generation (Free, requires GPU)
+# Thai Language Processing (Free, Open Source)
+# Utilities (Free)
+# diffusers==0.25.0
+# torch==2.1.2
+# transformers==4.36.0
+# ✅ 100% FREE STACK!
+# ❌ anthropic (removed - costs money)
+# ❌ openai  (removed - costs money)
+# 🚫 NO PAID APIs:
+Flask==3.1.0
+Pillow>=10.1.0
+attacut==1.0.6
+beautifulsoup4==4.12.2
+colorama==0.4.6  # Colored terminal output
+eventlet==0.39.1
+flask-cors==5.0.0
+flask-limiter==4.1.1
+flask-socketio==5.4.1
+groq==0.4.1
+huggingface_hub==0.24.0
+playwright>=1.40.0
+playwright>=1.40.0
+pyperclip==1.11.0  # Clipboard functionality for fast posting
+pytest-asyncio==0.21.1
+pytest-mock>=3.10.0
+pytest>=7.0.0
+pytest>=7.0.0
+pythainlp==4.0.2
+python-dateutil==2.8.2
+python-dotenv>=1.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+requests>=2.31.0
+requests>=2.25.0
+requests>=2.31.0
+tqdm==4.66.0

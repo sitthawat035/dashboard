@@ -1,0 +1,280 @@
+/* src/App.css — Single CSS entry point (imports all modules) */
+/* Token-based design system: all :root vars live in base.css */
+@import './styles/base.css';      /* Layout, tokens, sidebar, header, terminal */
+@import './styles/components.css'; /* Buttons, badges, cards, forms */
+@import './styles/agent.css';      /* AgentCard, AgentPage, shell, chat, files */
+@import './styles/mission-control.css';
+@import './styles/engine-hub.css';
+@import './styles/social-hub.css';
+
+/* ── App Root Container — anchors the flex layout to viewport ── */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ── Global Resets (from former index.css) ── */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.03;
+  background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noiseFilter)"/></svg>');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  height: 100vh;
+  overflow: hidden;
+  line-height: 1.5;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: var(--bg-panel);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Stdout subtabs */
+.stdout-subtabs {
+  display: flex;
+  gap: 4px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid var(--border);
+}
+
+.subtab-sm {
+  padding: 6px 12px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: var(--transition);
+}
+
+.subtab-sm:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+}
+
+.subtab-sm.active {
+  background: rgba(88, 166, 255, 0.15);
+  color: var(--primary);
+}
+
+/* Gateway Offline Placeholder (legacy) */
+.gateway-offline-placeholder {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  margin: 12px;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  min-height: 250px;
+}
+
+.offline-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.gateway-offline-placeholder h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.gateway-offline-placeholder p {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+/* ── Gateway Overlay System ─────────────────────────────── */
+.gateway-offline-overlay,
+.gateway-starting-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 20;
+  border-radius: 8px;
+  pointer-events: all;
+}
+
+.gateway-offline-overlay {
+  background: rgba(10, 12, 16, 0.85);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.gateway-starting-overlay {
+  background: rgba(10, 12, 16, 0.80);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+.gateway-offline-overlay h4,
+.gateway-starting-overlay h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin: 12px 0 6px;
+}
+
+.gateway-offline-overlay p,
+.gateway-starting-overlay p {
+  color: var(--text-muted);
+  font-size: 13px;
+  max-width: 260px;
+}
+
+/* ── Gateway Spinners ──────────────────────────────── */
+@keyframes gw-spin { to { transform: rotate(360deg); } }
+@keyframes ring-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+.gw-spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-top-color: #3fb950;
+  border-radius: 50%;
+  animation: gw-spin 0.7s linear infinite;
+  flex-shrink: 0;
+}
+
+.gw-ring-spinner {
+  width: 56px;
+  height: 56px;
+  border: 4px solid rgba(63, 185, 80, 0.15);
+  border-top-color: #3fb950;
+  border-radius: 50%;
+  animation: ring-spin 0.9s cubic-bezier(0.5, 0.1, 0.5, 0.9) infinite;
+  box-shadow: 0 0 18px rgba(63, 185, 80, 0.25);
+}
+
+.btn-starting {
+  border-color: rgba(63, 185, 80, 0.5) !important;
+  color: #3fb950 !important;
+  background: rgba(63, 185, 80, 0.08) !important;
+  cursor: not-allowed !important;
+  opacity: 0.9;
+}
+
+.btn-starting:hover {
+  background: rgba(63, 185, 80, 0.08) !important;
+  box-shadow: 0 0 12px rgba(63, 185, 80, 0.2) !important;
+}
+
+/* ── Gateway Failed Overlay ──────────────────────── */
+.gateway-failed-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 20;
+  border-radius: 8px;
+  background: rgba(10, 12, 16, 0.90);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border: 1px dashed rgba(248, 81, 73, 0.3);
+  pointer-events: all;
+}
+
+.gateway-failed-overlay h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f85149;
+  margin: 10px 0 6px;
+}
+
+.gateway-failed-overlay p {
+  color: var(--text-muted);
+  font-size: 13px;
+  max-width: 280px;
+  line-height: 1.5;
+}
+
+.failed-icon { font-size: 40px; margin-bottom: 4px; }
+.failed-actions { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; justify-content: center; }
+.gw-starting-hint { font-size: 11px; color: var(--text-muted); margin-top: 10px; font-style: italic; }
+.btn-restart-ml { margin-left: 8px; }
+
+/* ── Mission Control Premium ───────────────────────────── */
+.mc-pulse-cyan {
+  position: absolute;
+  inset: -4px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  animation: mc-cyan-pulse 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  pointer-events: none;
+}
+
+@keyframes mc-cyan-pulse {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+.mc-map-center-titanium { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; z-index: 5; }
+.mc-center-ring { position: absolute; width: 80px; height: 80px; border: 1px dashed var(--primary-glow); border-radius: 50%; animation: ring-rotate 10s linear infinite; }
+@keyframes ring-rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.mc-center-icon { font-size: 32px; filter: drop-shadow(0 0 10px var(--primary-glow)); z-index: 6; }
+.mc-center-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--primary); margin-top: 8px; text-shadow: 0 0 8px var(--primary-glow); }
+
+/* ── Agent Soul & Traits ──────────────────────────────── */
+.soul-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.soul-tag { font-size: 9px; font-weight: 800; color: var(--primary); background: rgba(0, 242, 255, 0.1); padding: 2px 6px; border-radius: 4px; border: 1px solid var(--primary-glow); letter-spacing: 1px; }
+.traits-stack { display: flex; gap: 4px; }
+.trait { font-size: 9px; font-weight: 600; color: var(--titanium-300); background: rgba(255, 255, 255, 0.05); padding: 1px 4px; border-radius: 3px; text-transform: uppercase; }

@@ -1,0 +1,254 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": "closePane",
+            "id": "User.closePane"
+        },
+        {
+            "command": {
+                "action": "exportBuffer"
+            },
+            "id": "User.exportBuffer.C5EEC4D3"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        }
+    ],
+    "alwaysShowTabs": true,
+    "autoHideWindow": false,
+    "centerOnLaunch": false,
+    "compatibility.allowHeadless": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultInputScope": "alphanumericHalfWidth",
+    "defaultProfile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+    "firstWindowPreference": "defaultProfile",
+    "focusFollowMouse": false,
+    "initialCols": 60,
+    "initialPosition": ",",
+    "initialRows": 30,
+    "keybindings": [
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.exportBuffer.C5EEC4D3",
+            "keys": "ctrl+x"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+space"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+comma"
+        },
+        {
+            "id": "Terminal.DuplicatePaneDown",
+            "keys": "alt+shift+period"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
+        },
+        {
+            "id": "Terminal.DuplicatePaneRight",
+            "keys": "alt+shift+2"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+plus"
+        },
+        {
+            "id": "User.closePane",
+            "keys": "alt+shift+'"
+        },
+        {
+            "id": "Terminal.IncreaseFontSize",
+            "keys": "ctrl+plus"
+        }
+    ],
+    "launchMode": "default",
+    "newTabMenu": [
+        {
+            "icon": null,
+            "profile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{42566a21-33e6-58cb-9284-6404dac19440}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "type": "profile"
+        },
+        {
+            "allowEmpty": false,
+            "entries": [
+                {
+                    "type": "separator"
+                },
+                {
+                    "type": "remainingProfiles"
+                }
+            ],
+            "icon": null,
+            "inline": "never",
+            "name": "dashboard",
+            "type": "folder"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": {
+        "defaults": {
+            "adjustIndistinguishableColors": "never",
+            "colorScheme": "Vintage",
+            "elevate": true,
+            "experimental.retroTerminalEffect": false,
+            "font": {
+                "cellHeight": "1",
+                "cellWidth": "0.6",
+                "face": "Cascadia Code",
+                "size": 8,
+                "weight": "extra-light"
+            },
+            "foreground": null,
+            "opacity": 100,
+            "startingDirectory": "%USERPROFILE%",
+            "tabTitle": ".7oEz"
+        },
+        "list": [
+            {
+                "elevate": true,
+                "font": {
+                    "cellHeight": "1.2",
+                    "size": 12
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "elevate": true,
+                "font": {
+                    "cellHeight": "1.2"
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "elevate": true,
+                "font": {
+                    "cellHeight": "1",
+                    "cellWidth": "0.6",
+                    "size": 10,
+                    "weight": "normal"
+                },
+                "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+                "hidden": false,
+                "icon": "\ud83d\ude80",
+                "name": "PowerShell 7",
+                "source": "Windows.Terminal.PowershellCore",
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": ".7oEz"
+            },
+            {
+                "colorScheme": "Ottosson",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": {
+                    "cellHeight": "0.9",
+                    "face": "Cascadia Code",
+                    "size": 10,
+                    "weight": "semi-bold"
+                },
+                "guid": "{42566a21-33e6-58cb-9284-6404dac19440}",
+                "hidden": false,
+                "intenseTextStyle": "all",
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL",
+                "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\usercivenz",
+                "tabTitle": "LINUX"
+            }
+        ]
+    },
+    "rendering.software": true,
+    "schemes": [
+        {
+            "name": "Visualizer Theme",
+            "background": "#000000",
+            "foreground": "#ede9f1",
+            "selectionBackground": "#43a84a",
+            "cursorColor": "#f07ae0",
+            "black": "#8f929e",
+            "red": "#ff0000",
+            "green": "#D1B3C8",
+            "yellow": "#fde917",
+            "blue": "#8d54f8",
+            "purple": "#38ff84",
+            "cyan": "#bb00ff",
+            "white": "#b7b8bd",
+            "brightBlack": "#787878",
+            "brightRed": "#FF0A0A",
+            "brightGreen": "#00ff15",
+            "brightYellow": "#FFFB00",
+            "brightBlue": "#0055ff",
+            "brightPurple": "#FF8652",
+            "brightCyan": "#97ff52",
+            "brightWhite": "#ff5ce9"
+        }
+    ],
+    "showTabsInTitlebar": false,
+    "snapToGridOnResize": true,
+    "theme": "system",
+    "themes": [],
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useExisting"
+}

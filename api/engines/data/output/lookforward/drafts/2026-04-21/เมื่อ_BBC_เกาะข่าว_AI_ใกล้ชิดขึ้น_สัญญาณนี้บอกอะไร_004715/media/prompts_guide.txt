@@ -1,0 +1,29 @@
+# 🎨 Image Prompts Guide — เมื่อ BBC เกาะข่าว AI ใกล้ชิดขึ้น สัญญาณนี้บอกอะไรว่า AI ได้กลายเป็นวาระสาธารณะเต็มตัวแล้ว
+Generated: 2026-04-21 00:47
+
+วิธีใช้งาน:
+  A) ระบบจะสร้างรูปอัตโนมัติผ่าน Pollinations.ai (Flux) — ฟรี ไม่ต้อง key
+  B) Copy Enhanced Prompt ไปวางใน Google AI Studio / Midjourney / Ideogram
+============================================================
+
+## [1] Hero Visual (Facebook 16:9)
+Format: LANDSCAPE (1280x720) | Style: modern tech editorial
+
+### ✅ Enhanced Prompt (ready to use):
+A clean, modern conceptual photography representing artificial intelligence becoming public infrastructure and a matter of social governance, symbolized by a glowing digital road stretching through a city toward a public broadcasting building. Professional studio lighting, elegant, minimal, high-end editorial tech style. NO text, NO watermarks, NO logos, high-end commercial photography, ultra-realistic, 16:9 widescreen, clean modern aesthetic, soft studio lighting, professional depth of field, premium editorial tech look, 8K resolution, no text, no watermarks, no logos
+
+### 📝 Original Concept (from AI):
+A clean, modern conceptual photography representing artificial intelligence becoming public infrastructure and a matter of social governance, symbolized by a glowing digital road stretching through a city toward a public broadcasting building. Professional studio lighting, elegant, minimal, high-end editorial tech style. NO text, NO watermarks, NO logos.
+
+----------------------------------------
+
+## [2] Abstract Visual (Story 9:16)
+Format: PORTRAIT (720x1280) | Style: abstract 3D minimalism
+
+### ✅ Enhanced Prompt (ready to use):
+Abstract 3D minimalist rendering representing AI shifting from a niche technology into public infrastructure, with luminous network pathways transforming into layered civic structures and information flows. Soft gradients, premium lighting, elegant composition, negative space. NO text, NO readable words, 9:16 portrait format, premium 3D abstract visualization, clean minimalism, soft gradients, 9:16 portrait format, high-end editorial tech background, no readable text, no watermarks, no logos, ample space for text overlay
+
+### 📝 Original Concept (from AI):
+Abstract 3D minimalist rendering representing AI shifting from a niche technology into public infrastructure, with luminous network pathways transforming into layered civic structures and information flows. Soft gradients, premium lighting, elegant composition, negative space. NO text, NO readable words, 9:16 portrait format.
+
+----------------------------------------

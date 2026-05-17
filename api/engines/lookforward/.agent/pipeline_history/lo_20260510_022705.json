@@ -1,0 +1,148 @@
+{
+  "run_id": "lo_20260510_022705",
+  "project_id": "lookforward",
+  "topic": " LLM Leaderboard 2026: 300+ โมเดล AI ใครนำ การเปลี่ยนแปลงอันดับที่น่าจับตา",
+  "status": "completed",
+  "current_step": "publish_fb",
+  "created_at": "2026-05-10T02:27:05.595649",
+  "updated_at": "2026-05-10T02:30:49.813165",
+  "options": {
+    "mode": "full",
+    "gen_images": false,
+    "dry_run": false
+  },
+  "step_results": {
+    "strategy": {
+      "step_name": "strategy",
+      "status": "completed",
+      "started_at": "2026-05-10T02:27:05.596948",
+      "completed_at": "2026-05-10T02:29:20.111425",
+      "duration_seconds": 134,
+      "output_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/drafts/2026-05-10/_LLM_Leaderboard_2026_300+_โมเดล_AI_ใครนำ_การเปลี่_022920/01_strategy.md",
+      "output_data": {
+        "strategy": "ได้ข้อมูลเต็มแล้ว ตอนนี้จะจัด analysis สำหรับ Tech Authority โพสต์เลย\n\nข้อมูลดิบเก็บมาแล้ว งานนี้เป็น Analysis (Stage 1) — ผมจัดการเองตาม SOUL.md\n\n---\n\n## 📊 LLM Leaderboard 2026 Analysis\n\n### The Surprise Hook\n\n**ผลลัพธ์ที่ไม่มีใครคาด: เด็ดดอกไม้ไม่ได้แปลว่าเจ็บ**\n\nข้อมูลจาก Arena Elo — ที่แข่งขันมา 37 เดือน — เผยสิ่งที่น่าตกใจที่สุดไม่ใช่ว่าใครอันดับ 1 แต่คือ **ช่องว่างระหว่าง proprietary กับ open-source หดเหลือแค่ 4 คะแนน** ใน Feb 2025\n\nแปลว่าอะไร?\n\nแปลว่า **DeepSeek, Qwen, Zai, Kimi ตามทัน frontier labs ของอเมริกาแล้ว** และทุกคนกำลังแข่งกันในระยะที่สมจริงมาก\n\n---\n\n### The Real Story\n\n**1. The Elo Velocity ช้าลงแต่สูงขึ้น**\n- ค่าเฉลี่ย +11 Elo/เดือน — แต่ตอนนี้ 1 Elo ต่างกันมากเพราะceiling สูงขึ้น\n- 1094 → 1500 ใน 37 เดือน = +406 คะแนนทั้งหมด\n- ช่วง 1400-1500 คือ prime territory ของ frontier\n\n**2. Crown Changes = 21 ครั้ง**\nไม่มีใครครองตำแหน่งนาน เพราะ pace ของการ release เร่งขึ้นมาก\n\n**3. Open-source Champions ล่าสุด**\nข้ามจาก `llama-3.1` มาเป็น `deepseek-r1` → `qwen3` → `glm-5` → `kimi-k2.5` และล่าสุด **GLM-5.1 ขึ้นท็อป open-source ที่ 1468 Elo** (พฤษภาคม 2026)\n\n**4. ความเร็วเป็นตัวชี้ขาดใหม่**\nถ้า reasoning quality อยู่ที่ 1450+ ทุกตัว → **ความเร็วคือ competitive advantage**\n- Llama 4 Scout: 2,600 tokens/sec\n- Nova Micro: $0.04/M tokens (ถูกสุดในตลาด)\n- GPT-5.3 Codex: TTFT 0.003 วินาที (เร็วที่สุด)\n\n---\n\n### Winners vs Losers\n\n**🏆 Winners:**\n- **Anthropic** — Claude Opus 4.6/4.7 ครอง coding และ overall reasoning แม้ Input ราคา $5/M (แพงกว่า GPT-5.5 6 เท่า)\n- **Google** — Gemini 3 Pro ตอบโจทย์ visual reasoning และ multilingual สุดกว่าใคร; context window 10M กิโลกว่า\n- **Chinese Labs** — เป็น engine ให้ open-source community สู้ proprietary ได้อย่างไม่น่าเชื่อ\n- **Meta** — Llama 4 Scout/Maverick กลายเป็น Speed King ที่คนใช้เป็น production workhorse\n\n**📉 Less Obvious Losers:**\n- **OpenAI** — แม้ยังเป็น #1 provider (16 เดือน) แต่โดน Anthropic และ Google ขโมย spotlight ตลอด\n- **บริษัทเล็กที่ทำ specialized models** — ถ้าทำ general capability แข่ง frontier labs แล้วไม่ได้ แปลว่าต้องหาทางเฉพาะทางมากขึ้น\n\n---\n\n### The Bold Prediction\n\n**ภายใน 18 เดือน — ไม่มีใครจะถามว่า \"อันดับ 1 คือตัวไหน\" เพราะมันไม่สำคัญอีกต่อไป**\n\nเหตุผล:\n- ทุก frontier model จะ \"ดีพอ\" สำหรับ use case ส่วนใหญ่\n- ความได้เปรียบจะเปลี่ยนจาก \"ใครฉลาดสุด\" เป็น \"ใคร inference เร็ว + ถูก + reliable สุด\"\n- **Agent chaining** จะเป็น battleground ถัดไป — ไม่ใช่ single model capability\n\nถ้าแนวโน้มนี้ถูก **2027 จะมีบริษัทที่เป็น \"AWS ของ AI inference\" โผล่ขึ้นมา** — ไม่ใช่ model lab แต่เป็น layer ที่รันได้ทุก model เร็วที่สุดและถูกที่สุด\n\n---\n\n### Conversation Starter\n\n**คุณยังเลือก model โดยดูแค่ benchmark score อยู่ไหม?**\n\nเพราะถ้ายัง — คุณอาจกำลัง optimize ผิดตัว\n\nความจริงที่น่าสนใจกว่าคือ: **model ไหนที่ทำให้ workflow ของคุณเร็วขึ้นจริง?** ไม่ใช่ model ไหนที่ได้คะแนนสูงสุดบนกระดาน\n\n---\n\n## 📝 สรุป Key Numbers สำหรับ caption\n\n> Top 20 LLM Arena 2026: ช่องว่าง Elo ระหว่างอันดับ 1 กับ 10 เหลือแค่ 22 คะแนน (vs 150+ เมื่อ 2 ปีก่อน)\n>\n> 3 ปีครึ่ง → 21 ครั้งที่ตำแหน่ง #1 เปลี่ยนมือ\n>\n> Chinese labs + open-source ตาม frontier US ทันแล้ว\n\n---\n\n## Metadata สำหรับโพสต์\n\n| Element | Content |\n|---|---|\n| **Headline** | อันดับ 1 ไม่สำคัญอีกต่อไป — เพราะ LLM ทุกตัว \"ดีพอ\" แล้ว |\n| **Caption Hook (3 วินาที)** | เบื่อดู Rank ไหม? อันดับ 1 กับ 10 ต่างกันแค่ 22 Elo คะแนน |\n| **Category** | Tech Authority / AI Leaderboard |\n| **Tone** | Analytic, provocative, forward-looking |\n| **Target Audience** | Tech professionals, developers, AI enthusiasts |\n\n---\n\nถ้าต้องการขยายเป็น full post ได้เลย — แค่บอกว่าจะเป็น long-form หรือ thread format",
+        "topic": " LLM Leaderboard 2026: 300+ โมเดล AI ใครนำ การเปลี่ยนแปลงอันดับที่น่าจับตา",
+        "word_count": 475
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "content": {
+      "step_name": "content",
+      "status": "completed",
+      "started_at": "2026-05-10T02:29:20.112874",
+      "completed_at": "2026-05-10T02:30:45.231331",
+      "duration_seconds": 85,
+      "output_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/drafts/2026-05-10/_LLM_Leaderboard_2026_300+_โมเดล_AI_ใครนำ_การเปลี่_023045/02_content.json",
+      "output_data": {
+        "content": {
+          "text": "เบื่อดู Rank ไหม? 🧠\n\nอันดับ 1 กับ 10 ต่างกันแค่ 22 Elo คะแนน\n\nข้อมูลจาก Arena Elo — 37 เดือนของการแข่งขัน AI ที่แท้จริง — เผยสิ่งที่น่าตกใจที่สุดไม่ใช่ว่าใครอันดับ 1 แต่คือ **ช่องว่างระหว่าง proprietary กับ open-source หดเหลือแค่ 4 คะแนน** ใน Feb 2025\n\nแปลว่าอะไร?\n\nแปลว่า DeepSeek, Qwen, GLM, Kimi ตามทัน frontier labs ของอเมริกาแล้ว และทุกคนกำลังแข่งกันในระยะที่สมจริงมาก\n\n━━━━━━━━━━━━━━━━\n\n📊 THE REAL STORY\n\n**1. The Elo Velocity ช้าลงแต่สูงขึ้น**\nค่าเฉลี่ย +11 Elo/เดือน — แต่ตอนนี้ 1 Elo ต่างกันมากเพราะ ceiling สูงขึ้นเร็วมาก\n\n1094 → 1500 ใน 37 เดือน = +406 คะแนนทั้งหมด\nช่วง 1400-1500 คือ prime territory ของ frontier\n\n**2. Crown Changes = 21 ครั้ง**\nไม่มีใครครองตำแหน่งนาน เพราะ pace ของการ release เร่งขึ้นมาก\n\n**3. Open-source Champions ล่าสุด**\nllama-3.1 → deepseek-r1 → qwen3 → glm-5 → kimi-k2.5\nและล่าสุด GLM-5.1 ขึ้นท็อป open-source ที่ 1468 Elo (พฤษภาคม 2026)\n\n**4. ความเร็วเป็นตัวชี้ขาดใหม่**\nถ้า reasoning quality อยู่ที่ 1450+ ทุกตัว → ความเร็วคือ competitive advantage\n\n🤖 Llama 4 Scout: 2,600 tokens/sec\n🤖 Nova Micro: $0.04/M tokens (ถูกสุดในตลาด)\n🤖 GPT-5.3 Codex: TTFT 0.003 วินาที (เร็วที่สุด)\n\n━━━━━━━━━━━━━━━━\n\n🏆 WINNERS\n\n• **Anthropic** — Claude Opus 4.6/4.7 ครอง coding และ overall reasoning แม้ Input ราคา $5/M (แพงกว่า GPT-5.5 6 เท่า)\n\n• **Google** — Gemini 3 Pro ตอบโจทย์ visual reasoning และ multilingual สุดกว่าใคร; context window 10M กิโลกว่า\n\n• **Chinese Labs** — เป็น engine ให้ open-source community สู้ proprietary ได้อย่างไม่น่าเชื่อ\n\n• **Meta** — Llama 4 Scout/Maverick กลายเป็น Speed King ที่คนใช้เป็น production workhorse\n\n📉 LESS OBVIOUS LOSERS\n\n• **OpenAI** — แม้ยังเป็น #1 provider (16 เดือน) แต่โดน Anthropic และ Google ขโมย spotlight ตลอด\n\n• **บริษัทเล็กที่ทำ specialized models** — ถ้าทำ general capability แข่ง frontier labs แล้วไม่ได้ แปลว่าต้องหาทางเฉพาะทางมากขึ้น\n\n━━━━━━━━━━━━━━━━\n\n🔮 THE SIGNAL\n\n**ภายใน 18 เดือน — ไม่มีใครจะถามว่า \"อันดับ 1 คือตัวไหน\" เพราะมันไม่สำคัญอีกต่อไป**\n\nเหตุผล:\n• ทุก frontier model จะ \"ดีพอ\" สำหรับ use case ส่วนใหญ่\n• ความได้เปรียบจะเปลี่ยนจาก \"ใครฉลาดสุด\" เป็น \"ใคร inference เร็ว + ถูก + reliable สุด\"\n• **Agent chaining** จะเป็น battleground ถัดไป — ไม่ใช่ single model capability\n\nถ้าแนวโน้มนี้ถูก 2027 จะมีบริษัทที่เป็น \"AWS ของ AI inference\" โผล่ขึ้นมา — ไม่ใช่ model lab แต่เป็น layer ที่รันได้ทุก model เร็วที่สุดและถูกที่สุด\n\n━━━━━━━━━━━━━━━━\n\n💬 คุณยังเลือก model โดยดูแค่ benchmark score อยู่ไหม?\n\nเพราะถ้ายัง — คุณอาจกำลัง optimize ผิดตัว\n\nความจริงที่น่าสนใจกว่าคือ: **model ไหนที่ทำให้ workflow ของคุณเร็วขึ้นจริง?** ไม่ใช่ model ไหนที่ได้คะแนนสูงสุดบนกระดาน\n\n━━━━━━━━━━━━━━━━\n\n📌 Key Numbers:\n• Top 20: ช่องว่างอันดับ 1 กับ 10 เหลือ 22 Elo (vs 150+ เมื่อ 2 ปีก่อน)\n• 3 ปีครึ่ง → 21 ครั้งที่ตำแหน่ง #1 เปลี่ยนมือ\n• Chinese labs + open-source ตาม frontier US ทันแล้ว\n\n.#lookforward #AI #LLM #ArtificialIntelligence #TechThailand",
+          "insight_score": 5,
+          "char_count": 2816
+        },
+        "caption_short": "เบื่อดู Rank ไหม? อันดับ 1 กับ 10 ต่างกันแค่ 22 Elo คะแนน",
+        "caption_long": "เบื่อดู Leaderboard กันไหม? 🧠 อันดับ 1 กับ 10 ต่างกันแค่ 22 Elo คะแนน — ไม่ใช่ข่าวดีสำหรับคนที่ยังเชื่อว่า \"model เดียวชนะทุกอย่าง\"\n\nจากข้อมูล Arena Elo 37 เดือน: open-source ตาม frontier US ทันแล้ว และความเร็วกำลังกลายเป็น competitive advantage ใหม่\n\nลองดู: model ไหนที่ทำให้ workflow คุณเร็วขึ้นจริง — ไม่ใช่ model ไหนที่ได้ rank สูงสุดบนกระดาน",
+        "hashtags": [
+          "#lookforward",
+          "#AI",
+          "#LLM",
+          "#ArtificialIntelligence",
+          "#TechThailand",
+          "#OpenSourceAI",
+          "#AIInference",
+          "#Anthropic",
+          "#GoogleGemini",
+          "#MetaAI",
+          "#DeepSeek"
+        ],
+        "shareable_insight": "อันดับ 1 กับ 10 ต่างกันแค่ 22 Elo — open-source ตาม frontier US ทันแล้ว และความเร็วกำลังเป็น competitive advantage ใหม่ของ AI",
+        "image_prompts": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "format": "landscape",
+            "style": "modern tech editorial",
+            "mood": "analytical / visionary",
+            "prompt": "A clean, modern editorial infographic showing AI model rankings with subtle elo score visualization. Elegant data visualization style, professional tech aesthetic, dark theme with vibrant accent colors representing different AI labs. NO text, NO watermarks, NO logos."
+          },
+          {
+            "title": "Abstract Visual (Story 9:16)",
+            "format": "portrait",
+            "style": "abstract 3D minimalism",
+            "mood": "clean / sophisticated",
+            "prompt": "Abstract 3D rendering of converging light trails representing AI models racing toward a convergence point. Soft gradients in blue and gold tones, premium lighting, elegant negative space composition. NO text, NO readable words, 9:16 portrait format."
+          }
+        ]
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "images": {
+      "step_name": "images",
+      "status": "completed",
+      "started_at": "2026-05-10T02:30:45.232039",
+      "completed_at": "2026-05-10T02:30:45.234183",
+      "duration_seconds": 0,
+      "output_file": null,
+      "output_data": {
+        "images": [],
+        "skipped": true,
+        "prompts_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/drafts/2026-05-10/_LLM_Leaderboard_2026_300+_โมเดล_AI_ใครนำ_การเปลี่_023045/media/prompts_guide.txt"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-05-10T02:30:45.235486",
+      "completed_at": "2026-05-10T02:30:45.240349",
+      "duration_seconds": 0,
+      "output_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-10/_LLM_Leaderboard_2026_300+_โมเดล_AI_ใครนำ_การเปลี่_023045",
+      "output_data": {
+        "package_path": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-10/_LLM_Leaderboard_2026_300+_โมเดล_AI_ใครนำ_การเปลี่_023045",
+        "post_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-10/_LLM_Leaderboard_2026_300+_โมเดล_AI_ใครนำ_การเปลี่_023045/post.txt",
+        "caption_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-10/_LLM_Leaderboard_2026_300+_โมเดล_AI_ใครนำ_การเปลี่_023045/caption.txt",
+        "hashtags_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-10/_LLM_Leaderboard_2026_300+_โมเดล_AI_ใครนำ_การเปลี่_023045/hashtags.txt",
+        "metadata": {
+          "topic": " LLM Leaderboard 2026: 300+ โมเดล AI ใครนำ การเปลี่ยนแปลงอันดับที่น่าจับตา",
+          "generated": "2026-05-10 02:30:45",
+          "insight_score": 5,
+          "char_count": 2816,
+          "has_images": false,
+          "run_id": "lo_20260510_022705"
+        }
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "publish_fb": {
+      "step_name": "publish_fb",
+      "status": "completed",
+      "started_at": "2026-05-10T02:30:45.241225",
+      "completed_at": "2026-05-10T02:30:49.812444",
+      "duration_seconds": 4,
+      "output_file": null,
+      "output_data": {
+        "published": true,
+        "platform": "facebook",
+        "post_id": "898773833311604_122131236303126048"
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 5,
+    "completed_steps": 5,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": [
+      "strategy",
+      "content",
+      "images",
+      "ready_to_post",
+      "publish_fb"
+    ]
+  }
+}

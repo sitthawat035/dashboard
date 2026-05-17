@@ -1,0 +1,6 @@
+### Image 1: Visual 1
+Create a clean technical infographic showing the narrowing gap between closed-source frontier AI models and open-source frontier models. Use a layered stack diagram with three levels: Model Layer, Inference Layer, Application Layer. On the left show closed-source leaders with labels like reasoning, multimodal, safety, enterprise tooling. On the right show open-source ecosystem with labels like benchmark gains, quantization, vLLM, fine-tuning, cost efficiency. In the center show arrows indicating gap narrowing over time. Style: modern editorial tech visual, dark background, subtle neon blue and orange accents, premium magazine quality, minimal text, highly legible.
+
+### Image 2: Visual 2
+Create an abstract strategic concept illustration for 'AI competition shifting from model war to system war'. Show a futuristic battlefield replaced by interconnected system components: models, data pipelines, orchestration, vector databases, observability dashboards, security layers, and workflow automation nodes. The central message should visually communicate that value is moving away from the base model toward the surrounding system. Style: cinematic enterprise tech art, sophisticated, sharp, minimalist but dense with meaning, blue-gray palette with glowing data paths, suitable for a high-end tech analysis article.
+

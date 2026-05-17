@@ -1,0 +1,29 @@
+# 🎨 Image Prompts Guide — เมื่อ Big Pharma เร่งเดิมพัน AI พร้อมกัน: อ่านเกมจากข่าววันนี้ว่าทำไมอุตสาหกรรมยากำลังเปลี่ยนจากทดลองใช้สู่การแข่งขันจริง
+Generated: 2026-04-16 14:27
+
+วิธีใช้งาน:
+  A) ระบบจะสร้างรูปอัตโนมัติผ่าน Pollinations.ai (Flux) — ฟรี ไม่ต้อง key
+  B) Copy Enhanced Prompt ไปวางใน Google AI Studio / Midjourney / Ideogram
+============================================================
+
+## [1] Hero Visual (Facebook 16:9)
+Format: LANDSCAPE (1280x720) | Style: cinematic / photorealistic / dark tech aesthetic
+
+### ✅ Enhanced Prompt (ready to use):
+16:9 landscape. A futuristic pharmaceutical research lab merging with AI infrastructure: scientists in white lab coats analyzing glowing molecular structures, holographic protein models, clinical data streams, and neural-network-like visual layers surrounding them. Convey urgency and strategic competition among major pharma companies. Dark moody background with subtle blue and teal neon accents. No text, no watermarks, no logos. Depth of field, professional lighting. Shot on Sony A7 III. 8K quality, cinematic ultra-realistic photography, 16:9 widescreen, dark moody color grading, subtle cyan neon accents, professional depth of field, shot on Sony A7 III 85mm lens, 8K resolution, no text, no watermarks, no logos
+
+### 📝 Original Concept (from AI):
+Cinematic, ultra-realistic, 16:9 landscape. A futuristic pharmaceutical research lab merging with AI infrastructure: scientists in white lab coats analyzing glowing molecular structures, holographic protein models, clinical data streams, and neural-network-like visual layers surrounding them. Convey urgency and strategic competition among major pharma companies. Dark moody background with subtle blue and teal neon accents. No text, no watermarks, no logos. Depth of field, professional lighting. Shot on Sony A7 III. 8K quality.
+
+----------------------------------------
+
+## [2] Quote Card (Story 9:16)
+Format: PORTRAIT (720x1280) | Style: minimal dark gradient / typographic
+
+### ✅ Enhanced Prompt (ready to use):
+Minimal dark gradient background (deep navy to near-black). Abstract biotech and AI-inspired elements: blurred molecular patterns, subtle data grid, neural connections, and soft glowing particles. Premium editorial feel, modern and authoritative. NO text, no readable words. 9:16 portrait format. Professional, premium feel. Space for text overlay, minimal dark gradient background deep navy to near-black, abstract tech elements data particles geometric shapes blurred background, 9:16 portrait format, premium editorial look, no readable text, no watermarks, no logos, space for text overlay
+
+### 📝 Original Concept (from AI):
+Minimal dark gradient background (deep navy to near-black). Abstract biotech and AI-inspired elements: blurred molecular patterns, subtle data grid, neural connections, and soft glowing particles. Premium editorial feel, modern and authoritative. NO text, no readable words. 9:16 portrait format. Professional, premium feel. Space for text overlay.
+
+----------------------------------------

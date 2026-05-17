@@ -1,0 +1,420 @@
+[
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-acb87ca3-2 ewQKQI eaSocK hSKnla",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "arrow_backย้อนกลับ",
+    "rect": {
+      "x": 24,
+      "y": 22,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "INPUT",
+    "id": null,
+    "classes": "sc-68b42f2-2 gemGik",
+    "role": null,
+    "ariaLabel": "ข้อความที่แก้ไขได้",
+    "type": "text",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "",
+    "rect": {
+      "x": 76,
+      "y": 26,
+      "w": 186,
+      "h": 24
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-:r1c:",
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-af431906-1 ewQKQI eaSocK hBnAga",
+    "role": null,
+    "ariaLabel": null,
+    "type": "button",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "more_vertตัวเลือกเพิ่มเติม",
+    "rect": {
+      "x": 274,
+      "y": 22,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-dad48fe3-2 ewQKQI eaSocK kepLeD",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "searchค้นหา",
+    "rect": {
+      "x": 719,
+      "y": 22,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "INPUT",
+    "id": null,
+    "classes": "sc-dad48fe3-3 gbiSQD",
+    "role": null,
+    "ariaLabel": null,
+    "type": "text",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": "search-input",
+    "text": "",
+    "rect": {
+      "x": 757,
+      "y": 19,
+      "w": 376,
+      "h": 38
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-:r1e:",
+    "classes": "sc-16c4830a-1 hxjMEo sc-e7a64add-0 sc-e7a64add-2 gdoOJp fUilPO sc-1bd7c214-8 CtwvK",
+    "role": null,
+    "ariaLabel": null,
+    "type": "button",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "filter_listจัดเรียงและกรอง",
+    "rect": {
+      "x": 1152,
+      "y": 18,
+      "w": 36,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-:r1g:",
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-b7448af5-1 ewQKQI eaSocK gfiMBs",
+    "role": null,
+    "ariaLabel": null,
+    "type": "button",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "addเพิ่มสื่อ",
+    "rect": {
+      "x": 1590,
+      "y": 22,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-af501ab4-2 ewQKQI eaSocK fDGjvc",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "play_moviesเครื่องมือสร้างฉาก",
+    "rect": {
+      "x": 1630,
+      "y": 22,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-:r1k:",
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-102ad4bc-4 ewQKQI eaSocK iWoxmv",
+    "role": null,
+    "ariaLabel": null,
+    "type": "button",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "settings_2ดูการตั้งค่าตารางกริดของการ์ด",
+    "rect": {
+      "x": 1670,
+      "y": 22,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-af501ab4-3 ewQKQI eaSocK gQNiwF",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "helpความช่วยเหลือเกี่ยวกับผลิตภัณฑ์",
+    "rect": {
+      "x": 1710,
+      "y": 22,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-:r1o:",
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-5220bbbc-1 ewQKQI eaSocK iukKLr",
+    "role": null,
+    "ariaLabel": null,
+    "type": "button",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "more_vertเพิ่มเติม",
+    "rect": {
+      "x": 1750,
+      "y": 22,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e441891c-0 eOOwTT",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "",
+    "rect": {
+      "x": 1794,
+      "y": 14,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-5 sc-e503ddc8-0 sc-8cf4f88d-1 ewQKQI ewKJJz bxUKbN iiKHjP",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "dashboardnav_rail_all_media",
+    "rect": {
+      "x": 20,
+      "y": 76,
+      "w": 40,
+      "h": 40
+    }
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "classes": "sc-8751174b-1 gffFtV sc-8751174b-0 dALNXb",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": "virtuoso-scroller",
+    "text": "เริ่มสร้างหรือวางสื่อ",
+    "rect": {
+      "x": 60,
+      "y": 0,
+      "w": 1814,
+      "h": 815
+    }
+  },
+  {
+    "tag": "DIV",
+    "id": "DndLiveRegion-0",
+    "classes": null,
+    "role": "status",
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "",
+    "rect": {
+      "x": -1,
+      "y": -1,
+      "w": 1,
+      "h": 1
+    }
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "classes": "sc-cee2646b-0 jejIxu sc-9586f820-5 kjPeGf",
+    "role": "textbox",
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": "true",
+    "dataTestId": null,
+    "text": "คุณต้องการสร้างอะไร",
+    "rect": {
+      "x": 648,
+      "y": 708,
+      "w": 564,
+      "h": 28
+    }
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "classes": null,
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": "false",
+    "dataTestId": null,
+    "text": "คุณต้องการสร้างอะไร",
+    "rect": {
+      "x": 656,
+      "y": 708,
+      "w": 564,
+      "h": 20
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-addd5871-0 ewQKQI eaSocK jQayrS",
+    "role": null,
+    "ariaLabel": null,
+    "type": "button",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "add_2สร้าง",
+    "rect": {
+      "x": 648,
+      "y": 741,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-:r21:",
+    "classes": "sc-16c4830a-1 hxjMEo sc-e7a64add-0 sc-e7a64add-1 gdoOJp cqfBcP sc-67b77035-1 bgiflq",
+    "role": null,
+    "ariaLabel": null,
+    "type": "button",
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "🍌 Nano Banana 2crop_16_9x2",
+    "rect": {
+      "x": 1036,
+      "y": 740,
+      "w": 155,
+      "h": 34
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "id": null,
+    "classes": "sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-9586f820-4 ewQKQI eaSocK hWLbfG",
+    "role": null,
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "arrow_forwardสร้าง",
+    "rect": {
+      "x": 1196,
+      "y": 741,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "tag": "IFRAME",
+    "id": null,
+    "classes": null,
+    "role": "presentation",
+    "ariaLabel": null,
+    "type": null,
+    "name": "a-3jkg6b6f68wx",
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "",
+    "rect": {
+      "x": 1804,
+      "y": 741,
+      "w": 256,
+      "h": 60
+    }
+  },
+  {
+    "tag": "P",
+    "id": "__next-route-announcer__",
+    "classes": null,
+    "role": "alert",
+    "ariaLabel": null,
+    "type": null,
+    "name": null,
+    "placeholder": null,
+    "contentEditable": null,
+    "dataTestId": null,
+    "text": "Flow",
+    "rect": {
+      "x": -1,
+      "y": -1,
+      "w": 1,
+      "h": 1
+    }
+  }
+]

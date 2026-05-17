@@ -1,0 +1,6 @@
+### Image 1: Visual 1
+Create a clean technical infographic in Thai-friendly layout showing how modern crypto market price interpretation works. Center node: 'Price'. Connected nodes: 'News', 'Spot Volume', 'Derivatives Volume', 'Open Interest', 'Funding Rate', 'ETF Inflow/Outflow', 'Stablecoin Liquidity', 'BTC Dominance', 'Market Breadth'. Use dark finance dashboard theme, neon blue and green highlights, premium institutional style, data flow arrows, layered market structure visualization, minimal icons, highly legible, modern editorial infographic.
+
+### Image 2: Visual 2
+Design an abstract concept illustration of crypto market evolution from 'Narrative Market' to 'Data-Interpreted Market'. Left side: social media noise, meme symbols, hype waves, influencers. Right side: institutional dashboards, ETF flow charts, liquidity streams, funding rate graphs, open interest curves. In the center, Bitcoin and Ethereum symbols transitioning through a digital tunnel of data. Style: sophisticated financial editorial, futuristic, high contrast, cinematic, dark background with gold and cyan accents, suitable for tech analysis article cover.
+

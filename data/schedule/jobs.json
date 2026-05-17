@@ -1,0 +1,48 @@
+{
+  "jobs": {
+    "dd43b326": {
+      "id": "dd43b326",
+      "engine_id": "full-pipeline",
+      "time": "13:00",
+      "repeat": "daily",
+      "options": {},
+      "created_at": "2026-05-13T12:54:49.207574",
+      "last_run": "2026-05-13 13:00",
+      "run_count": 1,
+      "active": true
+    },
+    "b3ad4d99": {
+      "id": "b3ad4d99",
+      "engine_id": "full-pipeline",
+      "time": "18:00",
+      "repeat": "daily",
+      "options": {},
+      "created_at": "2026-05-13T12:55:11.939672",
+      "last_run": "2026-05-13 18:00",
+      "run_count": 1,
+      "active": true
+    },
+    "2bc44c2f": {
+      "id": "2bc44c2f",
+      "engine_id": "full-pipeline",
+      "time": "22:00",
+      "repeat": "daily",
+      "options": {},
+      "created_at": "2026-05-13T12:55:36.125560",
+      "last_run": "2026-05-13 22:00",
+      "run_count": 1,
+      "active": true
+    },
+    "b355c6c4": {
+      "id": "b355c6c4",
+      "engine_id": "full-pipeline",
+      "time": "08:00",
+      "repeat": "daily",
+      "options": {},
+      "created_at": "2026-05-13T12:56:32.579046",
+      "last_run": "2026-05-17 08:00",
+      "run_count": 1,
+      "active": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[INFO]  Searching Shopee for: 
+2026-02-22 05:57:08,148 - ShopeeScraper - INFO - Connecting to Chrome at http://localhost:9222...
+(node:28272) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-22 05:57:08,476 - ShopeeScraper - ERROR - Failed to connect to Chrome: BrowserType.connect_over_cdp: connect ECONNREFUSED ::1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://localhost:9222
+
+[ERROR] Chrome connection failed: BrowserType.connect_over_cdp: connect ECONNREFUSED ::1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://localhost:9222
+
+[ERROR] Cannot connect to Chrome. Make sure it is open with --remote-debugging-port=9222
+[INFO] Browser connection closed

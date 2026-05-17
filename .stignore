@@ -1,0 +1,76 @@
+// Syncthing Ignore File for OpenClaw Dashboard
+// Ignored files will NOT be synced across devices
+
+// Node.js & React
+frontend/node_modules
+frontend/.vite
+frontend/.swc
+// frontend/dist (build output) ต้อง sync ไป Termux เพราะ Termux build ไม่ได้
+// ไม่ต้อง ignore เพราะจะ sync อัตโนมัติถ้าไม่อยู่ใน list
+
+// Python Virtual Environment & Caches
+.venv
+venv
+pycache
+*//pycache
+.ruff_cache
+.pytest_cache
+*.pyc
+*.pyo
+
+// Output & Temporary Files
+requirements.sync-conflict-*.txt
+*.sync-conflict*
+*.tmp
+*.temp
+
+// Browser Profiles & Heavy Data
+.chrome_shopee
+screenshots
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm
+*.webp
+*.zip
+*.lnk
+
+// Environment & Secrets (path differs Android vs WSL)
+.env
+.env.*
+cookies.txt
+*.pem
+*.key
+
+// Version Control
+.git
+.github
+
+// IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+// Project-Specific (local only)
+.openclaw-*
+.DS_Store
+Thumbs.db
+
+// Session & State Files (device-specific)
+api/engines/shopee/shopee_affiliate/data/session_state.json
+
+// Syncthing Internal
+.stfolder
+.stversions
+.stignore
+
+// Agent & Project Data (local outputs)
+.agents
+data
+logs
+nohup.out
+dashboard_live.log
+__pycache__

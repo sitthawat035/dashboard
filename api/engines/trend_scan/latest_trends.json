@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-17",
+  "niche": "tech",
+  "niche_label": "🤖 Tech & AI",
+  "content_query_used": "open source AI model launched released today",
+  "viral_query_used": "fitness tracker smartwatch trend 2026 viral",
+  "lookforward_topics": [
+    {
+      "topic": "Project Glasswing: กลยุทธ์ AI Security ของ Anthropic กับอนาคตการปกป้อง Software ยุค AI",
+      "reason": "ข่าวใหม่วันนี้จาก Anthropic เกี่ยวกับ Project Glasswing ซึ่งเน้นเรื่อง Securing critical software for the AI era — มุมที่ยังไม่เคยเขียนในประวัติ และสอดคล้องกับ agenda AI Safety ที่กำลังเป็น trending"
+    },
+    {
+      "topic": "Smart Ring Rising: เมื่อ Smart Ring พลิกโฉม Wearable กลายเป็น Trend หลักใน Tech 2026",
+      "reason": "ข่าว Wareable + Tech Advisor รวบรวม Best Fitness Tracker 2026 มีการเปรียบเทียบ wearables หลากหลายรูปแบบ Smart Ring กำลังเป็น category ใหม่ที่ไม่เคยเขียนในประวัติ"
+    },
+    {
+      "topic": "AI Model Wars May 2026: สรุป Model Releases ประจำเดือน — อันดับ โมเดล AI เปลี่ยนแปลงอย่างไร",
+      "reason": "ข่าวใหม่วันนี้จาก aitoolsrecap.com รวบรวม AI News May 2026 และ Model Releases ประจำเดือน — ต่อยอดจาก LLM Leaderboard 2026 ที่เคยเขียนวันที่ 2026-05-10"
+    }
+  ],
+  "shopee_viral": [
+    {
+      "keyword": "สมาร์ทริง AI วัดสุขภาพ 2026",
+      "trend_score": 8,
+      "reason": "Smart Ring กำลังเป็น trend ใหม่ใน wearables 2026 ยังไม่เคยเลือกในประวัติ และสอดคล้องกับ fitness tracker comparison ที่มาใหม่วันนี้"
+    },
+    {
+      "keyword": "หุ่นยนต์ AI ผู้ช่วยบ้านพูดคุยได้",
+      "trend_score": 8,
+      "reason": "AI companion robots เป็น category ที่ยังไม่เคยเลือกใน lookforward topics และสอดคล้องกับข่าว robotics ที่กำลังมาแรงทั้ง humanoid robots และ AI agents"
+    },
+    {
+      "keyword": "มินิคอนโซลเกมพกพา 2026",
+      "trend_score": 7,
+      "reason": "เนื่องจากประวัติเลือก ROG Ally และ Steam Deck ไปแล้ว มินิคอนโซลพกพาขนาดเล็กเป็น category ที่แตกต่างและกำลังมาแรงในตลาดเกม 2026"
+    }
+  ],
+  "raw_candidates": {
+    "lookforward": [
+      {
+        "topic": "Project Glasswing: กลยุทธ์ AI Security ของ Anthropic กับอนาคตการปกป้อง Software ยุค AI",
+        "reason": "ข่าวใหม่วันนี้จาก Anthropic เกี่ยวกับ Project Glasswing ซึ่งเน้นเรื่อง Securing critical software for the AI era — มุมที่ยังไม่เคยเขียนในประวัติ และสอดคล้องกับ agenda AI Safety ที่กำลังเป็น trending"
+      },
+      {
+        "topic": "AI Model Wars May 2026: สรุป Model Releases ประจำเดือน — อันดับ โมเดล AI เปลี่ยนแปลงอย่างไร",
+        "reason": "ข่าวใหม่วันนี้จาก aitoolsrecap.com รวบรวม AI News May 2026 และ Model Releases ประจำเดือน — ต่อยอดจาก LLM Leaderboard 2026 ที่เคยเขียนวันที่ 2026-05-10"
+      },
+      {
+        "topic": "OpenAI Ecosystem Update: จาก Wikipedia สู่ Product Ecosystem ของ OpenAI มีอะไรใหม่ในปี 2026",
+        "reason": "Wikipedia article ของ OpenAI ถูกอัปเดตใหม่วันนี้ มักสะท้อน major developments ล่าสุด — มุม ecosystem analysis ที่ยังไม่เคยเขียน"
+      },
+      {
+        "topic": "API Pricing War 2026 (May Update): Grok vs Gemini vs GPT ราคาเปลี่ยน ต้นทุนองค์กรไทยพลิกโฉม",
+        "reason": "ต่อยอดจาก AI API Pricing War ที่เขียนวันที่ 2026-05-10 โดยอัปเดต May 2026 pricing changes จากข่าว AI News ที่มาใหม่วันนี้"
+      },
+      {
+        "topic": "Smart Ring Rising: เมื่อ Smart Ring พลิกโฉม Wearable กลายเป็น Trend หลักใน Tech 2026",
+        "reason": "ข่าว Wareable + Tech Advisor รวบรวม Best Fitness Tracker 2026 มีการเปรียบเทียบ wearables หลากหลายรูปแบบ Smart Ring กำลังเป็น category ใหม่ที่ไม่เคยเขียนในประวัติ"
+      }
+    ],
+    "shopee": [
+      {
+        "keyword": "สมาร์ทริง AI วัดสุขภาพ 2026",
+        "trend_score": 8,
+        "reason": "Smart Ring กำลังเป็น trend ใหม่ใน wearables 2026 ยังไม่เคยเลือกในประวัติ และสอดคล้องกับ fitness tracker comparison ที่มาใหม่วันนี้"
+      },
+      {
+        "keyword": "มินิคอนโซลเกมพกพา 2026",
+        "trend_score": 7,
+        "reason": "เนื่องจากประวัติเลือก ROG Ally และ Steam Deck ไปแล้ว มินิคอนโซลพกพาขนาดเล็กเป็น category ที่แตกต่างและกำลังมาแรงในตลาดเกม 2026"
+      },
+      {
+        "keyword": "หุ่นยนต์ AI ผู้ช่วยบ้านพูดคุยได้",
+        "trend_score": 8,
+        "reason": "AI companion robots เป็น category ที่ยังไม่เคยเลือกใน lookforward topics และสอดคล้องกับข่าว robotics ที่กำลังมาแรงทั้ง humanoid robots และ AI agents"
+      },
+      {
+        "keyword": "เครื่องฟอกอากาศ AI พกพาพร้อมมอเตอร์ไฟฟ้า",
+        "trend_score": 6,
+        "reason": "เครื่องฟอกอากาศ AI พกพาเคยเลือกแบบธรรมดาไปแล้ว แต่ version พร้อมมอเตอร์ไฟฟ้าเป็น product variant ที่แตกต่างและกำลังเป็น viral ในมือถือชาวไทย"
+      },
+      {
+        "keyword": "แว่นอัจฉริยะแสดงผล AR พกพา 2026",
+        "trend_score": 7,
+        "reason": "AR smart glasses ที่แตกต่างจาก AI แว่นตาแปลภาษาที่เคยเลือก — เน้น AR display experience ไม่ใช่แค่ translation และสอดคล้องกับ trend ของ AI wearables ใหม่วันนี้"
+      }
+    ]
+  }
+}

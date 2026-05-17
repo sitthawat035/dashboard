@@ -1,0 +1,146 @@
+{
+  "run_id": "lo_20260310_231438",
+  "project_id": "lookforward",
+  "topic": "Cybersecurity Trends for 2026",
+  "status": "completed",
+  "current_step": "ready_to_post",
+  "created_at": "2026-03-10T23:14:38.740805",
+  "updated_at": "2026-03-10T23:15:08.562332",
+  "options": {
+    "mode": "full",
+    "gen_images": true,
+    "dry_run": false
+  },
+  "step_results": {
+    "strategy": {
+      "step_name": "strategy",
+      "status": "completed",
+      "started_at": "2026-03-10T23:14:38.767867",
+      "completed_at": "2026-03-10T23:14:49.816216",
+      "duration_seconds": 11,
+      "output_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-10\\Cybersecurity_Trends_for_2026_231449\\01_strategy.md",
+      "output_data": {
+        "strategy": "## วิเคราะห์หัวข้อ Cybersecurity Trends for 2026 สำหรับโพสต์ Tech Authority (lookforward)\n\n**หัวข้อ:** Cybersecurity Trends for 2026\n\n**1. The Surprise Hook:** \"คุณคิดว่าแฮกเกอร์จะขโมยข้อมูลบัตรเครดิตคุณเหรอ? ปี 2026 เขาจะขโมย 'ตัวตนดิจิทัล' ของคุณไปสร้างโลกคู่ขนานแล้วหลอกคนอื่นแทน!\"\n\n**2. The Real Story:**\n\n*   **Cybersecurity ไม่ใช่แค่เรื่อง IT อีกต่อไป:** มันคือ 'ภูมิคุ้มกัน' ของทุกสิ่งที่เราทำ ตั้งแต่การใช้ชีวิตประจำวัน การทำธุรกิจ ไปจนถึงความมั่นคงของชาติ\n*   **AI เป็นทั้งพระเอกและผู้ร้าย:** AI ช่วยเราป้องกันภัย แต่ก็เป็นเครื่องมือชั้นยอดให้แฮกเกอร์โจมตีได้แม่นยำและรวดเร็วยิ่งขึ้น\n*   **สงครามเงียบๆ ในโลกดิจิทัล:** รัฐบาลและองค์กรใหญ่ๆ กำลังแข่งขันกันพัฒนาอาวุธไซเบอร์เพื่อชิงความได้เปรียบเชิงยุทธศาสตร์ (Geopolitics)\n\n**3. The Mechanism:**\n\n*   **Deepfake Identity Theft:** แฮกเกอร์จะใช้ AI สร้าง 'ตัวตนดิจิทัล' ปลอมที่สมจริงมากๆ (รูปภาพ, เสียง, พฤติกรรมออนไลน์) แล้วใช้หลอกลวงผู้อื่น หรือเข้าถึงบริการต่างๆ แทนตัวจริง\n    *   **Analogies:** เหมือนการสร้าง 'หุ่นเชิด AI' ที่ควบคุมได้ทุกอย่าง และไม่มีใครจับได้\n*   **Quantum Computing Attacks:** คอมพิวเตอร์ควอนตัมจะทำให้การเข้ารหัส (Encryption) ที่เราใช้กันอยู่ทุกวันนี้ 'หมดความหมาย' ในพริบตา\n    *   **Analogies:** เหมือนมีกุญแจผีที่เปิดได้ทุกบ้าน ต่อให้ล็อคแน่นหนาแค่ไหนก็ตาม\n*   **IoT Botnets on Steroids:** อุปกรณ์ IoT (Internet of Things) ที่เราใช้กันทุกวัน (เช่น กล้องวงจรปิด, เครื่องใช้ไฟฟ้า) จะถูกแฮกเกอร์ยึดครองและใช้เป็น 'กองทัพไซเบอร์' ขนาดมหึมา\n    *   **Analogies:** เหมือนมีซอมบี้เป็นล้านๆ ตัวที่พร้อมทำตามคำสั่งของแฮกเกอร์\n\n**4. Winners vs Losers:**\n\n*   **Winners:**\n    *   **บริษัท Cybersecurity ที่พัฒนา AI-powered defense:** ใครที่สร้าง 'วัคซีน' ได้ทัน ก็รวย\n    *   **รัฐบาลที่ลงทุนใน Quantum-resistant cryptography:** ใครที่ป้องกันตัวเองได้ ก็รอด\n    *   **คนที่ตระหนักถึงความสำคัญของ Digital Identity Management:** ใครที่ดูแล 'ตัวตนดิจิทัล' ของตัวเองได้ดี ก็ปลอดภัย\n*   **Losers:**\n    *   **บริษัทที่ยังใช้ระบบ Cybersecurity แบบเดิมๆ:** เตรียมตัวโดนโจมตีได้เลย\n    *   **ผู้บริโภคที่ไม่ใส่ใจเรื่องความปลอดภัยของข้อมูลส่วนตัว:** คุณอาจกลายเป็นเหยื่อรายต่อไป\n    *   **ประเทศที่ไม่ลงทุนใน Cybersecurity:** อาจถูกโจมตีจนระบบเศรษฐกิจล่มสลาย\n\n**5. The Bold Prediction:**\n\n*   **ภายในปี 2026:** เราจะได้เห็นเคส 'Deepfake Identity Theft' ที่ส่งผลกระทบต่อการเลือกตั้งระดับชาติ หรือทำให้บริษัทใหญ่ๆ ล้มละลาย\n*   **ภายในปี 2027:** จะมี 'Cyber Pandemic' ที่ทำให้ระบบอินเทอร์เน็ตทั่วโลก 'เป็นอัมพาต' ไปหลายวัน (หรืออาจเป็นสัปดาห์)\n*   **ภายในปี 2028:** 'สงครามไซเบอร์' จะกลายเป็นรูปแบบการทำสงครามหลัก ที่รุนแรงและทำลายล้างยิ่งกว่าสงครามทั่วไป\n\n**6. The Conversation Starter:**\n\n*   \"คุณคิดว่ารัฐบาลควรมีบทบาทในการควบคุม AI เพื่อป้องกันการโจมตีทางไซเบอร์มากแค่ไหน?\"\n*   \"ถ้าคุณเป็น CEO ของบริษัทใหญ่ คุณจะลงทุนอะไรบ้างเพื่อป้องกันภัยคุกคามทางไซเบอร์ในอีก 5 ปีข้างหน้า?\"\n\n**7. Caption Strategy:**\n\n*   **Option 1 (Focus on Fear):** \"เตรียมรับมือ 'ตัวตนดิจิทัล' ปลอม! ปี 2026 แฮกเกอร์จะไม่ขโมยแค่เงิน แต่จะขโมยชีวิตคุณไปทั้งชีวิต\"\n*   **Option 2 (Focus on Opportunity):** \"Cybersecurity ปี 2026 ไม่ใช่ปัญหา แต่มันคือ 'โอกาสทอง' ของคนที่มองเห็นอนาคตก่อนใคร\"\n*   **Option 3 (Focus on Disruption):** \"โลกจะเปลี่ยนไปตลอดกาล! Quantum Computing จะทำให้ Cybersecurity ที่คุณรู้จัก 'ไร้ค่า' ในพริบตา\"\n\n**หมายเหตุ:**\n\n*   ใช้ภาษาที่เข้าใจง่าย ไม่ใช้ศัพท์เทคนิคมากเกินไป\n*   เน้นการเล่าเรื่องที่น่าสนใจและกระตุ้นให้คนอยากอ่านต่อ\n*   ใส่ภาพประกอบที่ดึงดูดสายตา เช่น ภาพ AI, ภาพแฮกเกอร์, ภาพโลกอนาคต\n*   กระตุ้นให้คนคอมเมนต์และแชร์โพสต์ เพื่อสร้าง Engagement\n\nหวังว่าการวิเคราะห์นี้จะเป็นประโยชน์ในการเขียนโพสต์ Tech Authority นะครับ! ถ้ามีอะไรให้ช่วยอีก บอกได้เลย!\n",
+        "topic": "Cybersecurity Trends for 2026",
+        "word_count": 267
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "content": {
+      "step_name": "content",
+      "status": "completed",
+      "started_at": "2026-03-10T23:14:49.855178",
+      "completed_at": "2026-03-10T23:15:00.186185",
+      "duration_seconds": 10,
+      "output_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-10\\Cybersecurity_Trends_for_2026_231500\\02_content.json",
+      "output_data": {
+        "content": {
+          "text": "🚨 ปี 2026 แฮกเกอร์จะไม่ขโมยแค่รหัสบัตรเครดิต...\nแต่จะขโมย 'ตัวตนดิจิทัล' ล้วนๆ ของคุณไปเลย!\n\n😱 คิดภาพว่ามีคนสร้าง 'คุณ' เวอร์ชั่นดิจิทัลที่เหมือนเป๊ะๆ \nทั้งรูป, เสียง, พฤติกรรมออนไลน์... แล้วเอาไปหลอกคนอื่น, สมัครบริการ, หรือแม้แต่ก่ออาชญากรรม!\n\n🔐 Cybersecurity ยุคนี้ไม่ใช่แค่เรื่อง IT อีกต่อไป แต่มันคือ 'ภูมิคุ้มกัน' ของชีวิตดิจิทัลของเราทุกคน\n\n⚙️ กลไกที่น่ากลัวกำลังจะมา:\n\n*   🎭 Deepfake Identity Theft: สร้าง 'หุ่นเชิด AI' ที่ควบคุมได้ทุกอย่าง\n*   ⚛️ Quantum Computing Attacks: 'กุญแจผี' ที่เปิดได้ทุกระบบ ต่อให้เข้ารหัสแน่นหนาแค่ไหน\n*   🧟 IoT Botnets on Steroids: เปลี่ยนอุปกรณ์รอบตัวเราให้กลายเป็น 'กองทัพซอมบี้ไซเบอร์'\n\n🏆 ใครได้ประโยชน์? ใครซวย?\n\n*   ✅ บริษัท Cybersecurity ที่มี AI เก่งๆ: รวยเละ เพราะคนต้องการ 'วัคซีน' ด่วนๆ\n*   ✅ รัฐบาลที่ลงทุนในระบบป้องกัน Quantum: รอด เพราะรู้ว่าภัยมาแน่\n*   ❌ บริษัทที่ยังใช้ระบบ Security แบบเดิมๆ: เตรียมตัว 'โดน' ได้เลย\n*   ❌ คนที่ไม่สนใจความปลอดภัยของข้อมูล: กลายเป็นเหยื่อแบบไม่รู้ตัว\n\n🔮 ทำนายอนาคตแบบฟันธง:\n\n*   Q3 2026: เคส Deepfake หลอกเลือกตั้งระดับชาติ\n*   2027: Cyber Pandemic ทำอินเทอร์เน็ต 'เป็นอัมพาต'\n*   2028: สงครามไซเบอร์ กลายเป็นสงครามหลักที่รุนแรงกว่าเดิม\n\n🤔 คุณคิดว่ารัฐบาลควรเข้ามาควบคุม AI มากแค่ไหน เพื่อป้องกันการโจมตีทางไซเบอร์?\n\n👇🏼 Comment มาคุยกัน!",
+          "insight_score": 5,
+          "char_count": 1223
+        },
+        "caption_short": "ปี 2026 แฮกเกอร์จะขโมย 'ตัวตนดิจิทัล' ของคุณไปสร้างโลกคู่ขนาน! เตรียมรับมือ Deepfake Identity Theft",
+        "caption_long": "🚨 ปี 2026 แฮกเกอร์จะไม่ขโมยแค่รหัสบัตรเครดิต... แต่จะขโมย 'ตัวตนดิจิทัล' ล้วนๆ ของคุณไปเลย!\n\n😱 คิดภาพว่ามีคนสร้าง 'คุณ' เวอร์ชั่นดิจิทัลที่เหมือนเป๊ะๆ แล้วเอาไปหลอกคนอื่น, สมัครบริการ, หรือแม้แต่ก่ออาชญากรรม!\n\n🔐 Cybersecurity ยุคนี้ไม่ใช่แค่เรื่อง IT อีกต่อไป แต่มันคือ 'ภูมิคุ้มกัน' ของชีวิตดิจิทัลของเราทุกคน\n\nคุณคิดว่ารัฐบาลควรเข้ามาควบคุม AI มากแค่ไหน เพื่อป้องกันการโจมตีทางไซเบอร์? 👇🏼 Comment มาคุยกัน!",
+        "hashtags": [
+          "#lookforward",
+          "#เทคไทย",
+          "#Cybersecurity",
+          "#AI",
+          "#Deepfake",
+          "#QuantumComputing"
+        ],
+        "shareable_insight": "ปี 2026 แฮกเกอร์จะไม่ขโมยแค่รหัสบัตรเครดิต... แต่จะขโมย 'ตัวตนดิจิทัล' ล้วนๆ ของคุณไปเลย!",
+        "image_prompts": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "format": "landscape",
+            "style": "cinematic / photorealistic / dark tech aesthetic",
+            "mood": "inspiring / thought-provoking / slightly dramatic",
+            "prompt": "Cinematic, ultra-realistic, 16:9 landscape. A shadowy figure manipulating a digital avatar that is a perfect replica of a person. The avatar is interacting with a futuristic cityscape. Dark moody background with subtle neon accents. No text, no watermarks, no logos. Depth of field, professional lighting. Shot on Sony A7 III. 8K quality."
+          },
+          {
+            "title": "Quote Card (Story 9:16)",
+            "format": "portrait",
+            "style": "minimal dark gradient / typographic",
+            "mood": "bold / authoritative",
+            "prompt": "Minimal dark gradient background (deep navy to near-black). Abstract geometric or data-visualization elements in the background (blurred). NO text, no readable words. 9:16 portrait format. Professional, premium feel. Space for text overlay."
+          }
+        ]
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "images": {
+      "step_name": "images",
+      "status": "completed",
+      "started_at": "2026-03-10T23:15:00.226075",
+      "completed_at": "2026-03-10T23:15:08.449103",
+      "duration_seconds": 8,
+      "output_file": null,
+      "output_data": {
+        "images": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "path": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-10\\Cybersecurity_Trends_for_2026_231500\\media\\01_hero_visual__facebook_16_9_.jpg",
+            "format": "landscape",
+            "size_kb": 61.5,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          },
+          {
+            "title": "Quote Card (Story 9:16)",
+            "path": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-10\\Cybersecurity_Trends_for_2026_231500\\media\\02_quote_card__story_9_16_.jpg",
+            "format": "portrait",
+            "size_kb": 17.6,
+            "source": "huggingface",
+            "mime_type": "image/jpg"
+          }
+        ],
+        "prompts_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-10\\Cybersecurity_Trends_for_2026_231500\\media\\prompts_guide.txt",
+        "total_generated": 2,
+        "total_requested": 2,
+        "media_dir": "C:\\DriveD_MultiContentApp\\lookforward\\data\\04_Drafts\\2026-03-10\\Cybersecurity_Trends_for_2026_231500\\media"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-03-10T23:15:08.480080",
+      "completed_at": "2026-03-10T23:15:08.531223",
+      "duration_seconds": 0,
+      "output_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-10\\Cybersecurity_Trends_for_2026_231508",
+      "output_data": {
+        "package_path": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-10\\Cybersecurity_Trends_for_2026_231508",
+        "post_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-10\\Cybersecurity_Trends_for_2026_231508\\post.txt",
+        "caption_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-10\\Cybersecurity_Trends_for_2026_231508\\caption.txt",
+        "hashtags_file": "C:\\DriveD_MultiContentApp\\lookforward\\data\\09_ReadyToPost\\2026-03-10\\Cybersecurity_Trends_for_2026_231508\\hashtags.txt",
+        "metadata": {
+          "topic": "Cybersecurity Trends for 2026",
+          "generated": "2026-03-10 23:15:08",
+          "insight_score": 5,
+          "char_count": 1223,
+          "has_images": true,
+          "run_id": "lo_20260310_231438"
+        }
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 4,
+    "completed_steps": 4,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": [
+      "strategy",
+      "content",
+      "images",
+      "ready_to_post"
+    ]
+  }
+}

@@ -1,0 +1,1926 @@
+{
+  "cookies": [
+    {
+      "name": "faceu-commerce-user-info",
+      "value": "Y6SMI-t7qas20bgKnGrunMeB1i3BhJELoWnMx1iuWsD8MwO6RlW1eXxAbsnOCf5sknUqCuX-xHZNMYWe36fO0lbpEi1r9jRLu7TQcK0xD9laBrc3TrYnEXvsDdd-ml5hIeoRRq0HGmbJsTKfVLb-X9aXqdWzwn8tQoXkDH2Id-hQgdIFZBKAQJvVKHwB3xYLyHdc57i-lY4LNHjV81hqeIG9EJL-aliipw42kVTCCH231C7VRQeeoKpRkcPY3eXqf6qhR9aAoG7NiuKmAY9BWYgOi7Z_eFCyZcAMn58cWppNn_CzomTTywqsAw0vifj13ZBFA8B0gu6fjCLHaNdf4ZFWa7YtPP28mr5ZsLbopOJrx8YbgfcqAUCRukWFHfwIBkCIMjdZmeWLEQRmKOoOj-MFnv8BM8EfJb6WqwiSPKK0513WGaaJzYPuxNFqgTuNrVzntHUYeprWztYZjupy9fXZNPfro_MM4ddia1LUeDYUDlZEye9MyscRlSSH2a2wAJ7AHwQgABdq0-Ts",
+      "domain": ".capcut.com",
+      "path": "/commerce/v1/subscription/user_info",
+      "expires": 1806945976.800557,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.515345535.1772289789",
+      "domain": ".labs.google",
+      "path": "/",
+      "expires": 1806939069.794448,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OTZ",
+      "value": "8499854_28_28__28_",
+      "domain": "ogs.google.com",
+      "path": "/",
+      "expires": 1774887255,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.20788791.1772295289",
+      "domain": ".gemini.google.com",
+      "path": "/",
+      "expires": 1780071289,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1547432916.1772295290",
+      "domain": ".gemini.google.com",
+      "path": "/",
+      "expires": 1806855335.554112,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OTZ",
+      "value": "8499855_28_28__28_",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1774887296,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWmURNprGU2qxHUFHfyPEI3AAACgYKAfsSARQSFQHGX2MiYPoRlMsv4gRAhRq3RJL6uhoVAUF8yKqh4DZRDeZPt5JU6EWH3L-L0076",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.875389,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWm9a2kui6jjDZktf9YZZpAcAACgYKAbESARQSFQHGX2MigK_-vCB_ssw_yzBbSUuW2BoVAUF8yKov53kI2xejyD6Ar_HYYyjP0076",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.87544,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWmdkiqbCOa8XYpiaYWRp2z5QACgYKAYESARQSFQHGX2MiqotltUcDRYSHl2A_ayYWJxoVAUF8yKoywbW4PyU7yzpg_lF8YH4f0076",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.875471,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "HSID",
+      "value": "AD04ilKN-8Lf--3gr",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.875635,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SSID",
+      "value": "AWFHqU9hQNcZZvS36",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.875659,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APISID",
+      "value": "FrN_dUseCgnEDwFH/ApgVEfXhPK18LCbbk",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.875685,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.875709,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.875731,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1806855331.875754,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ACCOUNT_CHOOSER",
+      "value": "AFx_qI7iBBmN4DaZrZE3C176gEKKeIOPGlnvQNP7WCZGZEonT6Pj_HoxYZQyix7Cq2doeQEqB3vODtRM_rWIi9k8N3cF6L2NgaeW_pz7O9e3DoLXfd1b3aJjajoTE0sch1oOThzfa24K",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1806855331.875776,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-GAPS",
+      "value": "1:O1tk0L_6EV0POpEFK_oqOVpcxTsBrGaQezGjAInpqQI8eozG9Gz_1h4KM3ynrdbOtdzwNX4mc3xwLl6Q2QNK_Ugv9nYY_A:RNml5KRlgR7c6xNd",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1806855331.875798,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SMSV",
+      "value": "ADHTe-BsiBg2akVYqIlVtqpueI0CQoOF6D7sQb5tHcyYH74dF6Cmhm_UOMn-ggGU9gG1A5kgFqaOQpmBL9e8XIQse1-VuREsn3cqi88HGdb-ehJEY9MhYRI",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1806855331.875828,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LSID",
+      "value": "s.SG|s.TH|s.youtube:g.a0007QjIaq7rze-0I43Bz2GMdnHnSE3Aw74qjs4sm5cX8deDsZqm7zumDt0Auao-BhuzXH6PjgACgYKAScSARQSFQHGX2MinyqugjAWh2Be-Nf73uLScxoVAUF8yKr5ASiE86AjLjR1rd-r_zpU0076",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1806855331.976299,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-1PLSID",
+      "value": "s.SG|s.TH|s.youtube:g.a0007QjIaq7rze-0I43Bz2GMdnHnSE3Aw74qjs4sm5cX8deDsZqmi_FUuslwq6cQexOqkFMFfwACgYKAbkSARQSFQHGX2Miz6WCKmmHl6yztwDrTbFhhBoVAUF8yKqrtKu-RRYYLgXXyFHP5aZ_0076",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1806855331.976419,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-3PLSID",
+      "value": "s.SG|s.TH|s.youtube:g.a0007QjIaq7rze-0I43Bz2GMdnHnSE3Aw74qjs4sm5cX8deDsZqmL5vfxLwrgdf4ucWAbRXcNAACgYKAYkSARQSFQHGX2MiPTY3DOEfUQelc3QmqiBSchoVAUF8yKpKDh1K98ufNhDVTBZ2jtp90076",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1806855331.976471,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-1PSIDTS",
+      "value": "sidts-CjQBBj1CYjIpft6gtSPxNFgVDUN-Fw7EqD3CynYH0bUuTvIwUgJ_ET7crXReO-O7EKpb1u_LEAA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1803831332.160397,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSIDTS",
+      "value": "sidts-CjQBBj1CYjIpft6gtSPxNFgVDUN-Fw7EqD3CynYH0bUuTvIwUgJ_ET7crXReO-O7EKpb1u_LEAA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1803831332.160501,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "HSID",
+      "value": "A6zn54biJes2xrh0P",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160562,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SSID",
+      "value": "AdgpvYrW9GagJekw0",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160608,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APISID",
+      "value": "FrN_dUseCgnEDwFH/ApgVEfXhPK18LCbbk",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160647,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160688,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160728,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160766,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWmURNprGU2qxHUFHfyPEI3AAACgYKAfsSARQSFQHGX2MiYPoRlMsv4gRAhRq3RJL6uhoVAUF8yKqh4DZRDeZPt5JU6EWH3L-L0076",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160804,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWm9a2kui6jjDZktf9YZZpAcAACgYKAbESARQSFQHGX2MigK_-vCB_ssw_yzBbSUuW2BoVAUF8yKov53kI2xejyD6Ar_HYYyjP0076",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160843,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWmdkiqbCOa8XYpiaYWRp2z5QACgYKAYESARQSFQHGX2MiqotltUcDRYSHl2A_ayYWJxoVAUF8yKoywbW4PyU7yzpg_lF8YH4f0076",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806855332.160883,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "HSID",
+      "value": "A6zn54biJes2xrh0P",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.385973,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SSID",
+      "value": "AdgpvYrW9GagJekw0",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.386091,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APISID",
+      "value": "FrN_dUseCgnEDwFH/ApgVEfXhPK18LCbbk",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.386154,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.3862,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.386239,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.386282,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "529=hA1ZcpygDwXtszZqLpdN3An8cID7AWm5SATIoSa4FDyDiHU6WIfU7hPee9nmXku3stwLdWdWkUbvBJ4ZihJij2QU5uW7sAgTk_g2lofNa-OiM6dXrwmUY9nUqLdzHG1NxnCiQIdxOcx3U8FAgF8JNdcltLG5LVtmvl8LgO-Pm8Jwn6FtLq2XBH1bXIxGYoVaa7ktUUHU8ZHcPSXzzsD2HCmOpfs",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1788106532.38635,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWmURNprGU2qxHUFHfyPEI3AAACgYKAfsSARQSFQHGX2MiYPoRlMsv4gRAhRq3RJL6uhoVAUF8yKqh4DZRDeZPt5JU6EWH3L-L0076",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.386413,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWm9a2kui6jjDZktf9YZZpAcAACgYKAbESARQSFQHGX2MigK_-vCB_ssw_yzBbSUuW2BoVAUF8yKov53kI2xejyD6Ar_HYYyjP0076",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.386467,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWmdkiqbCOa8XYpiaYWRp2z5QACgYKAYESARQSFQHGX2MiqotltUcDRYSHl2A_ayYWJxoVAUF8yKoywbW4PyU7yzpg_lF8YH4f0076",
+      "domain": ".google.co.th",
+      "path": "/",
+      "expires": 1806855332.38653,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "HSID",
+      "value": "A6zn54biJes2xrh0P",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646498,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SSID",
+      "value": "AdgpvYrW9GagJekw0",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646596,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APISID",
+      "value": "FrN_dUseCgnEDwFH/ApgVEfXhPK18LCbbk",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646649,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646688,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646744,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PAPISID",
+      "value": "wayGk3mX_cI5yDYp/AIBRJGnnvbia4DBXg",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646781,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "529=oLUnMbsvs2SsgaBRDQHE6OIg-8-Itfp65gumSt74rqXc15Tu1r4BqBwh6wDGTSncb54insonCzgTdn0qpvRpowEPkRz242Bt5zsPCfRwloPDx4DtwYpIOmxbH0DGk82OFYjR5G4nU7H9WujGUxylaYDaa3Bcdwrc_uT9yJsDIdf8FRiSRrXVN-VQov-DRjTFl3HYeH1j4fHn-GGK0A2womgfrSKO",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1788106532.646808,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWmURNprGU2qxHUFHfyPEI3AAACgYKAfsSARQSFQHGX2MiYPoRlMsv4gRAhRq3RJL6uhoVAUF8yKqh4DZRDeZPt5JU6EWH3L-L0076",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646836,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWm9a2kui6jjDZktf9YZZpAcAACgYKAbESARQSFQHGX2MigK_-vCB_ssw_yzBbSUuW2BoVAUF8yKov53kI2xejyD6Ar_HYYyjP0076",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646862,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSID",
+      "value": "g.a0007QjIajulp7cfmJHLDQergxRAefr6myf3EI5UZJINi4G13YWmdkiqbCOa8XYpiaYWRp2z5QACgYKAYESARQSFQHGX2MiqotltUcDRYSHl2A_ayYWJxoVAUF8yKoywbW4PyU7yzpg_lF8YH4f0076",
+      "domain": ".google.com.sg",
+      "path": "/",
+      "expires": 1806855332.646907,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_BF8Q35BMLM",
+      "value": "GS2.1.s1772295290$o1$g1$t1772295351$j60$l0$h0",
+      "domain": ".gemini.google.com",
+      "path": "/",
+      "expires": 1806855351.651714,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "COMPASS",
+      "value": "photos-fife=CgAQj8aMzQYaWAAJa4lXHt5eDGsOCAsni7mY_St_uhtZcdHRGxbnI5XNIIIV0ZOjlgzOMWdUNfujwfqp3_VoL7dsj79bfhHfRlFwwMsUbx3BnUHdJ1gb2RnU25FP_R3N0ZIwAQ",
+      "domain": "work.fife.usercontent.google.com",
+      "path": "/",
+      "expires": 1773159424.612821,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "EMAIL",
+      "value": "%22joefordice2%40gmail.com%22",
+      "domain": "labs.google",
+      "path": "/",
+      "expires": 1774887591,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSIDTS",
+      "value": "sidts-CjEBBj1CYt8-CpGtlFlymaYBsQ_kKeHX_dn7HB1Q24nIC5qOgLVz0ZoZVHiYdwGfJKqbEAA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1803833142.650509,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSIDTS",
+      "value": "sidts-CjEBBj1CYt8-CpGtlFlymaYBsQ_kKeHX_dn7HB1Q24nIC5qOgLVz0ZoZVHiYdwGfJKqbEAA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1803833142.650715,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_WC57KJ50ZZ",
+      "value": "GS2.1.s1772297321$o2$g0$t1772297321$j60$l0$h0",
+      "domain": ".gemini.google.com",
+      "path": "/",
+      "expires": 1806857321.350445,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1837267824.1772309201",
+      "domain": ".aistudio.google.com",
+      "path": "/",
+      "expires": 1806869201.305654,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.501227282.1772309201.1773622729.1772309779.1772309778",
+      "domain": ".aistudio.google.com",
+      "path": "/",
+      "expires": 1780085201,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__SECURE-aistudio_auth_token",
+      "value": "E9YRSoR9Wz1y8rvcssPYEd41Tj_t-deqD08-pH8pvUc=",
+      "domain": ".ais-dev-ujmv7yidn776akabtpx4rb-232980937174.asia-southeast1.run.app",
+      "path": "/",
+      "expires": 1774902360.145055,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SEARCH_SAMESITE",
+      "value": "CgQIoaAB",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1787897388.326854,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "AEC",
+      "value": "AaJma5vEwxJbTcTNgHFqT9N41602KfbV31KwevD6W_rf-VPqtqKlo8CAEg",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1787897388.326943,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-BUCKET",
+      "value": "CLoF",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1787897388.32717,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".googleadservices.com",
+      "path": "/",
+      "expires": 1780121388.995701,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "oc_locale",
+      "value": "th",
+      "domain": "opencode.ai",
+      "path": "/",
+      "expires": 1803881450.220571,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_RJSPDF5Y0Q",
+      "value": "GS2.1.s1772350346$o2$g0$t1772350346$j60$l0$h0",
+      "domain": ".aistudio.google.com",
+      "path": "/",
+      "expires": 1806910346.973457,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_P1DBVKWT6V",
+      "value": "GS2.1.s1772350346$o2$g0$t1772350346$j60$l0$h2026598975",
+      "domain": ".aistudio.google.com",
+      "path": "/",
+      "expires": 1806910347.036473,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "Z41YXJ-wz28",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1787929247.971913,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJUSBIEGgAgTQ%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1787929247.971996,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "LOGIN_INFO",
+      "value": "AFmmF2swRQIgOZrJRu6fybXMaCNbNvjO7JV-V6bLoEOraCHn4yx5WJwCIQD76zqwTz3ptMSRMwlFO3gpCVRjHRj_P94KbeESUWpu8Q:QUQ3MjNmeW1DMnQtemxKOTA5akJLTGd2N18xcVp0TG5xeHpCWVEtbkktS1pqaWljZjF2elNDQVRVdUtwSC1hYWhzTmNZUldHNC1INlN3VUoxel9XUTBEYmpwenAtQkZtaVU3RFB5ZmlQWU9LSGZRVlFBUW52MGhKcy01VUtsTzEtWWxfOFJMSVFpdjA4Q21ETC1HUk1CQ1ZXVVMtZWYxcThR",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806937247.97205,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "CI3w7OO6p4_MKhDTr77h-_6SAxj69drh-_6SAw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1787929248.555388,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SIDCC",
+      "value": "AKEyXzVim5ZSNh9YmyCW9f4IYccP3uyasHwufiDJHpaWbqrrq9dUNvCX3Wi7JsY1gI7QDtl3kw",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1803913248.555532,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSIDCC",
+      "value": "AKEyXzVF1JSiEIUrs3lS-RCT019Iu5i8Znoj-ymI39JzdCRnyhdUAZV4a7O2Kv4SAOc6RgNU",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1803913248.555618,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSIDCC",
+      "value": "AKEyXzUJceW1pUnyew7rOp086aUm0s5oQq0ywJ4xxr0bwrGWY2arVNghIF2xMAS2fPDPASum",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1803913248.555701,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_tea_web_id",
+      "value": "7612302383544747538",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1772472372.240919,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_v2_spipe_web_id",
+      "value": "7612302384202809345",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1803913375.561687,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "capcut_locale",
+      "value": "th-TH",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1803913375.316142,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ug_capcut_locale",
+      "value": "th-TH",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1803913375.316304,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CLID",
+      "value": "8cdb68d93a974452884befd2b6de2e16.20260301.20270301",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1803913294.021061,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "0F9C145B800E612937FF035481C96095",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1806073299.49245,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1772982098.795131,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "0F9C145B800E612937FF035481C96095",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1806073298.795163,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "0F9C145B800E612937FF035481C96095",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1806073297.919568,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1772982097.91962,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.982357964.1772377299",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1780153299,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1034933110.1772377299",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1803921997,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".bat.bing.com",
+      "path": "/",
+      "expires": 1772982099.492578,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "g_state",
+      "value": "{\"i_l\":0,\"i_ll\":1772377305144,\"i_e\":{\"enable_itp_optimization\":0}}",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1787929320,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1787929312.282418,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUmB8MKQBE7JVsN8NlQA2Mh6OsPiY6MgW-UzuNhyXVTXs1nEy_1tI5A6g2QX",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1806937317.450613,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_uetsid",
+      "value": "8cb77580157f11f196b357000b50b3b0",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1772463717,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "4d9b9cd0011d11f1878ef1a1d71304ef",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1806073317,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clck",
+      "value": "m0mcwx%5E2%5Eg3z%5E1%5E2251",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1803913317,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "1gozaoj%5E1772377318246%5E1%5E0%5Ef.clarity.ms%2Fcollect",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1772463718,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "passport_csrf_token",
+      "value": "844fc1479da1b02211244197d07a47f6",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561321.457338,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "passport_csrf_token_default",
+      "value": "844fc1479da1b02211244197d07a47f6",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561321.457426,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "passport_auth_status",
+      "value": "e0121482061b5ed61f4f80ae295d03a9%2C",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1774969323.690257,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "passport_auth_status_ss",
+      "value": "e0121482061b5ed61f4f80ae295d03a9%2C",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1774969323.690335,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_guard",
+      "value": "2e44024a7380c3bc8f4f45a37dd13d10%7C1772377322%7C5184000%7CThu%2C+30-Apr-2026+15%3A02%3A02+GMT",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1803481323.690367,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "uid_tt",
+      "value": "61f0f41182e859cb9ebe2b6a096160385d39afb77f95260502d41344fb46fcb2",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.690391,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "uid_tt_ss",
+      "value": "61f0f41182e859cb9ebe2b6a096160385d39afb77f95260502d41344fb46fcb2",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.690412,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_tt",
+      "value": "2e44024a7380c3bc8f4f45a37dd13d10",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.690433,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sessionid",
+      "value": "2e44024a7380c3bc8f4f45a37dd13d10",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.690453,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sessionid_ss",
+      "value": "2e44024a7380c3bc8f4f45a37dd13d10",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.690472,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tt_session_tlb_tag",
+      "value": "sttt%7C2%7CLkQCSnOAw7yPT0WjfdE9EP_________OmbbEx4Gzc1DNPnc2ydEhS8tfiVJQZN5LQpCS_m9gszc%3D",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.690493,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_ucp_v1",
+      "value": "1.0.1-KDczYTcwZjg2ZTA0ZDRmNDFlMGUxYTliZjQ5MTAwZDg5OGUwOTA0YmIKGAiUiJ-s36Sm0WkQ6qmRzQYYnKAVOAhAEhADGgJteSIgMmU0NDAyNGE3MzgwYzNiYzhmNGY0NWEzN2RkMTNkMTAyTgogzyqGTfBKc0ps6qFhtsndUoZG4upnlrukwgc5LN0lFkQSIAScc8H09G6PpFwN-4CM5-0kM6Ye35vruE-2FIgKtiBYGAMiBnRpa3Rvaw",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.690516,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ssid_ucp_v1",
+      "value": "1.0.1-KDczYTcwZjg2ZTA0ZDRmNDFlMGUxYTliZjQ5MTAwZDg5OGUwOTA0YmIKGAiUiJ-s36Sm0WkQ6qmRzQYYnKAVOAhAEhADGgJteSIgMmU0NDAyNGE3MzgwYzNiYzhmNGY0NWEzN2RkMTNkMTAyTgogzyqGTfBKc0ps6qFhtsndUoZG4upnlrukwgc5LN0lFkQSIAScc8H09G6PpFwN-4CM5-0kM6Ye35vruE-2FIgKtiBYGAMiBnRpa3Rvaw",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.690539,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "store-idc",
+      "value": "alisg",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.632605,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "store-country-code",
+      "value": "th",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.632711,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "store-country-code-src",
+      "value": "uid",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.632734,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cc-target-idc",
+      "value": "alisg",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.632755,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tt-target-idc-sign",
+      "value": "tQ-9SUCMyT4GSvAPiZmX64ItRPZJU9l0jmBlaLT4vAyEdPrNFN3_0MvbBJTFNoeFYxKv9JJ98-wLtYU2Smjyy8R8oSKy7Xef6Bu_8cQ00nhphN3KUXOAqne5F7kTGZxZPs-8JeRdU5CMJ2Lvx-eMJGFRb0qyZQic1G5M8vpzKnG51FaIxaDt4fJylDJj7jRtQs-hpj30dvKLWs2v871NZDxStcyiT41YzFTBrfMX718aU-LoLIP9fT3GqC4u_mEh6_LslJzZvFykLmE_mPVRvFGiAmmOST1nXFgJWDsO0HspmeLivM6JZLYimyH3xL_dXHYv4G32GIe6OlihbowRjyjsu5VY9r_8Qo_-CcSEf6msT2YMNjmRRrjf-A-1wj6epKKqJbQwNB5bOh_SsWeYKrf2V_lCA7gUbRwVfhuBkIHXhxfIMovmvqA4R4KkkTflcF2MGJDb6FDlobwfQDevXN301pHHMjeifgfU2DFL9VepEHYfDqiXJreM4EsMC8XZ",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1803913323.884632,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "odin_tt",
+      "value": "26376d0f9bda2a3a9f8f1d3221249ff45df523e5a09a3235115a7c337e7a0a81e819eb9d2082a39f1dd8447f7306529f",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1803913331.417958,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AffCode",
+      "value": "3115",
+      "domain": "www.p31.vip",
+      "path": "/",
+      "expires": 1772642319,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AffCurrency",
+      "value": "THB",
+      "domain": "www.p31.vip",
+      "path": "/",
+      "expires": 1772642319,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Ref_Currency",
+      "value": "THB",
+      "domain": "www.p31.vip",
+      "path": "/",
+      "expires": 1772642319,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "f",
+      "value": "db1ddb2decf1db0918912039c6581edb",
+      "domain": "www.p31.vip",
+      "path": "/",
+      "expires": 1803919119,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "fr",
+      "value": "4tflRGsObr",
+      "domain": "www.p31.vip",
+      "path": "/",
+      "expires": 1803919119,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.766010837.1772378556",
+      "domain": ".p31.vip",
+      "path": "/",
+      "expires": 1806938556.317165,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "jackpotDisplayValue",
+      "value": "359391",
+      "domain": "www.p31.vip",
+      "path": "/",
+      "expires": 1774970562,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_GXSDZBVENP",
+      "value": "GS2.1.s1772378556$o1$g1$t1772378590$j26$l0$h0",
+      "domain": ".p31.vip",
+      "path": "/",
+      "expires": 1806938590.477315,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "value": "https%3A%2F%2Flabs.google",
+      "domain": "labs.google",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "value": "535eb0213f564f3e557cc9da154043ce384fe6cf7fe8d5d7c43d7c87a041f345%7C0abefd7ab5e01bfea772c7b36205c80dd0c068cc46c77dbfc7e3a51ea5228445",
+      "domain": "labs.google",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_v_web_id",
+      "value": "verify_mm7wpofk_1ttbh6he_uOzW_4Lvx_9JwU_t3Uy3TSoDYsN",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.session-token",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..Ec1Rc47_MxBOLaDU.jJMzd-p7J1YqKeUsqlaJW1N9NTzAi3boQIUPFDABw0ctPhJnf5CmYhsjm3xFF_BpwEBOHm8JnwsgHfu6W4rYz0QcZN8aQ4ojslTomTTcOoFIaBAtDxuL-lYtu3i40_ryGszwhe3_MBfT7j7TUKA6XEFt8zNxFUpnkoXFkFJKsTcJsmHrOAshYyugCRQR20Gf16QTYaG2knS0Y_yQOOhHujV6ZXtal6x_TkoLBcNbfsca1_8O1wBQq4kholzAY8pRz7i6y4Q1FTh7R8ChYlDn25fxKHSPNBgkmk4Ep9G15if0_S74uZjdmOB9URYHebPqL_YhyCJZYgr5IlK83rVe-3pl8r21YlSP8ERRR_8sBHboZFGPNhnQAgGRW7NYuIK_zB9PDgDFJLPd4VXz6O6TXY3xzhY35Q1zIBSCw0ty6vLrTP1NpqVy5AMKPWI_EomAz902_MPVqYcHkOjmSuLmwoqWo2pMXbjs0gU7UL0bSks-4VNqNJtH2EsktYO9dfv0sNjRLpFa-i6Np-b8NKmMRn_6vQkIJJb5XMGnBwpBoARgWjyZubM5Egq9WTN67aLz8h5d5rP1lqLYJbb82Qw84clPSQWaVRlvol_uJxWH07H-OJCOKDuFPNB_dtLaFT9coGDRly5gLwbaMaQq5aiXDTRHJdoKhR3xcNdh7NfUbq_ww0AnCqfMd_LfP6n3vTEIxeQVZFYAZaPioe4e6MlqVZgHMz87EdVaMZxRXYdrNRsSI_c2wR6BKIlUWR0HN0TvNxKEBa234cISG0eJLnvLhHF_j5mmYCfnr0nm147KL3aG1TZvIhBpb3EMRFvrL2ug8HDyf3EAvBQZXZpJCFoe0JrWyr7zAvbvRDb1tQZIbjZchduE_blc7DYL66hzQ79XkpONI7hLzGGf2HdRC5m1ohYtb8Pq2c6BxUPs45fx8MC6MJjqyk0Vcs5S_GlyjIIRL8U0423iknEZHFOQD6PNhzs1.vqwpwwcUIGEah9d3vHHzjQ",
+      "domain": "labs.google",
+      "path": "/",
+      "expires": 1774974474.09331,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NG_TRANSLATE_LANG_KEY",
+      "value": "%22th-TH%22",
+      "domain": "www.p31.vip",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_X2GNH8R5NS",
+      "value": "GS2.1.s1772382803$o4$g1$t1772383330$j60$l0$h1472637584",
+      "domain": ".labs.google",
+      "path": "/",
+      "expires": 1806943330.969887,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "datr",
+      "value": "i2-kaUkRs5w8JQTuGM7gGRJ4",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1806944141.145399,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "wd",
+      "value": "1659x697",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1772990753,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dpr",
+      "value": "0.8200000524520874",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1772990753,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sb",
+      "value": "k2-kaeDwDzno_4qL6txDGeoK",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1806944158.167805,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "c_user",
+      "value": "100048911502110",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1803920160.437446,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "xs",
+      "value": "16%3ARsZ1tKoR3-x-ow%3A2%3A1772384154%3A-1%3A-1%3A%3AAcwdNv_8lBLlD7uR2iTELEdk7XOUB7c801zJScJptw",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1803920160.437629,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.453974728.1772384174",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1780160173,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "language",
+      "value": "th",
+      "domain": "affiliate.shopee.co.th",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.3.170909315.1772384175",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1772473209,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_QPWSDCXHZQA",
+      "value": "41188e5c-88d3-4d8f-90a8-924c14cb95e1",
+      "domain": "affiliate.shopee.co.th",
+      "path": "/",
+      "expires": 1803920175,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "REC7iLP4Q",
+      "value": "1de8113e-410d-41ef-9525-ff0e223789d1",
+      "domain": "affiliate.shopee.co.th",
+      "path": "/",
+      "expires": 1803922810,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_sapid",
+      "value": "6e0c602e45c717476b51ac2ccc3c9e7aff08245cf4f1f5de5d674139",
+      "domain": "affiliate.shopee.co.th",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.2.1772384176059.456042774890800850",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1780162810,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csrftoken",
+      "value": "pM4KW6KxTpBtN61DAd2oXv75F3A2iZOH",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_sapid",
+      "value": "20a30ff16769b69725fec3f3e859f7a0e6a54f9d99651f86f3dc7260",
+      "domain": "shopee.co.th",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_SI",
+      "value": "iNuKaQAAAAA1dW5UYTJ4ZxiVGQMAAAAASDlTNXg1c3I=",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1772472430.959835,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_SEC_SI",
+      "value": "v1-Q1QzT2ZaWnkwUU5PSVJCMl684Xle6Q5Bu3m4w2hN7lXINLCyv471nnRIJWJiUxqPIWuE2UHyZh7aTRfRcQrn1fgn7XKqcp9Fgy7JE9PLBRw=",
+      "domain": "shopee.co.th",
+      "path": "/",
+      "expires": 1772470879.119168,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_QPWSDCXHZQA",
+      "value": "6e7098f4-2de6-4762-a7df-796e3012f2e2",
+      "domain": "shopee.co.th",
+      "path": "/",
+      "expires": 1803920179,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "REC7iLP4Q",
+      "value": "e7904bd7-492c-44d6-b4ee-b9161440fe0c",
+      "domain": "shopee.co.th",
+      "path": "/",
+      "expires": 1803922027,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_F",
+      "value": "cteztXQvs338T6f9gTV2yC4OULgq8KAT",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806944180.253231,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "REC_T_ID",
+      "value": "915229d9-158f-11f1-af52-224993583711",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806944180.253283,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_CLIENTID",
+      "value": "Y3RlenRYUXZzMzM4xkzofomavmhjkznm",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806944228.862258,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMP_TOKEN",
+      "value": "%24NOT_FOUND",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1772387781,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "language",
+      "value": "th",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806944183.025189,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_ST",
+      "value": ".ZERmRHpiVXFSWDNhOHcxWJoBkKpuRNkX8neEEHBlyFTmG3FGEMpn6D+yqgWYjPgv9yrskAtmsFB0hE0UffTSllVT4gLuvxd6fSRQPkrEvYT3kVDITZHV8E5IsuSlcc+W7IrGCBfFftny354EDht6cW3hia3jYp8oeRMyi1H4NDskeHKNYB/PK3rmrsjO1k47U27rDeaYaZv8EfMKOsCIMSqtNn+0JFdgcHY0YRMQBYaKHYYIynu+oIK7kOzPBelebDV3saAvbwkNSAvcf+PBsEXZkZnN0N68u4EI1Hbt9ns=",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946030.959983,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_U",
+      "value": "1672153386",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946030.960202,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_QPWSDCXHZQA",
+      "value": "9f4b2e1d-456e-45dc-a290-da4de254d92d",
+      "domain": "help.shopee.co.th",
+      "path": "/",
+      "expires": 1772416647,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "REC7iLP4Q",
+      "value": "861406cc-33f8-4e9e-8187-56797d4b56d4",
+      "domain": "help.shopee.co.th",
+      "path": "/",
+      "expires": 1772417490,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_T_ID",
+      "value": "0cqKjdgHdZmlS2tjnc9rg7+PBNN+tsS83izAilLxlmDOquB36QcYd7TWjxRYiNx3g0zuJ+lujuIiw1NrLM7fhCWYKkdXGezke87GnDW3MTQaLmgqfuxJnDTq9Uf39qPjvyQDlMlq03SQmVSos6R7QqsxfhW1UWp9DlWL/Adsqyo=",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946030.960101,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_SEC_SI",
+      "value": "v1-Nk5QeTNLeDRWcmNOeU1pYa3o0ebYQ+FqUnVbiRM7wKI6rLG5RibGSvSEcDgzJ7at6fXYGr1Y3sX9H83tcB/0Zif8XgweAqR9b7DhpaEhr+Q=",
+      "domain": "help.shopee.co.th",
+      "path": "/",
+      "expires": 1772472207.013789,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_T_IV",
+      "value": "bnRDU0VkTUR0UWdOM1NrMg==",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946030.960344,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_R_T_ID",
+      "value": "0cqKjdgHdZmlS2tjnc9rg7+PBNN+tsS83izAilLxlmDOquB36QcYd7TWjxRYiNx3g0zuJ+lujuIiw1NrLM7fhCWYKkdXGezke87GnDW3MTQaLmgqfuxJnDTq9Uf39qPjvyQDlMlq03SQmVSos6R7QqsxfhW1UWp9DlWL/Adsqyo=",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946030.960041,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_R_T_IV",
+      "value": "bnRDU0VkTUR0UWdOM1NrMg==",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946030.96028,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "v6MNxqDDnOonDRnyH2gitv5EeqP7d0q7wcZPs8L31_E-1772385742-1.0.1.1-b47CBnMPkqjUsAFpIZRwNoPGFh4r2KwkPHEJBg8Wl1phQV9ZNSgKJmmQwXoy1rSikkQj1BSHU5ImGgYxXuQLBIZR1VJcU9gHuJhFzrXC5rU",
+      "domain": ".stake.bet",
+      "path": "/",
+      "expires": 1772387543.68222,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "wN5dPz.UPJhDnivu7TVjAmp6rfrTHfeHFYZ1AnuOmYo-1772385742204-0.0.1.1-604800000",
+      "domain": ".stake.bet",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "529=mhSNe46tHMP5cUf94Ky1gmNCzEZ7ufnwMNBbjBLYUaW_cyzNeZfvJK93CjosTArlg_-_r7KUxYRxvkrrmhPRdDkKQhHLlbRxYmxLjwGm7hIlyTUCafvEmdwGVIIt6LrW0lwSklIRVx7KBMsysS9jhLt2R3hwQhlCTejVNHdTWvhO7Ll7epgjWjRa4tf0SgKqixpbsR8MhBqDHbWFgAnU02FrHnlFCo0WoDxSy-pE8u29FRI7pbCvlB3WZkx9D-xuzINaQPTKzj1puKbhKM6OZ7B19Ov6CEF5TFUlQkhgiHms2aIwZAW-6Kc-jy41w9aGtp9qKQqAojcYQ6n0ZsJWLfASfEDOPPeObxc2mBTdYjVe_yh6dGt-JkfvCqYeEPK8ZSIwGrACoYyapqEqLkgC2rjiICxwDESzSwLFSfrtyTCxU9xlbwoSjS3qJLuRZNgiqBaxQMfpuslqoxDkl4EDtMZnwNomxnBisWW63ptAk3pLjH7PK105APgcoIFUqbUBvDO4n2NnlSyMCXl6Fbg846HaJ_3gZDgghJz-9f95IcC25Mkwv1mNTOuuCOvLbZMCNyLuuBMtyYH9fcaniWQvKInEkSMr-ma8xdHQjimbzPnzwa5KEamGytZehiU-UFwoozrFcjLRwSycAtXRFWD1MW9NuzgOhDwONfS6fmmfrkpYF4e9rcyYG3kbGITdNpnulWI1oOlq02hwzTI",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1788188445.644032,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "fr",
+      "value": "1D3AcBpHf5wVrOGAo.AWdZNvgyykBwxKJdSvVKk3CpgZdGr5ZAXvUHJomVbTRPYTMCXHQ.BppG-e..AAA.0.0.BppHaX.AWcQsIlMYqRCBIyanKrVOvxJcJk",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1780161944.736201,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "channel_access_token",
+      "value": "016bb1b4e2c65090673385ea73e4e679de645d003bba2fa0be8f0a883eabc8c120",
+      "domain": "help.shopee.co.th",
+      "path": "/",
+      "expires": 1772472347.32868,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "presence",
+      "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1772385954064%2C%22v%22%3A1%7D",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "shopee_webUnique_ccd",
+      "value": "0SpmfTdBDbICqHAVWDQwjQ%3D%3D%7CYDoWqCrU4VnsxTrLeutfHxixbB3YnTEIfikr9hPKyRaojnOJzANfmbRJGYW5nzo7FXB9P%2BYi%2B8w3avM%3D%7CaLJRUKnH0nhjDga1%7C08%7C3",
+      "domain": "help.shopee.co.th",
+      "path": "/",
+      "expires": 1772417492,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ds",
+      "value": "cd23ff57188043671a771d237b52296f",
+      "domain": "help.shopee.co.th",
+      "path": "/",
+      "expires": 1772417492,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ttwid",
+      "value": "1|te_6958F2TzLEG9F65Zf852ApNGxMt6RKThMLuzxkt4|1772385970|a6a91ff3985f3fb6ff40b79fe75d81f21229ed8d98481b9bd76b7d05f3af0542",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1803921972.2407,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_F9J0QP63RB",
+      "value": "GS2.1.s1772385997$o3$g0$t1772385998$j59$l0$h0",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1803921998,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "msToken",
+      "value": "38z7W2aCfmc-MIWaLZ-h6B51jLzjUVwHHSzFZs-915LMoN-mg089IcfrKYOa3l4O8WPkjFC8--M4pt_IWo8aSqOlCTknXwucj55TLZKnh3XALgaW_PH2WV2MDO-70mSb4P0QjDgg",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1773249999.962809,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "msToken",
+      "value": "S0osYfbqnaLXqkmCOdCnFZLFF73t_tLVIc7kvVdLwaOrZ4yHXicMjS-Tza9J1w8do3A8t3RLoYFnd3c9hYLAMLKSqfiS7y-LHxJZu1TKa_UUXDmMWdEJCOFg4l9vBgwFrQ6Ek-k=",
+      "domain": ".capcutapi.com",
+      "path": "/",
+      "expires": 1773250004.734137,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "msToken",
+      "value": "S0osYfbqnaLXqkmCOdCnFZLFF73t_tLVIc7kvVdLwaOrZ4yHXicMjS-Tza9J1w8do3A8t3RLoYFnd3c9hYLAMLKSqfiS7y-LHxJZu1TKa_UUXDmMWdEJCOFg4l9vBgwFrQ6Ek-k=",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1780162004,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SIDCC",
+      "value": "AKEyXzXfCKqlTjcj3WMDWlX9ERjFBMk4EwebjKVw6syctJGf5iaULZ4NoLpoMwi273BXUFUqpA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1803922011.628627,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSIDCC",
+      "value": "AKEyXzXadnySXoEVr8kkZZBz-ZZs1lzov2MrJNJDYsVFatqHh-JTXDvYffv4cNpwd9bE1sNftQ",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1803922011.628719,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSIDCC",
+      "value": "AKEyXzXJzg9i_HDF6QIGQ4zHUnvOyVB6G3_ZyJdXAj1jwcNkZ9CIvm01OiHqvEJlW0Lx8DR5dIc",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1803922011.628759,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SPC_SI",
+      "value": "iNuKaQAAAAA1dW5UYTJ4ZxiVGQMAAAAASDlTNXg1c3I=",
+      "domain": "seller.shopee.co.th",
+      "path": "/",
+      "expires": 1772472428.046938,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_SEC_SI",
+      "value": "v1-WnhzTzhUZ1JrbnAyU3o0Vsmp0H3pvTqlSnotHzswPCPefrrdfYhILOpE1DcQNPjxwKjitVJRs1x4hWalH3rTDFno3DR3M/dCIkI235X5PJM=",
+      "domain": "seller.shopee.co.th",
+      "path": "/",
+      "expires": 1772472724.553565,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_CDS_CHAT",
+      "value": "8d366d64-ed24-4b17-8bb6-5cc19ef11d00",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "shopee_webUnique_ccd",
+      "value": "kfNaFGqDbStu9%2Bqoh9yvFw%3D%3D%7Cs6VKWZv7ZOHZvW7fC%2BoODBourSxcxH%2BMnFmpXb%2BW5cx6t5hl9rGkNJxQ3Ohd0LCpOPKmXLe9%2FE0%3D%7CrVMU0R1m%2FQhxZDHX%7C08%7C3",
+      "domain": "shopee.co.th",
+      "path": "/",
+      "expires": 1803922027,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ds",
+      "value": "7627bfd31a543588fd333e2bdeb25426",
+      "domain": "shopee.co.th",
+      "path": "/",
+      "expires": 1803922027,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AC_CERT_D",
+      "value": "U2FsdGVkX19Ls7e41X4/grz+UpzH17YAnkGvp3GlazSrS2LRsjP25N1wk+TD/B6SiGOJiSnr9kT4wZqgKJIcEHHOM8w1RgrDyvdkC1p6RNQqgauaQJF6ILVWS2nIPOAAjrp+3sgTuaDA+szCjKS5lvSnI8Nr0UMUIzM4WbRUbSpqSkZveZQ4yyQomLd9CWFT1BThi8H37YsRuYnUd8BL56/xOeZGHGs62nyEhkie7FqyF50mhCtdh0sxiZSGyA+6BV+b928KgDGtyBAJanP9Gmdx9XGem/+GT7aoyXsvE/C23coY7X2F/HMepG2QYDD6iO4xfDYxZpAzLFMT3B05M83uGTXMkOFOGNzEH1xebqt5PfZNV5hNz0IX3iK/dbLzAdT4V1Cbc6jzi5+fZkdHVyjLw7Mqs49sijlos+mRHov4UTpIRi4CY76a453JvFlsqhz47eF1d0IsE6I9iQg+Dj5ZPNcLpZ8hEOtls0WOeYgcX0obfMPiyzzd5MSEeZfYfFx1/Nq/oEmRePvA3HtiDDGmY6DS2boUaEofzQF3wQs7oOuzaNAdbjKpt3hf9hyotKgjDOsBn69xFpPiFb6Z9ggkHU4pbdoNa16Y83kyYHzzOFuI0biWRDHCktuDUZYP1K9stalqph1LwUqslIwPnVnp+YD8oleerU1Qa3IAbfPgUGzV7vHPBMopWzWIHUXa4xWaC81vknMhZsW3TSFOcjUC0hJsLZAX6l9gWDLy+7m1jTvIrwxtLjioXv7UY4rBsUprT+25s7979eAe1qiH3mr7M106N1KEmxiyJHzLSohIS/5CDkUp73e7lBuOWPvZHp+p5S2pihauCYRnASvkzEMXBkqjMlgYUpdaslInhmshLct2AVdTS/oBboWm0K862gTr5EJkngg72QkJH7tCu2YDIb/7WpxLmyGJOcRWQtW5NorFG89FE+H5CBUR0pTMPMYuVopog6v/W63iiJYClhB0lcCOWSx+j98qETfaV98Ygh705uhi/MazSa4530CiCSWoGYGjb+1g5Ii51U55GnefeIetwLi7HxjKRqbgyqh7ZkYSUBGJK5kaiHy5gXbPXY9y+SkHwXhQI+mw5JRQdg==",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1772387830.960159,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_EC",
+      "value": ".bk5yNXY1djRMdXdPT280Qbg/vgHBDVGwfMCsoN/mS2RJmieyT02cEcZgAQrty+1wWmyq8SbU1FhSehMyg+JQtCimKyn12BPiVaAv9cu34scxuJ+o1VX3OQ8MsuiusscUWMan1irZfPXzacx0lS08Hf0D4ywfvCaRJJj0eBFLvmYIn+PXzi3mzRV2CK5CaQ/WXacvJE6EW8K6jJjyaoCOnXDiWbwXzGyi+wyI2DES8As3JmRFIQ5oEISkHx1wpXlpa+9jNjJYBGK0xRzJ0grmig==",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946030.960239,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CAPCUT_THEME",
+      "value": "light",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.3.621819415.1772384175",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946809.674639,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_LB1RXY1EGG",
+      "value": "GS2.1.s1772384174$o1$g1$t1772386809$j17$l0$h226478647",
+      "domain": ".shopee.co.th",
+      "path": "/",
+      "expires": 1806946809.996409,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "shopee_webUnique_ccd",
+      "value": "sXZojBgUml9tsSaKDO6DbA%3D%3D%7CzPBCNif1sM6lc9U5s6kovi%2B%2FNsQZ7WXYkvf%2FuR%2BhyYffHrYPdz91yCt7SJ%2FSdam7Qxb0IOBpktrj9iPOl%2Bs%3D%7CYP13JmNPccx87RYd%7C08%7C3",
+      "domain": "affiliate.shopee.co.th",
+      "path": "/",
+      "expires": 1803922811,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ds",
+      "value": "65ef3886d2f0f7f3c95b57292cfd6e08",
+      "domain": "affiliate.shopee.co.th",
+      "path": "/",
+      "expires": 1803922811,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "store-country-sign",
+      "value": "MEIEDF_f0s4WVxgxqPbGKQQgmPhh45ngevfclVTNl0X2a14QT8e_2uMiM_hypHxumA8EEI3dvY7N0VsjVcIxECn--qU",
+      "domain": ".capcut.com",
+      "path": "/",
+      "expires": 1777561323.632681,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "x_logid",
+      "value": "20260302014107FECF7EECBB70C820426E",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1772386988.632777,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "url": "https://affiliate.shopee.co.th/offer/custom_link",
+  "timestamp": "2026-03-02T00:41:14.671971"
+}

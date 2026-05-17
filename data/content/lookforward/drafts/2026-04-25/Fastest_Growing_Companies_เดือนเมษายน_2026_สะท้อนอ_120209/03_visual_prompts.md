@@ -1,0 +1,6 @@
+### Image 1: Visual 1
+Create a clean futuristic technical infographic in Thai-language editorial style showing 'Fastest Growing Companies April 2026' as a heat map of the tech economy. Include layered architecture from top to bottom: Application Layer, Platform Layer, Infrastructure Layer, Physical Infrastructure. Show sectors glowing with intensity: AI infrastructure, cybersecurity, agentic workflow automation, climate and energy tech, healthtech biotech platforms, defense tech, industrial software. Add arrows representing money flow, enterprise demand, government procurement, developer adoption. Dark background, sharp neon accents in blue, green, orange, highly analytical, premium magazine visual.
+
+### Image 2: Visual 2
+Create an abstract strategic concept art illustrating why fastest-growing companies predict the next tech cycle. Show a futuristic city/grid powered by invisible layers: AI compute clusters, cybersecurity shields, robotic workflow pipelines, data centers connected to power grids, biotech lab platforms, defense systems, industrial control software. Emphasize that digital growth creates physical infrastructure demand. Style: cinematic, high-detail, semi-isometric, sophisticated editorial aesthetic, dark theme with luminous overlays, suitable for a tech analysis article.
+

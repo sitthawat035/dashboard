@@ -1,0 +1,12 @@
+### Image 1: Hero Visual: LLM Leaderboard Tower
+A dramatic vertical tower visualization showing LLM models stacked by Arena Elo score on a dark tech-blue background, with Claude Opus 4.6 at the golden summit glowing at 1500 Elo, surrounded by smaller competitor bars in silver and bronze tones, clean modern data visualization style, subtle holographic elements, Thai tech aesthetic
+
+### Image 2: OpenAI Decline Visual
+A downward trending chart overlay on world map showing OpenAI's market dominance decline from 2023-2026, with anthropomorphic robot figures representing different AI companies in a competitive race, dark background with glowing data lines, dramatic lighting, editorial infographic style
+
+### Image 3: Open-source vs Proprietary Gap
+Split-screen comparison showing open-source models (DeepSeek, GLM, Qwen) closing the gap with proprietary giants (Anthropic, Google, OpenAI), connected by narrowing bridge visualization, futuristic cyber aesthetic, dark blue and purple gradient, minimalist tech illustration
+
+### Image 4: Context Window Scale
+Abstract visualization of context window explosion from 128K to 10M tokens using ascending glass towers representing token capacity, with a human figure at base for scale reference, clean white and gold aesthetic, futuristic data visualization style
+

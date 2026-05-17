@@ -1,0 +1,29 @@
+# 🎨 Image Prompts Guide — นาฬิกาสมาร์ทวอทช์ราคาประหยัด
+Generated: 2026-04-21 20:09
+
+วิธีใช้งาน:
+  A) ระบบจะสร้างรูปอัตโนมัติผ่าน Pollinations.ai (Flux) — ฟรี ไม่ต้อง key
+  B) Copy Enhanced Prompt ไปวางใน Google AI Studio / Midjourney / Ideogram
+============================================================
+
+## [1] Hero Visual (Facebook 16:9)
+Format: LANDSCAPE (1280x720) | Style: modern tech editorial
+
+### ✅ Enhanced Prompt (ready to use):
+A clean, modern conceptual photography representing affordable smartwatches as the gateway to health data and daily habit tracking. A minimalist wrist wearing a sleek budget smartwatch glowing softly, surrounded by subtle abstract biometric light trails and daily activity signals. Professional studio lighting, elegant, minimal, high-end editorial tech style. NO text, NO watermarks, NO logos, high-end commercial photography, ultra-realistic, 16:9 widescreen, clean modern aesthetic, soft studio lighting, professional depth of field, premium editorial tech look, 8K resolution, no text, no watermarks, no logos
+
+### 📝 Original Concept (from AI):
+A clean, modern conceptual photography representing affordable smartwatches as the gateway to health data and daily habit tracking. A minimalist wrist wearing a sleek budget smartwatch glowing softly, surrounded by subtle abstract biometric light trails and daily activity signals. Professional studio lighting, elegant, minimal, high-end editorial tech style. NO text, NO watermarks, NO logos.
+
+----------------------------------------
+
+## [2] Abstract Visual (Story 9:16)
+Format: PORTRAIT (720x1280) | Style: abstract 3D minimalism
+
+### ✅ Enhanced Prompt (ready to use):
+Abstract 3D minimalist rendering representing affordable wearable technology transforming body signals into daily data. Floating watch-like form, circular activity rings, soft biometric waves, premium gradients, elegant composition, negative space. NO text, NO readable words, 9:16 portrait format, premium 3D abstract visualization, clean minimalism, soft gradients, 9:16 portrait format, high-end editorial tech background, no readable text, no watermarks, no logos, ample space for text overlay
+
+### 📝 Original Concept (from AI):
+Abstract 3D minimalist rendering representing affordable wearable technology transforming body signals into daily data. Floating watch-like form, circular activity rings, soft biometric waves, premium gradients, elegant composition, negative space. NO text, NO readable words, 9:16 portrait format.
+
+----------------------------------------

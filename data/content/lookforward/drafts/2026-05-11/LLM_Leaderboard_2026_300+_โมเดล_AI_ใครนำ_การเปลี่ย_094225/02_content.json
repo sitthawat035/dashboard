@@ -1,0 +1,38 @@
+{
+  "content": {
+    "text": "# LLM Leaderboard 2026: 300+ โมเดล AI ใครนำ การเปลี่ยนแปลงอันดับที่น่าจับตา\n\n## Hook: ความจริงที่ไม่มีใครอยากเชื่อ\n\n**GPT-4 ที่เคยถูกแซงชื่อว่า \"เทพเจ้า AI\" ตอนนี้อยู่อันดับ... ไม่อยู่ใน Top 5**\n\nถ้าคุณยังเลือกโมเดลจากชื่อเด่าแบบเดิม — คุณกำลังพลาดของดีกว่าและถูกกว่าอยู่\n\n---\n\n## The Context: 37 เดือนที่ AI เปลี่ยนโฉมโลก\n\nLMSys Chatbot Arena — เวที Benchmark ที่ใหญ่ที่สุดของ LLM ด้วยการโหวตจากผู้ใช้จริงกว่า 22,000 ครั้ง — เผยภาพจุดสูงสุดของปี 2026 ที่ไม่เคยมีมาก่อน\n\n| อันดับ | โมเดล | ผู้พัฒนา | Arena Elo |\n|--------|-------|----------|-----------|\n| 🥇 | Claude Opus 4.6 Thinking | Anthropic | **1500** |\n| 🥈 | Claude Opus 4.6 | Anthropic | 1497 |\n| 🥉 | Gemini 3.1 Pro Preview | Google | 1487 |\n| 4 | Claude Opus 4.7 Thinking | Anthropic | 1487 |\n| 5 | Gemini 3 Pro | Google | 1479 |\n| 6 | Claude Opus 4.7 | Anthropic | 1478 |\n\n**ตัวเลขที่เปลี่ยนทุกอย่าง:**\n\n- **1500 Elo** — ครั้งแรกในประวัติศาสตร์ที่มีโมเดลทะลุ 1500 Elo (กุมภาพันธ์ 2026)\n- **+406 Elo** — ค่าเฉลี่ยของ #1 ขยับจาก 1094 → 1500 ใน 37 เดือน\n- **300+ โมเดล** — ติดตามใน Leaderboard ทั่วโลก\n- **21 ครั้ง** — จำนวนครั้งที่อันดับ 1 เปลี่ยนมือในรอบ 37 เดือน\n\n---\n\n## The Mechanism: Benchmark ทำงานยังไง?\n\n### 4 เสาหลักของการจัดอันดับ\n\n**Arena Elo — ระบบชนแบบ Pairwise**\nLMSys ให้ผู้ใช้เปรียบเทียบสองโมเดลโดยไม่รู้ว่าโมเดลไหนคือโมเดลไหน (blind test) → วัด \"ความรู้สึกใช้งานจริง\" ไม่ใช่การท่องจำข้อสอบ\n\n**MMLU Pro** — ความรู้และการใช้เหตุผลข้าม 57 สาขา วัดว่าโมเดลรู้อะไรและเชื่อมโยงได้แค่ไหน\n\n**HumanEval** — ความสามารถในการเขียน Code ที่ใช้งานได้จริง ไม่ใช่แค่ Syntax\n\n**MATH** — การแก้โจทย์คณิตศาสตร์ระดับสูง ซึ่งเป็นตัวชี้วัด \"การคิดเชิงตรรกะ\" ที่แม่นยำที่สุด\n\n### ทำไม \"Thinking\" โมเดลถึงแรงขึ้นมา\n\nClaude Opus 4.6 Thinking และ 4.7 Thinking ใช้เทคนิค **Extended Chain-of-Thought** — คือไม่ได้ตอบเร็ว แต่คิดยาวกว่า ได้ความแม่นยำสูงกว่ามาก\n\nสิ่งที่น่าสนใจคือ: การแข่งขันไม่ใช่แค่ \"โมเดลเร็วขึ้น\" แต่เป็น \"โมเดลคิดดีขึ้น\"\n\n---\n\n## The Analysis: ใครได้ ใครเสีย?\n\n### ✅ ผู้ชนะ 3 กลุ่ม\n\n**1. ผู้ใช้งาน**\nได้โมเดลที่ \"ฉลาดขึ้นมาก\" โดยราคาไม่ได้ขึ้นตาม Performance per Dollar ดีขึ้นอย่างมาก\n\n**2. นักพัฒนา**\nมีทางเลือกมากขึ้น โดยเฉพาะด้าน Coding + Math ที่โมเดล Open-source แข่งขันได้แล้วอย่างเป็นรูปธรรม\n\n**3. Open-source Community**\nDeepSeek R1, GLM 5.1, Qwen3 พิสูจน์แล้วว่า \"ไม่จำเป็นต้องมีประสิทธิภาพน้อยกว่า\" เพราะเป็น Open-source\n\n---\n\n### ❌ ผู้แพ้ 3 กลุ่ม\n\n**1. OpenAI**\nแบรนด์ยังแรง แต่ Benchmark ไม่ได้นำ สถานะ \"ผู้นำ\" สั่นคลอน — และนี่คือปัญหาที่กำลังลึกขึ้น\n\n**2. ผู้ใช้ที่เลือกโมเดลจาก Brand**\nอาจพลาดโมเดลที่ดีกว่าแต่ไม่ดังเท่า เพราะตัดสินใจจาก \"ชื่อ\" ไม่ใช่ \"ผลลัพธ์\"\n\n**3. ผู้ที่ติดอยู่บน GPT-3.5 / 4 เก่า**\nความเชื่อมั่นใน \"ที่สุดของ AI\" พังทลายลง และ Gap ระหว่างรุ่นเก่าและใหม่กว้างขึ้นเรื่อยๆ\n\n---\n\n## The Vision: 6-12 เดือนข้างหน้า\n\n### 3 แนวโจมตีที่กำลังเกิดขึ้น\n\n**1. 1500 Elo ไม่ใช่เพดาน**\nการขยับจาก 1400→1500 ใช้เวลา 9 เดือน ความเร็ว ~11 Elo/เดือน ภายในสิ้นปี 2026 โมเดล #1 อาจทะลุ **1520-1540 Elo** และนี่ยังไม่ใช่จุดจบ\n\n**2. Multi-Agent Orchestration จะกลายเป็น Standard**\nเมื่อโมเดลเก่งขึ้นถึงจุดหนึ่ง \"การใช้หลายโมเดลร่วมกัน\" จะดีกว่า \"ใช้โมเดลเดียว\" → การจัดอันดับเดี่ยวจะไม่จบอีกต่อไป\n\n**3. ประเทศที่ 3 กำลังมา**\nZhipu AI (จีน) คือ Dark Horse ที่ทำ Open-source ได้แข่งกับ Frontier ของสหรัฐฯ ได้โดยตรง — GLM 5.1 ทำได้ 1468 Elo ในเดือนพฤษภาคม 2026 เกือบเทียบชั้น Gemini 3 Pro\n\n---\n\n## Final Thought\n\n**การแข่งขัน AI ไม่ใช่ \"2 ค่าย\" อีกต่อไป**\n\nปี 2026 คือจุดที่ Open-source สู้และชนะได้ และ Context window 1M tokens กลายเป็นมาตรฐานขั้นต่ำ — Llama 4 Scout รองรับ 10 ล้าน tokens มากพอที่จะ \"อ่าน\" หนังสือทั้งเล่มได้ในครั้งเดียว\n\nถ้าคุณยังติดอยู่กับโมเดลเดิมเพราะ \"ชื่อดัง\" — ถึงเวลาทบทวนแล้ว เพราะมันไม่ใช่ตัวชี้วัดที่ดีที่สุดอีกต่อไป\n\n**Benchmark บอกว่า AI ก้าวไกลกว่าที่คนส่วนใหญ่คิด และใครก็ตามที่ยังตัดสินใจจาก Brand แทนผลลัพธ์ กำลังเสียเปรียบให้คนที่ดูข้อมูล**\n",
+    "insight_score": 5,
+    "char_count": 3754
+  },
+  "caption": "GPT-4 เคยเป็นเทพเจ้า AI แต่ตอนนี้ไม่อยู่ใน Top 5 ของ LLM Leaderboard 2026 ครับ — และนี่คือสิ่งที่ไม่มีใครอยากเชื่อ 🤯\n\n300+ โมเดล แข่งกัน 37 เดือน ผลลัพธ์คืออะไร?\n✅ Open-source แซงได้จริง\n✅ Gap เหลือแค่ 50 Elo\n✅ Context 10M tokens กลายเป็นมาตรฐานใหม่\n\nถ้าคุณยังเลือกโมเดลจาก \"ชื่อดัง\" — คุณกำลังพลาดของดีกว่าและถูกกว่าอยู่",
+  "hashtags": [
+    "#LLMLeaderboard",
+    "#AI2026",
+    "#ClaudeOpus",
+    "#Gemini",
+    "#OpenSourceAI",
+    "#ChatbotArena",
+    "#ArtificialIntelligence",
+    "#TechAnalysis",
+    "#AIBenchmark",
+    "#lookforward"
+  ],
+  "image_prompts": [
+    {
+      "title": "Hero Visual: LLM Leaderboard Tower",
+      "prompt": "A dramatic vertical tower visualization showing LLM models stacked by Arena Elo score on a dark tech-blue background, with Claude Opus 4.6 at the golden summit glowing at 1500 Elo, surrounded by smaller competitor bars in silver and bronze tones, clean modern data visualization style, subtle holographic elements, Thai tech aesthetic"
+    },
+    {
+      "title": "OpenAI Decline Visual",
+      "prompt": "A downward trending chart overlay on world map showing OpenAI's market dominance decline from 2023-2026, with anthropomorphic robot figures representing different AI companies in a competitive race, dark background with glowing data lines, dramatic lighting, editorial infographic style"
+    },
+    {
+      "title": "Open-source vs Proprietary Gap",
+      "prompt": "Split-screen comparison showing open-source models (DeepSeek, GLM, Qwen) closing the gap with proprietary giants (Anthropic, Google, OpenAI), connected by narrowing bridge visualization, futuristic cyber aesthetic, dark blue and purple gradient, minimalist tech illustration"
+    },
+    {
+      "title": "Context Window Scale",
+      "prompt": "Abstract visualization of context window explosion from 128K to 10M tokens using ascending glass towers representing token capacity, with a human figure at base for scale reference, clean white and gold aesthetic, futuristic data visualization style"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+### Image 1: Visual 1 - DRAM/HBM Price Surge Chart
+Infographic showing DRAM contract prices surge 58-63% QoQ in Q2 2026, Samsung 90% price increase in Q1, DDR5 up 30-50% by mid-2026, DRAM ASP 13x higher than 2020. Clean financial data visualization with semiconductor theme, blue and orange color scheme, professional chart design
+
+### Image 2: Visual 2 - Winners vs Losers Matrix
+Two-column comparison infographic: Winners (SK Hynix, Micron, Nvidia, AI Hyperscalers) vs Losers (Nintendo, Sony, Apple, Android manufacturers, end consumers) from DRAM/HBM shortage. Clean corporate design, red and green color coding, semiconductor chip iconography
+
+### Image 3: Visual 3 - Timeline to 2030
+Horizontal timeline showing AI memory shortage outlook through 2030, with key milestones: 2026-2027 continued tightness, late 2027-2028 new fabs coming online, 2030 SK Hynix Chairman estimates resolution. Futuristic tech aesthetic, clean typography, blue gradient background representing data center infrastructure
+

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lookforward | Content Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-icon"><i class="fa-solid fa-eye"></i></div>
+                <span class="logo-text">look<span>forward</span></span>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-view="dashboard">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-item" data-view="generator">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>Ignite Studio</span>
+                </a>
+                <a href="#" class="nav-item" data-view="library">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span>Content Vault</span>
+                </a>
+                <a href="#" class="nav-item" data-view="analytics">
+                    <i class="fa-solid fa-microchip"></i>
+                    <span>Deep Metrics</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar">AN</div>
+                    <div class="user-info">
+                        <p class="name">Tech Analyst</p>
+                        <p class="role">Authority Mode</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-header">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search insights, drafts, or deep tech trends...">
+                </div>
+                <div class="header-actions">
+                    <div class="system-status">
+                        <span class="dot pulse"></span>
+                        Gemini 2.5 Active
+                    </div>
+                    <button class="btn-primary" id="quick-ignite">
+                        <i class="fa-solid fa-plus"></i> New Project
+                    </button>
+                </div>
+            </header>
+
+            <!-- Dashboard View (V2 Cyberpunk) -->
+            <section id="dashboard-view" class="content-view active">
+                <div class="v2-branding">
+                    <h1 class="v2-logo">look<span>forward</span></h1>
+                </div>
+
+                <div class="v2-dashboard-grid">
+                    <!-- Quadrant 1: Insight Gauge -->
+                    <div class="v2-card v2-gauge-card">
+                        <div class="card-header">
+                            <h3>Insight Score: <span id="gauge-value" class="cyan-text">4.8</span></h3>
+                        </div>
+                        <div class="gauge-container">
+                            <svg class="gauge-svg" viewBox="0 0 200 120">
+                                <path d="M20 100 A80 80 0 0 1 180 100" class="gauge-track" fill="none"
+                                    stroke-width="12" />
+                                <path id="gauge-fill" d="M20 100 A80 80 0 0 1 180 100" class="gauge-fill" fill="none"
+                                    stroke-width="12" stroke-dasharray="251.2" stroke-dashoffset="50" />
+                                <circle cx="100" cy="100" r="15" fill="var(--primary-cyan)" class="gauge-center-glow" />
+                                <text x="25" y="115" class="gauge-label">Low</text>
+                                <text x="155" y="115" class="gauge-label">High</text>
+                                <g class="gauge-needle">
+                                    <line x1="100" y1="100" x2="100" y2="40" stroke="white" stroke-width="2" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- Quadrant 2: Audience Growth -->
+                    <div class="v2-card v2-chart-card">
+                        <div class="card-header">
+                            <h3>Audience Growth <span class="delta-v2 positive"><i
+                                        class="fa-solid fa-arrow-trend-up"></i> 10.38%</span></h3>
+                        </div>
+                        <div class="chart-container">
+                            <!-- Simple SVG Chart for extreme performance/look -->
+                            <svg class="growth-chart-svg" viewBox="0 0 400 150">
+                                <defs>
+                                    <linearGradient id="chartGradient" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="var(--primary-cyan)" stop-opacity="0.3" />
+                                        <stop offset="100%" stop-color="var(--primary-cyan)" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                                <path d="M0 130 C50 120, 100 140, 150 100 S250 80, 300 110 S350 50, 400 30 V150 H0 Z"
+                                    fill="url(#chartGradient)" />
+                                <path d="M0 130 C50 120, 100 140, 150 100 S250 80, 300 110 S350 50, 400 30" fill="none"
+                                    stroke="var(--primary-cyan)" stroke-width="3" />
+                                <g class="chart-labels">
+                                    <text x="0" y="145">Jan</text>
+                                    <text x="80" y="145">Feb</text>
+                                    <text x="160" y="145">Mar</text>
+                                    <text x="240" y="145">Apr</text>
+                                    <text x="320" y="145">May</text>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- Quadrant 3: Recent Analysis -->
+                    <div class="v2-card v2-list-card">
+                        <div class="card-header">
+                            <h2>Recent Analysis</h2>
+                        </div>
+                        <div class="recent-posts-list v2-list">
+                            <!-- Dynamic items injected here -->
+                            <div class="list-placeholder">Loading neural vault...</div>
+                        </div>
+                    </div>
+
+                    <!-- Quadrant 4: Mega Ignite Button -->
+                    <div class="v2-card v2-action-card">
+                        <button class="v2-btn-ignite" id="mega-ignite-btn">
+                            <div class="ignite-glow"></div>
+                            <i class="fa-solid fa-fire"></i>
+                            <span>Ignite Analysis</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Generator View (Hidden by Default) -->
+            <section id="generator-view" class="content-view">
+                <div class="gen-header">
+                    <button class="btn-back"><i class="fa-solid fa-arrow-left"></i> Dashboard</button>
+                    <h1>Ignite Content</h1>
+                </div>
+
+                <div class="generator-container glass">
+                    <div class="input-section">
+                        <label>Target Topic Analysis</label>
+                        <input type="text" id="topic-input"
+                            placeholder="Enter tech topic (e.g., The reality of Web4 architecture)...">
+                        <div class="input-options">
+                            <div class="option"><i class="fa-solid fa-language"></i> Thai Mode</div>
+                            <div class="option"><i class="fa-solid fa-shield-halved"></i> Insight Rank: 5</div>
+                        </div>
+                    </div>
+
+                    <div class="ignite-action">
+                        <button class="btn-ignite" id="ignite-btn">
+                            <span class="btn-text">IGNITE ANALYSIS</span>
+                            <span class="loader hidden"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="loading-overlay" class="hidden">
+                    <div class="scanner-line"></div>
+                    <div class="processing-text">
+                        <p id="proc-status">Initializing Authority Core...</p>
+                        <span class="sub-status">Injecting Systemic Thinking Models</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Preview Modal -->
+    <div id="preview-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content feed-preview">
+            <div class="modal-header">
+                <h3>Post Preview</h3>
+                <button class="btn-close-modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <!-- Facebook Style Feed Card -->
+                <div class="fb-feed-card">
+                    <div class="fb-header">
+                        <div class="fb-avatar">.o</div>
+                        <div class="fb-meta">
+                            <span class="fb-author">lookforward</span>
+                            <span class="fb-time" id="preview-date">Just now • 🌐</span>
+                        </div>
+                    </div>
+                    <div class="fb-content">
+                        <div id="preview-body" class="fb-text"></div>
+                        <div id="preview-media" class="fb-media">
+                            <!-- Images will be injected here -->
+                        </div>
+                        <div id="preview-caption" class="fb-caption"></div>
+                        <div id="preview-hashtags" class="fb-hashtags"></div>
+                    </div>
+                    <div class="fb-footer">
+                        <div class="fb-actions">
+                            <span><i class="fa-regular fa-thumbs-up"></i> Like</span>
+                            <span><i class="fa-regular fa-comment"></i> Comment</span>
+                            <span><i class="fa-regular fa-share-from-square"></i> Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary btn-copy-all">Copy All Content</button>
+                <button class="btn-primary btn-close-modal-bottom">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

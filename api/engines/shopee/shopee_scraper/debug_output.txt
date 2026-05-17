@@ -1,0 +1,6 @@
+=== Navigating to search page ===
+URL: https://shopee.co.th/search?keyword=%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99
+Title: Shopee Thailand | ซื้อขายผ่านมือถือ หรือออนไลน์
+Saved HTML (296297 chars) to debug_page.html
+
+Sample classes (0 total):

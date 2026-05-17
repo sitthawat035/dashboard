@@ -1,0 +1,6 @@
+### Image 1: Visual 1
+Create a high-detail technical diagram of a humanoid robot operating inside a modern warehouse pilot environment. Show labeled layers: Perception Layer with RGB cameras, depth sensors, LiDAR; Decision and Planning Layer with vision AI, motion planning, grasp planning; Control Layer with actuators, gait control, balance system; Enterprise Integration Layer connected to WMS dashboards, orchestration software, KPI monitoring. Include shelves, totes, pallets, workers, forklifts, and safe navigation zones. Style: clean enterprise technology infographic, blue and gray palette, futuristic but realistic, highly professional.
+
+### Image 2: Visual 2
+Create an abstract business-tech illustration showing the transition of humanoid robots from flashy demo stage to enterprise warehouse deployment. Left side: spotlight, robotics showcase, racing-tech feel, experimental lab aesthetics. Right side: real warehouse operations, dashboards, ROI charts, WMS integration, logistics workflow, maintenance and uptime metrics. Center visual metaphor: humanoid robot crossing a bridge labeled 'Pilot to Production'. Style: premium editorial illustration for tech analysis media, sharp, modern, enterprise-focused, dramatic lighting.
+

@@ -1,0 +1,50 @@
+# Python venv (LARGE - never commit)
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+uv_install*.log
+nohup.out
+
+# Node (LARGE - never commit)
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.swc/
+frontend/tsconfig.tsbuildinfo
+.pnpm-store/
+
+# Build output
+static/assets/
+
+# Logs
+logs/
+*.log
+
+# Images/media (except core icons)
+screenshots/
+*.mp4
+*.zip
+static/screenshot*.png
+static/screenshot*.jpg
+static/Screenshot_2026*
+*.Zone.Identifier
+
+# Env & Secrets
+.env
+.env.*
+cookies.txt
+*.key
+.env.docker
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.lnk
+.vscode/
+.github/

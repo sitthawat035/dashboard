@@ -1,0 +1,6 @@
+AI Studio Image Prompts:
+
+Image 1: Create a professional technical market diagram in Thai-language editorial style. Show a central flowchart explaining why Bitcoin, Ethereum, and XRP weaken despite peace signals. Nodes include: geopolitical de-escalation, priced-in expectations, US dollar strength, bond yields, Fed policy, ETF flows, stablecoin liquidity, derivatives positioning, funding rate, open interest, liquidation cascade. Use clean dark theme, neon orange for Bitcoin, blue for Ethereum, green for XRP, modern financial infographic layout, premium magazine quality, no clutter, readable labels, macro-to-market transmission mechanism.
+
+Image 2: Design an abstract financial concept illustration showing the contrast between headline news and real market demand. On one side, optimistic peace headlines and rising sentiment icons; on the other side, falling crypto charts for BTC, ETH, XRP with overlays of liquidity, valuation, and positioning pressure. Style: cinematic, sophisticated, editorial tech-finance aesthetic, dark background, glowing data streams, subtle world map and bond yield curves, emphasis on 'market structure over headlines'.
+

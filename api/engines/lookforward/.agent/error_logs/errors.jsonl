@@ -1,0 +1,1 @@
+{"error_type": "PipelineError", "code": "UNEXPECTED_ERROR", "message": "'charmap' codec can't encode character '\\U0001f3a8' in position 11: character maps to <undefined>", "category": "unknown", "severity": "high", "step_name": "images", "details": {}, "recoverable": true, "retry_count": 0, "max_retries": 3, "timestamp": "2026-02-22T07:11:19.901768"}

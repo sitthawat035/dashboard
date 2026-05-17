@@ -1,0 +1,144 @@
+{
+  "run_id": "lo_20260505_091410",
+  "project_id": "lookforward",
+  "topic": "ไวรัสฮันตาระบาดบนเรือสำราญ: ความเสี่ยง การป้องกัน และบทเรียนสาธารณสุข",
+  "status": "completed",
+  "current_step": "publish_fb",
+  "created_at": "2026-05-05T09:14:10.112603",
+  "updated_at": "2026-05-05T09:15:59.757024",
+  "options": {
+    "mode": "full",
+    "gen_images": false,
+    "dry_run": false
+  },
+  "step_results": {
+    "strategy": {
+      "step_name": "strategy",
+      "status": "completed",
+      "started_at": "2026-05-05T09:14:10.113818",
+      "completed_at": "2026-05-05T09:15:03.817632",
+      "duration_seconds": 53,
+      "output_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/drafts/2026-05-05/ไวรัสฮันตาระบาดบนเรือสำราญ_ความเสี่ยง_การป้องกัน_แ_091503/01_strategy.md",
+      "output_data": {
+        "strategy": "# วิเคราะห์หัวข้อ: ไวรัสฮันตาระบาดบนเรือสำราญ\n\n## 🎯 The Surprise Hook (จุดต่างที่ทำให้หยุดอ่าน)\n\n**สิ่งที่คนเข้าใจผิด:** \"เรือสำราญไม่สะอาด ถึงได้มีไวรัสระบาด\"\n\n**ความจริงที่ Counterintuitive:**\nเรือสำราญรุ่นใหม่ actually สะอาดกว่าโรงแรม 5 ดาวหลายแห่ง — มีระบบกรองอากาศ HEPA, การฆ่าเชื้อด้วย UV, และ protocol ที่เข้มงวดกว่าโรงพยาบาลบางแห่ง\n\n**แล้วทำไมไวรัสฮันยังระบาด?**\nเพราะปัญหาไม่ได้อยู่ที่ \"ความสะอาด\" แต่อยู่ที่ **Physics ของไวรัส** และ **Human Behavior**\n\n---\n\n## 🔬 The Real Story — สิ่งที่ Media ไม่พูดถึง\n\n### 1. Norovirus คืออะไร (และทำไมมันน่ากลัวกว่าที่คิด)\n\n| คุณสมบัติ | ความจริง |\n|-----------|----------|\n| ขนาด | 27-32 nm (เล็กมาก ผ่านฟิลเตอร์ทั่วไปได้) |\n| จำนวนอนุภาคที่ติดเชื้อ | **เพียง 10-100 ตัว** (น้อยมาก) |\n| อายุบนพื้นผิว | **สูงสุด 2 สัปดาห์** |\n| ภูมิคุ้มกัน | สั้นมาก ติดซ้ำได้ตลอดชีวิต |\n| อาการ | อาเจียน + ท้องเสีย 1-3 วัน แต่ **ไม่มีวัคซีน** |\n\n**สรุป:** Norovirus เป็น Biological Weapon ที่สมบูรณ์แบบ — ติดง่าย อยู่นาน กลับมาได้เรื่อยๆ\n\n### 2. ทำไมเรือสำราญเป็น Perfect Storm\n\n```\nปัจจัยรวมกันที่ไม่มีที่ไหนเหมือน:\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n• ผู้โดยสาร 3,000-6,000 คน ในพื้นที่จำกัด\n• ห้องอาหาร 1-2 แห่ง เวลากินอาหารเหมือนกัน\n• ระบบประปา + สระว่ายน้ำ แบ่งกันทั้งเรือ\n• turnover ผู้โดยสาร: คนใหม่เข้า คนเก่าลง ติดเชื้อก็กลับบ้าน\n• พนักงาน 1,000+ คน ทำงานต่อเนื่อง 6-8 เดือน\n```\n\n### 3. The Real Mechanism — สิ่งที่เกิดขึ้นจริง\n\n**ไม่ใช่ \"เรือสกปรก\" แต่เป็น:**\n\n1. **Aerosol Transmission** — ละอองจากอาเจียนลอยในอากาศ แพร่กระจายได้ 6+ เมตร\n2. **Fomite Persistence** — ลูกบิดประตู, ราวบันได, ปุ่มลิฟต์ — ไวรัสอยู่ได้นาน\n3. **Food Handler Amplification** — พนักงาน 1 คนที่ป่วยสามารถแพร่ให้คนนับร้อย\n4. **Asymptomatic Shedding** — บางคนแพร่เชื้อได้ **โดยไม่มีอาการ**\n\n---\n\n## 🏆 Winners vs Losers\n\n### ✅ Winners (ได้ประโยชน์)\n\n**1. บริษัทเทคโนโลยีสุขภาพ**\n- Cruise lines ลงทุนในระบบตรวจจับโรคเร็ว (real-time syndromic surveillance)\n- บริษัท like Sentinel Healthcare หรือ tracing tech ขายดี\n\n**2. อุตสาหกรรมประกัน**\n- Outbreak clauses ในประกันเรือสำราญเป็นตลาดเติบโต\n- Demand สำหรับ pandemic riders พุ่ง\n\n**3. นักวิจัย Public Health**\n- ทุก outbreak = natural experiment ศึกษา transmission dynamics\n- ได้ funding เพิ่มหลัง COVID\n\n### ❌ Losers (เจ็บตัวแบบยังไม่รู้ตัว)\n\n**1. คนที่ชอบ \"รอดูดราคา\"**\n- ราคาหลัง outbreak ลดแรง แต่คนยังไม่กล้าไป — เสียโอกาส\n\n**2. ประเทศที่พึ่ง Tourism เรือสำราญ**\n- เศรษฐกิจท่องเที่ยวใน Caribbean, Mediterranean รับ impact ก่อน news ออก\n\n**3. พนักงานเรือสำราญ**\n- ส่วนใหญ่ไม่มี sick leave — ถูก pressure ให้ทำงานแม้ป่วย\n\n---\n\n## 🔮 The Bold Prediction (18 เดือนข้างหน้า)\n\n**ถ้าแนวโน้มนี้ถูก:**\n\n> **ปี 2026 — เรือสำราญจะกลายเป็น \"Floating Hospital\" มากกว่า \"Resort\"**\n> \n> คาดว่าจะเห็น:\n> - Mandatory pre-boarding rapid testing สำหรับ norovirus\n> - UV-C disinfection ทุกห้อง (ไม่ใช่แค่ common areas)\n> - \"Clean cruise certification\" ที่คล้าย HACCP ในอุตสาหกรรมอาหาร\n> - ประกัน travel ที่ครอบคลุม outbreak เป็นมาตรฐาน\n\n> **ปี 2027 — Norovirus vaccine จะเปิดตัว (อาจเป็น nasal spray)**\n> \n> เพราะ COVID เร่งการวิจัย mucosal immunity และเรือสำราญเป็น perfect trial population\n\n---\n\n## 💬 Conversation Starter\n\n> **คำถามปิดที่แรง:**\n> \n> *\"ถ้า Norovirus ระบาดได้แม้ในเรือสำราญที่สะอาดที่สุดในโลก — ระบบสาธารณสุขของเราพร้อมแค่ไหน ถ้า outbreak ใหญ่กว่านี้เกิดขึ้นบนบก?\"*\n\n---\n\n## 📝 Structure สำหรับโพสต์ Tech Authority\n\n```\n1. Hook (1 ย่อหน้า) — Surprise stat หรือคำถาม\n2. The Surprise Hook (1 ย่อหน้า) — \"เรือสำราญสะอาดกว่าที่คุณคิด แต่...\"\n3. What is Norovirus (1-2 ย่อหน้า) — คุณสมบัติ + ตัวเลขน่าตกใจ\n4. Why Cruise Ships are Different (2 ย่อหน้า) — Perfect storm + mechanism\n5. The Hidden Human Factor (1 ย่อหน้า) — asymptomatic shedding, sick workers\n6. Winners & Losers (1 ย่อหน้า) — who benefits, who gets hurt\n7. The Bold Prediction (1 ย่อหน้า) — 18-month forecast\n8. Conversation Starter (1 ย่อหน้า) — คำถามปิด\n```\n\n---\n\n## 📊 Stat ที่ควรใช้ (ทำให้คนรู้สึกฉลาด)\n\n- เรือสำราญ **90%+** รายงานไม่เคยมี outbreak ในปี 2023-2024\n- แต่เมื่อมี — outbreak เฉลี่ยกินเวลา **8-12 วัน** กว่าจะ contained\n- Economic impact ต่อครั้ง: **$7-11 ล้าน** (ค่าเสียโอกาส + cleanup + reputation)\n- **1 ใน 4** พนักงานเรือสำราญ ไม่มี sick leave — ต้องเลือกระหว่างสุขภาพกับเงินเดือน\n\n---\n\nต้องการให้ช่วยเขียนเป็น draft เต็มๆ เลยไหม? หรือปรับมุมมองเพิ่มเติมก่อน?",
+        "topic": "ไวรัสฮันตาระบาดบนเรือสำราญ: ความเสี่ยง การป้องกัน และบทเรียนสาธารณสุข",
+        "word_count": 508
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "content": {
+      "step_name": "content",
+      "status": "completed",
+      "started_at": "2026-05-05T09:15:03.818646",
+      "completed_at": "2026-05-05T09:15:55.559078",
+      "duration_seconds": 51,
+      "output_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/drafts/2026-05-05/ไวรัสฮันตาระบาดบนเรือสำราญ_ความเสี่ยง_การป้องกัน_แ_091555/02_content.json",
+      "output_data": {
+        "content": {
+          "text": "🚢 เรือสำราญสะอาดกว่าโรงแรม 5 ดาว — แต่ทำไมไวรัสฮันยังระบาด?\n\n---\n\nคุณเคยได้ยินข่าวว่าเรือสำราญลำนึงมีไวรัสระบาด แล้วคนก็จะพูดว่า \"อืม ก็แน่ล่ะ เรือมันก็แออัด สกปรก อะไรแบบนั้น\"\n\nผิดครับ\n\nเรือสำราญรุ่นใหม่สมัยนี้สะอาดกว่าโรงแรม 5 ดาวหลายแห่งในเอเชียเสียอีก — มีระบบกรองอากาศ HEPA, ใช้ UV ในการฆ่าเชื้อ, protocol เข้มงวดกว่าโรงพยาบาลบางแห่ง\n\nแล้วทำไมไวรัสฮัน (Norovirus) ยังระบาดอยู่?\n\nเพราะปัญหาไม่ได้อยู่ที่ \"ความสะอาด\" — แต่อยู่ที่ **Physics ของไวรัส** และ **พฤติกรรมมนุษย์**\n\n---\n\n🔬 Norovirus คืออะไร — และทำไมมันน่ากลัวกว่าที่คิด\n\nไวรัสฮันไม่ใช่ไข้หวัดธรรมดา ไม่ใช่โควิด ไม่ใช่อะไรที่คุณเคยเจอ\n\nข้อเท็จจริง:\n\n🔸 ขนาดเพียง 27-32 nm — เล็กจนผ่านฟิลเตอร์ทั่วไปได้\n\n🔸 ติดเชื้อด้วยอนุภาคเพียง 10-100 ตัว (น้อยมากจนน่าตกใจ)\n\n🔸 อยู่บนพื้นผิวได้สูงสุด 2 สัปดาห์\n\n🔸 ไม่มีวัคซีน — ไม่เคยมี\n\n🔸 ภูมิคุ้มกันสั้นมาก — กลับมาติดซ้ำได้ตลอดชีวิต\n\nสรุปง่ายๆ: Norovirus เป็น Biological Weapon ที่พระเจ้าสร้างมาอย่างสมบูรณ์แบบ — ติดง่าย อยู่นาน กลับมาได้เรื่อยๆ\n\n---\n\n🚢 ทำไมเรือสำราญถึงเป็น \"Perfect Storm\"\n\nนี่ไม่ใช่เรื่องของความสกปรก แต่เป็นเรื่องของฟิสิกส์และจำนวน\n\nสิ่งที่เกิดขึ้นบนเรือ:\n\n━━━━━━━━━━━━━━━━━━━━━\n\n• ผู้โดยสาร 3,000-6,000 คน อัดอยู่ในพื้นที่จำกัด\n\n• ห้องอาหารมีแค่ 1-2 แห่ง — ทุกคนกินอาหารพร้อมกัน\n\n• ระบบประปาและสระว่ายน้ำใช้ร่วมกันทั้งลำ\n\n• คนใหม่ขึ้น คนเก่าลง ติดเชื้อก็กลับบ้านเอาเชื้อไปด้วย\n\n• พนักงาน 1,000+ คน ทำงานต่อเนื่อง 6-8 เดือน\n\n━━━━━━━━━━━━━━━━━━━━━\n\n---\n\n🧬 The Real Mechanism — มันเกิดขึ้นยังไง\n\n1. **Aerosol Transmission**\nละอองจากอาเจียนลอยในอากาศแพร่กระจายได้ 6+ เมตร — คนที่นั่งอยู่อีกฟากห้องอาหารก็ติดเชื้อได้\n\n2. **Fomite Persistence**\nลูกบิดประตู ราวบันได ปุ่มลิฟต์ — ไวรัสอยู่ได้นานมากบนพื้นผิวเหล่านี้\n\n3. **Food Handler Amplification**\nพนักงาน 1 คนที่ป่วยสามารถแพร่เชื้อให้คนนับร้อยได้โดยไม่รู้ตัว\n\n4. **Asymptomatic Shedding**\nนี่คือจุดที่น่ากลัวที่สุด — บางคนแพร่เชื้อได้ **โดยไม่มีอาการเลย**\n\n---\n\n👥 The Hidden Human Factor\n\nมีข้อมูลที่ media ไม่ค่อยพูดถึง:\n\n**1 ใน 4 พนักงานเรือสำราญไม่มี sick leave**\n\nนี่หมายความว่าพนักงานต้องเลือกระหว่างสุขภาพกับเงินเดือน — ถ้าคุณเป็นพนักงานคนนั้น คุณจะทำยังไง?\n\nคำตอบส่วนใหญ่คือ: \"ทำงานต่อไป\" — เพราะถ้าหยุด ก็ไม่มีเงิน\n\nนี่คือสาเหตุที่แท้จริงที่ outbreak บนเรือสำราญมักเริ่มจากพนักงาน ไม่ใช่ผู้โดยสาร\n\n---\n\n🏆 Winners vs Losers — ใครได้ ใครเจ็บ\n\n✅ Winners (ได้ประโยชน์)\n\n▸ บริษัทเทคโนโลยีสุขภาพ — Cruise lines ลงทุนในระบบตรวจจับโรคเร็ว real-time syndromic surveillance กลายเป็นมาตรฐานใหม่\n\n▸ อุตสาหกรรมประกัน — Outbreak clauses ในประกันเรือสำราญเป็นตลาดที่เติบโตอย่างรวดเร็ว\n\n▸ นักวิจัย Public Health — ทุก outbreak = natural experiment ที่ช่วยให้เข้าใจ transmission dynamics มากขึ้น\n\n❌ Losers (เจ็บตัวแบบยังไม่รู้ตัว)\n\n▸ คนที่ชอบ \"รอดูดราคา\" — ราคาหลัง outbreak ลดแรง แต่คนยังไม่กล้าไป เสียโอกาสไป\n\n▸ ประเทศที่พึ่ง Tourism เรือสำราญ — เศรษฐกิจใน Caribbean, Mediterranean รับ impact ก่อนที่ข่าวจะออก\n\n---\n\n🔮 18 เดือนข้างหน้า — Bold Prediction\n\n**ปี 2026:**\nเรือสำราญจะกลายเป็น \"Floating Hospital\" มากกว่า \"Resort\"\n\nคาดว่าจะเห็น:\n• Mandatory pre-boarding rapid testing สำหรับ norovirus\n• UV-C disinfection ทุกห้อง — ไม่ใช่แค่ common areas\n• \"Clean cruise certification\" ที่คล้าย HACCP ในอุตสาหกรรมอาหาร\n• ประกัน travel ที่ครอบคลุม outbreak เป็นมาตรฐาน\n\n**ปี 2027:**\nNorovirus vaccine อาจเปิดตัว (อาจเป็น nasal spray)\n\nเพราะ COVID เร่งการวิจัย mucosal immunity อย่างมหาศาล และเรือสำราญเป็น perfect trial population — ประชากรจำนวนมากอยู่รวมกันในพื้นที่ปิด เหมาะสำหรับการทดลอง\n\n---\n\n💬 คำถามปิดที่อยากให้คิด\n\nถ้า Norovirus ระบาดได้แม้ในเรือสำราญที่สะอาดที่สุดในโลก — ระบบสาธารณสุขของเราพร้อมแค่ไหน ถ้า outbreak ใหญ่กว่านี้เกิดขึ้นบนบก?\n\nและอีกคำถาม:\n\nถ้าคุณเป็นพนักงานเรือสำราญที่ไม่มี sick leave — คุณจะทำงานต่อเมื่อรู้ว่าตัวเองอาจกำลังแพร่เชื้อไวรัสให้คนนับพัน หรือจะหยุดเพื่อสุขภาพตัวเองและครอบครัว?\n\nไม่มีคำตอบที่ถูก แค่อยากให้คิด 🤷‍♂️\n\n---\n\n📊 ตัวเลขที่น่าจำ:\n\n• เรือสำราญ 90%+ รายงานว่าไม่เคยมี outbreak ในปี 2023-2024\n• แต่เมื่อมี — outbreak เฉลี่ยกินเวลา 8-12 วัน กว่าจะ contained\n• Economic impact ต่อครั้ง: $7-11 ล้าน (ค่าเสียโอกาส + cleanup + reputation)\n• 1 ใน 4 พนักงานไม่มี sick leave — ต้องเลือกระหว่างสุขภาพกับเงินเดือน\n\n---\n\n#lookforward #เทคไทย #ไวรัสฮัน #เรือสำราญ #สาธารณสุข #Norovirus",
+          "insight_score": 5,
+          "char_count": 4067
+        },
+        "caption_short": "เรือสำราญสะอาดกว่าโรงแรม 5 ดาว — แต่ทำไมไวรัสฮันยังระบาด? 🤔 คำตอบอยู่ที่ Physics และ Human Behavior",
+        "caption_long": "เรือสำราญสะอาดกว่าที่คุณคิด แต่ Norovirus ก็ยังระบาด — เพราะมันเป็น Biological Weapon ที่สมบูรณ์แบบ: ติดง่าย อยู่นาน กลับมาได้เรื่อยๆ\n\nอ่านถึงจุดจบเพื่อดู Bold Prediction สำหรับ 18 เดือนข้างหน้า 👇\n\n#lookforward #ไวรัสฮัน #เรือสำราญ",
+        "hashtags": [
+          "#lookforward",
+          "#เทคไทย",
+          "#ไวรัสฮัน",
+          "#เรือสำราญ",
+          "#สาธารณสุข",
+          "#Norovirus",
+          "#PublicHealth"
+        ],
+        "shareable_insight": "Norovirus ติดเชื้อด้วยอนุภาคเพียง 10-100 ตัว — น้อยจนน่าตกใจ และอยู่บนพื้นผิวได้สูงสุด 2 สัปดาห์",
+        "image_prompts": [
+          {
+            "title": "Hero Visual (Facebook 16:9)",
+            "format": "landscape",
+            "style": "modern tech editorial",
+            "mood": "clean / clinical / slightly ominous",
+            "prompt": "A clean, modern conceptual photography of a luxurious cruise ship interior with an overlaid visualization of virus particles (norovirus) floating in the air. High-end cruise interior with UV-C sanitation lights visible. Professional studio lighting, elegant composition, high-end editorial tech style. NO text, NO watermarks, NO logos."
+          },
+          {
+            "title": "Abstract Visual (Story 9:16)",
+            "format": "portrait",
+            "style": "abstract 3D minimalism",
+            "mood": "clean / sophisticated / scientific",
+            "prompt": "Abstract 3D minimalist rendering of cruise ship architecture with floating microscopic virus particles (norovirus) in soft neon blue and purple tones. Represents the invisible threat of pathogen transmission in contained environments. Soft gradients, premium lighting, elegant composition, negative space. NO text, NO readable words, 9:16 portrait format."
+          }
+        ]
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "images": {
+      "step_name": "images",
+      "status": "completed",
+      "started_at": "2026-05-05T09:15:55.561143",
+      "completed_at": "2026-05-05T09:15:55.564672",
+      "duration_seconds": 0,
+      "output_file": null,
+      "output_data": {
+        "images": [],
+        "skipped": true,
+        "prompts_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/drafts/2026-05-05/ไวรัสฮันตาระบาดบนเรือสำราญ_ความเสี่ยง_การป้องกัน_แ_091555/media/prompts_guide.txt"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "ready_to_post": {
+      "step_name": "ready_to_post",
+      "status": "completed",
+      "started_at": "2026-05-05T09:15:55.565826",
+      "completed_at": "2026-05-05T09:15:55.570983",
+      "duration_seconds": 0,
+      "output_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-05/ไวรัสฮันตาระบาดบนเรือสำราญ_ความเสี่ยง_การป้องกัน_แ_091555",
+      "output_data": {
+        "package_path": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-05/ไวรัสฮันตาระบาดบนเรือสำราญ_ความเสี่ยง_การป้องกัน_แ_091555",
+        "post_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-05/ไวรัสฮันตาระบาดบนเรือสำราญ_ความเสี่ยง_การป้องกัน_แ_091555/post.txt",
+        "caption_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-05/ไวรัสฮันตาระบาดบนเรือสำราญ_ความเสี่ยง_การป้องกัน_แ_091555/caption.txt",
+        "hashtags_file": "/home/usercivenz/dashboard/api/engines/data/output/lookforward/ready_to_post/2026-05-05/ไวรัสฮันตาระบาดบนเรือสำราญ_ความเสี่ยง_การป้องกัน_แ_091555/hashtags.txt",
+        "metadata": {
+          "topic": "ไวรัสฮันตาระบาดบนเรือสำราญ: ความเสี่ยง การป้องกัน และบทเรียนสาธารณสุข",
+          "generated": "2026-05-05 09:15:55",
+          "insight_score": 5,
+          "char_count": 4067,
+          "has_images": false,
+          "run_id": "lo_20260505_091410"
+        }
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "publish_fb": {
+      "step_name": "publish_fb",
+      "status": "completed",
+      "started_at": "2026-05-05T09:15:55.572087",
+      "completed_at": "2026-05-05T09:15:59.755928",
+      "duration_seconds": 4,
+      "output_file": null,
+      "output_data": {
+        "published": true,
+        "platform": "facebook",
+        "post_id": "898773833311604_122130663771126048"
+      },
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "metadata": {
+    "total_steps": 5,
+    "completed_steps": 5,
+    "failed_steps": 0,
+    "skipped_steps": 0,
+    "estimated_remaining_seconds": null,
+    "steps": [
+      "strategy",
+      "content",
+      "images",
+      "ready_to_post",
+      "publish_fb"
+    ]
+  }
+}

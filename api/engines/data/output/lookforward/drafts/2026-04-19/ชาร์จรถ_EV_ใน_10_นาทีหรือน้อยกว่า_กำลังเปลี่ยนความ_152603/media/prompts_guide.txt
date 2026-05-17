@@ -1,0 +1,29 @@
+# 🎨 Image Prompts Guide — ชาร์จรถ EV ใน 10 นาทีหรือน้อยกว่า กำลังเปลี่ยนความคาดหวังของผู้ใช้และธุรกิจอย่างไร
+Generated: 2026-04-19 15:26
+
+วิธีใช้งาน:
+  A) ระบบจะสร้างรูปอัตโนมัติผ่าน Pollinations.ai (Flux) — ฟรี ไม่ต้อง key
+  B) Copy Enhanced Prompt ไปวางใน Google AI Studio / Midjourney / Ideogram
+============================================================
+
+## [1] Hero Visual (Facebook 16:9)
+Format: LANDSCAPE (1280x720) | Style: modern tech editorial
+
+### ✅ Enhanced Prompt (ready to use):
+A clean, modern conceptual photography representing ultra-fast EV charging transforming mobility behavior and business expectations. Sleek electric vehicle connected to a futuristic high-power charger, subtle motion cues suggesting speed and short waiting time, premium highway service environment, elegant minimal composition, professional studio lighting, high-end editorial tech style. NO text, NO watermarks, NO logos, high-end commercial photography, ultra-realistic, 16:9 widescreen, clean modern aesthetic, soft studio lighting, professional depth of field, premium editorial tech look, 8K resolution, no text, no watermarks, no logos
+
+### 📝 Original Concept (from AI):
+A clean, modern conceptual photography representing ultra-fast EV charging transforming mobility behavior and business expectations. Sleek electric vehicle connected to a futuristic high-power charger, subtle motion cues suggesting speed and short waiting time, premium highway service environment, elegant minimal composition, professional studio lighting, high-end editorial tech style. NO text, NO watermarks, NO logos.
+
+----------------------------------------
+
+## [2] Abstract Visual (Story 9:16)
+Format: PORTRAIT (720x1280) | Style: abstract 3D minimalism
+
+### ✅ Enhanced Prompt (ready to use):
+Abstract 3D minimalist rendering representing energy throughput, reduced waiting time, and fast EV charging under 10 minutes. Flowing luminous energy streams, geometric queue-like forms dissolving into smooth motion, soft gradients, premium lighting, elegant composition, negative space, 9:16 portrait format. NO text, NO readable words, premium 3D abstract visualization, clean minimalism, soft gradients, 9:16 portrait format, high-end editorial tech background, no readable text, no watermarks, no logos, ample space for text overlay
+
+### 📝 Original Concept (from AI):
+Abstract 3D minimalist rendering representing energy throughput, reduced waiting time, and fast EV charging under 10 minutes. Flowing luminous energy streams, geometric queue-like forms dissolving into smooth motion, soft gradients, premium lighting, elegant composition, negative space, 9:16 portrait format. NO text, NO readable words.
+
+----------------------------------------

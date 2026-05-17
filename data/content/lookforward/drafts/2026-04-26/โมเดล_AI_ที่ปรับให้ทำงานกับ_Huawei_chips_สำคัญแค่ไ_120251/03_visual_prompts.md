@@ -1,0 +1,6 @@
+### Image 1: Visual 1
+A high-end technical layered diagram showing a sovereign AI stack in China: bottom layer Huawei Ascend AI chips and interconnect, above it compiler and acceleration layer labeled CANN, operator libraries, graph compiler, above that framework/runtime layer with PyTorch adaptation, MindSpore, inference engine, and top layer with LLM and multimodal models. On the opposite side, a parallel stack labeled NVIDIA CUDA ecosystem with CUDA, cuDNN, TensorRT, NCCL. Include arrows showing model optimization, operator mapping, quantization, deployment flow. Clean editorial infographic style, dark background, neon blue and red accents, modern semiconductor aesthetics, highly detailed, no brand logos.
+
+### Image 2: Visual 2
+An abstract geopolitical technology illustration showing the world of AI splitting into two ecosystems: one side a global CUDA-centric AI infrastructure, the other side a China sovereign AI infrastructure centered on domestic chips and software stack. Visualize data centers, AI chips, compiler pipelines, model architecture blueprints, and government-regulated enterprise networks. Strong sense of strategic decoupling, futuristic, sharp editorial magazine cover style, cinematic lighting, minimal text, premium tech analysis aesthetic.
+

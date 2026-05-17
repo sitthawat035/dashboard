@@ -1,0 +1,46 @@
+# Engagement Project Dependencies - ZERO COST VERSION 🆓
+
+# Browser Automation (Free)
+playwright==1.40.0
+
+# HTTP Requests & Web Scraping (Free)
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Environment Variables (Free)
+python-dotenv==1.0.0
+
+# Free Alternative for AI Generation
+# Option 1: Use Ollama (external tool, free)
+# Download: https://ollama.com/download
+# Models: ollama pull llama3.2 or ollama pull typhoon-thai
+
+# Option 2: Groq API (Free Tier - 30 req/min)
+groq==0.4.1
+
+# Thai Language Processing (Free, Open Source)
+pythainlp==4.0.2
+attacut==1.0.6
+
+# Data Analysis (Free, Open Source)
+pandas>=2.2.0  # Use latest version with pre-built wheels
+
+# Image Processing (Free)
+pillow==10.1.0
+
+# Utilities (Free)
+python-dateutil==2.8.2
+colorama==0.4.6  # Colored terminal output
+pyperclip==1.11.0  # Clipboard functionality for fast posting
+
+# Optional: Local Image Generation (Free, requires GPU)
+# diffusers==0.25.0
+# transformers==4.36.0
+# torch==2.1.2
+
+# 🚫 NO PAID APIs:
+# ❌ openai  (removed - costs money)
+# ❌ anthropic (removed - costs money)
+
+# ✅ 100% FREE STACK!
+
